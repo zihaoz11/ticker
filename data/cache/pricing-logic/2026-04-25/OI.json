@@ -1,0 +1,24 @@
+{
+  "confidence": 0.7525,
+  "laggard_reason": "",
+  "laggard_tickers": [],
+  "needs_review": true,
+  "pricing_logic": "公司基本面讨论（CME 资金流向、积累与流出），无明确的散户动量或 meme 证据，关键词匹配仅为名称或指令文本，非市场定价逻辑。",
+  "related_tickers": [
+    "GME",
+    "AMC",
+    "KOSS",
+    "BBBYQ"
+  ],
+  "ret_1d": null,
+  "ret_1m": null,
+  "ret_1w": null,
+  "review_reason": "主题分处于模糊区间",
+  "theme_id": "MEME_SHORT_SQUEEZE",
+  "theme_level_1": "市场结构与交易拥挤",
+  "theme_level_2": "玻璃容器/包装",
+  "transmission_logic": "",
+  "used_fallback": false,
+  "value_chain_role": "散户动量标的",
+  "warnings": []
+}
