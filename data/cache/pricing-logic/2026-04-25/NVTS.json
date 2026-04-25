@@ -1,0 +1,28 @@
+{
+  "confidence": 0.6475,
+  "laggard_reason": "",
+  "laggard_tickers": [],
+  "needs_review": true,
+  "pricing_logic": "仅因关键词'microchip'和'semiconductor'被标记，但缺乏具体营收、订单、客户或技术突破证据，无法支撑AI算力或半导体设备主题，归类为未知。",
+  "related_tickers": [
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "MRVL",
+    "TSM",
+    "MU",
+    "ARM",
+    "SMH"
+  ],
+  "ret_1d": null,
+  "ret_1m": null,
+  "ret_1w": null,
+  "review_reason": "置信度低于阈值; 主题分处于模糊区间",
+  "theme_id": "AI_COMPUTE_ACCELERATOR",
+  "theme_level_1": "AI 基础设施",
+  "theme_level_2": "无明确定价逻辑",
+  "transmission_logic": "",
+  "used_fallback": false,
+  "value_chain_role": "GPU 供应商",
+  "warnings": []
+}
