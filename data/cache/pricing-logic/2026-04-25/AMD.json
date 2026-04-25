@@ -1,0 +1,28 @@
+{
+  "confidence": 0.7575,
+  "laggard_reason": "",
+  "laggard_tickers": [],
+  "needs_review": true,
+  "pricing_logic": "市场定价由数据中心CPU和AI加速器需求、服务器市场份额变化、利润率以及与Intel/NVIDIA的竞争驱动。",
+  "related_tickers": [
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "MRVL",
+    "TSM",
+    "MU",
+    "ARM",
+    "SMH"
+  ],
+  "ret_1d": null,
+  "ret_1m": null,
+  "ret_1w": null,
+  "review_reason": "主题分处于模糊区间",
+  "theme_id": "AI_COMPUTE_ACCELERATOR",
+  "theme_level_1": "AI 基础设施",
+  "theme_level_2": "CPU/服务器芯片",
+  "transmission_logic": "",
+  "used_fallback": false,
+  "value_chain_role": "服务器CPU/AI加速器供应商",
+  "warnings": []
+}
