@@ -1,0 +1,28 @@
+{
+  "confidence": 0.885,
+  "laggard_reason": "",
+  "laggard_tickers": [],
+  "needs_review": false,
+  "pricing_logic": "市场定价由 AI 训练/推理需求、数据中心收入、供应限制和利润率驱动。",
+  "related_tickers": [
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "MRVL",
+    "TSM",
+    "MU",
+    "ARM",
+    "SMH"
+  ],
+  "ret_1d": null,
+  "ret_1m": null,
+  "ret_1w": null,
+  "review_reason": "",
+  "theme_id": "AI_COMPUTE_ACCELERATOR",
+  "theme_level_1": "AI 基础设施",
+  "theme_level_2": "AI 计算/GPU",
+  "transmission_logic": "",
+  "used_fallback": false,
+  "value_chain_role": "GPU/AI 加速器供应商",
+  "warnings": []
+}
