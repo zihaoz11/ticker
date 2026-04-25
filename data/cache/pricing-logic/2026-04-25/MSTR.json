@@ -1,0 +1,25 @@
+{
+  "confidence": 0.935,
+  "laggard_reason": "",
+  "laggard_tickers": [],
+  "needs_review": false,
+  "pricing_logic": "市场定价逻辑主要围绕MicroStrategy持有的比特币敞口，将其视为比特币的杠杆化替代品。近期讨论集中在比特币价格波动对MSTR股价的影响，以及投资者利用MSTR作为持有比特币的替代策略。",
+  "related_tickers": [
+    "MSTR",
+    "COIN",
+    "MARA",
+    "RIOT",
+    "CLSK"
+  ],
+  "ret_1d": null,
+  "ret_1m": null,
+  "ret_1w": null,
+  "review_reason": "",
+  "theme_id": "CRYPTO_BITCOIN_TREASURY",
+  "theme_level_1": "加密金融",
+  "theme_level_2": "比特币持仓",
+  "transmission_logic": "",
+  "used_fallback": false,
+  "value_chain_role": "比特币储备",
+  "warnings": []
+}
