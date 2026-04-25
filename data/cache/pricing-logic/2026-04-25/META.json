@@ -3,7 +3,7 @@
   "laggard_reason": "",
   "laggard_tickers": [],
   "needs_review": false,
-  "pricing_logic": "市场定价逻辑从单纯的社交广告流量转向 AI 基础设施需求。尽管营收短期承压，但市场关注点在于其 AI 数据中心芯片（如定制 GPU）的强劲需求、在 AI 军备竞赛中的规模优势以及与英伟达（NVIDIA）竞争的市场地位。Reddit 讨论强调其作为 AI 算力核心标的的潜力，而非散户动量。",
+  "pricing_logic": "市场定价逻辑从单纯的社交广告流量转向 AI 基础设施需求。Reddit 讨论强调 META 在 AI 军备竞赛中的规模优势，将其视为继英伟达后的主要竞争者，并关注其数据中心芯片需求及与英伟达/谷歌的 AI 算力竞争格局。",
   "related_tickers": [
     "NVDA",
     "AMD",
