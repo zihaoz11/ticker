@@ -1,0 +1,19 @@
+{
+  "confidence": 0.7725,
+  "laggard_reason": "",
+  "laggard_tickers": [],
+  "needs_review": false,
+  "pricing_logic": "市场定价由财报表现、数据中心 CPU 需求、代工进展、利润率及资本支出预期驱动。",
+  "related_tickers": [],
+  "ret_1d": null,
+  "ret_1m": null,
+  "ret_1w": null,
+  "review_reason": "",
+  "theme_id": "EARNINGS_REVALUATION",
+  "theme_level_1": "基本面重估",
+  "theme_level_2": "财报超预期 / 利润率扩张",
+  "transmission_logic": "",
+  "used_fallback": false,
+  "value_chain_role": "CPU / 半导体制造供应商",
+  "warnings": []
+}
