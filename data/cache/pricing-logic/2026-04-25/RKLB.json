@@ -1,0 +1,22 @@
+{
+  "confidence": 0.7325,
+  "laggard_reason": "",
+  "laggard_tickers": [],
+  "needs_review": true,
+  "pricing_logic": "市场定价逻辑基于其火箭发射服务及卫星平台业务，关键词证据明确指向航天领域。",
+  "related_tickers": [
+    "RKLB",
+    "LUNR"
+  ],
+  "ret_1d": null,
+  "ret_1m": null,
+  "ret_1w": null,
+  "review_reason": "主题分处于模糊区间; 论坛热度高但证据较弱",
+  "theme_id": "AEROSPACE_DEFENSE",
+  "theme_level_1": "国防与航空航天",
+  "theme_level_2": "火箭发射与卫星平台",
+  "transmission_logic": "",
+  "used_fallback": false,
+  "value_chain_role": "发射服务商",
+  "warnings": []
+}
