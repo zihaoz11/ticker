@@ -2,11 +2,89 @@
   "cached": false,
   "co_mentions": [],
   "date": "2026-04-25",
-  "generated_at": "2026-04-26T04:15:52.334734+00:00",
-  "lookback_days": 3,
+  "generated_at": "2026-04-26T04:16:32.277346+00:00",
+  "lookback_days": 7,
   "narrative_clusters": [
     {
       "cluster_id": 1,
+      "co_mentions": {},
+      "evidence": [
+        {
+          "excerpt": "MXL MaxLinear, Inc. 60.32 +26.07 (+76.12%) MXL Yahoo Finance trending stocks",
+          "source": "Yahoo Finance",
+          "title": "MXL MaxLinear, Inc. 60.32 +26.07 (+76.12%)",
+          "url": "https://finance.yahoo.com/quote/MXL/"
+        },
+        {
+          "excerpt": "MXL Finviz market movers unusual volume gainers active",
+          "source": "Finviz",
+          "title": "MXL appears in Finviz market movers",
+          "url": "https://finviz.com/quote.ashx?t=MXL&ty=c&p=d&b=1"
+        }
+      ],
+      "keywords": [
+        "mxl",
+        "yahoo finance",
+        "mxl yahoo",
+        "stocks",
+        "trending",
+        "trending stocks",
+        "maxlinear mxl",
+        "maxlinear",
+        "mxl maxlinear",
+        "yahoo",
+        "finance trending",
+        "finance",
+        "unusual volume",
+        "unusual",
+        "volume gainers",
+        "volume",
+        "movers unusual",
+        "mxl finviz",
+        "market movers",
+        "movers",
+        "market",
+        "gainers active",
+        "finviz market",
+        "gainers",
+        "finviz",
+        "active"
+      ],
+      "qwen_result": {
+        "bearish": [],
+        "bullish": [
+          "价格单日上涨超过 76%。",
+          "被多个平台标记为市场活跃股和增益者。",
+          "出现异常成交量，通常暗示有重大市场兴趣或事件驱动。"
+        ],
+        "caveats": [
+          "仅基于提供的证据片段进行分析，未包含公司基本面或具体新闻事件详情。",
+          "异常高涨幅和成交量可能由短期投机或流动性事件驱动，不代表长期趋势。"
+        ],
+        "cluster_label": "MaxLinear (MXL) 异常波动",
+        "common_drivers": [
+          "异常高的交易量（Unusual Volume）。",
+          "显著的价格涨幅（Price Gain）。",
+          "市场关注度提升（Trending/Active status）。"
+        ],
+        "confidence": 0.0,
+        "differences": {
+          "MXL": "该股票同时出现在 Yahoo Finance 的趋势列表和 Finviz 的市场活跃股列表中，表明其在多个主流金融数据平台上均受到关注。"
+        },
+        "main_narratives": [
+          "MXL 被归类为市场活跃股（Market Movers）和异常成交量股（Unusual Volume）。",
+          "MXL 在 Yahoo Finance 上被列为趋势性股票（Trending Stocks）。",
+          "MXL 在 Finviz 上显示为价格增益者（Gainers）和活跃股（Active）。"
+        ],
+        "one_sentence_summary": "股票 MXL (MaxLinear, Inc.) 因出现显著的成交量增加和价格大幅上涨（约 76.12%），被 Yahoo Finance 和 Finviz 等市场数据源标记为热门股票和市场活跃股。",
+        "qwen_generated": true
+      },
+      "tickers": [
+        "MXL"
+      ]
+    },
+    {
+      "cluster_id": 2,
       "co_mentions": {},
       "evidence": [
         {
@@ -51,7 +129,7 @@
       ]
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 3,
       "co_mentions": {},
       "evidence": [
         {
@@ -99,7 +177,7 @@
       ]
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 4,
       "co_mentions": {},
       "evidence": [
         {
@@ -146,7 +224,7 @@
       ]
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 5,
       "co_mentions": {},
       "evidence": [
         {
@@ -197,7 +275,7 @@
       ]
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 6,
       "co_mentions": {},
       "evidence": [
         {
@@ -250,7 +328,7 @@
       ]
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 7,
       "co_mentions": {},
       "evidence": [
         {
@@ -302,7 +380,7 @@
       ]
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 8,
       "co_mentions": {},
       "evidence": [
         {
@@ -349,7 +427,7 @@
       ]
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 9,
       "co_mentions": {},
       "evidence": [
         {
@@ -401,7 +479,7 @@
       ]
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 10,
       "co_mentions": {},
       "evidence": [
         {
@@ -453,7 +531,7 @@
       ]
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 11,
       "co_mentions": {},
       "evidence": [
         {
@@ -500,7 +578,7 @@
       ]
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 12,
       "co_mentions": {},
       "evidence": [
         {
@@ -548,7 +626,7 @@
       ]
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 13,
       "co_mentions": {},
       "evidence": [
         {
@@ -603,7 +681,7 @@
       ]
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 14,
       "co_mentions": {},
       "evidence": [
         {
@@ -654,7 +732,7 @@
       ]
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 15,
       "co_mentions": {},
       "evidence": [
         {
@@ -705,7 +783,7 @@
       ]
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 16,
       "co_mentions": {},
       "evidence": [
         {
@@ -756,7 +834,7 @@
       ]
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 17,
       "co_mentions": {},
       "evidence": [
         {
@@ -803,7 +881,7 @@
       ]
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 18,
       "co_mentions": {},
       "evidence": [
         {
@@ -857,7 +935,7 @@
       ]
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 19,
       "co_mentions": {},
       "evidence": [
         {
@@ -907,7 +985,7 @@
       ]
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 20,
       "co_mentions": {},
       "evidence": [
         {
@@ -958,7 +1036,7 @@
       ]
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 21,
       "co_mentions": {},
       "evidence": [
         {
@@ -1009,7 +1087,7 @@
       ]
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 22,
       "co_mentions": {},
       "evidence": [
         {
@@ -1058,7 +1136,7 @@
       ]
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 23,
       "co_mentions": {},
       "evidence": [
         {
@@ -1106,7 +1184,7 @@
       ]
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 24,
       "co_mentions": {},
       "evidence": [
         {
@@ -1153,7 +1231,7 @@
       ]
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 25,
       "co_mentions": {},
       "evidence": [
         {
@@ -1202,7 +1280,7 @@
       ]
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 26,
       "co_mentions": {},
       "evidence": [
         {
@@ -1254,7 +1332,7 @@
       ]
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 27,
       "co_mentions": {},
       "evidence": [
         {
@@ -1309,7 +1387,7 @@
       ]
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 28,
       "co_mentions": {},
       "evidence": [
         {
@@ -1359,7 +1437,7 @@
       ]
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 29,
       "co_mentions": {},
       "evidence": [
         {
@@ -1410,68 +1488,512 @@
       ]
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 30,
       "co_mentions": {},
       "evidence": [
         {
-          "excerpt": "MXL Finviz market movers unusual volume gainers active",
-          "source": "Finviz",
-          "title": "MXL appears in Finviz market movers",
-          "url": "https://finviz.com/quote.ashx?t=MXL&ty=c&p=d&b=1"
+          "excerpt": "OGN Organon & Co. 11.26 +2.66 (+30.93%) OGN Yahoo Finance trending stocks",
+          "source": "Yahoo Finance",
+          "title": "OGN Organon & Co. 11.26 +2.66 (+30.93%)",
+          "url": "https://finance.yahoo.com/quote/OGN/"
         }
       ],
       "keywords": [
-        "volume gainers",
-        "volume",
-        "unusual volume",
-        "unusual",
-        "mxl finviz",
-        "mxl",
-        "movers unusual",
-        "movers",
-        "market movers",
-        "market",
-        "gainers active",
-        "gainers",
-        "finviz market",
-        "finviz",
-        "active"
+        "ogn",
+        "yahoo finance",
+        "trending stocks",
+        "yahoo",
+        "trending",
+        "stocks",
+        "organon",
+        "organon ogn",
+        "ogn yahoo",
+        "ogn organon",
+        "finance trending",
+        "finance"
       ],
       "qwen_result": {
         "bearish": [],
         "bullish": [
-          "成交量显著增加",
-          "价格涨幅领先"
+          "股价单日涨幅超过 30%。",
+          "被 Yahoo Finance 标记为 trending stocks。"
         ],
         "caveats": [
-          "仅基于有限证据，未包含基本面或长期趋势分析。",
-          "异常成交量可能由多种因素引起，需进一步验证。"
+          "仅基于提供的有限证据进行分析，未包含其他市场背景或长期趋势信息。"
         ],
-        "cluster_label": "MXL",
+        "cluster_label": "Organon (OGN) 股价波动",
         "common_drivers": [
-          "异常成交量活动",
-          "市场活跃度",
-          "当日涨幅表现"
+          "股价大幅上涨",
+          "市场关注度提升（trending）"
         ],
         "confidence": 0.0,
         "differences": {
-          "MXL": "无其他股票对比信息，仅基于单一标的分析。"
+          "OGN": "作为唯一被提及的股票，其讨论焦点完全集中在其自身的股价表现和热门程度上。"
         },
         "main_narratives": [
-          "MXL 出现在 Finviz 的市场活跃股列表中。",
-          "MXL 表现出异常成交量（unusual volume）。",
-          "MXL 是当日涨幅领先者之一（volume gainers）。",
-          "MXL 被归类为市场活跃股（market movers / gainers active）。"
+          "Organon & Co. (OGN) 的股价在 11 月 26 日大幅上涨 30.93%。",
+          "Yahoo Finance 将该股票列为 trending stocks（热门股票）。"
         ],
-        "one_sentence_summary": "MXL 被讨论是因为其在 Finviz 市场活跃股中显示出异常成交量和涨幅，属于当日活跃的交易标的。",
+        "one_sentence_summary": "该股票被讨论是因为 Organon & Co. (OGN) 在特定日期出现了显著的股价上涨，并被 Yahoo Finance 标记为热门股票。",
         "qwen_generated": true
       },
       "tickers": [
-        "MXL"
+        "OGN"
       ]
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 31,
+      "co_mentions": {},
+      "evidence": [
+        {
+          "excerpt": "POET POET Technologies Inc. 15.10 +3.38 (+28.84%) POET Yahoo Finance trending stocks",
+          "source": "Yahoo Finance",
+          "title": "POET POET Technologies Inc. 15.10 +3.38 (+28.84%)",
+          "url": "https://finance.yahoo.com/quote/POET/"
+        }
+      ],
+      "keywords": [
+        "poet",
+        "yahoo",
+        "trending stocks",
+        "trending",
+        "yahoo finance",
+        "technologies poet",
+        "technologies",
+        "poet yahoo",
+        "stocks",
+        "poet technologies",
+        "poet poet",
+        "finance trending",
+        "finance"
+      ],
+      "qwen_result": {
+        "bearish": [],
+        "bullish": [
+          "股价当日大幅上涨 28.84%。",
+          "被 Yahoo Finance 标记为 trending stocks。"
+        ],
+        "caveats": [
+          "分析仅基于提供的单一证据片段，未包含其他市场背景或长期数据。",
+          "未提供关于公司基本面、行业竞争或潜在风险的具体信息。"
+        ],
+        "cluster_label": "POET Technologies Inc.",
+        "common_drivers": [
+          "Yahoo Finance 平台上的 trending stocks 标签",
+          "显著的股价上涨（+28.84%）"
+        ],
+        "confidence": 0.0,
+        "differences": {
+          "POET": "作为单一标的，其讨论焦点集中在 Yahoo Finance 上的热门状态及具体的当日价格表现。"
+        },
+        "main_narratives": [
+          "POET Technologies Inc. 被 Yahoo Finance 列为 trending stocks（热门股票）。",
+          "该股票在 Yahoo Finance 上的价格显示为 15.10，当日涨幅为 +3.38，累计涨幅达 +28.84%。"
+        ],
+        "one_sentence_summary": "股票 POET 因在 Yahoo Finance 上被标记为热门股票且股价大幅上涨（+28.84%）而受到讨论。",
+        "qwen_generated": true
+      },
+      "tickers": [
+        "POET"
+      ]
+    },
+    {
+      "cluster_id": 32,
+      "co_mentions": {},
+      "evidence": [
+        {
+          "excerpt": "SXT Sensient Technologies Corporation 123.15 +23.92 (+24.11%) SXT Yahoo Finance trending stocks",
+          "source": "Yahoo Finance",
+          "title": "SXT Sensient Technologies Corporation 123.15 +23.92 (+24.11%)",
+          "url": "https://finance.yahoo.com/quote/SXT/"
+        }
+      ],
+      "keywords": [
+        "sxt",
+        "yahoo finance",
+        "trending stocks",
+        "yahoo",
+        "technologies corporation",
+        "technologies",
+        "sxt yahoo",
+        "trending",
+        "sxt sensient",
+        "stocks",
+        "sensient technologies",
+        "sensient",
+        "finance trending",
+        "finance",
+        "corporation sxt",
+        "corporation"
+      ],
+      "qwen_result": {
+        "bearish": [],
+        "bullish": [
+          "股价单日涨幅超过 24%"
+        ],
+        "caveats": [
+          "分析仅基于提供的单一证据片段，未包含其他市场背景或长期数据。"
+        ],
+        "cluster_label": "SXT Sensient Technologies Corporation",
+        "common_drivers": [
+          "股价显著上涨",
+          "Yahoo Finance 平台的热度标记"
+        ],
+        "confidence": 0.0,
+        "differences": {
+          "SXT": "无其他差异信息，仅基于单一股票数据。"
+        },
+        "main_narratives": [
+          "SXT (Sensient Technologies Corporation) 在 Yahoo Finance 上被列为 trending stocks。"
+        ],
+        "one_sentence_summary": "该股票因在 Yahoo Finance 上显示股价大幅上涨（+24.11%）而被标记为热门股票并引发讨论。",
+        "qwen_generated": true
+      },
+      "tickers": [
+        "SXT"
+      ]
+    },
+    {
+      "cluster_id": 33,
+      "co_mentions": {},
+      "evidence": [
+        {
+          "excerpt": "INTC Intel Corporation 82.54 +15.76 (+23.60%) INTC Yahoo Finance trending stocks",
+          "source": "Yahoo Finance",
+          "title": "INTC Intel Corporation 82.54 +15.76 (+23.60%)",
+          "url": "https://finance.yahoo.com/quote/INTC/"
+        }
+      ],
+      "keywords": [
+        "intc",
+        "yahoo finance",
+        "trending stocks",
+        "trending",
+        "stocks",
+        "yahoo",
+        "intel corporation",
+        "intel",
+        "intc yahoo",
+        "intc intel",
+        "finance trending",
+        "finance",
+        "corporation intc",
+        "corporation"
+      ],
+      "qwen_result": {
+        "bearish": [],
+        "bullish": [
+          "股价上涨 23.60%"
+        ],
+        "caveats": [
+          "仅基于提供的单一证据片段，缺乏关于上涨原因（如财报、产品发布或市场情绪）的具体细节。"
+        ],
+        "cluster_label": "INTC Intel Corporation",
+        "common_drivers": [
+          "股价大幅波动",
+          "平台热度标记"
+        ],
+        "confidence": 0.0,
+        "differences": {
+          "INTC": "无其他股票进行对比，仅涉及单一标的。"
+        },
+        "main_narratives": [
+          "INTC 股价出现显著上涨。",
+          "该股票在 Yahoo Finance 平台上被归类为 trending stocks。"
+        ],
+        "one_sentence_summary": "该股票被讨论是因为其在 Yahoo Finance 上显示股价大幅上涨 23.60%，并被标记为热门股票。",
+        "qwen_generated": true
+      },
+      "tickers": [
+        "INTC"
+      ]
+    },
+    {
+      "cluster_id": 34,
+      "co_mentions": {},
+      "evidence": [
+        {
+          "excerpt": "LBRDA Liberty Broadband Corporation 41.89 -14.52 (-25.74%) LBRDA Yahoo Finance trending stocks",
+          "source": "Yahoo Finance",
+          "title": "LBRDA Liberty Broadband Corporation 41.89 -14.52 (-25.74%)",
+          "url": "https://finance.yahoo.com/quote/LBRDA/"
+        }
+      ],
+      "keywords": [
+        "lbrda",
+        "yahoo finance",
+        "trending stocks",
+        "yahoo",
+        "stocks",
+        "liberty broadband",
+        "liberty",
+        "trending",
+        "lbrda yahoo",
+        "lbrda liberty",
+        "finance trending",
+        "finance",
+        "corporation lbrda",
+        "corporation",
+        "broadband corporation",
+        "broadband"
+      ],
+      "qwen_result": {
+        "bearish": [
+          "股价单日下跌 25.74% 表明存在强烈的负面市场情绪或抛售压力。"
+        ],
+        "bullish": [],
+        "caveats": [
+          "分析仅基于提供的单一证据片段，无法得知下跌的具体原因（如财报、监管问题或市场整体波动）。",
+          "未包含任何关于未来价格走势的预测或投资建议。"
+        ],
+        "cluster_label": "Liberty Broadband Corporation (LBRDA)",
+        "common_drivers": [
+          "Yahoo Finance 平台上的 trending stocks 标签。",
+          "股价大幅下跌（-25.74%）引发的市场关注。",
+          "投资者对 Liberty Broadband Corporation 当前状况的即时反应。"
+        ],
+        "confidence": 0.0,
+        "differences": {
+          "LBRDA": "作为 Liberty Broadband Corporation 的唯一代表，其讨论完全基于其自身的股价表现和 Yahoo Finance 上的 trending 状态，无其他关联股票对比。"
+        },
+        "main_narratives": [
+          "Liberty Broadband Corporation (LBRDA) 在 Yahoo Finance 平台上被标记为 trending stocks。",
+          "市场关注点集中在 LBRDA 股价的显著波动上，具体表现为单日下跌 25.74%。",
+          "讨论内容主要围绕该宽带公司的财务表现或市场情绪导致的剧烈价格变动。"
+        ],
+        "one_sentence_summary": "该股票因在 Yahoo Finance 上显示大幅下跌（-25.74%）而成为 trending stocks 讨论的焦点。",
+        "qwen_generated": true
+      },
+      "tickers": [
+        "LBRDA"
+      ]
+    },
+    {
+      "cluster_id": 35,
+      "co_mentions": {},
+      "evidence": [
+        {
+          "excerpt": "LBRDK Liberty Broadband Corporation 41.94 -14.53 (-25.73%) LBRDK Yahoo Finance trending stocks",
+          "source": "Yahoo Finance",
+          "title": "LBRDK Liberty Broadband Corporation 41.94 -14.53 (-25.73%)",
+          "url": "https://finance.yahoo.com/quote/LBRDK/"
+        }
+      ],
+      "keywords": [
+        "lbrdk",
+        "yahoo finance",
+        "trending stocks",
+        "yahoo",
+        "stocks",
+        "liberty broadband",
+        "liberty",
+        "trending",
+        "lbrdk yahoo",
+        "lbrdk liberty",
+        "finance trending",
+        "finance",
+        "corporation lbrdk",
+        "corporation",
+        "broadband corporation",
+        "broadband"
+      ],
+      "qwen_result": {
+        "bearish": [
+          "股价单日下跌 25.73%。"
+        ],
+        "bullish": [],
+        "caveats": [
+          "分析仅基于提供的单一证据片段，未包含其他市场背景或长期数据。",
+          "无法确定导致股价下跌的具体原因（如财报、监管消息或市场情绪）。"
+        ],
+        "cluster_label": "Liberty Broadband Corporation (LBRDK)",
+        "common_drivers": [
+          "Yahoo Finance 平台上的 trending stocks 标签。",
+          "股价的大幅下跌事件（-25.73%）。",
+          "投资者对 Liberty Broadband Corporation 的关注度提升。"
+        ],
+        "confidence": 0.0,
+        "differences": {
+          "LBRDK": "作为 Liberty Broadband Corporation 的股票代码，其讨论完全围绕该特定实体的股价表现和平台热度展开。"
+        },
+        "main_narratives": [
+          "Liberty Broadband Corporation (LBRDK) 在 Yahoo Finance 平台上被标记为 trending stocks。",
+          "市场关注点集中在 LBRDK 股价的显著波动上，具体表现为单日下跌 25.73%。"
+        ],
+        "one_sentence_summary": "该股票因在 Yahoo Finance 上显示大幅下跌（-25.73%）而成为 trending stocks 讨论的焦点。",
+        "qwen_generated": true
+      },
+      "tickers": [
+        "LBRDK"
+      ]
+    },
+    {
+      "cluster_id": 36,
+      "co_mentions": {},
+      "evidence": [
+        {
+          "excerpt": "CHTR Charter Communications, Inc. 180.13 -61.65 (-25.50%) CHTR Yahoo Finance trending stocks",
+          "source": "Yahoo Finance",
+          "title": "CHTR Charter Communications, Inc. 180.13 -61.65 (-25.50%)",
+          "url": "https://finance.yahoo.com/quote/CHTR/"
+        }
+      ],
+      "keywords": [
+        "chtr",
+        "yahoo finance",
+        "trending stocks",
+        "trending",
+        "stocks",
+        "yahoo",
+        "finance trending",
+        "finance",
+        "communications",
+        "communications chtr",
+        "chtr yahoo",
+        "chtr charter",
+        "charter communications",
+        "charter"
+      ],
+      "qwen_result": {
+        "bearish": [
+          "股价下跌 25.50%"
+        ],
+        "bullish": [],
+        "caveats": [
+          "仅基于提供的证据片段，未包含更广泛的背景信息或市场情绪分析。"
+        ],
+        "cluster_label": "CHTR",
+        "common_drivers": [
+          "Yahoo Finance 的趋势股票列表",
+          "股价大幅下跌（-25.50%）"
+        ],
+        "confidence": 0.0,
+        "differences": {
+          "CHTR": "无其他股票对比，仅涉及 CHTR 自身数据。"
+        },
+        "main_narratives": [
+          "CHTR 在 Yahoo Finance 上被列为趋势股票。"
+        ],
+        "one_sentence_summary": "CHTR (Charter Communications, Inc.) 被讨论是因为其在 Yahoo Finance 上作为趋势股票出现，且价格显示为 180.13 美元，跌幅达 25.50%。",
+        "qwen_generated": true
+      },
+      "tickers": [
+        "CHTR"
+      ]
+    },
+    {
+      "cluster_id": 37,
+      "co_mentions": {},
+      "evidence": [
+        {
+          "excerpt": "STNE StoneCo Ltd. 12.22 -2.33 (-16.01%) STNE Yahoo Finance trending stocks",
+          "source": "Yahoo Finance",
+          "title": "STNE StoneCo Ltd. 12.22 -2.33 (-16.01%)",
+          "url": "https://finance.yahoo.com/quote/STNE/"
+        }
+      ],
+      "keywords": [
+        "stne",
+        "yahoo finance",
+        "trending stocks",
+        "yahoo",
+        "trending",
+        "stoneco stne",
+        "stocks",
+        "stoneco",
+        "stne yahoo",
+        "stne stoneco",
+        "finance trending",
+        "finance"
+      ],
+      "qwen_result": {
+        "bearish": [
+          "股价当日下跌 16.01%"
+        ],
+        "bullish": [],
+        "caveats": [
+          "分析仅基于提供的单一证据片段，未包含公司基本面、行业背景或其他市场消息。",
+          "证据中未提供下跌的具体原因（如财报、监管调查或市场情绪变化）。"
+        ],
+        "cluster_label": "STNE StoneCo Ltd.",
+        "common_drivers": [
+          "Yahoo Finance 平台的热度标记",
+          "股价显著下跌（-16.01%）"
+        ],
+        "confidence": 0.0,
+        "differences": {
+          "STNE": "作为单一标的，其讨论完全围绕其在 Yahoo Finance 上的 trending 状态及当日具体跌幅展开，无其他对比标的。"
+        },
+        "main_narratives": [
+          "STNE (StoneCo Ltd.) 在 Yahoo Finance 平台上被归类为 trending stocks（热门股票）。",
+          "市场关注点集中在该股票在 Yahoo Finance 上的实时表现和价格波动。"
+        ],
+        "one_sentence_summary": "该股票因在 Yahoo Finance 上被标记为热门股票（trending stocks）而受到关注，其最新数据显示股价下跌 16.01%。",
+        "qwen_generated": true
+      },
+      "tickers": [
+        "STNE"
+      ]
+    },
+    {
+      "cluster_id": 38,
+      "co_mentions": {},
+      "evidence": [
+        {
+          "excerpt": "YSS York Space Systems, Inc. 31.06 -4.65 (-13.02%) YSS Yahoo Finance trending stocks",
+          "source": "Yahoo Finance",
+          "title": "YSS York Space Systems, Inc. 31.06 -4.65 (-13.02%)",
+          "url": "https://finance.yahoo.com/quote/YSS/"
+        }
+      ],
+      "keywords": [
+        "yss",
+        "yss york",
+        "yss yahoo",
+        "york space",
+        "york",
+        "yahoo finance",
+        "yahoo",
+        "trending stocks",
+        "trending",
+        "systems yss",
+        "systems",
+        "stocks",
+        "space systems",
+        "space",
+        "finance trending",
+        "finance"
+      ],
+      "qwen_result": {
+        "bearish": [
+          "当日股价下跌 4.65 美元，跌幅达 13.02%。"
+        ],
+        "bullish": [],
+        "caveats": [
+          "分析仅基于提供的有限证据，未包含其他市场数据或背景信息。"
+        ],
+        "cluster_label": "YSS York Space Systems",
+        "common_drivers": [
+          "Yahoo Finance 平台上的热门股票趋势",
+          "公司名称中的 York Space Systems 关键词",
+          "Yahoo Finance 作为信息来源"
+        ],
+        "confidence": 0.0,
+        "differences": {
+          "YSS": "作为单一股票代码，其讨论完全围绕其在 Yahoo Finance 上的热门状态及名称关联。"
+        },
+        "main_narratives": [
+          "YSS York Space Systems, Inc. 在 Yahoo Finance 平台上被归类为热门股票。"
+        ],
+        "one_sentence_summary": "该股票因在 Yahoo Finance 上被标记为热门股票（trending stocks）而受到关注，其名称与 York Space Systems 及 Yahoo Finance 等关键词紧密相关。",
+        "qwen_generated": true
+      },
+      "tickers": [
+        "YSS"
+      ]
+    },
+    {
+      "cluster_id": 39,
       "co_mentions": {},
       "evidence": [
         {
@@ -1534,7 +2056,7 @@
       ]
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 40,
       "co_mentions": {},
       "evidence": [
         {
@@ -1593,7 +2115,7 @@
       ]
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 41,
       "co_mentions": {},
       "evidence": [
         {
@@ -1659,23 +2181,59 @@
   "qwen_results": {
     "1": {
       "bearish": [],
-      "bullish": [],
-      "caveats": [
-        "证据仅包含 Yahoo Finance 的元数据，未提供具体的财务数据、新闻事件或市场情绪分析来解释 LMT 被讨论的具体基本面原因。"
+      "bullish": [
+        "价格单日上涨超过 76%。",
+        "被多个平台标记为市场活跃股和增益者。",
+        "出现异常成交量，通常暗示有重大市场兴趣或事件驱动。"
       ],
-      "cluster_label": "LMT",
+      "caveats": [
+        "仅基于提供的证据片段进行分析，未包含公司基本面或具体新闻事件详情。",
+        "异常高涨幅和成交量可能由短期投机或流动性事件驱动，不代表长期趋势。"
+      ],
+      "cluster_label": "MaxLinear (MXL) 异常波动",
       "common_drivers": [
-        "Yahoo Finance 平台上的搜索趋势和关注度。"
+        "异常高的交易量（Unusual Volume）。",
+        "显著的价格涨幅（Price Gain）。",
+        "市场关注度提升（Trending/Active status）。"
       ],
       "confidence": 0.0,
-      "differences": {},
+      "differences": {
+        "MXL": "该股票同时出现在 Yahoo Finance 的趋势列表和 Finviz 的市场活跃股列表中，表明其在多个主流金融数据平台上均受到关注。"
+      },
       "main_narratives": [
-        "LMT 在 Yahoo Finance 上被标记为 trending stocks。"
+        "MXL 被归类为市场活跃股（Market Movers）和异常成交量股（Unusual Volume）。",
+        "MXL 在 Yahoo Finance 上被列为趋势性股票（Trending Stocks）。",
+        "MXL 在 Finviz 上显示为价格增益者（Gainers）和活跃股（Active）。"
       ],
-      "one_sentence_summary": "该股票集群仅包含 LMT，其被讨论的原因是基于 Yahoo Finance 平台上的 trending stocks 标签及搜索趋势。",
+      "one_sentence_summary": "股票 MXL (MaxLinear, Inc.) 因出现显著的成交量增加和价格大幅上涨（约 76.12%），被 Yahoo Finance 和 Finviz 等市场数据源标记为热门股票和市场活跃股。",
       "qwen_generated": true
     },
     "10": {
+      "bearish": [
+        "无。"
+      ],
+      "bullish": [
+        "被 Yahoo Finance 标记为 trending stocks 可能暗示短期市场关注度提升。"
+      ],
+      "caveats": [
+        "证据仅包含单一来源的标题和摘要，缺乏具体的财务数据、新闻事件或分析师观点作为支撑，因此无法推断具体的市场驱动因素或价格逻辑。"
+      ],
+      "cluster_label": "LUNR 单一股票讨论",
+      "common_drivers": [
+        "Yahoo Finance 平台的热度标签",
+        "市场趋势关注度"
+      ],
+      "confidence": 0.0,
+      "differences": {
+        "LUNR": "作为集群中唯一的股票，不存在与其他股票的对比差异。"
+      },
+      "main_narratives": [
+        "LUNR 被标记为 Yahoo Finance 上的 trending stocks（热门股票）。"
+      ],
+      "one_sentence_summary": "该股票集群仅包含 LUNR 一只股票，讨论内容主要围绕其在 Yahoo Finance 平台上的 trending stocks（热门股票）标签及市场关注度展开。",
+      "qwen_generated": true
+    },
+    "11": {
       "bearish": [],
       "bullish": [],
       "caveats": [
@@ -1695,7 +2253,7 @@
       "one_sentence_summary": "该股票集群仅包含可口可乐（KO），其被讨论的原因是基于 Yahoo Finance 平台上的趋势数据，显示该股票在金融趋势中受到关注。",
       "qwen_generated": true
     },
-    "11": {
+    "12": {
       "bearish": [],
       "bullish": [
         "被 Yahoo Finance 列为趋势股票"
@@ -1716,7 +2274,7 @@
       "one_sentence_summary": "该股票集群仅包含 XOM，其被讨论的原因是基于 Yahoo Finance 平台上的趋势标签和引用，表明其作为热门股票受到关注。",
       "qwen_generated": true
     },
-    "12": {
+    "13": {
       "bearish": [
         "无明确的负面信息或看跌观点在提供的证据中出现。"
       ],
@@ -1744,7 +2302,7 @@
       "one_sentence_summary": "该股票群仅包含 LITE，讨论主要围绕其在 Yahoo Finance 平台上的趋势状态及作为热门股票的关注度。",
       "qwen_generated": true
     },
-    "13": {
+    "14": {
       "bearish": [
         "无。"
       ],
@@ -1768,7 +2326,7 @@
       "one_sentence_summary": "股票 TER 被讨论是因为其在 Yahoo Finance 平台上被列为趋势性股票。",
       "qwen_generated": true
     },
-    "14": {
+    "15": {
       "bearish": [],
       "bullish": [
         "被 Yahoo Finance 列为 trending stocks 可能暗示短期市场关注度较高。"
@@ -1792,7 +2350,7 @@
       "one_sentence_summary": "该股票集群仅包含 ASML，其被讨论的原因主要源于 Yahoo Finance 将其列为趋势性股票。",
       "qwen_generated": true
     },
-    "15": {
+    "16": {
       "bearish": [],
       "bullish": [
         "被 Yahoo Finance 列为 trending stocks 可能暗示短期关注度较高。"
@@ -1816,7 +2374,7 @@
       "one_sentence_summary": "该股票因在 Yahoo Finance 等金融平台上被列为热门股票而被讨论。",
       "qwen_generated": true
     },
-    "16": {
+    "17": {
       "bearish": [],
       "bullish": [],
       "caveats": [
@@ -1836,7 +2394,7 @@
       "one_sentence_summary": "该股票集群仅包含 COHR 一只股票，讨论内容主要围绕其在 Yahoo Finance 平台上的 trending stocks 标签及基本信息展示。",
       "qwen_generated": true
     },
-    "17": {
+    "18": {
       "bearish": [
         "无。"
       ],
@@ -1863,7 +2421,7 @@
       "one_sentence_summary": "该股票集群仅包含 VST 一只股票，其被讨论的原因主要源于 Yahoo Finance 平台上的趋势标签和搜索热度。",
       "qwen_generated": true
     },
-    "18": {
+    "19": {
       "bearish": [],
       "bullish": [
         "被标记为 trending stocks（热门股票）"
@@ -1886,7 +2444,25 @@
       "one_sentence_summary": "UBER 股票因在 Yahoo Finance 等金融平台上被列为热门股票而被讨论。",
       "qwen_generated": true
     },
-    "19": {
+    "2": {
+      "bearish": [],
+      "bullish": [],
+      "caveats": [
+        "证据仅包含 Yahoo Finance 的元数据，未提供具体的财务数据、新闻事件或市场情绪分析来解释 LMT 被讨论的具体基本面原因。"
+      ],
+      "cluster_label": "LMT",
+      "common_drivers": [
+        "Yahoo Finance 平台上的搜索趋势和关注度。"
+      ],
+      "confidence": 0.0,
+      "differences": {},
+      "main_narratives": [
+        "LMT 在 Yahoo Finance 上被标记为 trending stocks。"
+      ],
+      "one_sentence_summary": "该股票集群仅包含 LMT，其被讨论的原因是基于 Yahoo Finance 平台上的 trending stocks 标签及搜索趋势。",
+      "qwen_generated": true
+    },
+    "20": {
       "bearish": [
         "无。"
       ],
@@ -1910,28 +2486,7 @@
       "one_sentence_summary": "该股票群仅包含 TEM 一只股票，其被讨论的原因主要源于 Yahoo Finance 将其标记为热门股票。",
       "qwen_generated": true
     },
-    "2": {
-      "bearish": [],
-      "bullish": [
-        "被标记为趋势股票可能表明短期市场兴趣。"
-      ],
-      "caveats": [
-        "仅基于提供的有限证据进行分析，缺乏更广泛的市场背景或财务数据。"
-      ],
-      "cluster_label": "DJT 趋势股票",
-      "common_drivers": [
-        "Yahoo Finance 上的趋势标签",
-        "高提及率"
-      ],
-      "confidence": 0.0,
-      "differences": {},
-      "main_narratives": [
-        "DJT 作为趋势股票受到市场关注。"
-      ],
-      "one_sentence_summary": "DJT 被归类为趋势股票，主要因其在 Yahoo Finance 等金融平台上的高关注度而被讨论。",
-      "qwen_generated": true
-    },
-    "20": {
+    "21": {
       "bearish": [
         "缺乏具体的基本面数据或新闻事件支持，仅基于平台标签。"
       ],
@@ -1955,7 +2510,7 @@
       "one_sentence_summary": "该股票集群仅包含 UNH，其被讨论的原因是基于 Yahoo Finance 平台上的趋势标签和搜索活动。",
       "qwen_generated": true
     },
-    "21": {
+    "22": {
       "bearish": [],
       "bullish": [
         "被 Yahoo Finance 标记为 trending stocks 可能暗示市场关注度较高。"
@@ -1977,7 +2532,7 @@
       "one_sentence_summary": "股票 BA 因在 Yahoo Finance 等金融平台上被标记为热门股票而受到讨论。",
       "qwen_generated": true
     },
-    "22": {
+    "23": {
       "bearish": [
         "无明确看跌信息。"
       ],
@@ -2001,7 +2556,7 @@
       "one_sentence_summary": "股票 V 被讨论是因为其在 Yahoo Finance 平台上被列为 trending stocks（热门股票）。",
       "qwen_generated": true
     },
-    "23": {
+    "24": {
       "bearish": [],
       "bullish": [],
       "caveats": [
@@ -2021,7 +2576,7 @@
       "one_sentence_summary": "该股票群仅包含 JNJ，讨论主要源于其在 Yahoo Finance 平台上的趋势状态。",
       "qwen_generated": true
     },
-    "24": {
+    "25": {
       "bearish": [],
       "bullish": [
         "被 Yahoo Finance 标记为 trending stocks 可能暗示短期市场兴趣增加。"
@@ -2043,7 +2598,7 @@
       "one_sentence_summary": "该股票群仅包含 NIO，其被讨论的原因是基于 Yahoo Finance 平台上的趋势数据，表明该股票当前处于热门关注状态。",
       "qwen_generated": true
     },
-    "25": {
+    "26": {
       "bearish": [
         "无。"
       ],
@@ -2068,7 +2623,7 @@
       "one_sentence_summary": "该股票群仅包含 PYPL，讨论主要源于其在 Yahoo Finance 平台上的趋势状态及相关的金融话题。",
       "qwen_generated": true
     },
-    "26": {
+    "27": {
       "bearish": [
         "市场下跌时 SPY 通常跟随指数下跌。"
       ],
@@ -2097,7 +2652,7 @@
       "one_sentence_summary": "SPY 被讨论是因为它是追踪标普 500 指数的主要交易型开放式指数基金（ETF），在 Yahoo Finance 等平台上作为市场基准和热门股票被广泛提及。",
       "qwen_generated": true
     },
-    "27": {
+    "28": {
       "bearish": [],
       "bullish": [
         "被 Yahoo Finance 列为 trending stocks 可能暗示短期市场关注度较高。"
@@ -2119,7 +2674,7 @@
       "one_sentence_summary": "该股票集群仅包含 Nvidia (NVDA)，其被讨论的原因主要源于 Yahoo Finance 将其标记为热门股票或趋势性股票。",
       "qwen_generated": true
     },
-    "28": {
+    "29": {
       "bearish": [],
       "bullish": [
         "被 Yahoo Finance 标记为 trending stocks（趋势股票）。"
@@ -2142,56 +2697,251 @@
       "one_sentence_summary": "该股票群仅包含特斯拉 (TSLA)，其被讨论的主要原因是作为 Yahoo Finance 平台上的热门股票和趋势性标的。",
       "qwen_generated": true
     },
-    "29": {
-      "bearish": [],
-      "bullish": [
-        "成交量显著增加",
-        "价格涨幅领先"
-      ],
-      "caveats": [
-        "仅基于有限证据，未包含基本面或长期趋势分析。",
-        "异常成交量可能由多种因素引起，需进一步验证。"
-      ],
-      "cluster_label": "MXL",
-      "common_drivers": [
-        "异常成交量活动",
-        "市场活跃度",
-        "当日涨幅表现"
-      ],
-      "confidence": 0.0,
-      "differences": {
-        "MXL": "无其他股票对比信息，仅基于单一标的分析。"
-      },
-      "main_narratives": [
-        "MXL 出现在 Finviz 的市场活跃股列表中。",
-        "MXL 表现出异常成交量（unusual volume）。",
-        "MXL 是当日涨幅领先者之一（volume gainers）。",
-        "MXL 被归类为市场活跃股（market movers / gainers active）。"
-      ],
-      "one_sentence_summary": "MXL 被讨论是因为其在 Finviz 市场活跃股中显示出异常成交量和涨幅，属于当日活跃的交易标的。",
-      "qwen_generated": true
-    },
     "3": {
       "bearish": [],
       "bullish": [
-        "被 Yahoo Finance 列为 trending stocks 可能表明市场关注度提升。"
+        "被标记为趋势股票可能表明短期市场兴趣。"
       ],
       "caveats": [
-        "仅基于提供的证据，无其他市场数据支持分析。"
+        "仅基于提供的有限证据进行分析，缺乏更广泛的市场背景或财务数据。"
       ],
-      "cluster_label": "JOBY 股票趋势",
+      "cluster_label": "DJT 趋势股票",
       "common_drivers": [
-        "Yahoo Finance 平台上的趋势标签"
+        "Yahoo Finance 上的趋势标签",
+        "高提及率"
       ],
       "confidence": 0.0,
       "differences": {},
       "main_narratives": [
-        "JOBY 股票在 Yahoo Finance 上被标记为 trending stocks（热门股票）。"
+        "DJT 作为趋势股票受到市场关注。"
       ],
-      "one_sentence_summary": "JOBY 股票因在 Yahoo Finance 等金融平台上被列为热门股票而被讨论。",
+      "one_sentence_summary": "DJT 被归类为趋势股票，主要因其在 Yahoo Finance 等金融平台上的高关注度而被讨论。",
       "qwen_generated": true
     },
     "30": {
+      "bearish": [],
+      "bullish": [
+        "股价单日涨幅超过 30%。",
+        "被 Yahoo Finance 标记为 trending stocks。"
+      ],
+      "caveats": [
+        "仅基于提供的有限证据进行分析，未包含其他市场背景或长期趋势信息。"
+      ],
+      "cluster_label": "Organon (OGN) 股价波动",
+      "common_drivers": [
+        "股价大幅上涨",
+        "市场关注度提升（trending）"
+      ],
+      "confidence": 0.0,
+      "differences": {
+        "OGN": "作为唯一被提及的股票，其讨论焦点完全集中在其自身的股价表现和热门程度上。"
+      },
+      "main_narratives": [
+        "Organon & Co. (OGN) 的股价在 11 月 26 日大幅上涨 30.93%。",
+        "Yahoo Finance 将该股票列为 trending stocks（热门股票）。"
+      ],
+      "one_sentence_summary": "该股票被讨论是因为 Organon & Co. (OGN) 在特定日期出现了显著的股价上涨，并被 Yahoo Finance 标记为热门股票。",
+      "qwen_generated": true
+    },
+    "31": {
+      "bearish": [],
+      "bullish": [
+        "股价当日大幅上涨 28.84%。",
+        "被 Yahoo Finance 标记为 trending stocks。"
+      ],
+      "caveats": [
+        "分析仅基于提供的单一证据片段，未包含其他市场背景或长期数据。",
+        "未提供关于公司基本面、行业竞争或潜在风险的具体信息。"
+      ],
+      "cluster_label": "POET Technologies Inc.",
+      "common_drivers": [
+        "Yahoo Finance 平台上的 trending stocks 标签",
+        "显著的股价上涨（+28.84%）"
+      ],
+      "confidence": 0.0,
+      "differences": {
+        "POET": "作为单一标的，其讨论焦点集中在 Yahoo Finance 上的热门状态及具体的当日价格表现。"
+      },
+      "main_narratives": [
+        "POET Technologies Inc. 被 Yahoo Finance 列为 trending stocks（热门股票）。",
+        "该股票在 Yahoo Finance 上的价格显示为 15.10，当日涨幅为 +3.38，累计涨幅达 +28.84%。"
+      ],
+      "one_sentence_summary": "股票 POET 因在 Yahoo Finance 上被标记为热门股票且股价大幅上涨（+28.84%）而受到讨论。",
+      "qwen_generated": true
+    },
+    "32": {
+      "bearish": [],
+      "bullish": [
+        "股价单日涨幅超过 24%"
+      ],
+      "caveats": [
+        "分析仅基于提供的单一证据片段，未包含其他市场背景或长期数据。"
+      ],
+      "cluster_label": "SXT Sensient Technologies Corporation",
+      "common_drivers": [
+        "股价显著上涨",
+        "Yahoo Finance 平台的热度标记"
+      ],
+      "confidence": 0.0,
+      "differences": {
+        "SXT": "无其他差异信息，仅基于单一股票数据。"
+      },
+      "main_narratives": [
+        "SXT (Sensient Technologies Corporation) 在 Yahoo Finance 上被列为 trending stocks。"
+      ],
+      "one_sentence_summary": "该股票因在 Yahoo Finance 上显示股价大幅上涨（+24.11%）而被标记为热门股票并引发讨论。",
+      "qwen_generated": true
+    },
+    "33": {
+      "bearish": [],
+      "bullish": [
+        "股价上涨 23.60%"
+      ],
+      "caveats": [
+        "仅基于提供的单一证据片段，缺乏关于上涨原因（如财报、产品发布或市场情绪）的具体细节。"
+      ],
+      "cluster_label": "INTC Intel Corporation",
+      "common_drivers": [
+        "股价大幅波动",
+        "平台热度标记"
+      ],
+      "confidence": 0.0,
+      "differences": {
+        "INTC": "无其他股票进行对比，仅涉及单一标的。"
+      },
+      "main_narratives": [
+        "INTC 股价出现显著上涨。",
+        "该股票在 Yahoo Finance 平台上被归类为 trending stocks。"
+      ],
+      "one_sentence_summary": "该股票被讨论是因为其在 Yahoo Finance 上显示股价大幅上涨 23.60%，并被标记为热门股票。",
+      "qwen_generated": true
+    },
+    "34": {
+      "bearish": [
+        "股价单日下跌 25.74% 表明存在强烈的负面市场情绪或抛售压力。"
+      ],
+      "bullish": [],
+      "caveats": [
+        "分析仅基于提供的单一证据片段，无法得知下跌的具体原因（如财报、监管问题或市场整体波动）。",
+        "未包含任何关于未来价格走势的预测或投资建议。"
+      ],
+      "cluster_label": "Liberty Broadband Corporation (LBRDA)",
+      "common_drivers": [
+        "Yahoo Finance 平台上的 trending stocks 标签。",
+        "股价大幅下跌（-25.74%）引发的市场关注。",
+        "投资者对 Liberty Broadband Corporation 当前状况的即时反应。"
+      ],
+      "confidence": 0.0,
+      "differences": {
+        "LBRDA": "作为 Liberty Broadband Corporation 的唯一代表，其讨论完全基于其自身的股价表现和 Yahoo Finance 上的 trending 状态，无其他关联股票对比。"
+      },
+      "main_narratives": [
+        "Liberty Broadband Corporation (LBRDA) 在 Yahoo Finance 平台上被标记为 trending stocks。",
+        "市场关注点集中在 LBRDA 股价的显著波动上，具体表现为单日下跌 25.74%。",
+        "讨论内容主要围绕该宽带公司的财务表现或市场情绪导致的剧烈价格变动。"
+      ],
+      "one_sentence_summary": "该股票因在 Yahoo Finance 上显示大幅下跌（-25.74%）而成为 trending stocks 讨论的焦点。",
+      "qwen_generated": true
+    },
+    "35": {
+      "bearish": [
+        "股价单日下跌 25.73%。"
+      ],
+      "bullish": [],
+      "caveats": [
+        "分析仅基于提供的单一证据片段，未包含其他市场背景或长期数据。",
+        "无法确定导致股价下跌的具体原因（如财报、监管消息或市场情绪）。"
+      ],
+      "cluster_label": "Liberty Broadband Corporation (LBRDK)",
+      "common_drivers": [
+        "Yahoo Finance 平台上的 trending stocks 标签。",
+        "股价的大幅下跌事件（-25.73%）。",
+        "投资者对 Liberty Broadband Corporation 的关注度提升。"
+      ],
+      "confidence": 0.0,
+      "differences": {
+        "LBRDK": "作为 Liberty Broadband Corporation 的股票代码，其讨论完全围绕该特定实体的股价表现和平台热度展开。"
+      },
+      "main_narratives": [
+        "Liberty Broadband Corporation (LBRDK) 在 Yahoo Finance 平台上被标记为 trending stocks。",
+        "市场关注点集中在 LBRDK 股价的显著波动上，具体表现为单日下跌 25.73%。"
+      ],
+      "one_sentence_summary": "该股票因在 Yahoo Finance 上显示大幅下跌（-25.73%）而成为 trending stocks 讨论的焦点。",
+      "qwen_generated": true
+    },
+    "36": {
+      "bearish": [
+        "股价下跌 25.50%"
+      ],
+      "bullish": [],
+      "caveats": [
+        "仅基于提供的证据片段，未包含更广泛的背景信息或市场情绪分析。"
+      ],
+      "cluster_label": "CHTR",
+      "common_drivers": [
+        "Yahoo Finance 的趋势股票列表",
+        "股价大幅下跌（-25.50%）"
+      ],
+      "confidence": 0.0,
+      "differences": {
+        "CHTR": "无其他股票对比，仅涉及 CHTR 自身数据。"
+      },
+      "main_narratives": [
+        "CHTR 在 Yahoo Finance 上被列为趋势股票。"
+      ],
+      "one_sentence_summary": "CHTR (Charter Communications, Inc.) 被讨论是因为其在 Yahoo Finance 上作为趋势股票出现，且价格显示为 180.13 美元，跌幅达 25.50%。",
+      "qwen_generated": true
+    },
+    "37": {
+      "bearish": [
+        "股价当日下跌 16.01%"
+      ],
+      "bullish": [],
+      "caveats": [
+        "分析仅基于提供的单一证据片段，未包含公司基本面、行业背景或其他市场消息。",
+        "证据中未提供下跌的具体原因（如财报、监管调查或市场情绪变化）。"
+      ],
+      "cluster_label": "STNE StoneCo Ltd.",
+      "common_drivers": [
+        "Yahoo Finance 平台的热度标记",
+        "股价显著下跌（-16.01%）"
+      ],
+      "confidence": 0.0,
+      "differences": {
+        "STNE": "作为单一标的，其讨论完全围绕其在 Yahoo Finance 上的 trending 状态及当日具体跌幅展开，无其他对比标的。"
+      },
+      "main_narratives": [
+        "STNE (StoneCo Ltd.) 在 Yahoo Finance 平台上被归类为 trending stocks（热门股票）。",
+        "市场关注点集中在该股票在 Yahoo Finance 上的实时表现和价格波动。"
+      ],
+      "one_sentence_summary": "该股票因在 Yahoo Finance 上被标记为热门股票（trending stocks）而受到关注，其最新数据显示股价下跌 16.01%。",
+      "qwen_generated": true
+    },
+    "38": {
+      "bearish": [
+        "当日股价下跌 4.65 美元，跌幅达 13.02%。"
+      ],
+      "bullish": [],
+      "caveats": [
+        "分析仅基于提供的有限证据，未包含其他市场数据或背景信息。"
+      ],
+      "cluster_label": "YSS York Space Systems",
+      "common_drivers": [
+        "Yahoo Finance 平台上的热门股票趋势",
+        "公司名称中的 York Space Systems 关键词",
+        "Yahoo Finance 作为信息来源"
+      ],
+      "confidence": 0.0,
+      "differences": {
+        "YSS": "作为单一股票代码，其讨论完全围绕其在 Yahoo Finance 上的热门状态及名称关联。"
+      },
+      "main_narratives": [
+        "YSS York Space Systems, Inc. 在 Yahoo Finance 平台上被归类为热门股票。"
+      ],
+      "one_sentence_summary": "该股票因在 Yahoo Finance 上被标记为热门股票（trending stocks）而受到关注，其名称与 York Space Systems 及 Yahoo Finance 等关键词紧密相关。",
+      "qwen_generated": true
+    },
+    "39": {
       "bearish": [
         "异常成交量有时可能暗示市场波动性或不确定性。",
         "缺乏其他背景信息，无法判断成交量增加的具体原因。"
@@ -2222,7 +2972,27 @@
       "one_sentence_summary": "SCNI 被讨论是因为其出现在 Finviz 的市场活跃股列表中，显示出成交量增加和异常活跃的特征。",
       "qwen_generated": true
     },
-    "31": {
+    "4": {
+      "bearish": [],
+      "bullish": [
+        "被 Yahoo Finance 列为 trending stocks 可能表明市场关注度提升。"
+      ],
+      "caveats": [
+        "仅基于提供的证据，无其他市场数据支持分析。"
+      ],
+      "cluster_label": "JOBY 股票趋势",
+      "common_drivers": [
+        "Yahoo Finance 平台上的趋势标签"
+      ],
+      "confidence": 0.0,
+      "differences": {},
+      "main_narratives": [
+        "JOBY 股票在 Yahoo Finance 上被标记为 trending stocks（热门股票）。"
+      ],
+      "one_sentence_summary": "JOBY 股票因在 Yahoo Finance 等金融平台上被列为热门股票而被讨论。",
+      "qwen_generated": true
+    },
+    "40": {
       "bearish": [],
       "bullish": [
         "被视为市场领涨股",
@@ -2249,7 +3019,7 @@
       "one_sentence_summary": "ATOM 被归类为市场活跃股，主要因其交易量显著增加而受到关注。",
       "qwen_generated": true
     },
-    "32": {
+    "41": {
       "bearish": [],
       "bullish": [
         "被归类为获利股（gainers）。"
@@ -2276,7 +3046,7 @@
       "one_sentence_summary": "股票 ELPW 被归类为市场活跃股，主要因其出现于 Finviz 市场异动榜单，显示出非寻常的交易量增长。",
       "qwen_generated": true
     },
-    "4": {
+    "5": {
       "bearish": [
         "无。"
       ],
@@ -2300,7 +3070,7 @@
       "one_sentence_summary": "该股票集群仅包含 CVX，其被讨论的原因主要源于 Yahoo Finance 将其标记为 trending stocks（热门股票）。",
       "qwen_generated": true
     },
-    "5": {
+    "6": {
       "bearish": [
         "无。"
       ],
@@ -2326,7 +3096,7 @@
       "one_sentence_summary": "该股票集群仅包含 AXTI 一只股票，讨论内容主要围绕其在 Yahoo Finance 平台上的出现及作为热门股票的趋势。",
       "qwen_generated": true
     },
-    "6": {
+    "7": {
       "bearish": [
         "无明确负面信息。"
       ],
@@ -2351,7 +3121,7 @@
       "one_sentence_summary": "ETN 股票因在 Yahoo Finance 等金融平台上被标记为热门股票而受到讨论。",
       "qwen_generated": true
     },
-    "7": {
+    "8": {
       "bearish": [],
       "bullish": [
         "被 Yahoo Finance 标记为 trending stocks 可能暗示短期关注度提升。"
@@ -2371,7 +3141,7 @@
       "one_sentence_summary": "该股票集群仅包含耐克（NKE），其被讨论的原因主要源于 Yahoo Finance 将其标记为热门股票（trending stocks）。",
       "qwen_generated": true
     },
-    "8": {
+    "9": {
       "bearish": [
         "无明确负面信息。"
       ],
@@ -2395,34 +3165,9 @@
       ],
       "one_sentence_summary": "该股票因在 Yahoo Finance 等金融平台上被标记为热门股票而受到讨论。",
       "qwen_generated": true
-    },
-    "9": {
-      "bearish": [
-        "无。"
-      ],
-      "bullish": [
-        "被 Yahoo Finance 标记为 trending stocks 可能暗示短期市场关注度提升。"
-      ],
-      "caveats": [
-        "证据仅包含单一来源的标题和摘要，缺乏具体的财务数据、新闻事件或分析师观点作为支撑，因此无法推断具体的市场驱动因素或价格逻辑。"
-      ],
-      "cluster_label": "LUNR 单一股票讨论",
-      "common_drivers": [
-        "Yahoo Finance 平台的热度标签",
-        "市场趋势关注度"
-      ],
-      "confidence": 0.0,
-      "differences": {
-        "LUNR": "作为集群中唯一的股票，不存在与其他股票的对比差异。"
-      },
-      "main_narratives": [
-        "LUNR 被标记为 Yahoo Finance 上的 trending stocks（热门股票）。"
-      ],
-      "one_sentence_summary": "该股票集群仅包含 LUNR 一只股票，讨论内容主要围绕其在 Yahoo Finance 平台上的 trending stocks（热门股票）标签及市场关注度展开。",
-      "qwen_generated": true
     }
   },
-  "report_markdown": "# 热度股票与市场叙事报告\n\n> 本报告只基于公开网页抓取内容做信息整理和市场叙事归纳，不构成投资建议、交易建议或价格预测。\n\n## 1. 热度股票 Top 50\n\n| Rank | Ticker | Heat | Mentions | Sources | Related |\n|---:|---|---:|---:|---|---|\n| 1 | LMT | 0.735 | 1 | yahoo_finance |  |\n| 2 | DJT | 0.735 | 1 | yahoo_finance |  |\n| 3 | JOBY | 0.735 | 1 | yahoo_finance |  |\n| 4 | CVX | 0.735 | 1 | yahoo_finance |  |\n| 5 | AXTI | 0.735 | 1 | yahoo_finance |  |\n| 6 | ETN | 0.735 | 1 | yahoo_finance |  |\n| 7 | NKE | 0.735 | 1 | yahoo_finance |  |\n| 8 | CCJ | 0.735 | 1 | yahoo_finance |  |\n| 9 | LUNR | 0.735 | 1 | yahoo_finance |  |\n| 10 | KO | 0.735 | 1 | yahoo_finance |  |\n| 11 | XOM | 0.735 | 1 | yahoo_finance |  |\n| 12 | LITE | 0.735 | 1 | yahoo_finance |  |\n| 13 | TER | 0.735 | 1 | yahoo_finance |  |\n| 14 | ASML | 0.735 | 1 | yahoo_finance |  |\n| 15 | BRK-B | 0.735 | 1 | yahoo_finance |  |\n| 16 | COHR | 0.735 | 1 | yahoo_finance |  |\n| 17 | VST | 0.735 | 1 | yahoo_finance |  |\n| 18 | UBER | 0.735 | 1 | yahoo_finance |  |\n| 19 | TEM | 0.735 | 1 | yahoo_finance |  |\n| 20 | UNH | 0.735 | 1 | yahoo_finance |  |\n| 21 | BA | 0.735 | 1 | yahoo_finance |  |\n| 22 | V | 0.735 | 1 | yahoo_finance |  |\n| 23 | JNJ | 0.735 | 1 | yahoo_finance |  |\n| 24 | NIO | 0.735 | 1 | yahoo_finance |  |\n| 25 | PYPL | 0.735 | 1 | yahoo_finance |  |\n| 26 | SPY | 0.735 | 1 | yahoo_finance |  |\n| 27 | NVDA | 0.735 | 1 | yahoo_finance |  |\n| 28 | TSLA | 0.735 | 1 | yahoo_finance |  |\n| 29 | MXL | 0.728 | 1 | finviz |  |\n| 30 | SCNI | 0.728 | 1 | finviz |  |\n| 31 | ATOM | 0.728 | 1 | finviz |  |\n| 32 | ELPW | 0.728 | 1 | finviz |  |\n\n## 2. 热门叙事\n\n### Cluster 1: LMT\n\n- 标签：LMT\n- 一句话：该股票集群仅包含 LMT，其被讨论的原因是基于 Yahoo Finance 平台上的 trending stocks 标签及搜索趋势。\n- 置信度：0.0\n\n主叙事：\n- LMT 在 Yahoo Finance 上被标记为 trending stocks。\n\n共同驱动：\n- Yahoo Finance 平台上的搜索趋势和关注度。\n\n多头逻辑：\n\n空头逻辑：\n\n关键词：\nlmt, yahoo finance, yahoo, trending stocks, stocks, trending, lmt yahoo, lmt lmt, finance trending, finance\n\n### Cluster 2: DJT\n\n- 标签：DJT 趋势股票\n- 一句话：DJT 被归类为趋势股票，主要因其在 Yahoo Finance 等金融平台上的高关注度而被讨论。\n- 置信度：0.0\n\n主叙事：\n- DJT 作为趋势股票受到市场关注。\n\n共同驱动：\n- Yahoo Finance 上的趋势标签\n- 高提及率\n\n多头逻辑：\n- 被标记为趋势股票可能表明短期市场兴趣。\n\n空头逻辑：\n\n关键词：\ndjt, yahoo finance, yahoo, trending stocks, stocks, trending, finance trending, finance, djt yahoo, djt djt\n\n### Cluster 3: JOBY\n\n- 标签：JOBY 股票趋势\n- 一句话：JOBY 股票因在 Yahoo Finance 等金融平台上被列为热门股票而被讨论。\n- 置信度：0.0\n\n主叙事：\n- JOBY 股票在 Yahoo Finance 上被标记为 trending stocks（热门股票）。\n\n共同驱动：\n- Yahoo Finance 平台上的趋势标签\n\n多头逻辑：\n- 被 Yahoo Finance 列为 trending stocks 可能表明市场关注度提升。\n\n空头逻辑：\n\n关键词：\njoby, yahoo finance, yahoo, trending stocks, stocks, trending, joby yahoo, joby joby, finance trending, finance\n\n### Cluster 4: CVX\n\n- 标签：CVX\n- 一句话：该股票集群仅包含 CVX，其被讨论的原因主要源于 Yahoo Finance 将其标记为 trending stocks（热门股票）。\n- 置信度：0.0\n\n主叙事：\n- CVX 在 Yahoo Finance 平台上被归类为 trending stocks。\n\n共同驱动：\n- Yahoo Finance 的 trending stocks 标签。\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示短期关注度提升。\n\n空头逻辑：\n- 无。\n\n关键词：\ncvx, yahoo finance, yahoo, trending stocks, stocks, trending, finance trending, finance, cvx yahoo, cvx cvx\n\n### Cluster 5: AXTI\n\n- 标签：AXTI 单一股票讨论\n- 一句话：该股票集群仅包含 AXTI 一只股票，讨论内容主要围绕其在 Yahoo Finance 平台上的出现及作为热门股票的趋势。\n- 置信度：0.0\n\n主叙事：\n- AXTI 被标记为 Yahoo Finance 上的热门股票。\n\n共同驱动：\n- Yahoo Finance 平台的数据收录\n- 市场趋势追踪（trending stocks）\n\n多头逻辑：\n- 被 Yahoo Finance 列为 trending stocks（热门股票）可能暗示短期关注度提升。\n\n空头逻辑：\n- 无。\n\n关键词：\naxti, yahoo finance, yahoo, trending stocks, stocks, trending, finance trending, finance, axti yahoo, axti axti\n\n### Cluster 6: ETN\n\n- 标签：ETN 股票趋势\n- 一句话：ETN 股票因在 Yahoo Finance 等金融平台上被标记为热门股票而受到讨论。\n- 置信度：0.0\n\n主叙事：\n- ETN 被 Yahoo Finance 列为 trending stocks（热门股票）。\n\n共同驱动：\n- Yahoo Finance 平台上的趋势标签\n- 市场关注度提升\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示短期关注度增加。\n\n空头逻辑：\n- 无明确负面信息。\n\n关键词：\netn, yahoo finance, yahoo, trending stocks, stocks, trending, finance trending, finance, etn yahoo, etn etn\n\n### Cluster 7: NKE\n\n- 标签：NKE\n- 一句话：该股票集群仅包含耐克（NKE），其被讨论的原因主要源于 Yahoo Finance 将其标记为热门股票（trending stocks）。\n- 置信度：0.0\n\n主叙事：\n- NKE 在 Yahoo Finance 平台上被归类为 trending stocks。\n\n共同驱动：\n- Yahoo Finance 的 trending stocks 标签。\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示短期关注度提升。\n\n空头逻辑：\n\n关键词：\nnke, yahoo finance, yahoo, trending stocks, stocks, trending, nke yahoo, nke nke, finance trending, finance\n\n### Cluster 8: CCJ\n\n- 标签：CCJ 股票趋势\n- 一句话：该股票因在 Yahoo Finance 等金融平台上被标记为热门股票而受到讨论。\n- 置信度：0.0\n\n主叙事：\n- CCJ 被 Yahoo Finance 列为 trending stocks（热门股票）。\n\n共同驱动：\n- Yahoo Finance 平台上的趋势标签\n- 市场关注度提升\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示短期关注度增加。\n\n空头逻辑：\n- 无明确负面信息。\n\n关键词：\nccj, yahoo finance, yahoo, trending stocks, stocks, trending, finance trending, finance, ccj yahoo, ccj ccj\n\n### Cluster 9: LUNR\n\n- 标签：LUNR 单一股票讨论\n- 一句话：该股票集群仅包含 LUNR 一只股票，讨论内容主要围绕其在 Yahoo Finance 平台上的 trending stocks（热门股票）标签及市场关注度展开。\n- 置信度：0.0\n\n主叙事：\n- LUNR 被标记为 Yahoo Finance 上的 trending stocks（热门股票）。\n\n共同驱动：\n- Yahoo Finance 平台的热度标签\n- 市场趋势关注度\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示短期市场关注度提升。\n\n空头逻辑：\n- 无。\n\n关键词：\nlunr, yahoo finance, yahoo, trending stocks, stocks, trending, lunr yahoo, lunr lunr, finance trending, finance\n\n### Cluster 10: KO\n\n- 标签：KO\n- 一句话：该股票集群仅包含可口可乐（KO），其被讨论的原因是基于 Yahoo Finance 平台上的趋势数据，显示该股票在金融趋势中受到关注。\n- 置信度：0.0\n\n主叙事：\n- KO 在 Yahoo Finance 上被列为趋势股票。\n\n共同驱动：\n- Yahoo Finance 的趋势追踪机制。\n\n多头逻辑：\n\n空头逻辑：\n\n关键词：\nko, yahoo finance, yahoo, trending stocks, stocks, trending, ko yahoo, ko ko, finance trending, finance\n\n### Cluster 11: XOM\n\n- 标签：XOM\n- 一句话：该股票集群仅包含 XOM，其被讨论的原因是基于 Yahoo Finance 平台上的趋势标签和引用，表明其作为热门股票受到关注。\n- 置信度：0.0\n\n主叙事：\n- XOM 在 Yahoo Finance 上被标记为趋势性股票。\n\n共同驱动：\n- Yahoo Finance 的趋势标签\n- 市场关注度\n\n多头逻辑：\n- 被 Yahoo Finance 列为趋势股票\n\n空头逻辑：\n\n关键词：\nxom, yahoo finance, yahoo, xom yahoo, xom xom, trending stocks, trending, stocks, finance trending, finance\n\n### Cluster 12: LITE\n\n- 标签：LITE 股票在 Yahoo Finance 上的趋势讨论\n- 一句话：该股票群仅包含 LITE，讨论主要围绕其在 Yahoo Finance 平台上的趋势状态及作为热门股票的关注度。\n- 置信度：0.0\n\n主叙事：\n- LITE 被标记为 Yahoo Finance 上的 trending stocks（趋势股票）。\n- 市场关注点集中在 LITE 在 Yahoo Finance 上的出现及其作为 trending 标签的语境。\n\n共同驱动：\n- Yahoo Finance 平台的数据收录\n- 市场趋势标签（trending stocks）的归类\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示短期关注度提升。\n\n空头逻辑：\n- 无明确的负面信息或看跌观点在提供的证据中出现。\n\n关键词：\nlite, yahoo finance, yahoo, trending stocks, stocks, trending, lite yahoo, lite lite, finance trending, finance\n\n### Cluster 13: TER\n\n- 标签：TER\n- 一句话：股票 TER 被讨论是因为其在 Yahoo Finance 平台上被列为趋势性股票。\n- 置信度：0.0\n\n主叙事：\n- TER 在 Yahoo Finance 上被标记为 trending stocks。\n\n共同驱动：\n- Yahoo Finance 的趋势追踪功能。\n\n多头逻辑：\n- 被 Yahoo Finance 列为 trending stocks 可能表明短期关注度较高。\n\n空头逻辑：\n- 无。\n\n关键词：\nter, yahoo finance, yahoo, trending stocks, ter yahoo, trending, ter ter, stocks, finance trending, finance\n\n### Cluster 14: ASML\n\n- 标签：ASML\n- 一句话：该股票集群仅包含 ASML，其被讨论的原因主要源于 Yahoo Finance 将其列为趋势性股票。\n- 置信度：0.0\n\n主叙事：\n- ASML 在 Yahoo Finance 平台上被标记为 trending stocks（趋势股票）。\n\n共同驱动：\n- Yahoo Finance 的趋势追踪机制\n- 市场关注度提升\n\n多头逻辑：\n- 被 Yahoo Finance 列为 trending stocks 可能暗示短期市场关注度较高。\n\n空头逻辑：\n\n关键词：\nasml, yahoo finance, yahoo, trending stocks, stocks, trending, finance trending, finance, asml yahoo, asml asml\n\n### Cluster 15: BRK-B\n\n- 标签：BRK-B\n- 一句话：该股票因在 Yahoo Finance 等金融平台上被列为热门股票而被讨论。\n- 置信度：0.0\n\n主叙事：\n- BRK-B 作为 Berkshire Hathaway Class B 股票，在 Yahoo Finance 上被标记为 trending stocks（热门股票）。\n\n共同驱动：\n- Yahoo Finance 平台上的 trending stocks 标签\n- 市场关注度提升\n\n多头逻辑：\n- 被 Yahoo Finance 列为 trending stocks 可能暗示短期关注度较高。\n\n空头逻辑：\n\n关键词：\nbrk-b, yahoo finance, yahoo, trending stocks, stocks, trending, finance trending, finance, brk-b yahoo, brk-b brk-b\n\n### Cluster 16: COHR\n\n- 标签：COHR 单一股票讨论\n- 一句话：该股票集群仅包含 COHR 一只股票，讨论内容主要围绕其在 Yahoo Finance 平台上的 trending stocks 标签及基本信息展示。\n- 置信度：0.0\n\n主叙事：\n- COHR 被标记为 Yahoo Finance 上的 trending stocks。\n\n共同驱动：\n- Yahoo Finance 平台的数据收录与趋势标签机制。\n\n多头逻辑：\n\n空头逻辑：\n\n关键词：\ncohr, yahoo finance, yahoo, trending stocks, stocks, trending, finance trending, finance, cohr yahoo, cohr cohr\n\n### Cluster 17: VST\n\n- 标签：VST 股票趋势\n- 一句话：该股票集群仅包含 VST 一只股票，其被讨论的原因主要源于 Yahoo Finance 平台上的趋势标签和搜索热度。\n- 置信度：0.0\n\n主叙事：\n- VST 在 Yahoo Finance 上被标记为 trending stocks（热门股票）。\n- 用户搜索行为集中在'vst yahoo'和'vst vst'等关键词上，表明对该特定股票代码的关注。\n\n共同驱动：\n- Yahoo Finance 平台上的趋势算法或用户关注度提升。\n- 金融资讯平台（Yahoo Finance）的流量分发机制。\n\n多头逻辑：\n- 被标记为 trending stocks 可能暗示短期关注度上升。\n\n空头逻辑：\n- 无。\n\n关键词：\nvst, yahoo finance, yahoo, vst yahoo, vst vst, trending stocks, trending, stocks, finance trending, finance\n\n### Cluster 18: UBER\n\n- 标签：Uber 股票趋势\n- 一句话：UBER 股票因在 Yahoo Finance 等金融平台上被列为热门股票而被讨论。\n- 置信度：0.0\n\n主叙事：\n- UBER 作为热门股票出现在 Yahoo Finance 上。\n\n共同驱动：\n- 市场关注度\n- Yahoo Finance 平台上的趋势标签\n\n多头逻辑：\n- 被标记为 trending stocks（热门股票）\n\n空头逻辑：\n\n关键词：\nuber, yahoo finance, yahoo, uber yahoo, uber uber, trending stocks, trending, stocks, finance trending, finance\n\n### Cluster 19: TEM\n\n- 标签：TEM 股票趋势\n- 一句话：该股票群仅包含 TEM 一只股票，其被讨论的原因主要源于 Yahoo Finance 将其标记为热门股票。\n- 置信度：0.0\n\n主叙事：\n- Yahoo Finance 将 TEM 列为 trending stocks（热门股票）。\n\n共同驱动：\n- Yahoo Finance 平台上的趋势标签。\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示短期关注度提升。\n\n空头逻辑：\n- 无。\n\n关键词：\ntem, yahoo finance, yahoo, trending stocks, tem yahoo, trending, tem tem, stocks, finance trending, finance\n\n### Cluster 20: UNH\n\n- 标签：UNH 在 Yahoo Finance 上的趋势讨论\n- 一句话：该股票集群仅包含 UNH，其被讨论的原因是基于 Yahoo Finance 平台上的趋势标签和搜索活动。\n- 置信度：0.0\n\n主叙事：\n- UNH 在 Yahoo Finance 上被标记为趋势股票。\n\n共同驱动：\n- Yahoo Finance 平台上的用户搜索和浏览行为。\n\n多头逻辑：\n- 被 Yahoo Finance 标记为趋势股票可能表明短期关注度提升。\n\n空头逻辑：\n- 缺乏具体的基本面数据或新闻事件支持，仅基于平台标签。\n\n关键词：\nunh, yahoo finance, yahoo, unh yahoo, unh unh, trending stocks, trending, stocks, finance trending, finance\n\n### Cluster 21: BA\n\n- 标签：BA\n- 一句话：股票 BA 因在 Yahoo Finance 等金融平台上被标记为热门股票而受到讨论。\n- 置信度：0.0\n\n主叙事：\n- BA 被 Yahoo Finance 列为 trending stocks（热门股票）。\n\n共同驱动：\n- Yahoo Finance 平台上的 trending 标签。\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示市场关注度较高。\n\n空头逻辑：\n\n关键词：\nba, yahoo finance, yahoo, trending stocks, stocks, trending, finance trending, finance, ba yahoo, ba ba\n\n### Cluster 22: V\n\n- 标签：V\n- 一句话：股票 V 被讨论是因为其在 Yahoo Finance 平台上被列为 trending stocks（热门股票）。\n- 置信度：0.0\n\n主叙事：\n- V 出现在 Yahoo Finance 的 trending stocks 列表中。\n\n共同驱动：\n- Yahoo Finance 将其标记为 trending stocks。\n\n多头逻辑：\n- 被 Yahoo Finance 列为 trending stocks 可能暗示短期关注度提升。\n\n空头逻辑：\n- 无明确看跌信息。\n\n关键词：\nyahoo finance, yahoo, trending stocks, trending, stocks, finance trending, finance\n\n### Cluster 23: JNJ\n\n- 标签：JNJ 在 Yahoo Finance 上的趋势\n- 一句话：该股票群仅包含 JNJ，讨论主要源于其在 Yahoo Finance 平台上的趋势状态。\n- 置信度：0.0\n\n主叙事：\n- JNJ 在 Yahoo Finance 上被列为趋势股票。\n\n共同驱动：\n- Yahoo Finance 的趋势算法或用户关注度。\n\n多头逻辑：\n\n空头逻辑：\n\n关键词：\njnj, yahoo finance, yahoo, trending stocks, stocks, trending, jnj yahoo, jnj jnj, finance trending, finance\n\n### Cluster 24: NIO\n\n- 标签：NIO\n- 一句话：该股票群仅包含 NIO，其被讨论的原因是基于 Yahoo Finance 平台上的趋势数据，表明该股票当前处于热门关注状态。\n- 置信度：0.0\n\n主叙事：\n- NIO 在 Yahoo Finance 上被列为 trending stocks（热门股票）。\n\n共同驱动：\n- Yahoo Finance 的趋势追踪机制\n- 市场关注度提升\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示短期市场兴趣增加。\n\n空头逻辑：\n\n关键词：\nnio, yahoo finance, yahoo, trending stocks, stocks, trending, nio yahoo, nio nio, finance trending, finance\n\n### Cluster 25: PYPL\n\n- 标签：PYPL 在 Yahoo Finance 上的趋势讨论\n- 一句话：该股票群仅包含 PYPL，讨论主要源于其在 Yahoo Finance 平台上的趋势状态及相关的金融话题。\n- 置信度：0.0\n\n主叙事：\n- PYPL 作为单一标的出现在 Yahoo Finance 的趋势股票列表中。\n\n共同驱动：\n- Yahoo Finance 平台的数据收录与趋势标记\n- 市场对该股票的关注度提升\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示短期关注度较高。\n\n空头逻辑：\n- 无。\n\n关键词：\npypl, yahoo finance, yahoo, trending stocks, stocks, trending, pypl yahoo, pypl pypl, finance trending, finance\n\n### Cluster 26: SPY\n\n- 标签：S&P 500 ETF (SPY)\n- 一句话：SPY 被讨论是因为它是追踪标普 500 指数的主要交易型开放式指数基金（ETF），在 Yahoo Finance 等平台上作为市场基准和热门股票被广泛提及。\n- 置信度：0.95\n\n主叙事：\n- SPY 作为标普 500 指数的代理工具，代表了美国大型上市公司的整体表现。\n- 投资者和媒体经常将 SPY 作为衡量大盘走势和进行趋势跟踪的参考标的。\n\n共同驱动：\n- 标普 500 指数的整体波动\n- 市场情绪变化\n- 宏观经济数据发布\n- 机构投资者的配置需求\n\n多头逻辑：\n- 市场上涨时 SPY 通常跟随指数上涨。\n\n空头逻辑：\n- 市场下跌时 SPY 通常跟随指数下跌。\n\n关键词：\nyahoo finance, yahoo, trending stocks, trending, stocks, spy yahoo, spy, finance trending, finance\n\n### Cluster 27: NVDA\n\n- 标签：Nvidia (NVDA)\n- 一句话：该股票集群仅包含 Nvidia (NVDA)，其被讨论的原因主要源于 Yahoo Finance 将其标记为热门股票或趋势性股票。\n- 置信度：0.0\n\n主叙事：\n- Nvidia 在 Yahoo Finance 平台上被归类为 trending stocks（热门股票）。\n\n共同驱动：\n- Yahoo Finance 的趋势追踪机制\n- 市场关注度提升\n\n多头逻辑：\n- 被 Yahoo Finance 列为 trending stocks 可能暗示短期市场关注度较高。\n\n空头逻辑：\n\n关键词：\nyahoo finance, yahoo, trending stocks, trending, stocks, nvidia nvda, nvidia, nvda yahoo, nvda, finance trending, finance\n\n### Cluster 28: TSLA\n\n- 标签：Tesla (TSLA)\n- 一句话：该股票群仅包含特斯拉 (TSLA)，其被讨论的主要原因是作为 Yahoo Finance 平台上的热门股票和趋势性标的。\n- 置信度：0.0\n\n主叙事：\n- Tesla (TSLA) 在 Yahoo Finance 上被列为趋势性股票。\n\n共同驱动：\n- Yahoo Finance 平台上的趋势追踪\n- 市场关注度提升\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks（趋势股票）。\n\n空头逻辑：\n\n关键词：\nyahoo finance, yahoo, tsla yahoo, tsla, trending stocks, trending, tesla tsla, tesla, stocks, finance trending, finance\n\n### Cluster 29: MXL\n\n- 标签：MXL\n- 一句话：MXL 被讨论是因为其在 Finviz 市场活跃股中显示出异常成交量和涨幅，属于当日活跃的交易标的。\n- 置信度：0.0\n\n主叙事：\n- MXL 出现在 Finviz 的市场活跃股列表中。\n- MXL 表现出异常成交量（unusual volume）。\n- MXL 是当日涨幅领先者之一（volume gainers）。\n- MXL 被归类为市场活跃股（market movers / gainers active）。\n\n共同驱动：\n- 异常成交量活动\n- 市场活跃度\n- 当日涨幅表现\n\n多头逻辑：\n- 成交量显著增加\n- 价格涨幅领先\n\n空头逻辑：\n\n关键词：\nvolume gainers, volume, unusual volume, unusual, mxl finviz, mxl, movers unusual, movers, market movers, market, gainers active, gainers, finviz market, finviz, active\n\n### Cluster 30: SCNI\n\n- 标签：SCNI\n- 一句话：SCNI 被讨论是因为其出现在 Finviz 的市场活跃股列表中，显示出成交量增加和异常活跃的特征。\n- 置信度：0.8\n\n主叙事：\n- SCNI 被归类为市场活跃股（market movers）。\n- SCNI 表现出成交量增加（volume gainers）和异常成交量（unusual volume）的特征。\n- SCNI 在 Finviz 平台上被标记为活跃股（active）和领涨股（gainers）。\n\n共同驱动：\n- 成交量显著增加\n- 市场关注度提升\n- Finviz 平台的数据标记\n\n多头逻辑：\n- 成交量增加可能表明市场对该股票的兴趣上升。\n- 被标记为活跃股和领涨股可能反映短期市场动能。\n\n空头逻辑：\n- 异常成交量有时可能暗示市场波动性或不确定性。\n- 缺乏其他背景信息，无法判断成交量增加的具体原因。\n\n关键词：\nvolume gainers, volume, unusual volume, unusual, scni finviz, scni, movers unusual, movers, market movers, market, gainers active, gainers, finviz market, finviz, active\n\n### Cluster 31: ATOM\n\n- 标签：ATOM\n- 一句话：ATOM 被归类为市场活跃股，主要因其交易量显著增加而受到关注。\n- 置信度：0.0\n\n主叙事：\n- ATOM 出现在 Finviz 的市场活跃股列表中。\n- 该股票被标记为具有异常交易量的领涨股。\n\n共同驱动：\n- 交易量激增\n- 市场活跃度\n- 异常交易行为\n\n多头逻辑：\n- 被视为市场领涨股\n- 交易量增加可能表明市场兴趣提升\n\n空头逻辑：\n\n关键词：\nvolume gainers, volume, unusual volume, unusual, movers unusual, movers, market movers, market, gainers active, gainers, finviz market, finviz, atom finviz, atom, active\n\n### Cluster 32: ELPW\n\n- 标签：ELPW\n- 一句话：股票 ELPW 被归类为市场活跃股，主要因其出现于 Finviz 市场异动榜单，显示出非寻常的交易量增长。\n- 置信度：0.0\n\n主叙事：\n- ELPW 被标记为市场异动股（market movers）。\n- 该股票表现出非寻常的交易量（unusual volume）。\n- ELPW 被归类为活跃获利股（gainers active）。\n\n共同驱动：\n- 交易量激增\n- 市场关注度提升\n- Finviz 平台的数据标记\n\n多头逻辑：\n- 被归类为获利股（gainers）。\n\n空头逻辑：\n\n关键词：\nvolume gainers, volume, unusual volume, unusual, movers unusual, movers, market movers, market, gainers active, gainers, finviz market, finviz, elpw finviz, elpw, active\n\n\n## 3. 股票组合与角色\n\n### Cluster 1\n- LMT: \n\n### Cluster 2\n- DJT: \n\n### Cluster 3\n- JOBY: \n\n### Cluster 4\n- CVX: 无其他股票可供比较差异。\n\n### Cluster 5\n- AXTI: 无其他股票进行对比，因此不存在差异。\n\n### Cluster 6\n- ETN: 无其他股票对比信息\n\n### Cluster 7\n- NKE: \n\n### Cluster 8\n- CCJ: 无其他股票对比信息\n\n### Cluster 9\n- LUNR: 作为集群中唯一的股票，不存在与其他股票的对比差异。\n\n### Cluster 10\n- KO: 无其他股票可供比较差异。\n\n### Cluster 11\n- XOM: \n\n### Cluster 12\n- LITE: 作为唯一被提及的 ticker，其讨论完全依赖于 Yahoo Finance 的趋势分类，无其他对比标的。\n\n### Cluster 13\n- TER: 无其他股票进行对比，因此无差异。\n\n### Cluster 14\n- ASML: 无其他股票进行对比，因此不存在差异。\n\n### Cluster 15\n- BRK-B: 无其他差异信息，仅作为单一标的被提及。\n\n### Cluster 16\n- COHR: 作为集群中唯一的股票，不存在与其他股票的对比差异。\n\n### Cluster 17\n- VST: 作为集群中唯一的股票，没有与其他股票的对比差异。\n\n### Cluster 18\n- UBER: 无其他股票进行对比，仅单独出现。\n\n### Cluster 19\n- TEM: 无其他股票可供比较差异。\n\n### Cluster 20\n- UNH: 作为唯一被提及的股票，其讨论完全局限于 Yahoo Finance 的趋势分类中，没有与其他股票进行对比或关联分析。\n\n### Cluster 21\n- BA: 无其他股票进行对比，仅基于单一股票信息。\n\n### Cluster 22\n- V: 无其他差异信息，仅基于单一股票和关键词提及。\n\n### Cluster 23\n- JNJ: 无其他股票可比较差异。\n\n### Cluster 24\n- NIO: \n\n### Cluster 25\n- PYPL: 无其他股票进行对比，因此不存在差异。\n\n### Cluster 26\n- SPY: 作为单一实体，其价格直接反映标普 500 指数的净值，是市场上流动性最高的宽基 ETF 之一。\n\n### Cluster 27\n- NVDA: \n\n### Cluster 28\n- TSLA: 作为唯一成员，无内部差异。\n\n### Cluster 29\n- MXL: 无其他股票对比信息，仅基于单一标的分析。\n\n### Cluster 30\n- SCNI: 无其他股票对比，仅基于单一股票的市场表现数据。\n\n### Cluster 31\n- ATOM: 作为单一标的，其被讨论的原因完全基于其自身交易量的异常增长和市场活跃度。\n\n### Cluster 32\n- ELPW: 作为单一标的，其讨论焦点完全集中在其自身的交易量异常和市场活跃度上，无其他标的进行对比。\n\n\n## 4. 共现关系\n\n| Ticker A | Ticker B | Weight | Count | Sources |\n|---|---|---:|---:|---|\n\n## 5. 证据来源\n\n- [MXL appears in Finviz market movers](https://finviz.com/quote.ashx?t=MXL&ty=c&p=d&b=1) (finviz; MXL)\n- [SCNI appears in Finviz market movers](https://finviz.com/quote.ashx?t=SCNI&ty=c&p=d&b=1) (finviz; SCNI)\n- [ATOM appears in Finviz market movers](https://finviz.com/quote.ashx?t=ATOM&ty=c&p=d&b=1) (finviz; ATOM)\n- [ELPW appears in Finviz market movers](https://finviz.com/quote.ashx?t=ELPW&ty=c&p=d&b=1) (finviz; ELPW)\n- [LMT](https://finance.yahoo.com/quote/LMT/) (yahoo_finance; LMT)\n- [DJT](https://finance.yahoo.com/quote/DJT/) (yahoo_finance; DJT)\n- [JOBY](https://finance.yahoo.com/quote/JOBY/) (yahoo_finance; JOBY)\n- [CVX](https://finance.yahoo.com/quote/CVX/) (yahoo_finance; CVX)\n- [AXTI](https://finance.yahoo.com/quote/AXTI/) (yahoo_finance; AXTI)\n- [ETN](https://finance.yahoo.com/quote/ETN/) (yahoo_finance; ETN)\n- [NKE](https://finance.yahoo.com/quote/NKE/) (yahoo_finance; NKE)\n- [CCJ](https://finance.yahoo.com/quote/CCJ/) (yahoo_finance; CCJ)\n- [LUNR](https://finance.yahoo.com/quote/LUNR/) (yahoo_finance; LUNR)\n- [KO](https://finance.yahoo.com/quote/KO/) (yahoo_finance; KO)\n- [XOM](https://finance.yahoo.com/quote/XOM/) (yahoo_finance; XOM)\n- [LITE](https://finance.yahoo.com/quote/LITE/) (yahoo_finance; LITE)\n- [TER](https://finance.yahoo.com/quote/TER/) (yahoo_finance; TER)\n- [ASML](https://finance.yahoo.com/quote/ASML/) (yahoo_finance; ASML)\n- [BRK-B](https://finance.yahoo.com/quote/BRK-B/) (yahoo_finance; BRK-B)\n- [COHR](https://finance.yahoo.com/quote/COHR/) (yahoo_finance; COHR)\n- [VST](https://finance.yahoo.com/quote/VST/) (yahoo_finance; VST)\n- [UBER](https://finance.yahoo.com/quote/UBER/) (yahoo_finance; UBER)\n- [TEM](https://finance.yahoo.com/quote/TEM/) (yahoo_finance; TEM)\n- [UNH](https://finance.yahoo.com/quote/UNH/) (yahoo_finance; UNH)\n- [BA](https://finance.yahoo.com/quote/BA/) (yahoo_finance; BA)\n- [V](https://finance.yahoo.com/quote/V/) (yahoo_finance; V)\n- [JNJ](https://finance.yahoo.com/quote/JNJ/) (yahoo_finance; JNJ)\n- [NIO](https://finance.yahoo.com/quote/NIO/) (yahoo_finance; NIO)\n- [PYPL](https://finance.yahoo.com/quote/PYPL/) (yahoo_finance; PYPL)\n- [S&P 500](https://finance.yahoo.com/quote/SPY/) (yahoo_finance; SPY)\n- [Nvidia](https://finance.yahoo.com/quote/NVDA/) (yahoo_finance; NVDA)\n- [Tesla](https://finance.yahoo.com/quote/TSLA/) (yahoo_finance; TSLA)\n\n## 6. 限制说明\n\n- 本报告只基于公开网页抓取内容做信息整理和市场叙事归纳，不构成投资建议、交易建议或价格预测。\n- 仅抓取 robots.txt 允许且无需登录、cookie、验证码、代理的公开页面。\n- X/Twitter 网页默认开启，但在不登录条件下经常不可抓；失败会跳过。\n- Google News RSS 和网页标题可能存在重复、延迟或来源重写。\n- Qwen 总结只允许基于 evidence；如果本地 Qwen 不可用，对应 cluster 会标记失败。\n\n### 本次运行 warning\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=stocks+moving+today+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=AI+stocks+rally+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=semiconductor+stocks+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=crypto+stocks+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=energy+stocks+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=earnings+stocks+today+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://x.com/search?q=stocks%20moving%20today&src=typed_query&f=live\n- robots.txt disallows fetch: https://old.reddit.com/search?q=stocks%20moving%20today&sort=new&t=week\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=LMT+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=LMT+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+LMT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+LMT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+LMT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+LMT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+LMT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=DJT+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=DJT+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+DJT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+DJT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+DJT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+DJT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+DJT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=JOBY+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=JOBY+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+JOBY+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+JOBY+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+JOBY+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+JOBY+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+JOBY+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=CVX+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=CVX+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+CVX+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+CVX+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+CVX+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+CVX+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+CVX+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=AXTI+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=AXTI+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+AXTI+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+AXTI+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+AXTI+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+AXTI+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+AXTI+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=ETN+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=ETN+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+ETN+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+ETN+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+ETN+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+ETN+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+ETN+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=NKE+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=NKE+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+NKE+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+NKE+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+NKE+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+NKE+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+NKE+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=CCJ+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=CCJ+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+CCJ+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+CCJ+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+CCJ+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+CCJ+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+CCJ+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=LUNR+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=LUNR+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+LUNR+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+LUNR+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+LUNR+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+LUNR+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+LUNR+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=KO+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=KO+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+KO+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+KO+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+KO+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+KO+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+KO+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=XOM+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=XOM+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en\n",
+  "report_markdown": "# 热度股票与市场叙事报告\n\n> 本报告只基于公开网页抓取内容做信息整理和市场叙事归纳，不构成投资建议、交易建议或价格预测。\n\n## 1. 热度股票 Top 50\n\n| Rank | Ticker | Heat | Mentions | Sources | Related |\n|---:|---|---:|---:|---|---|\n| 1 | MXL | 0.731 | 2 | finviz, yahoo_finance |  |\n| 2 | LMT | 0.485 | 1 | yahoo_finance |  |\n| 3 | DJT | 0.485 | 1 | yahoo_finance |  |\n| 4 | JOBY | 0.485 | 1 | yahoo_finance |  |\n| 5 | CVX | 0.485 | 1 | yahoo_finance |  |\n| 6 | AXTI | 0.485 | 1 | yahoo_finance |  |\n| 7 | ETN | 0.485 | 1 | yahoo_finance |  |\n| 8 | NKE | 0.485 | 1 | yahoo_finance |  |\n| 9 | CCJ | 0.485 | 1 | yahoo_finance |  |\n| 10 | LUNR | 0.485 | 1 | yahoo_finance |  |\n| 11 | KO | 0.485 | 1 | yahoo_finance |  |\n| 12 | XOM | 0.485 | 1 | yahoo_finance |  |\n| 13 | LITE | 0.485 | 1 | yahoo_finance |  |\n| 14 | TER | 0.485 | 1 | yahoo_finance |  |\n| 15 | ASML | 0.485 | 1 | yahoo_finance |  |\n| 16 | BRK-B | 0.485 | 1 | yahoo_finance |  |\n| 17 | COHR | 0.485 | 1 | yahoo_finance |  |\n| 18 | VST | 0.485 | 1 | yahoo_finance |  |\n| 19 | UBER | 0.485 | 1 | yahoo_finance |  |\n| 20 | TEM | 0.485 | 1 | yahoo_finance |  |\n| 21 | UNH | 0.485 | 1 | yahoo_finance |  |\n| 22 | BA | 0.485 | 1 | yahoo_finance |  |\n| 23 | V | 0.485 | 1 | yahoo_finance |  |\n| 24 | JNJ | 0.485 | 1 | yahoo_finance |  |\n| 25 | NIO | 0.485 | 1 | yahoo_finance |  |\n| 26 | PYPL | 0.485 | 1 | yahoo_finance |  |\n| 27 | SPY | 0.485 | 1 | yahoo_finance |  |\n| 28 | NVDA | 0.485 | 1 | yahoo_finance |  |\n| 29 | TSLA | 0.485 | 1 | yahoo_finance |  |\n| 30 | OGN | 0.485 | 1 | yahoo_finance |  |\n| 31 | POET | 0.485 | 1 | yahoo_finance |  |\n| 32 | SXT | 0.485 | 1 | yahoo_finance |  |\n| 33 | INTC | 0.485 | 1 | yahoo_finance |  |\n| 34 | LBRDA | 0.485 | 1 | yahoo_finance |  |\n| 35 | LBRDK | 0.485 | 1 | yahoo_finance |  |\n| 36 | CHTR | 0.485 | 1 | yahoo_finance |  |\n| 37 | STNE | 0.485 | 1 | yahoo_finance |  |\n| 38 | YSS | 0.485 | 1 | yahoo_finance |  |\n| 39 | SCNI | 0.478 | 1 | finviz |  |\n| 40 | ATOM | 0.478 | 1 | finviz |  |\n| 41 | ELPW | 0.478 | 1 | finviz |  |\n\n## 2. 热门叙事\n\n### Cluster 1: MXL\n\n- 标签：MaxLinear (MXL) 异常波动\n- 一句话：股票 MXL (MaxLinear, Inc.) 因出现显著的成交量增加和价格大幅上涨（约 76.12%），被 Yahoo Finance 和 Finviz 等市场数据源标记为热门股票和市场活跃股。\n- 置信度：0.0\n\n主叙事：\n- MXL 被归类为市场活跃股（Market Movers）和异常成交量股（Unusual Volume）。\n- MXL 在 Yahoo Finance 上被列为趋势性股票（Trending Stocks）。\n- MXL 在 Finviz 上显示为价格增益者（Gainers）和活跃股（Active）。\n\n共同驱动：\n- 异常高的交易量（Unusual Volume）。\n- 显著的价格涨幅（Price Gain）。\n- 市场关注度提升（Trending/Active status）。\n\n多头逻辑：\n- 价格单日上涨超过 76%。\n- 被多个平台标记为市场活跃股和增益者。\n- 出现异常成交量，通常暗示有重大市场兴趣或事件驱动。\n\n空头逻辑：\n\n关键词：\nmxl, yahoo finance, mxl yahoo, stocks, trending, trending stocks, maxlinear mxl, maxlinear, mxl maxlinear, yahoo, finance trending, finance, unusual volume, unusual, volume gainers, volume, movers unusual, mxl finviz, market movers, movers, market, gainers active, finviz market, gainers, finviz, active\n\n### Cluster 2: LMT\n\n- 标签：LMT\n- 一句话：该股票集群仅包含 LMT，其被讨论的原因是基于 Yahoo Finance 平台上的 trending stocks 标签及搜索趋势。\n- 置信度：0.0\n\n主叙事：\n- LMT 在 Yahoo Finance 上被标记为 trending stocks。\n\n共同驱动：\n- Yahoo Finance 平台上的搜索趋势和关注度。\n\n多头逻辑：\n\n空头逻辑：\n\n关键词：\nlmt, yahoo finance, yahoo, trending stocks, stocks, trending, lmt yahoo, lmt lmt, finance trending, finance\n\n### Cluster 3: DJT\n\n- 标签：DJT 趋势股票\n- 一句话：DJT 被归类为趋势股票，主要因其在 Yahoo Finance 等金融平台上的高关注度而被讨论。\n- 置信度：0.0\n\n主叙事：\n- DJT 作为趋势股票受到市场关注。\n\n共同驱动：\n- Yahoo Finance 上的趋势标签\n- 高提及率\n\n多头逻辑：\n- 被标记为趋势股票可能表明短期市场兴趣。\n\n空头逻辑：\n\n关键词：\ndjt, yahoo finance, yahoo, trending stocks, stocks, trending, finance trending, finance, djt yahoo, djt djt\n\n### Cluster 4: JOBY\n\n- 标签：JOBY 股票趋势\n- 一句话：JOBY 股票因在 Yahoo Finance 等金融平台上被列为热门股票而被讨论。\n- 置信度：0.0\n\n主叙事：\n- JOBY 股票在 Yahoo Finance 上被标记为 trending stocks（热门股票）。\n\n共同驱动：\n- Yahoo Finance 平台上的趋势标签\n\n多头逻辑：\n- 被 Yahoo Finance 列为 trending stocks 可能表明市场关注度提升。\n\n空头逻辑：\n\n关键词：\njoby, yahoo finance, yahoo, trending stocks, stocks, trending, joby yahoo, joby joby, finance trending, finance\n\n### Cluster 5: CVX\n\n- 标签：CVX\n- 一句话：该股票集群仅包含 CVX，其被讨论的原因主要源于 Yahoo Finance 将其标记为 trending stocks（热门股票）。\n- 置信度：0.0\n\n主叙事：\n- CVX 在 Yahoo Finance 平台上被归类为 trending stocks。\n\n共同驱动：\n- Yahoo Finance 的 trending stocks 标签。\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示短期关注度提升。\n\n空头逻辑：\n- 无。\n\n关键词：\ncvx, yahoo finance, yahoo, trending stocks, stocks, trending, finance trending, finance, cvx yahoo, cvx cvx\n\n### Cluster 6: AXTI\n\n- 标签：AXTI 单一股票讨论\n- 一句话：该股票集群仅包含 AXTI 一只股票，讨论内容主要围绕其在 Yahoo Finance 平台上的出现及作为热门股票的趋势。\n- 置信度：0.0\n\n主叙事：\n- AXTI 被标记为 Yahoo Finance 上的热门股票。\n\n共同驱动：\n- Yahoo Finance 平台的数据收录\n- 市场趋势追踪（trending stocks）\n\n多头逻辑：\n- 被 Yahoo Finance 列为 trending stocks（热门股票）可能暗示短期关注度提升。\n\n空头逻辑：\n- 无。\n\n关键词：\naxti, yahoo finance, yahoo, trending stocks, stocks, trending, finance trending, finance, axti yahoo, axti axti\n\n### Cluster 7: ETN\n\n- 标签：ETN 股票趋势\n- 一句话：ETN 股票因在 Yahoo Finance 等金融平台上被标记为热门股票而受到讨论。\n- 置信度：0.0\n\n主叙事：\n- ETN 被 Yahoo Finance 列为 trending stocks（热门股票）。\n\n共同驱动：\n- Yahoo Finance 平台上的趋势标签\n- 市场关注度提升\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示短期关注度增加。\n\n空头逻辑：\n- 无明确负面信息。\n\n关键词：\netn, yahoo finance, yahoo, trending stocks, stocks, trending, finance trending, finance, etn yahoo, etn etn\n\n### Cluster 8: NKE\n\n- 标签：NKE\n- 一句话：该股票集群仅包含耐克（NKE），其被讨论的原因主要源于 Yahoo Finance 将其标记为热门股票（trending stocks）。\n- 置信度：0.0\n\n主叙事：\n- NKE 在 Yahoo Finance 平台上被归类为 trending stocks。\n\n共同驱动：\n- Yahoo Finance 的 trending stocks 标签。\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示短期关注度提升。\n\n空头逻辑：\n\n关键词：\nnke, yahoo finance, yahoo, trending stocks, stocks, trending, nke yahoo, nke nke, finance trending, finance\n\n### Cluster 9: CCJ\n\n- 标签：CCJ 股票趋势\n- 一句话：该股票因在 Yahoo Finance 等金融平台上被标记为热门股票而受到讨论。\n- 置信度：0.0\n\n主叙事：\n- CCJ 被 Yahoo Finance 列为 trending stocks（热门股票）。\n\n共同驱动：\n- Yahoo Finance 平台上的趋势标签\n- 市场关注度提升\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示短期关注度增加。\n\n空头逻辑：\n- 无明确负面信息。\n\n关键词：\nccj, yahoo finance, yahoo, trending stocks, stocks, trending, finance trending, finance, ccj yahoo, ccj ccj\n\n### Cluster 10: LUNR\n\n- 标签：LUNR 单一股票讨论\n- 一句话：该股票集群仅包含 LUNR 一只股票，讨论内容主要围绕其在 Yahoo Finance 平台上的 trending stocks（热门股票）标签及市场关注度展开。\n- 置信度：0.0\n\n主叙事：\n- LUNR 被标记为 Yahoo Finance 上的 trending stocks（热门股票）。\n\n共同驱动：\n- Yahoo Finance 平台的热度标签\n- 市场趋势关注度\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示短期市场关注度提升。\n\n空头逻辑：\n- 无。\n\n关键词：\nlunr, yahoo finance, yahoo, trending stocks, stocks, trending, lunr yahoo, lunr lunr, finance trending, finance\n\n### Cluster 11: KO\n\n- 标签：KO\n- 一句话：该股票集群仅包含可口可乐（KO），其被讨论的原因是基于 Yahoo Finance 平台上的趋势数据，显示该股票在金融趋势中受到关注。\n- 置信度：0.0\n\n主叙事：\n- KO 在 Yahoo Finance 上被列为趋势股票。\n\n共同驱动：\n- Yahoo Finance 的趋势追踪机制。\n\n多头逻辑：\n\n空头逻辑：\n\n关键词：\nko, yahoo finance, yahoo, trending stocks, stocks, trending, ko yahoo, ko ko, finance trending, finance\n\n### Cluster 12: XOM\n\n- 标签：XOM\n- 一句话：该股票集群仅包含 XOM，其被讨论的原因是基于 Yahoo Finance 平台上的趋势标签和引用，表明其作为热门股票受到关注。\n- 置信度：0.0\n\n主叙事：\n- XOM 在 Yahoo Finance 上被标记为趋势性股票。\n\n共同驱动：\n- Yahoo Finance 的趋势标签\n- 市场关注度\n\n多头逻辑：\n- 被 Yahoo Finance 列为趋势股票\n\n空头逻辑：\n\n关键词：\nxom, yahoo finance, yahoo, xom yahoo, xom xom, trending stocks, trending, stocks, finance trending, finance\n\n### Cluster 13: LITE\n\n- 标签：LITE 股票在 Yahoo Finance 上的趋势讨论\n- 一句话：该股票群仅包含 LITE，讨论主要围绕其在 Yahoo Finance 平台上的趋势状态及作为热门股票的关注度。\n- 置信度：0.0\n\n主叙事：\n- LITE 被标记为 Yahoo Finance 上的 trending stocks（趋势股票）。\n- 市场关注点集中在 LITE 在 Yahoo Finance 上的出现及其作为 trending 标签的语境。\n\n共同驱动：\n- Yahoo Finance 平台的数据收录\n- 市场趋势标签（trending stocks）的归类\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示短期关注度提升。\n\n空头逻辑：\n- 无明确的负面信息或看跌观点在提供的证据中出现。\n\n关键词：\nlite, yahoo finance, yahoo, trending stocks, stocks, trending, lite yahoo, lite lite, finance trending, finance\n\n### Cluster 14: TER\n\n- 标签：TER\n- 一句话：股票 TER 被讨论是因为其在 Yahoo Finance 平台上被列为趋势性股票。\n- 置信度：0.0\n\n主叙事：\n- TER 在 Yahoo Finance 上被标记为 trending stocks。\n\n共同驱动：\n- Yahoo Finance 的趋势追踪功能。\n\n多头逻辑：\n- 被 Yahoo Finance 列为 trending stocks 可能表明短期关注度较高。\n\n空头逻辑：\n- 无。\n\n关键词：\nter, yahoo finance, yahoo, trending stocks, ter yahoo, trending, ter ter, stocks, finance trending, finance\n\n### Cluster 15: ASML\n\n- 标签：ASML\n- 一句话：该股票集群仅包含 ASML，其被讨论的原因主要源于 Yahoo Finance 将其列为趋势性股票。\n- 置信度：0.0\n\n主叙事：\n- ASML 在 Yahoo Finance 平台上被标记为 trending stocks（趋势股票）。\n\n共同驱动：\n- Yahoo Finance 的趋势追踪机制\n- 市场关注度提升\n\n多头逻辑：\n- 被 Yahoo Finance 列为 trending stocks 可能暗示短期市场关注度较高。\n\n空头逻辑：\n\n关键词：\nasml, yahoo finance, yahoo, trending stocks, stocks, trending, finance trending, finance, asml yahoo, asml asml\n\n### Cluster 16: BRK-B\n\n- 标签：BRK-B\n- 一句话：该股票因在 Yahoo Finance 等金融平台上被列为热门股票而被讨论。\n- 置信度：0.0\n\n主叙事：\n- BRK-B 作为 Berkshire Hathaway Class B 股票，在 Yahoo Finance 上被标记为 trending stocks（热门股票）。\n\n共同驱动：\n- Yahoo Finance 平台上的 trending stocks 标签\n- 市场关注度提升\n\n多头逻辑：\n- 被 Yahoo Finance 列为 trending stocks 可能暗示短期关注度较高。\n\n空头逻辑：\n\n关键词：\nbrk-b, yahoo finance, yahoo, trending stocks, stocks, trending, finance trending, finance, brk-b yahoo, brk-b brk-b\n\n### Cluster 17: COHR\n\n- 标签：COHR 单一股票讨论\n- 一句话：该股票集群仅包含 COHR 一只股票，讨论内容主要围绕其在 Yahoo Finance 平台上的 trending stocks 标签及基本信息展示。\n- 置信度：0.0\n\n主叙事：\n- COHR 被标记为 Yahoo Finance 上的 trending stocks。\n\n共同驱动：\n- Yahoo Finance 平台的数据收录与趋势标签机制。\n\n多头逻辑：\n\n空头逻辑：\n\n关键词：\ncohr, yahoo finance, yahoo, trending stocks, stocks, trending, finance trending, finance, cohr yahoo, cohr cohr\n\n### Cluster 18: VST\n\n- 标签：VST 股票趋势\n- 一句话：该股票集群仅包含 VST 一只股票，其被讨论的原因主要源于 Yahoo Finance 平台上的趋势标签和搜索热度。\n- 置信度：0.0\n\n主叙事：\n- VST 在 Yahoo Finance 上被标记为 trending stocks（热门股票）。\n- 用户搜索行为集中在'vst yahoo'和'vst vst'等关键词上，表明对该特定股票代码的关注。\n\n共同驱动：\n- Yahoo Finance 平台上的趋势算法或用户关注度提升。\n- 金融资讯平台（Yahoo Finance）的流量分发机制。\n\n多头逻辑：\n- 被标记为 trending stocks 可能暗示短期关注度上升。\n\n空头逻辑：\n- 无。\n\n关键词：\nvst, yahoo finance, yahoo, vst yahoo, vst vst, trending stocks, trending, stocks, finance trending, finance\n\n### Cluster 19: UBER\n\n- 标签：Uber 股票趋势\n- 一句话：UBER 股票因在 Yahoo Finance 等金融平台上被列为热门股票而被讨论。\n- 置信度：0.0\n\n主叙事：\n- UBER 作为热门股票出现在 Yahoo Finance 上。\n\n共同驱动：\n- 市场关注度\n- Yahoo Finance 平台上的趋势标签\n\n多头逻辑：\n- 被标记为 trending stocks（热门股票）\n\n空头逻辑：\n\n关键词：\nuber, yahoo finance, yahoo, uber yahoo, uber uber, trending stocks, trending, stocks, finance trending, finance\n\n### Cluster 20: TEM\n\n- 标签：TEM 股票趋势\n- 一句话：该股票群仅包含 TEM 一只股票，其被讨论的原因主要源于 Yahoo Finance 将其标记为热门股票。\n- 置信度：0.0\n\n主叙事：\n- Yahoo Finance 将 TEM 列为 trending stocks（热门股票）。\n\n共同驱动：\n- Yahoo Finance 平台上的趋势标签。\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示短期关注度提升。\n\n空头逻辑：\n- 无。\n\n关键词：\ntem, yahoo finance, yahoo, trending stocks, tem yahoo, trending, tem tem, stocks, finance trending, finance\n\n### Cluster 21: UNH\n\n- 标签：UNH 在 Yahoo Finance 上的趋势讨论\n- 一句话：该股票集群仅包含 UNH，其被讨论的原因是基于 Yahoo Finance 平台上的趋势标签和搜索活动。\n- 置信度：0.0\n\n主叙事：\n- UNH 在 Yahoo Finance 上被标记为趋势股票。\n\n共同驱动：\n- Yahoo Finance 平台上的用户搜索和浏览行为。\n\n多头逻辑：\n- 被 Yahoo Finance 标记为趋势股票可能表明短期关注度提升。\n\n空头逻辑：\n- 缺乏具体的基本面数据或新闻事件支持，仅基于平台标签。\n\n关键词：\nunh, yahoo finance, yahoo, unh yahoo, unh unh, trending stocks, trending, stocks, finance trending, finance\n\n### Cluster 22: BA\n\n- 标签：BA\n- 一句话：股票 BA 因在 Yahoo Finance 等金融平台上被标记为热门股票而受到讨论。\n- 置信度：0.0\n\n主叙事：\n- BA 被 Yahoo Finance 列为 trending stocks（热门股票）。\n\n共同驱动：\n- Yahoo Finance 平台上的 trending 标签。\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示市场关注度较高。\n\n空头逻辑：\n\n关键词：\nba, yahoo finance, yahoo, trending stocks, stocks, trending, finance trending, finance, ba yahoo, ba ba\n\n### Cluster 23: V\n\n- 标签：V\n- 一句话：股票 V 被讨论是因为其在 Yahoo Finance 平台上被列为 trending stocks（热门股票）。\n- 置信度：0.0\n\n主叙事：\n- V 出现在 Yahoo Finance 的 trending stocks 列表中。\n\n共同驱动：\n- Yahoo Finance 将其标记为 trending stocks。\n\n多头逻辑：\n- 被 Yahoo Finance 列为 trending stocks 可能暗示短期关注度提升。\n\n空头逻辑：\n- 无明确看跌信息。\n\n关键词：\nyahoo finance, yahoo, trending stocks, trending, stocks, finance trending, finance\n\n### Cluster 24: JNJ\n\n- 标签：JNJ 在 Yahoo Finance 上的趋势\n- 一句话：该股票群仅包含 JNJ，讨论主要源于其在 Yahoo Finance 平台上的趋势状态。\n- 置信度：0.0\n\n主叙事：\n- JNJ 在 Yahoo Finance 上被列为趋势股票。\n\n共同驱动：\n- Yahoo Finance 的趋势算法或用户关注度。\n\n多头逻辑：\n\n空头逻辑：\n\n关键词：\njnj, yahoo finance, yahoo, trending stocks, stocks, trending, jnj yahoo, jnj jnj, finance trending, finance\n\n### Cluster 25: NIO\n\n- 标签：NIO\n- 一句话：该股票群仅包含 NIO，其被讨论的原因是基于 Yahoo Finance 平台上的趋势数据，表明该股票当前处于热门关注状态。\n- 置信度：0.0\n\n主叙事：\n- NIO 在 Yahoo Finance 上被列为 trending stocks（热门股票）。\n\n共同驱动：\n- Yahoo Finance 的趋势追踪机制\n- 市场关注度提升\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示短期市场兴趣增加。\n\n空头逻辑：\n\n关键词：\nnio, yahoo finance, yahoo, trending stocks, stocks, trending, nio yahoo, nio nio, finance trending, finance\n\n### Cluster 26: PYPL\n\n- 标签：PYPL 在 Yahoo Finance 上的趋势讨论\n- 一句话：该股票群仅包含 PYPL，讨论主要源于其在 Yahoo Finance 平台上的趋势状态及相关的金融话题。\n- 置信度：0.0\n\n主叙事：\n- PYPL 作为单一标的出现在 Yahoo Finance 的趋势股票列表中。\n\n共同驱动：\n- Yahoo Finance 平台的数据收录与趋势标记\n- 市场对该股票的关注度提升\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks 可能暗示短期关注度较高。\n\n空头逻辑：\n- 无。\n\n关键词：\npypl, yahoo finance, yahoo, trending stocks, stocks, trending, pypl yahoo, pypl pypl, finance trending, finance\n\n### Cluster 27: SPY\n\n- 标签：S&P 500 ETF (SPY)\n- 一句话：SPY 被讨论是因为它是追踪标普 500 指数的主要交易型开放式指数基金（ETF），在 Yahoo Finance 等平台上作为市场基准和热门股票被广泛提及。\n- 置信度：0.95\n\n主叙事：\n- SPY 作为标普 500 指数的代理工具，代表了美国大型上市公司的整体表现。\n- 投资者和媒体经常将 SPY 作为衡量大盘走势和进行趋势跟踪的参考标的。\n\n共同驱动：\n- 标普 500 指数的整体波动\n- 市场情绪变化\n- 宏观经济数据发布\n- 机构投资者的配置需求\n\n多头逻辑：\n- 市场上涨时 SPY 通常跟随指数上涨。\n\n空头逻辑：\n- 市场下跌时 SPY 通常跟随指数下跌。\n\n关键词：\nyahoo finance, yahoo, trending stocks, trending, stocks, spy yahoo, spy, finance trending, finance\n\n### Cluster 28: NVDA\n\n- 标签：Nvidia (NVDA)\n- 一句话：该股票集群仅包含 Nvidia (NVDA)，其被讨论的原因主要源于 Yahoo Finance 将其标记为热门股票或趋势性股票。\n- 置信度：0.0\n\n主叙事：\n- Nvidia 在 Yahoo Finance 平台上被归类为 trending stocks（热门股票）。\n\n共同驱动：\n- Yahoo Finance 的趋势追踪机制\n- 市场关注度提升\n\n多头逻辑：\n- 被 Yahoo Finance 列为 trending stocks 可能暗示短期市场关注度较高。\n\n空头逻辑：\n\n关键词：\nyahoo finance, yahoo, trending stocks, trending, stocks, nvidia nvda, nvidia, nvda yahoo, nvda, finance trending, finance\n\n### Cluster 29: TSLA\n\n- 标签：Tesla (TSLA)\n- 一句话：该股票群仅包含特斯拉 (TSLA)，其被讨论的主要原因是作为 Yahoo Finance 平台上的热门股票和趋势性标的。\n- 置信度：0.0\n\n主叙事：\n- Tesla (TSLA) 在 Yahoo Finance 上被列为趋势性股票。\n\n共同驱动：\n- Yahoo Finance 平台上的趋势追踪\n- 市场关注度提升\n\n多头逻辑：\n- 被 Yahoo Finance 标记为 trending stocks（趋势股票）。\n\n空头逻辑：\n\n关键词：\nyahoo finance, yahoo, tsla yahoo, tsla, trending stocks, trending, tesla tsla, tesla, stocks, finance trending, finance\n\n### Cluster 30: OGN\n\n- 标签：Organon (OGN) 股价波动\n- 一句话：该股票被讨论是因为 Organon & Co. (OGN) 在特定日期出现了显著的股价上涨，并被 Yahoo Finance 标记为热门股票。\n- 置信度：0.0\n\n主叙事：\n- Organon & Co. (OGN) 的股价在 11 月 26 日大幅上涨 30.93%。\n- Yahoo Finance 将该股票列为 trending stocks（热门股票）。\n\n共同驱动：\n- 股价大幅上涨\n- 市场关注度提升（trending）\n\n多头逻辑：\n- 股价单日涨幅超过 30%。\n- 被 Yahoo Finance 标记为 trending stocks。\n\n空头逻辑：\n\n关键词：\nogn, yahoo finance, trending stocks, yahoo, trending, stocks, organon, organon ogn, ogn yahoo, ogn organon, finance trending, finance\n\n### Cluster 31: POET\n\n- 标签：POET Technologies Inc.\n- 一句话：股票 POET 因在 Yahoo Finance 上被标记为热门股票且股价大幅上涨（+28.84%）而受到讨论。\n- 置信度：0.0\n\n主叙事：\n- POET Technologies Inc. 被 Yahoo Finance 列为 trending stocks（热门股票）。\n- 该股票在 Yahoo Finance 上的价格显示为 15.10，当日涨幅为 +3.38，累计涨幅达 +28.84%。\n\n共同驱动：\n- Yahoo Finance 平台上的 trending stocks 标签\n- 显著的股价上涨（+28.84%）\n\n多头逻辑：\n- 股价当日大幅上涨 28.84%。\n- 被 Yahoo Finance 标记为 trending stocks。\n\n空头逻辑：\n\n关键词：\npoet, yahoo, trending stocks, trending, yahoo finance, technologies poet, technologies, poet yahoo, stocks, poet technologies, poet poet, finance trending, finance\n\n### Cluster 32: SXT\n\n- 标签：SXT Sensient Technologies Corporation\n- 一句话：该股票因在 Yahoo Finance 上显示股价大幅上涨（+24.11%）而被标记为热门股票并引发讨论。\n- 置信度：0.0\n\n主叙事：\n- SXT (Sensient Technologies Corporation) 在 Yahoo Finance 上被列为 trending stocks。\n\n共同驱动：\n- 股价显著上涨\n- Yahoo Finance 平台的热度标记\n\n多头逻辑：\n- 股价单日涨幅超过 24%\n\n空头逻辑：\n\n关键词：\nsxt, yahoo finance, trending stocks, yahoo, technologies corporation, technologies, sxt yahoo, trending, sxt sensient, stocks, sensient technologies, sensient, finance trending, finance, corporation sxt, corporation\n\n### Cluster 33: INTC\n\n- 标签：INTC Intel Corporation\n- 一句话：该股票被讨论是因为其在 Yahoo Finance 上显示股价大幅上涨 23.60%，并被标记为热门股票。\n- 置信度：0.0\n\n主叙事：\n- INTC 股价出现显著上涨。\n- 该股票在 Yahoo Finance 平台上被归类为 trending stocks。\n\n共同驱动：\n- 股价大幅波动\n- 平台热度标记\n\n多头逻辑：\n- 股价上涨 23.60%\n\n空头逻辑：\n\n关键词：\nintc, yahoo finance, trending stocks, trending, stocks, yahoo, intel corporation, intel, intc yahoo, intc intel, finance trending, finance, corporation intc, corporation\n\n### Cluster 34: LBRDA\n\n- 标签：Liberty Broadband Corporation (LBRDA)\n- 一句话：该股票因在 Yahoo Finance 上显示大幅下跌（-25.74%）而成为 trending stocks 讨论的焦点。\n- 置信度：0.0\n\n主叙事：\n- Liberty Broadband Corporation (LBRDA) 在 Yahoo Finance 平台上被标记为 trending stocks。\n- 市场关注点集中在 LBRDA 股价的显著波动上，具体表现为单日下跌 25.74%。\n- 讨论内容主要围绕该宽带公司的财务表现或市场情绪导致的剧烈价格变动。\n\n共同驱动：\n- Yahoo Finance 平台上的 trending stocks 标签。\n- 股价大幅下跌（-25.74%）引发的市场关注。\n- 投资者对 Liberty Broadband Corporation 当前状况的即时反应。\n\n多头逻辑：\n\n空头逻辑：\n- 股价单日下跌 25.74% 表明存在强烈的负面市场情绪或抛售压力。\n\n关键词：\nlbrda, yahoo finance, trending stocks, yahoo, stocks, liberty broadband, liberty, trending, lbrda yahoo, lbrda liberty, finance trending, finance, corporation lbrda, corporation, broadband corporation, broadband\n\n### Cluster 35: LBRDK\n\n- 标签：Liberty Broadband Corporation (LBRDK)\n- 一句话：该股票因在 Yahoo Finance 上显示大幅下跌（-25.73%）而成为 trending stocks 讨论的焦点。\n- 置信度：0.0\n\n主叙事：\n- Liberty Broadband Corporation (LBRDK) 在 Yahoo Finance 平台上被标记为 trending stocks。\n- 市场关注点集中在 LBRDK 股价的显著波动上，具体表现为单日下跌 25.73%。\n\n共同驱动：\n- Yahoo Finance 平台上的 trending stocks 标签。\n- 股价的大幅下跌事件（-25.73%）。\n- 投资者对 Liberty Broadband Corporation 的关注度提升。\n\n多头逻辑：\n\n空头逻辑：\n- 股价单日下跌 25.73%。\n\n关键词：\nlbrdk, yahoo finance, trending stocks, yahoo, stocks, liberty broadband, liberty, trending, lbrdk yahoo, lbrdk liberty, finance trending, finance, corporation lbrdk, corporation, broadband corporation, broadband\n\n### Cluster 36: CHTR\n\n- 标签：CHTR\n- 一句话：CHTR (Charter Communications, Inc.) 被讨论是因为其在 Yahoo Finance 上作为趋势股票出现，且价格显示为 180.13 美元，跌幅达 25.50%。\n- 置信度：0.0\n\n主叙事：\n- CHTR 在 Yahoo Finance 上被列为趋势股票。\n\n共同驱动：\n- Yahoo Finance 的趋势股票列表\n- 股价大幅下跌（-25.50%）\n\n多头逻辑：\n\n空头逻辑：\n- 股价下跌 25.50%\n\n关键词：\nchtr, yahoo finance, trending stocks, trending, stocks, yahoo, finance trending, finance, communications, communications chtr, chtr yahoo, chtr charter, charter communications, charter\n\n### Cluster 37: STNE\n\n- 标签：STNE StoneCo Ltd.\n- 一句话：该股票因在 Yahoo Finance 上被标记为热门股票（trending stocks）而受到关注，其最新数据显示股价下跌 16.01%。\n- 置信度：0.0\n\n主叙事：\n- STNE (StoneCo Ltd.) 在 Yahoo Finance 平台上被归类为 trending stocks（热门股票）。\n- 市场关注点集中在该股票在 Yahoo Finance 上的实时表现和价格波动。\n\n共同驱动：\n- Yahoo Finance 平台的热度标记\n- 股价显著下跌（-16.01%）\n\n多头逻辑：\n\n空头逻辑：\n- 股价当日下跌 16.01%\n\n关键词：\nstne, yahoo finance, trending stocks, yahoo, trending, stoneco stne, stocks, stoneco, stne yahoo, stne stoneco, finance trending, finance\n\n### Cluster 38: YSS\n\n- 标签：YSS York Space Systems\n- 一句话：该股票因在 Yahoo Finance 上被标记为热门股票（trending stocks）而受到关注，其名称与 York Space Systems 及 Yahoo Finance 等关键词紧密相关。\n- 置信度：0.0\n\n主叙事：\n- YSS York Space Systems, Inc. 在 Yahoo Finance 平台上被归类为热门股票。\n\n共同驱动：\n- Yahoo Finance 平台上的热门股票趋势\n- 公司名称中的 York Space Systems 关键词\n- Yahoo Finance 作为信息来源\n\n多头逻辑：\n\n空头逻辑：\n- 当日股价下跌 4.65 美元，跌幅达 13.02%。\n\n关键词：\nyss, yss york, yss yahoo, york space, york, yahoo finance, yahoo, trending stocks, trending, systems yss, systems, stocks, space systems, space, finance trending, finance\n\n### Cluster 39: SCNI\n\n- 标签：SCNI\n- 一句话：SCNI 被讨论是因为其出现在 Finviz 的市场活跃股列表中，显示出成交量增加和异常活跃的特征。\n- 置信度：0.8\n\n主叙事：\n- SCNI 被归类为市场活跃股（market movers）。\n- SCNI 表现出成交量增加（volume gainers）和异常成交量（unusual volume）的特征。\n- SCNI 在 Finviz 平台上被标记为活跃股（active）和领涨股（gainers）。\n\n共同驱动：\n- 成交量显著增加\n- 市场关注度提升\n- Finviz 平台的数据标记\n\n多头逻辑：\n- 成交量增加可能表明市场对该股票的兴趣上升。\n- 被标记为活跃股和领涨股可能反映短期市场动能。\n\n空头逻辑：\n- 异常成交量有时可能暗示市场波动性或不确定性。\n- 缺乏其他背景信息，无法判断成交量增加的具体原因。\n\n关键词：\nvolume gainers, volume, unusual volume, unusual, scni finviz, scni, movers unusual, movers, market movers, market, gainers active, gainers, finviz market, finviz, active\n\n### Cluster 40: ATOM\n\n- 标签：ATOM\n- 一句话：ATOM 被归类为市场活跃股，主要因其交易量显著增加而受到关注。\n- 置信度：0.0\n\n主叙事：\n- ATOM 出现在 Finviz 的市场活跃股列表中。\n- 该股票被标记为具有异常交易量的领涨股。\n\n共同驱动：\n- 交易量激增\n- 市场活跃度\n- 异常交易行为\n\n多头逻辑：\n- 被视为市场领涨股\n- 交易量增加可能表明市场兴趣提升\n\n空头逻辑：\n\n关键词：\nvolume gainers, volume, unusual volume, unusual, movers unusual, movers, market movers, market, gainers active, gainers, finviz market, finviz, atom finviz, atom, active\n\n### Cluster 41: ELPW\n\n- 标签：ELPW\n- 一句话：股票 ELPW 被归类为市场活跃股，主要因其出现于 Finviz 市场异动榜单，显示出非寻常的交易量增长。\n- 置信度：0.0\n\n主叙事：\n- ELPW 被标记为市场异动股（market movers）。\n- 该股票表现出非寻常的交易量（unusual volume）。\n- ELPW 被归类为活跃获利股（gainers active）。\n\n共同驱动：\n- 交易量激增\n- 市场关注度提升\n- Finviz 平台的数据标记\n\n多头逻辑：\n- 被归类为获利股（gainers）。\n\n空头逻辑：\n\n关键词：\nvolume gainers, volume, unusual volume, unusual, movers unusual, movers, market movers, market, gainers active, gainers, finviz market, finviz, elpw finviz, elpw, active\n\n\n## 3. 股票组合与角色\n\n### Cluster 1\n- MXL: 该股票同时出现在 Yahoo Finance 的趋势列表和 Finviz 的市场活跃股列表中，表明其在多个主流金融数据平台上均受到关注。\n\n### Cluster 2\n- LMT: \n\n### Cluster 3\n- DJT: \n\n### Cluster 4\n- JOBY: \n\n### Cluster 5\n- CVX: 无其他股票可供比较差异。\n\n### Cluster 6\n- AXTI: 无其他股票进行对比，因此不存在差异。\n\n### Cluster 7\n- ETN: 无其他股票对比信息\n\n### Cluster 8\n- NKE: \n\n### Cluster 9\n- CCJ: 无其他股票对比信息\n\n### Cluster 10\n- LUNR: 作为集群中唯一的股票，不存在与其他股票的对比差异。\n\n### Cluster 11\n- KO: 无其他股票可供比较差异。\n\n### Cluster 12\n- XOM: \n\n### Cluster 13\n- LITE: 作为唯一被提及的 ticker，其讨论完全依赖于 Yahoo Finance 的趋势分类，无其他对比标的。\n\n### Cluster 14\n- TER: 无其他股票进行对比，因此无差异。\n\n### Cluster 15\n- ASML: 无其他股票进行对比，因此不存在差异。\n\n### Cluster 16\n- BRK-B: 无其他差异信息，仅作为单一标的被提及。\n\n### Cluster 17\n- COHR: 作为集群中唯一的股票，不存在与其他股票的对比差异。\n\n### Cluster 18\n- VST: 作为集群中唯一的股票，没有与其他股票的对比差异。\n\n### Cluster 19\n- UBER: 无其他股票进行对比，仅单独出现。\n\n### Cluster 20\n- TEM: 无其他股票可供比较差异。\n\n### Cluster 21\n- UNH: 作为唯一被提及的股票，其讨论完全局限于 Yahoo Finance 的趋势分类中，没有与其他股票进行对比或关联分析。\n\n### Cluster 22\n- BA: 无其他股票进行对比，仅基于单一股票信息。\n\n### Cluster 23\n- V: 无其他差异信息，仅基于单一股票和关键词提及。\n\n### Cluster 24\n- JNJ: 无其他股票可比较差异。\n\n### Cluster 25\n- NIO: \n\n### Cluster 26\n- PYPL: 无其他股票进行对比，因此不存在差异。\n\n### Cluster 27\n- SPY: 作为单一实体，其价格直接反映标普 500 指数的净值，是市场上流动性最高的宽基 ETF 之一。\n\n### Cluster 28\n- NVDA: \n\n### Cluster 29\n- TSLA: 作为唯一成员，无内部差异。\n\n### Cluster 30\n- OGN: 作为唯一被提及的股票，其讨论焦点完全集中在其自身的股价表现和热门程度上。\n\n### Cluster 31\n- POET: 作为单一标的，其讨论焦点集中在 Yahoo Finance 上的热门状态及具体的当日价格表现。\n\n### Cluster 32\n- SXT: 无其他差异信息，仅基于单一股票数据。\n\n### Cluster 33\n- INTC: 无其他股票进行对比，仅涉及单一标的。\n\n### Cluster 34\n- LBRDA: 作为 Liberty Broadband Corporation 的唯一代表，其讨论完全基于其自身的股价表现和 Yahoo Finance 上的 trending 状态，无其他关联股票对比。\n\n### Cluster 35\n- LBRDK: 作为 Liberty Broadband Corporation 的股票代码，其讨论完全围绕该特定实体的股价表现和平台热度展开。\n\n### Cluster 36\n- CHTR: 无其他股票对比，仅涉及 CHTR 自身数据。\n\n### Cluster 37\n- STNE: 作为单一标的，其讨论完全围绕其在 Yahoo Finance 上的 trending 状态及当日具体跌幅展开，无其他对比标的。\n\n### Cluster 38\n- YSS: 作为单一股票代码，其讨论完全围绕其在 Yahoo Finance 上的热门状态及名称关联。\n\n### Cluster 39\n- SCNI: 无其他股票对比，仅基于单一股票的市场表现数据。\n\n### Cluster 40\n- ATOM: 作为单一标的，其被讨论的原因完全基于其自身交易量的异常增长和市场活跃度。\n\n### Cluster 41\n- ELPW: 作为单一标的，其讨论焦点完全集中在其自身的交易量异常和市场活跃度上，无其他标的进行对比。\n\n\n## 4. 共现关系\n\n| Ticker A | Ticker B | Weight | Count | Sources |\n|---|---|---:|---:|---|\n\n## 5. 证据来源\n\n- [MXL appears in Finviz market movers](https://finviz.com/quote.ashx?t=MXL&ty=c&p=d&b=1) (finviz; MXL)\n- [SCNI appears in Finviz market movers](https://finviz.com/quote.ashx?t=SCNI&ty=c&p=d&b=1) (finviz; SCNI)\n- [ATOM appears in Finviz market movers](https://finviz.com/quote.ashx?t=ATOM&ty=c&p=d&b=1) (finviz; ATOM)\n- [ELPW appears in Finviz market movers](https://finviz.com/quote.ashx?t=ELPW&ty=c&p=d&b=1) (finviz; ELPW)\n- [LMT](https://finance.yahoo.com/quote/LMT/) (yahoo_finance; LMT)\n- [DJT](https://finance.yahoo.com/quote/DJT/) (yahoo_finance; DJT)\n- [JOBY](https://finance.yahoo.com/quote/JOBY/) (yahoo_finance; JOBY)\n- [CVX](https://finance.yahoo.com/quote/CVX/) (yahoo_finance; CVX)\n- [AXTI](https://finance.yahoo.com/quote/AXTI/) (yahoo_finance; AXTI)\n- [ETN](https://finance.yahoo.com/quote/ETN/) (yahoo_finance; ETN)\n- [NKE](https://finance.yahoo.com/quote/NKE/) (yahoo_finance; NKE)\n- [CCJ](https://finance.yahoo.com/quote/CCJ/) (yahoo_finance; CCJ)\n- [LUNR](https://finance.yahoo.com/quote/LUNR/) (yahoo_finance; LUNR)\n- [KO](https://finance.yahoo.com/quote/KO/) (yahoo_finance; KO)\n- [XOM](https://finance.yahoo.com/quote/XOM/) (yahoo_finance; XOM)\n- [LITE](https://finance.yahoo.com/quote/LITE/) (yahoo_finance; LITE)\n- [TER](https://finance.yahoo.com/quote/TER/) (yahoo_finance; TER)\n- [ASML](https://finance.yahoo.com/quote/ASML/) (yahoo_finance; ASML)\n- [BRK-B](https://finance.yahoo.com/quote/BRK-B/) (yahoo_finance; BRK-B)\n- [COHR](https://finance.yahoo.com/quote/COHR/) (yahoo_finance; COHR)\n- [VST](https://finance.yahoo.com/quote/VST/) (yahoo_finance; VST)\n- [UBER](https://finance.yahoo.com/quote/UBER/) (yahoo_finance; UBER)\n- [TEM](https://finance.yahoo.com/quote/TEM/) (yahoo_finance; TEM)\n- [UNH](https://finance.yahoo.com/quote/UNH/) (yahoo_finance; UNH)\n- [BA](https://finance.yahoo.com/quote/BA/) (yahoo_finance; BA)\n- [V](https://finance.yahoo.com/quote/V/) (yahoo_finance; V)\n- [JNJ](https://finance.yahoo.com/quote/JNJ/) (yahoo_finance; JNJ)\n- [NIO](https://finance.yahoo.com/quote/NIO/) (yahoo_finance; NIO)\n- [PYPL](https://finance.yahoo.com/quote/PYPL/) (yahoo_finance; PYPL)\n- [S&P 500](https://finance.yahoo.com/quote/SPY/) (yahoo_finance; SPY)\n- [Nvidia](https://finance.yahoo.com/quote/NVDA/) (yahoo_finance; NVDA)\n- [Tesla](https://finance.yahoo.com/quote/TSLA/) (yahoo_finance; TSLA)\n- [MXL MaxLinear, Inc. 60.32 +26.07 (+76.12%)](https://finance.yahoo.com/quote/MXL/) (yahoo_finance; MXL)\n- [OGN Organon & Co. 11.26 +2.66 (+30.93%)](https://finance.yahoo.com/quote/OGN/) (yahoo_finance; OGN)\n- [POET POET Technologies Inc. 15.10 +3.38 (+28.84%)](https://finance.yahoo.com/quote/POET/) (yahoo_finance; POET)\n- [SXT Sensient Technologies Corporation 123.15 +23.92 (+24.11%)](https://finance.yahoo.com/quote/SXT/) (yahoo_finance; SXT)\n- [INTC Intel Corporation 82.54 +15.76 (+23.60%)](https://finance.yahoo.com/quote/INTC/) (yahoo_finance; INTC)\n- [LBRDA Liberty Broadband Corporation 41.89 -14.52 (-25.74%)](https://finance.yahoo.com/quote/LBRDA/) (yahoo_finance; LBRDA)\n- [LBRDK Liberty Broadband Corporation 41.94 -14.53 (-25.73%)](https://finance.yahoo.com/quote/LBRDK/) (yahoo_finance; LBRDK)\n- [CHTR Charter Communications, Inc. 180.13 -61.65 (-25.50%)](https://finance.yahoo.com/quote/CHTR/) (yahoo_finance; CHTR)\n- [STNE StoneCo Ltd. 12.22 -2.33 (-16.01%)](https://finance.yahoo.com/quote/STNE/) (yahoo_finance; STNE)\n- [YSS York Space Systems, Inc. 31.06 -4.65 (-13.02%)](https://finance.yahoo.com/quote/YSS/) (yahoo_finance; YSS)\n\n## 6. 限制说明\n\n- 本报告只基于公开网页抓取内容做信息整理和市场叙事归纳，不构成投资建议、交易建议或价格预测。\n- 仅抓取 robots.txt 允许且无需登录、cookie、验证码、代理的公开页面。\n- X/Twitter 网页默认开启，但在不登录条件下经常不可抓；失败会跳过。\n- Google News RSS 和网页标题可能存在重复、延迟或来源重写。\n- Qwen 总结只允许基于 evidence；如果本地 Qwen 不可用，对应 cluster 会标记失败。\n\n### 本次运行 warning\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=stocks+moving+today+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=AI+stocks+rally+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=semiconductor+stocks+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=crypto+stocks+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=energy+stocks+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=earnings+stocks+today+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://x.com/search?q=stocks%20moving%20today&src=typed_query&f=live\n- robots.txt disallows fetch: https://old.reddit.com/search?q=stocks%20moving%20today&sort=new&t=week\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=MXL+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=MXL+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+MXL+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+MXL+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+MXL+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+MXL+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+MXL+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=LMT+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=LMT+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+LMT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+LMT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+LMT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+LMT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+LMT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=DJT+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=DJT+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+DJT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+DJT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+DJT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+DJT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+DJT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=JOBY+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=JOBY+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+JOBY+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+JOBY+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+JOBY+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+JOBY+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+JOBY+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=CVX+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=CVX+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+CVX+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+CVX+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+CVX+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+CVX+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+CVX+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=AXTI+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=AXTI+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+AXTI+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+AXTI+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+AXTI+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+AXTI+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+AXTI+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=ETN+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=ETN+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+ETN+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+ETN+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+ETN+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+ETN+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+ETN+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=NKE+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=NKE+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+NKE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+NKE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+NKE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+NKE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+NKE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=CCJ+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=CCJ+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+CCJ+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+CCJ+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+CCJ+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+CCJ+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+CCJ+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=LUNR+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=LUNR+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+LUNR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+LUNR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+LUNR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+LUNR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+LUNR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=KO+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en\n- robots.txt disallows fetch: https://news.google.com/rss/search?q=KO+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en\n",
   "report_url": "/api/hot-narratives/report?date=2026-04-25",
   "run_dir": "",
   "run_url": "",
@@ -2431,13 +3176,28 @@
   "trending_tickers": [
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
+      "heat_score": 0.73125,
       "mention_score": 1.0,
+      "mentions": 2,
+      "professional_source_score": 0.675,
+      "recency": 0.65,
+      "related": [],
+      "source_diversity": 1.0,
+      "sources": [
+        "finviz",
+        "yahoo_finance"
+      ],
+      "ticker": "MXL"
+    },
+    {
+      "co_mention_score": 0.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2445,13 +3205,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2459,13 +3219,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2473,13 +3233,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2487,13 +3247,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2501,13 +3261,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2515,13 +3275,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2529,13 +3289,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2543,13 +3303,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2557,13 +3317,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2571,13 +3331,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2585,13 +3345,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2599,13 +3359,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2613,13 +3373,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2627,13 +3387,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2641,13 +3401,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2655,13 +3415,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2669,13 +3429,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2683,13 +3443,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2697,13 +3457,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2711,13 +3471,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2725,13 +3485,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2739,13 +3499,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2753,13 +3513,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2767,13 +3527,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2781,13 +3541,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2795,13 +3555,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2809,13 +3569,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.735,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "yahoo_finance"
       ],
@@ -2823,27 +3583,139 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.7275,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
       "mentions": 1,
-      "professional_source_score": 0.65,
+      "professional_source_score": 0.7,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
-        "finviz"
+        "yahoo_finance"
       ],
-      "ticker": "MXL"
+      "ticker": "OGN"
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.7275,
-      "mention_score": 1.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
+      "mentions": 1,
+      "professional_source_score": 0.7,
+      "recency": 0.65,
+      "related": [],
+      "source_diversity": 0.5,
+      "sources": [
+        "yahoo_finance"
+      ],
+      "ticker": "POET"
+    },
+    {
+      "co_mention_score": 0.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
+      "mentions": 1,
+      "professional_source_score": 0.7,
+      "recency": 0.65,
+      "related": [],
+      "source_diversity": 0.5,
+      "sources": [
+        "yahoo_finance"
+      ],
+      "ticker": "SXT"
+    },
+    {
+      "co_mention_score": 0.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
+      "mentions": 1,
+      "professional_source_score": 0.7,
+      "recency": 0.65,
+      "related": [],
+      "source_diversity": 0.5,
+      "sources": [
+        "yahoo_finance"
+      ],
+      "ticker": "INTC"
+    },
+    {
+      "co_mention_score": 0.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
+      "mentions": 1,
+      "professional_source_score": 0.7,
+      "recency": 0.65,
+      "related": [],
+      "source_diversity": 0.5,
+      "sources": [
+        "yahoo_finance"
+      ],
+      "ticker": "LBRDA"
+    },
+    {
+      "co_mention_score": 0.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
+      "mentions": 1,
+      "professional_source_score": 0.7,
+      "recency": 0.65,
+      "related": [],
+      "source_diversity": 0.5,
+      "sources": [
+        "yahoo_finance"
+      ],
+      "ticker": "LBRDK"
+    },
+    {
+      "co_mention_score": 0.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
+      "mentions": 1,
+      "professional_source_score": 0.7,
+      "recency": 0.65,
+      "related": [],
+      "source_diversity": 0.5,
+      "sources": [
+        "yahoo_finance"
+      ],
+      "ticker": "CHTR"
+    },
+    {
+      "co_mention_score": 0.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
+      "mentions": 1,
+      "professional_source_score": 0.7,
+      "recency": 0.65,
+      "related": [],
+      "source_diversity": 0.5,
+      "sources": [
+        "yahoo_finance"
+      ],
+      "ticker": "STNE"
+    },
+    {
+      "co_mention_score": 0.0,
+      "heat_score": 0.485,
+      "mention_score": 0.5,
+      "mentions": 1,
+      "professional_source_score": 0.7,
+      "recency": 0.65,
+      "related": [],
+      "source_diversity": 0.5,
+      "sources": [
+        "yahoo_finance"
+      ],
+      "ticker": "YSS"
+    },
+    {
+      "co_mention_score": 0.0,
+      "heat_score": 0.47750000000000004,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.65,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "finviz"
       ],
@@ -2851,13 +3723,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.7275,
-      "mention_score": 1.0,
+      "heat_score": 0.47750000000000004,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.65,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "finviz"
       ],
@@ -2865,13 +3737,13 @@
     },
     {
       "co_mention_score": 0.0,
-      "heat_score": 0.7275,
-      "mention_score": 1.0,
+      "heat_score": 0.47750000000000004,
+      "mention_score": 0.5,
       "mentions": 1,
       "professional_source_score": 0.65,
       "recency": 0.65,
       "related": [],
-      "source_diversity": 1.0,
+      "source_diversity": 0.5,
       "sources": [
         "finviz"
       ],
@@ -2879,237 +3751,300 @@
     }
   ],
   "warnings": [
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=stocks+moving+today+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=AI+stocks+rally+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=semiconductor+stocks+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=crypto+stocks+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=energy+stocks+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=earnings+stocks+today+when%3A3d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=stocks+moving+today+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=AI+stocks+rally+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=semiconductor+stocks+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=crypto+stocks+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=energy+stocks+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=earnings+stocks+today+when%3A7d&hl=en-US&gl=US&ceid=US:en",
     "robots.txt disallows fetch: https://x.com/search?q=stocks%20moving%20today&src=typed_query&f=live",
     "robots.txt disallows fetch: https://old.reddit.com/search?q=stocks%20moving%20today&sort=new&t=week",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=LMT+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=LMT+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+LMT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+LMT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+LMT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+LMT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+LMT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=DJT+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=DJT+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+DJT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+DJT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+DJT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+DJT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+DJT+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=JOBY+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=JOBY+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+JOBY+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+JOBY+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+JOBY+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+JOBY+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+JOBY+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=CVX+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=CVX+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+CVX+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+CVX+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+CVX+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+CVX+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+CVX+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=AXTI+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=AXTI+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+AXTI+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+AXTI+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+AXTI+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+AXTI+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+AXTI+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=ETN+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=ETN+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+ETN+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+ETN+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+ETN+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+ETN+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+ETN+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=NKE+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=NKE+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+NKE+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+NKE+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+NKE+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+NKE+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+NKE+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=CCJ+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=CCJ+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+CCJ+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+CCJ+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+CCJ+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+CCJ+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+CCJ+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=LUNR+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=LUNR+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+LUNR+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+LUNR+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+LUNR+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+LUNR+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+LUNR+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=KO+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=KO+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+KO+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+KO+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+KO+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+KO+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+KO+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=XOM+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=XOM+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+XOM+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+XOM+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+XOM+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+XOM+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+XOM+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=LITE+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=LITE+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+LITE+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+LITE+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+LITE+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+LITE+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+LITE+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=TER+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=TER+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+TER+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+TER+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+TER+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+TER+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+TER+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=ASML+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=ASML+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+ASML+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+ASML+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+ASML+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+ASML+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+ASML+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=BRK-B+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=BRK-B+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+BRK-B+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+BRK-B+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+BRK-B+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+BRK-B+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+BRK-B+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=COHR+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=COHR+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+COHR+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+COHR+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+COHR+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+COHR+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+COHR+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=VST+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=VST+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+VST+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+VST+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+VST+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+VST+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+VST+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=UBER+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=UBER+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+UBER+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+UBER+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+UBER+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+UBER+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+UBER+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=TEM+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=TEM+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+TEM+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+TEM+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+TEM+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+TEM+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+TEM+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=UNH+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=UNH+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+UNH+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+UNH+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+UNH+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+UNH+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+UNH+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=BA+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=BA+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+BA+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+BA+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+BA+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+BA+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+BA+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=V+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=V+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+V+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+V+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+V+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+V+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+V+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=JNJ+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=JNJ+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+JNJ+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+JNJ+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+JNJ+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+JNJ+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+JNJ+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=NIO+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=NIO+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+NIO+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+NIO+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+NIO+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+NIO+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+NIO+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=PYPL+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=PYPL+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+PYPL+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+PYPL+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+PYPL+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+PYPL+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+PYPL+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=SPY+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=SPY+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+SPY+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+SPY+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+SPY+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+SPY+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+SPY+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=NVDA+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=NVDA+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+NVDA+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+NVDA+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+NVDA+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+NVDA+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+NVDA+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=TSLA+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=TSLA+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+TSLA+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+TSLA+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+TSLA+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+TSLA+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+TSLA+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=MXL+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=MXL+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+MXL+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+MXL+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+MXL+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+MXL+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+MXL+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=SCNI+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=SCNI+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+SCNI+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+SCNI+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+SCNI+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+SCNI+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+SCNI+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=ATOM+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=ATOM+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+ATOM+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+ATOM+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+ATOM+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+ATOM+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+ATOM+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=ELPW+stock+news+analysis+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=ELPW+earnings+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+ELPW+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+ELPW+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+ELPW+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+ELPW+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en",
-    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+ELPW+stock+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=MXL+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=MXL+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+MXL+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+MXL+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+MXL+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+MXL+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+MXL+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=LMT+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=LMT+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+LMT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+LMT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+LMT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+LMT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+LMT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=DJT+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=DJT+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+DJT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+DJT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+DJT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+DJT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+DJT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=JOBY+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=JOBY+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+JOBY+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+JOBY+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+JOBY+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+JOBY+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+JOBY+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=CVX+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=CVX+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+CVX+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+CVX+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+CVX+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+CVX+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+CVX+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=AXTI+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=AXTI+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+AXTI+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+AXTI+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+AXTI+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+AXTI+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+AXTI+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=ETN+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=ETN+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+ETN+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+ETN+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+ETN+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+ETN+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+ETN+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=NKE+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=NKE+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+NKE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+NKE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+NKE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+NKE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+NKE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=CCJ+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=CCJ+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+CCJ+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+CCJ+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+CCJ+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+CCJ+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+CCJ+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=LUNR+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=LUNR+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+LUNR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+LUNR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+LUNR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+LUNR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+LUNR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=KO+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=KO+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+KO+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+KO+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+KO+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+KO+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+KO+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=XOM+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=XOM+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+XOM+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+XOM+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+XOM+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+XOM+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+XOM+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=LITE+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=LITE+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+LITE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+LITE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+LITE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+LITE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+LITE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=TER+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=TER+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+TER+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+TER+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+TER+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+TER+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+TER+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=ASML+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=ASML+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+ASML+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+ASML+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+ASML+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+ASML+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+ASML+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=BRK-B+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=BRK-B+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+BRK-B+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+BRK-B+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+BRK-B+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+BRK-B+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+BRK-B+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=COHR+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=COHR+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+COHR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+COHR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+COHR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+COHR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+COHR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=VST+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=VST+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+VST+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+VST+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+VST+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+VST+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+VST+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=UBER+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=UBER+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+UBER+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+UBER+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+UBER+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+UBER+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+UBER+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=TEM+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=TEM+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+TEM+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+TEM+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+TEM+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+TEM+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+TEM+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=UNH+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=UNH+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+UNH+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+UNH+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+UNH+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+UNH+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+UNH+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=BA+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=BA+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+BA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+BA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+BA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+BA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+BA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=V+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=V+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+V+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+V+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+V+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+V+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+V+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=JNJ+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=JNJ+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+JNJ+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+JNJ+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+JNJ+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+JNJ+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+JNJ+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=NIO+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=NIO+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+NIO+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+NIO+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+NIO+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+NIO+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+NIO+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=PYPL+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=PYPL+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+PYPL+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+PYPL+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+PYPL+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+PYPL+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+PYPL+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=SPY+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=SPY+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+SPY+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+SPY+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+SPY+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+SPY+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+SPY+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=NVDA+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=NVDA+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+NVDA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+NVDA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+NVDA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+NVDA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+NVDA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=TSLA+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=TSLA+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+TSLA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+TSLA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+TSLA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+TSLA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+TSLA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=OGN+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=OGN+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+OGN+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+OGN+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+OGN+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+OGN+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+OGN+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=POET+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=POET+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+POET+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+POET+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+POET+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+POET+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+POET+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=SXT+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=SXT+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+SXT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+SXT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+SXT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+SXT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+SXT+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=INTC+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=INTC+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+INTC+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+INTC+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+INTC+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+INTC+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+INTC+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=LBRDA+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=LBRDA+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+LBRDA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+LBRDA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+LBRDA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+LBRDA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+LBRDA+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=LBRDK+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=LBRDK+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+LBRDK+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+LBRDK+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+LBRDK+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+LBRDK+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+LBRDK+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=CHTR+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=CHTR+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+CHTR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+CHTR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+CHTR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+CHTR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+CHTR+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=STNE+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=STNE+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+STNE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+STNE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+STNE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+STNE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+STNE+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=YSS+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=YSS+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+YSS+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+YSS+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+YSS+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+YSS+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+YSS+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=SCNI+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=SCNI+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+SCNI+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+SCNI+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+SCNI+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+SCNI+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+SCNI+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=ATOM+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=ATOM+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+ATOM+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+ATOM+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+ATOM+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+ATOM+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+ATOM+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=ELPW+stock+news+analysis+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=ELPW+earnings+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Aseekingalpha.com+ELPW+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Acnbc.com+ELPW+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Amarketwatch.com+ELPW+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Afool.com+ELPW+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "robots.txt disallows fetch: https://news.google.com/rss/search?q=site%3Ainvestorplace.com+ELPW+stock+when%3A7d&hl=en-US&gl=US&ceid=US:en"
   ]
 }
