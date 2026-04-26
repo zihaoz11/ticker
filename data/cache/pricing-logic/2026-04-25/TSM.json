@@ -1,0 +1,19 @@
+{
+  "confidence": 0.88,
+  "laggard_reason": "",
+  "laggard_tickers": [],
+  "needs_review": false,
+  "pricing_logic": "市场定价逻辑基于超大规模云厂商（hyperscalers）资本支出增加带来的强劲需求，导致营收和数据中心 AI 收入超预期增长，以及非 GAAP 每股收益显著高于预期。尽管存在关于英特尔的讨论，但 TSMC 的核心驱动力是基本面业绩重估。",
+  "related_tickers": [],
+  "ret_1d": null,
+  "ret_1m": null,
+  "ret_1w": null,
+  "review_reason": "",
+  "theme_id": "EARNINGS_REVALUATION",
+  "theme_level_1": "基本面重估",
+  "theme_level_2": "hyperscaler capex 驱动需求",
+  "transmission_logic": "",
+  "used_fallback": false,
+  "value_chain_role": "晶圆代工",
+  "warnings": []
+}
