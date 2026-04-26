@@ -1,0 +1,24 @@
+{
+  "confidence": 0.7825,
+  "laggard_reason": "",
+  "laggard_tickers": [],
+  "needs_review": true,
+  "pricing_logic": "SPMO 为 Invesco S&P 500 Momentum ETF，非单一公司实体，无基本面或算力逻辑。当前讨论为个人投资组合配置建议（对比 VOO），属于被动投资/ETF 动量范畴，而非 Meme/空头挤压。",
+  "related_tickers": [
+    "GME",
+    "AMC",
+    "KOSS",
+    "BBBYQ"
+  ],
+  "ret_1d": null,
+  "ret_1m": null,
+  "ret_1w": null,
+  "review_reason": "主题分处于模糊区间",
+  "theme_id": "MEME_SHORT_SQUEEZE",
+  "theme_level_1": "市场结构与交易拥挤",
+  "theme_level_2": "ETF 动量 / 被动投资",
+  "transmission_logic": "",
+  "used_fallback": false,
+  "value_chain_role": "散户动量标的",
+  "warnings": []
+}
