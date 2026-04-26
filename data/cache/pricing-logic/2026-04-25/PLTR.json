@@ -1,0 +1,28 @@
+{
+  "confidence": 0.88,
+  "laggard_reason": "",
+  "laggard_tickers": [],
+  "needs_review": false,
+  "pricing_logic": "市场定价逻辑从单纯的散户动量转向对 AI 基础设施需求的关注。尽管存在 meme 交易噪音，但核心叙事围绕 Palantir 在微软、谷歌等超大规模云厂商（Hyperscalers）中获得的 AI 数据中心合同（如与 Anthropic 的合作）及其在 AI 数据中心的实际收入贡献。讨论焦点在于谁真正从 AI 中获利，以及 Palantir 作为软件层能否从芯片厂商的巨额资本支出中分得一杯羹，而非单纯的空头挤压。",
+  "related_tickers": [
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "MRVL",
+    "TSM",
+    "MU",
+    "ARM",
+    "SMH"
+  ],
+  "ret_1d": null,
+  "ret_1m": null,
+  "ret_1w": null,
+  "review_reason": "",
+  "theme_id": "AI_COMPUTE_ACCELERATOR",
+  "theme_level_1": "AI 基础设施",
+  "theme_level_2": "AI 软件平台 / 数据中心解决方案",
+  "transmission_logic": "",
+  "used_fallback": false,
+  "value_chain_role": "AI 应用层软件供应商",
+  "warnings": []
+}
