@@ -1,0 +1,21 @@
+{
+  "confidence": 0.55,
+  "laggard_reason": "",
+  "laggard_tickers": [],
+  "needs_review": true,
+  "pricing_logic": "论坛文本仅包含公司名称，缺乏任何具体的市场叙事、基本面证据或定价逻辑支持。",
+  "related_tickers": [],
+  "ret_1d": null,
+  "ret_1m": null,
+  "ret_1w": null,
+  "review_reason": "置信度低于阈值; 主题分处于模糊区间; 论坛热度高但证据较弱; 模型返回未知/其他",
+  "theme_id": "UNKNOWN_OTHER",
+  "theme_level_1": "未知 / 其他",
+  "theme_level_2": "无明确定价逻辑",
+  "transmission_logic": "",
+  "used_fallback": false,
+  "value_chain_role": "未知",
+  "warnings": [
+    "Ollama could not assign a clear theme."
+  ]
+}
