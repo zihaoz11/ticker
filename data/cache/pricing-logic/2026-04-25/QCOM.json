@@ -1,0 +1,28 @@
+{
+  "confidence": 0.755,
+  "laggard_reason": "",
+  "laggard_tickers": [],
+  "needs_review": true,
+  "pricing_logic": "市场定价逻辑由非WSB论坛（如r/stocks）的实质性基本面讨论主导，强调CPU需求激增、Intel财报预期及AI代理对工具的需求，而非社交媒体动量或Meme叙事。",
+  "related_tickers": [
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "MRVL",
+    "TSM",
+    "MU",
+    "ARM",
+    "SMH"
+  ],
+  "ret_1d": null,
+  "ret_1m": null,
+  "ret_1w": null,
+  "review_reason": "主题分处于模糊区间",
+  "theme_id": "AI_COMPUTE_ACCELERATOR",
+  "theme_level_1": "AI 基础设施",
+  "theme_level_2": "CPU/服务器芯片需求",
+  "transmission_logic": "",
+  "used_fallback": false,
+  "value_chain_role": "CPU supplier",
+  "warnings": []
+}
