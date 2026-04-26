@@ -1,0 +1,25 @@
+{
+  "confidence": 0.785,
+  "laggard_reason": "",
+  "laggard_tickers": [],
+  "needs_review": true,
+  "pricing_logic": "该股票为 BlackRock 发行的比特币挂钩 ETF，其定价逻辑完全取决于比特币现货价格及持仓规模，属于加密货币资产类别。",
+  "related_tickers": [
+    "MSTR",
+    "COIN",
+    "MARA",
+    "RIOT",
+    "CLSK"
+  ],
+  "ret_1d": null,
+  "ret_1m": null,
+  "ret_1w": null,
+  "review_reason": "主题分处于模糊区间",
+  "theme_id": "CRYPTO_BITCOIN_TREASURY",
+  "theme_level_1": "加密金融",
+  "theme_level_2": "比特币持仓 ETF",
+  "transmission_logic": "",
+  "used_fallback": false,
+  "value_chain_role": "比特币持仓公司",
+  "warnings": []
+}
