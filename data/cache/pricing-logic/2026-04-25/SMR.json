@@ -1,0 +1,25 @@
+{
+  "confidence": 0.7575,
+  "laggard_reason": "",
+  "laggard_tickers": [],
+  "needs_review": true,
+  "pricing_logic": "市场定价基于小型模块化反应堆 (SMR) 技术复兴及 NuScale 在核能领域的特定地位。",
+  "related_tickers": [
+    "SMR",
+    "OKLO",
+    "CCJ",
+    "UEC",
+    "UUUU"
+  ],
+  "ret_1d": null,
+  "ret_1m": null,
+  "ret_1w": null,
+  "review_reason": "主题分处于模糊区间",
+  "theme_id": "NUCLEAR_URANIUM_SMR",
+  "theme_level_1": "能源与电力",
+  "theme_level_2": "小型模块化反应堆 (SMR)",
+  "transmission_logic": "",
+  "used_fallback": false,
+  "value_chain_role": "SMR 开发商",
+  "warnings": []
+}
