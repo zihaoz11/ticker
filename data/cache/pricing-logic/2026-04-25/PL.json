@@ -1,0 +1,24 @@
+{
+  "confidence": 0.6725,
+  "laggard_reason": "",
+  "laggard_tickers": [],
+  "needs_review": true,
+  "pricing_logic": "Reddit 讨论仅包含持仓展示和寻求建议，无具体基本面催化剂、营收数据或明确的散户动量/空头挤压证据。关键词匹配为指令文本而非实际市场叙事。",
+  "related_tickers": [
+    "GME",
+    "AMC",
+    "KOSS",
+    "BBBYQ"
+  ],
+  "ret_1d": null,
+  "ret_1m": null,
+  "ret_1w": null,
+  "review_reason": "主题分处于模糊区间",
+  "theme_id": "MEME_SHORT_SQUEEZE",
+  "theme_level_1": "市场结构与交易拥挤",
+  "theme_level_2": "无明确基本面或动量证据",
+  "transmission_logic": "",
+  "used_fallback": false,
+  "value_chain_role": "散户动量标的",
+  "warnings": []
+}
