@@ -1,4 +1,11 @@
-const DATA_URL = "../../data/site/x-analysis/latest.json";
+const LOCAL_DATA_URL = "/api/x-analysis/latest";
+const STATIC_DATA_URL = "../../data/site/x-analysis/latest.json";
+
+function getDataUrl() {
+  return window.location.pathname.startsWith("/x-analysis/")
+    ? LOCAL_DATA_URL
+    : STATIC_DATA_URL;
+}
 
 const state = {
   data: null,
@@ -344,7 +351,7 @@ function setActiveTab(tab) {
 
 async function loadData() {
   try {
-    const response = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: "no-store" });
+    const response = await fetch(`${getDataUrl()}?t=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) throw new Error(`Failed to load latest.json: HTTP ${response.status}`);
     state.data = await response.json();
     state.error = null;
