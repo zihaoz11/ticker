@@ -103,6 +103,7 @@ function normalizePost(post) {
     id: firstText(post?.post_id, post?.id, post?.url, "unknown"),
     url: firstText(post?.url, post?.source_url),
     createdAt: firstText(post?.created_at, post?.published_at, post?.collected_at_utc, post?.published_label),
+    publishedLabel: firstText(post?.published_label, post?.published_at, post?.created_at),
     visibility,
     isSubscriberOnly,
     rawText,
@@ -195,11 +196,12 @@ function renderPosts(posts) {
         </div>
       `).join("");
     const fullRawAllowed = !post.isSubscriberOnly && post.rawText;
-    const excerptLabel = post.isSubscriberOnly ? "Subscriber excerpt" : "Post excerpt";
+    const excerptLabel = post.isSubscriberOnly ? "Subscriber excerpt" : "Excerpt";
+    const timeLabel = post.publishedLabel ? `Published ${post.publishedLabel}` : formatDate(post.createdAt);
     return `
       <article class="post-card">
         <div class="card-topline">
-          <span>${escapeHtml(formatDate(post.createdAt))}</span>
+          <span>${escapeHtml(timeLabel)}</span>
           ${badge(post.visibility, post.isSubscriberOnly ? "visibility-private" : "visibility-public")}
         </div>
         <h3>${escapeHtml(post.summary || "No summary yet")}</h3>
