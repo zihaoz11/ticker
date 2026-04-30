@@ -195,8 +195,6 @@ function renderPosts(posts) {
           <span>${escapeHtml(view.reason || "No reason provided.")}</span>
         </div>
       `).join("");
-    const fullRawAllowed = !post.isSubscriberOnly && post.rawText;
-    const excerptLabel = post.isSubscriberOnly ? "Subscriber excerpt" : "Excerpt";
     const timeLabel = post.publishedLabel ? `Published ${post.publishedLabel}` : formatDate(post.createdAt);
     return `
       <article class="post-card">
@@ -208,10 +206,6 @@ function renderPosts(posts) {
         ${post.keyPoints.length ? `<ul class="point-list">${post.keyPoints.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
         ${renderStockBadges(post.stockViews)}
         ${details ? `<div class="stance-details">${details}</div>` : ""}
-        <div class="excerpt-block">
-          <span>${excerptLabel}</span>
-          <p>${escapeHtml(fullRawAllowed ? truncateText(post.rawText, 420) : truncateText(post.safeExcerpt, 220))}</p>
-        </div>
         <div class="meta-row">
           ${post.themes.map((item) => badge(item, "theme-badge")).join("")}
           ${post.mentionedTickers.map((item) => badge(`$${item}`, "ticker-badge")).join("")}
@@ -324,7 +318,8 @@ function renderAll() {
   const data = state.data || {};
   const posts = getPosts(data);
   const stocks = getStockViews(data, posts);
-  elements.subtitle.textContent = `@${firstText(data.account, "aleabitoreddit")} market notes`;
+  const labels = posts.map((post) => post.publishedLabel).filter(Boolean).slice(0, 6).join(", ");
+  elements.subtitle.textContent = `@${firstText(data.account, "aleabitoreddit")} latest posts${labels ? ` · ${labels}` : ""}`;
   elements.statusText.textContent = state.error ? "Error" : "Ready";
   elements.generatedAt.textContent = formatDate(data.generated_at || data.updated_at);
   elements.postCount.textContent = String(posts.length);
