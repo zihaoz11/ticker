@@ -73,12 +73,6 @@ function formatNumber(value) {
   return Number.isFinite(number) ? number.toFixed(2) : "-";
 }
 
-function truncateText(text, maxLength = 240) {
-  const cleaned = String(text ?? "").replace(/\s+/g, " ").trim();
-  if (cleaned.length <= maxLength) return cleaned;
-  return `${cleaned.slice(0, maxLength - 1)}...`;
-}
-
 function normalizeStance(value) {
   const stance = firstText(value, "unclear").toLowerCase();
   return ["bullish", "bearish", "neutral", "mixed", "unclear"].includes(stance) ? stance : "unclear";
@@ -90,7 +84,6 @@ function normalizeStockView(view) {
     stance: normalizeStance(view?.stance || view?.net_stance),
     confidence: view?.confidence,
     reason: firstText(view?.reason_cn, view?.reason, view?.latest_reason),
-    quote: firstText(view?.evidence_quote, view?.quote),
   };
 }
 
@@ -98,16 +91,13 @@ function normalizePost(post) {
   const stockViews = asArray(post?.stock_views || post?.stocks).map(normalizeStockView).filter((item) => item.ticker);
   const visibility = firstText(post?.visibility, "public");
   const isSubscriberOnly = visibility === "subscriber_only";
-  const rawText = firstText(post?.raw_text, post?.text);
   return {
     id: firstText(post?.post_id, post?.id, post?.url, "unknown"),
     url: firstText(post?.url, post?.source_url),
-    createdAt: firstText(post?.created_at, post?.published_at, post?.collected_at_utc, post?.published_label),
-    publishedLabel: firstText(post?.published_label, post?.published_at, post?.created_at),
+    publishedAt: firstText(post?.published_at, post?.created_at),
+    createdAt: firstText(post?.published_at, post?.created_at, post?.collected_at_utc),
     visibility,
     isSubscriberOnly,
-    rawText,
-    safeExcerpt: firstText(post?.excerpt, post?.raw_excerpt, post?.public_excerpt, truncateText(rawText, 220)),
     summary: firstText(post?.summary_cn, post?.summary),
     keyPoints: asArray(post?.key_points),
     themes: asArray(post?.themes),
@@ -195,7 +185,9 @@ function renderPosts(posts) {
           <span>${escapeHtml(view.reason || "No reason provided.")}</span>
         </div>
       `).join("");
-    const timeLabel = post.publishedLabel ? `Published ${post.publishedLabel}` : formatDate(post.createdAt);
+    const timeLabel = post.publishedAt
+      ? `Published ${formatDate(post.publishedAt)}`
+      : `Published time unknown`;
     return `
       <article class="post-card">
         <div class="card-topline">
@@ -318,8 +310,8 @@ function renderAll() {
   const data = state.data || {};
   const posts = getPosts(data);
   const stocks = getStockViews(data, posts);
-  const labels = posts.map((post) => post.publishedLabel).filter(Boolean).slice(0, 6).join(", ");
-  elements.subtitle.textContent = `@${firstText(data.account, "aleabitoreddit")} latest posts${labels ? ` · ${labels}` : ""}`;
+  const publishedTimes = posts.map((post) => formatDate(post.publishedAt)).filter((value) => value !== "-").slice(0, 3).join(" · ");
+  elements.subtitle.textContent = `@${firstText(data.account, "aleabitoreddit")} latest posts${publishedTimes ? ` · ${publishedTimes}` : ""}`;
   elements.statusText.textContent = state.error ? "Error" : "Ready";
   elements.generatedAt.textContent = formatDate(data.generated_at || data.updated_at);
   elements.postCount.textContent = String(posts.length);
