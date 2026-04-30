@@ -1,0 +1,483 @@
+{
+  "schema_version": "1.0",
+  "account": "aleabitoreddit",
+  "generated_at": "2026-04-30T06:48:28+00:00",
+  "status": {
+    "post_count": 5,
+    "public_count": 5,
+    "subscriber_only_count": 0,
+    "warnings_count": 7
+  },
+  "posts": [
+    {
+      "post_id": "aleabitoreddit-a50559f81dbe2a5f",
+      "url": "",
+      "account": "aleabitoreddit",
+      "visibility": "public",
+      "collected_at_utc": "2026-04-27T07:45:00Z",
+      "published_label": "1h",
+      "summary_cn": "作者因 Stablecoin 的潜在优势及费用节省而看多 CRCL，并提及 Stablecoin 的未来及银行对其的监管努力。",
+      "key_points": [
+        "作者对 CRCL 持看涨态度，认为其 Stablecoin 业务具有增长潜力。",
+        "作者提到 Stablecoin 可能带来费用节省，如减少 App Store 和 Stripe 手续费。",
+        "作者指出银行试图通过 Clarity Act 游说控制 Stablecoin。",
+        "作者表示订阅收入并非其关注重点，不会改变现有策略。"
+      ],
+      "themes": [
+        "Stablecoin",
+        "费用节省",
+        "监管",
+        "订阅模式"
+      ],
+      "mentioned_tickers": [
+        "CRCL"
+      ],
+      "stock_views": [
+        {
+          "ticker": "CRCL",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "作者明确表达对 CRCL 的看涨态度，认为 Stablecoin 是未来，并指出费用节省的潜力。",
+          "evidence_quote": "Just in case you're wondering why I'm bullish on $CRCL and Stablecoins."
+        }
+      ],
+      "importance": 0.7,
+      "confidence": 0.8,
+      "risk_notes": [
+        "作者未提供具体财务数据支持看涨观点。",
+        "Stablecoin 监管环境存在不确定性。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "Just in case you’re wondering why I’m bullish on $CRCL and Stablecoins. 8605 subscribers at $1.00: -> $1595. Not even including int. like Canada paying 46% more (2 CAD vs $1 USD subscription) and the FX/rounding disappearing into the void. I’m not here for su…",
+      "raw_text_available_private_repo": false
+    },
+    {
+      "post_id": "aleabitoreddit-9106e524781c7e7b",
+      "url": "",
+      "account": "aleabitoreddit",
+      "visibility": "public",
+      "collected_at_utc": "2026-04-27T07:45:00Z",
+      "published_label": "3h",
+      "summary_cn": "推文批评银行通过游说阻碍加密货币公司获得牌照，认为这是为了维持垄断和利差，而非保护客户资金。",
+      "key_points": [
+        "银行声称有申请牌照的途径，但实际在幕后阻止加密货币公司获批。",
+        "引用Custodia银行案例，指出银行游说导致加密货币相关公司申请被拖延。",
+        "批评银行通过立法限制竞争，以牺牲零售客户利益为代价维持利差。",
+        "认为即将通过的法案将对加密货币行业造成毁灭性打击。"
+      ],
+      "themes": [
+        "银行业垄断",
+        "加密货币监管",
+        "游说影响",
+        "客户利益受损"
+      ],
+      "mentioned_tickers": [],
+      "stock_views": [],
+      "importance": 0.0,
+      "confidence": 0.0,
+      "risk_notes": [
+        "推文未提及具体股票代码，仅讨论行业整体问题。",
+        "内容基于主观观点，缺乏具体数据支持。",
+        "涉及政治游说和监管政策，可能影响行业但非个股直接风险。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "You’re witnessing hypocrisy in plain sight with Yields + Clarity Act. Banks say there’s a pathway to apply for a banking license but behind the scenes… But these same banks are the ones lobbying behind the board to prevent any crypto related companies from ac…",
+      "raw_text_available_private_repo": false
+    },
+    {
+      "post_id": "aleabitoreddit-329a6d08df2c2f4f",
+      "url": "",
+      "account": "aleabitoreddit",
+      "visibility": "public",
+      "collected_at_utc": "2026-04-27T07:45:00Z",
+      "published_label": "4h",
+      "summary_cn": "推文警告$VELO存在因5亿美元货架注册导致的潜在稀释风险，尽管公司近期获得国防合同且扩张计划合理，但相对于其市值的稀释规模被视为财务上的掠夺性风险。",
+      "key_points": [
+        "$VELO存在5亿美元货架注册，用于ATM/Warrants稀释，规模相对于3.11亿美元市值较大。",
+        "公司近期获得来自国防部、国防总装商和DLA的合同，总计约5.4亿美元，对业务有利。",
+        "公司声称稀释资金用于十年内扩大400套系统生产及并购，但作者认为财务结构风险较高。",
+        "作者建议长期持有者了解此类稀释风险，并认为这是合理的风险披露。"
+      ],
+      "themes": [
+        "稀释风险",
+        "货架注册",
+        "国防合同",
+        "财务结构",
+        "风险披露"
+      ],
+      "mentioned_tickers": [
+        "VELO"
+      ],
+      "stock_views": [
+        {
+          "ticker": "VELO",
+          "stance": "bearish",
+          "confidence": 0.7,
+          "reason_cn": "作者认为相对于市值的稀释规模是掠夺性的，尽管业务有战略合理性，但财务上存在重大风险。",
+          "evidence_quote": "I do think this amount relative to MC is pretty predatory, especially with ATMs."
+        }
+      ],
+      "importance": 0.8,
+      "confidence": 0.7,
+      "risk_notes": [
+        "ATM/Warrants稀释可能导致股权价值被摊薄。",
+        "公司依赖国防合同，需关注合同持续性和竞争环境。",
+        "市值较小，大额稀释对股价影响显著。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "Just a heads up to $VELO. There was a $500M shelf for an ATM / Warrants dilution, which is structurally large relative to its $311m MC. This was a popular retail X stock for speculated SpaceX, Andruil, and Defense supply chains: With: - $32.6M from Department…",
+      "raw_text_available_private_repo": false
+    },
+    {
+      "post_id": "aleabitoreddit-80c48a2718df82fc",
+      "url": "",
+      "account": "aleabitoreddit",
+      "visibility": "public",
+      "collected_at_utc": "2026-04-27T07:45:00Z",
+      "published_label": "5h",
+      "summary_cn": "推文批评美国破坏全球供应链以对抗中俄，主张优先保障自身供应链安全，并提及对ASML、ARM、NVDA、TSM等公司的潜在威胁。",
+      "key_points": [
+        "批评美国削弱与盟友（如日本、韩国）的供应链关系",
+        "建议优先投资稀土、炼油及替代贸易路线",
+        "警告不要破坏自身供应链（如半导体、化工）",
+        "提及对ASML、ARM、NVDA、TSM等公司的潜在威胁"
+      ],
+      "themes": [
+        "供应链安全",
+        "地缘政治",
+        "能源危机",
+        "半导体产业"
+      ],
+      "mentioned_tickers": [
+        "ARM",
+        "ASML",
+        "NVDA",
+        "TSM"
+      ],
+      "stock_views": [
+        {
+          "ticker": "ASML",
+          "stance": "bearish",
+          "confidence": 0.6,
+          "reason_cn": "推文提到威胁欧洲ASML作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险",
+          "evidence_quote": "threatening European $ASML"
+        },
+        {
+          "ticker": "ARM",
+          "stance": "bearish",
+          "confidence": 0.6,
+          "reason_cn": "推文提到威胁日本ARM作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险",
+          "evidence_quote": "Japanese $ARM"
+        },
+        {
+          "ticker": "NVDA",
+          "stance": "bearish",
+          "confidence": 0.6,
+          "reason_cn": "推文提到威胁美国NVDA作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险",
+          "evidence_quote": "US $NVDA"
+        },
+        {
+          "ticker": "TSM",
+          "stance": "bearish",
+          "confidence": 0.6,
+          "reason_cn": "推文提到威胁台湾TSM作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险",
+          "evidence_quote": "Taiwan $TSM"
+        }
+      ],
+      "importance": 0.8,
+      "confidence": 0.7,
+      "risk_notes": [
+        "推文内容基于地缘政治假设，非投资建议",
+        "实际市场影响需结合政策变化及公司应对策略"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "Who is even writing this? We don't need more leverage over our allies like Japan, Europe, or South Korea. We need them over Russia and China. - In SEA over 40% of gas stations in Laos have closed, - Cambodia and Thailand have started rationing and price contr…",
+      "raw_text_available_private_repo": false
+    },
+    {
+      "post_id": "aleabitoreddit-fd5ce52b672e9511",
+      "url": "",
+      "account": "aleabitoreddit",
+      "visibility": "public",
+      "collected_at_utc": "2026-04-27T07:45:00Z",
+      "published_label": "14h",
+      "summary_cn": "推文讲述了一个人从30万美元通过RDDT等个股获利至300万后，因进行SPY的0DTE期权交易亏损至5万美元的教训，并对比了长期持有AVGO和NVDA的复利优势。",
+      "key_points": [
+        "0DTE期权交易风险极高，即使全仓买入热门股也可能导致巨额亏损。",
+        "长期持有如AVGO和NVDA等股票能实现复利增长，优于短期期权博弈。",
+        "推文以Nancy Pelosi的财富积累为例，强调长期投资的重要性。"
+      ],
+      "themes": [
+        "期权风险",
+        "长期复利",
+        "财富积累"
+      ],
+      "mentioned_tickers": [
+        "AVGO",
+        "MRVL",
+        "NVDA",
+        "RDDT",
+        "SPY"
+      ],
+      "stock_views": [
+        {
+          "ticker": "RDDT",
+          "stance": "bullish",
+          "confidence": 0.6,
+          "reason_cn": "推文提到该股票在2025年4月底部被用作幸运个股，帮助账户从30万增长到300万。",
+          "evidence_quote": "Gets lucky with individual names at April 2025 bottom"
+        },
+        {
+          "ticker": "SPY",
+          "stance": "bearish",
+          "confidence": 0.8,
+          "reason_cn": "推文批评在SPY上进行0DTE期权交易导致从300万亏损至5万美元。",
+          "evidence_quote": "Proceeds to do 0DTE options on $SPY -> Turned $3M -> $50k"
+        },
+        {
+          "ticker": "MRVL",
+          "stance": "bullish",
+          "confidence": 0.5,
+          "reason_cn": "推文假设若将资金全仓买入MRVL，可能在2-3年内增长至600万美元。",
+          "evidence_quote": "Even if they full ported it into Jim Cramer’s favorite stock $MRVL, probably would have been $6M in 2-3 years"
+        },
+        {
+          "ticker": "AVGO",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "推文建议参考Pelosi对AVGO的长期持有以观察复利效应。",
+          "evidence_quote": "look at how their on $AVGO to $NVDA keep compounding over time"
+        },
+        {
+          "ticker": "NVDA",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "推文建议参考Pelosi对NVDA的长期持有以观察复利效应。",
+          "evidence_quote": "look at how their on $AVGO to $NVDA keep compounding over time"
+        }
+      ],
+      "importance": 0.8,
+      "confidence": 0.75,
+      "risk_notes": [
+        "0DTE期权交易具有极高风险，可能导致本金大幅亏损。",
+        "推文中的收益预测基于假设情境，不构成投资建议。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "The most viral story on $RDDT right now: -> Guy started with $300,000 -> Gets lucky with individual names at April 2025 bottom -> Runs it up to $3,000,000 and claims they had financial freedom -> Proceeds to do 0DTE options on $SPY -> Turned $3M -> $50k. Usua…",
+      "raw_text_available_private_repo": false
+    }
+  ],
+  "stock_views": [
+    {
+      "ticker": "NVDA",
+      "bullish_count": 1,
+      "bearish_count": 1,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "推文提到威胁美国NVDA作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险",
+        "推文建议参考Pelosi对NVDA的长期持有以观察复利效应。"
+      ],
+      "post_ids": [
+        "aleabitoreddit-80c48a2718df82fc",
+        "aleabitoreddit-fd5ce52b672e9511"
+      ],
+      "net_stance": "mixed"
+    },
+    {
+      "ticker": "VELO",
+      "bullish_count": 0,
+      "bearish_count": 1,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "作者认为相对于市值的稀释规模是掠夺性的，尽管业务有战略合理性，但财务上存在重大风险。"
+      ],
+      "post_ids": [
+        "aleabitoreddit-329a6d08df2c2f4f"
+      ],
+      "net_stance": "bearish"
+    },
+    {
+      "ticker": "TSM",
+      "bullish_count": 0,
+      "bearish_count": 1,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "推文提到威胁台湾TSM作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险"
+      ],
+      "post_ids": [
+        "aleabitoreddit-80c48a2718df82fc"
+      ],
+      "net_stance": "bearish"
+    },
+    {
+      "ticker": "SPY",
+      "bullish_count": 0,
+      "bearish_count": 1,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "推文批评在SPY上进行0DTE期权交易导致从300万亏损至5万美元。"
+      ],
+      "post_ids": [
+        "aleabitoreddit-fd5ce52b672e9511"
+      ],
+      "net_stance": "bearish"
+    },
+    {
+      "ticker": "RDDT",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "推文提到该股票在2025年4月底部被用作幸运个股，帮助账户从30万增长到300万。"
+      ],
+      "post_ids": [
+        "aleabitoreddit-fd5ce52b672e9511"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "MRVL",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "推文假设若将资金全仓买入MRVL，可能在2-3年内增长至600万美元。"
+      ],
+      "post_ids": [
+        "aleabitoreddit-fd5ce52b672e9511"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "CRCL",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "作者明确表达对 CRCL 的看涨态度，认为 Stablecoin 是未来，并指出费用节省的潜力。"
+      ],
+      "post_ids": [
+        "aleabitoreddit-a50559f81dbe2a5f"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "AVGO",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "推文建议参考Pelosi对AVGO的长期持有以观察复利效应。"
+      ],
+      "post_ids": [
+        "aleabitoreddit-fd5ce52b672e9511"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "ASML",
+      "bullish_count": 0,
+      "bearish_count": 1,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "推文提到威胁欧洲ASML作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险"
+      ],
+      "post_ids": [
+        "aleabitoreddit-80c48a2718df82fc"
+      ],
+      "net_stance": "bearish"
+    },
+    {
+      "ticker": "ARM",
+      "bullish_count": 0,
+      "bearish_count": 1,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "推文提到威胁日本ARM作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险"
+      ],
+      "post_ids": [
+        "aleabitoreddit-80c48a2718df82fc"
+      ],
+      "net_stance": "bearish"
+    }
+  ],
+  "daily": {
+    "top_themes": [
+      [
+        "Stablecoin",
+        1
+      ],
+      [
+        "费用节省",
+        1
+      ],
+      [
+        "监管",
+        1
+      ],
+      [
+        "订阅模式",
+        1
+      ],
+      [
+        "银行业垄断",
+        1
+      ],
+      [
+        "加密货币监管",
+        1
+      ],
+      [
+        "游说影响",
+        1
+      ],
+      [
+        "客户利益受损",
+        1
+      ],
+      [
+        "稀释风险",
+        1
+      ],
+      [
+        "货架注册",
+        1
+      ]
+    ],
+    "important_post_ids": [
+      "aleabitoreddit-a50559f81dbe2a5f",
+      "aleabitoreddit-329a6d08df2c2f4f",
+      "aleabitoreddit-80c48a2718df82fc",
+      "aleabitoreddit-fd5ce52b672e9511"
+    ]
+  },
+  "warnings": [
+    "Edge/X authorized collection returned no posts.",
+    "https://nitter.net/aleabitoreddit/rss failed: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>",
+    "https://nitter.net/aleabitoreddit failed: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>",
+    "https://nitter.poast.org/aleabitoreddit/rss failed: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>",
+    "https://nitter.poast.org/aleabitoreddit failed: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>",
+    "https://nitter.privacydev.net/aleabitoreddit/rss failed: <urlopen error [Errno 11004] getaddrinfo failed>",
+    "https://nitter.privacydev.net/aleabitoreddit failed: <urlopen error [Errno 11004] getaddrinfo failed>"
+  ]
+}

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>X Analysis Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <h1>X Analysis Dashboard</h1>
+        <p id="subtitle">Loading @aleabitoreddit market notes</p>
+      </div>
+      <a class="header-link" href="../../data/site/x-analysis/latest.json" target="_blank" rel="noreferrer">JSON</a>
+    </header>
+
+    <main>
+      <section class="summary" aria-live="polite">
+        <div>
+          <span class="summary-label">Status</span>
+          <strong id="statusText">Loading</strong>
+        </div>
+        <div>
+          <span class="summary-label">Generated</span>
+          <strong id="generatedAt">-</strong>
+        </div>
+        <div>
+          <span class="summary-label">Posts</span>
+          <strong id="postCount">-</strong>
+        </div>
+        <div>
+          <span class="summary-label">Stocks</span>
+          <strong id="stockCount">-</strong>
+        </div>
+      </section>
+
+      <section id="errorBox" class="error-box" hidden></section>
+
+      <nav class="tabs" aria-label="View switcher">
+        <button class="tab-button is-active" type="button" data-tab="posts">Posts</button>
+        <button class="tab-button" type="button" data-tab="stocks">Stocks</button>
+        <button class="tab-button" type="button" data-tab="daily">Daily</button>
+        <button class="tab-button" type="button" data-tab="pipeline">Pipeline</button>
+      </nav>
+
+      <section id="postsPanel" class="tab-panel is-active" aria-label="Posts">
+        <div class="section-heading">
+          <h2>Posts</h2>
+          <span>Per-post Chinese summary and stock stance extraction.</span>
+        </div>
+        <div id="postsList" class="card-list">
+          <div class="empty-state">Loading posts...</div>
+        </div>
+      </section>
+
+      <section id="stocksPanel" class="tab-panel" aria-label="Stocks" hidden>
+        <div class="section-heading">
+          <h2>Stocks</h2>
+          <span>Aggregated bullish, bearish, neutral, mixed, and unclear views by ticker.</span>
+        </div>
+        <div id="stocksList" class="stock-grid">
+          <div class="empty-state">Loading stocks...</div>
+        </div>
+      </section>
+
+      <section id="dailyPanel" class="tab-panel" aria-label="Daily" hidden>
+        <div class="section-heading">
+          <h2>Daily</h2>
+          <span>Daily themes, important posts, and market notes.</span>
+        </div>
+        <div id="dailyList" class="card-list">
+          <div class="empty-state">Loading daily summary...</div>
+        </div>
+      </section>
+
+      <section id="pipelinePanel" class="tab-panel" aria-label="Pipeline" hidden>
+        <div class="section-heading">
+          <h2>Pipeline</h2>
+          <span>Collector, analyzer, publisher, and site payload status.</span>
+        </div>
+        <div id="pipelineList" class="pipeline-grid">
+          <div class="empty-state">Loading pipeline status...</div>
+        </div>
+      </section>
+    </main>
+
+    <script src="x.js" defer></script>
+  </body>
+</html>
