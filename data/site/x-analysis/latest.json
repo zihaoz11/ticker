@@ -1,14 +1,853 @@
 {
   "schema_version": "1.0",
   "account": "aleabitoreddit",
-  "generated_at": "2026-04-30T06:48:28+00:00",
+  "generated_at": "2026-04-30T06:53:54+00:00",
   "status": {
-    "post_count": 5,
-    "public_count": 5,
+    "post_count": 10,
+    "public_count": 10,
     "subscriber_only_count": 0,
-    "warnings_count": 7
+    "warnings_count": 0
   },
   "posts": [
+    {
+      "post_id": "2025956208138649924",
+      "url": "https://x.com/aleabitoreddit/status/2025956208138649924",
+      "account": "aleabitoreddit",
+      "visibility": "public",
+      "collected_at_utc": "2026-04-30T06:51:52+00:00",
+      "published_label": "",
+      "summary_cn": "推文称关于EWY ETF的交易策略为'S级研究'，并引用他人评价该交易想法极佳，强调其分析师对宏观、公司及衍生品技术的综合理解。",
+      "key_points": [
+        "作者发布免费的'S级研究'，涉及EWY ETF的穿透结构映射。",
+        "引用技术分析师@TheValueist对EWY交易的高度评价。",
+        "强调分析涵盖宏观、微观及衍生品技术层面。",
+        "提及发现2028年波动率定价问题（具体细节未展开）。"
+      ],
+      "themes": [
+        "ETF交易策略",
+        "波动率定价",
+        "技术分析",
+        "市场研究分享"
+      ],
+      "mentioned_tickers": [
+        "EWY"
+      ],
+      "stock_views": [
+        {
+          "ticker": "EWY",
+          "stance": "bullish",
+          "confidence": 0.6,
+          "reason_cn": "推文将EWY交易描述为'stupid good'（极佳），并强调其研究质量高，暗示对交易机会持积极态度。",
+          "evidence_quote": "This $EWY trade was stupid good."
+        }
+      ],
+      "importance": 0.7,
+      "confidence": 0.6,
+      "risk_notes": [
+        "推文内容基于个人研究分享，未提供具体数据支持。",
+        "存在主观评价，可能带有营销或推广成分。",
+        "未提及潜在风险或市场不确定性。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "已置顶 Serenity @aleabitoreddit · 2月23日 This is S tier research I put out for free! Appreciate the shoutout from technical folks like @TheValueist who saw how awesome this trade idea was: -> mapped pass through structures of $EWY and SK Hynix/Samsung despite ETF…",
+      "raw_text_available_private_repo": false
+    },
+    {
+      "post_id": "1972016308662513748",
+      "url": "https://x.com/aleabitoreddit/status/1972016308662513748",
+      "account": "aleabitoreddit",
+      "visibility": "public",
+      "collected_at_utc": "2026-04-30T06:51:52+00:00",
+      "published_label": "",
+      "summary_cn": "推文作者分享其投资理念，称在“新云”领域投入巨资，并列举了多个相关股票，同时展示了其账户在过去一年获得的高额回报。",
+      "key_points": [
+        "作者声称在‘新云’领域投入超过150万美元，预期回报为200-300%。",
+        "列出了多个与云计算和计算相关的股票，包括CRWV、NBIS、WULF、CIFR等。",
+        "作者提到其账户在过去一年获得了630.44%的回报。",
+        "作者表示愿意分享其分析，并鼓励查看其在X或Reddit上的历史记录。"
+      ],
+      "themes": [
+        "云计算投资",
+        "高回报预期",
+        "股票推荐"
+      ],
+      "mentioned_tickers": [
+        "BITF",
+        "CIFR",
+        "CRWV",
+        "GRRR",
+        "HOOD",
+        "IREN",
+        "NBIS",
+        "SLNH",
+        "UPWK",
+        "WULF",
+        "WYFI"
+      ],
+      "stock_views": [
+        {
+          "ticker": "CRWV",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "作者将其列为‘新云’投资组合的一部分，并预期高回报。",
+          "evidence_quote": "Buckets Mag7 contracts: $CRWV"
+        },
+        {
+          "ticker": "NBIS",
+          "stance": "unclear",
+          "confidence": 0.8,
+          "reason_cn": "作者将其列为‘新云’投资组合的一部分，并预期高回报。",
+          "evidence_quote": "Buckets Mag7 contracts: $NBIS"
+        },
+        {
+          "ticker": "WULF",
+          "stance": "unclear",
+          "confidence": 0.8,
+          "reason_cn": "作者将其列为‘新云’投资组合的一部分，并预期高回报。",
+          "evidence_quote": "Buckets Mag7 contracts: $WULF"
+        },
+        {
+          "ticker": "CIFR",
+          "stance": "unclear",
+          "confidence": 0.8,
+          "reason_cn": "作者将其列为‘新云’投资组合的一部分，并预期高回报。",
+          "evidence_quote": "Buckets Mag7 contracts: $CIFR"
+        },
+        {
+          "ticker": "IREN",
+          "stance": "unclear",
+          "confidence": 0.8,
+          "reason_cn": "作者将其列为与计算相关的股票，并预期高回报。",
+          "evidence_quote": "With compute: $IREN"
+        },
+        {
+          "ticker": "BITF",
+          "stance": "unclear",
+          "confidence": 0.8,
+          "reason_cn": "作者将其列为与计算相关的股票，并预期高回报。",
+          "evidence_quote": "With compute: $BITF"
+        },
+        {
+          "ticker": "WYFI",
+          "stance": "unclear",
+          "confidence": 0.8,
+          "reason_cn": "作者将其列为投机性股票，并预期高回报。",
+          "evidence_quote": "Speculative: $WYFI"
+        },
+        {
+          "ticker": "GRRR",
+          "stance": "unclear",
+          "confidence": 0.8,
+          "reason_cn": "作者将其列为投机性股票，并预期高回报。",
+          "evidence_quote": "Speculative: $GRRR"
+        },
+        {
+          "ticker": "SLNH",
+          "stance": "unclear",
+          "confidence": 0.8,
+          "reason_cn": "作者将其列为投机性股票，并预期高回报。",
+          "evidence_quote": "Speculative: $SLNH"
+        },
+        {
+          "ticker": "HOOD",
+          "stance": "unclear",
+          "confidence": 0.8,
+          "reason_cn": "作者提到其账户在HOOD上的表现，并分享其分析。",
+          "evidence_quote": "from $NBIS to $HOOD"
+        },
+        {
+          "ticker": "UPWK",
+          "stance": "unclear",
+          "confidence": 0.8,
+          "reason_cn": "作者提到其账户在UPWK上的表现，并分享其分析。",
+          "evidence_quote": "from $NBIS to $UPWK"
+        }
+      ],
+      "importance": 0.9,
+      "confidence": 0.8,
+      "risk_notes": [
+        "作者的高回报声明可能具有误导性，投资者应谨慎对待。",
+        "投机性股票的风险较高，可能导致重大损失。",
+        "作者的投资组合可能不适合所有投资者，应根据个人风险承受能力进行调整。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "Serenity @aleabitoreddit · 2025年9月27日 The NeoCloud Thesis: Hyperscaler Capex Funnel Why I'm putting $1.5M+ into Neoclouds, and why this might be a 200-300%+ return. Buckets Mag7 contracts: $CRWV $NBIS $WULF $CIFR With compute: $IREN , $BITF Speculative: $WYFI…",
+      "raw_text_available_private_repo": false
+    },
+    {
+      "post_id": "1983399179759300943",
+      "url": "https://x.com/aleabitoreddit/status/1983399179759300943",
+      "account": "aleabitoreddit",
+      "visibility": "public",
+      "collected_at_utc": "2026-04-30T06:51:52+00:00",
+      "published_label": "",
+      "summary_cn": "推文分析了2025年宏观投资主题，重点推荐了Neocloud（AI云）、Connectivity、Robotics、National Security和Energy板块，并列举了相关股票及投资逻辑。",
+      "key_points": [
+        "Neocloud板块被视为核心投资方向，预计通过Hyperscaler资本支出漏斗获得200-300%回报。",
+        "明确列出了Neocloud、Connectivity、Robotics、National Security、Energy五大主题及其对应股票。",
+        "将NBIS、IREN、CIFR、WULF等列为Mag7合同或Compute相关标的。",
+        "提及将150万美元以上资金投入Neocloud相关标的。"
+      ],
+      "themes": [
+        "Neocloud",
+        "Connectivity",
+        "Robotics",
+        "National Security",
+        "Energy"
+      ],
+      "mentioned_tickers": [
+        "ALAB",
+        "BITF",
+        "CCCX",
+        "CIFR",
+        "CLS",
+        "CRDO",
+        "CRWV",
+        "DGXX",
+        "EOSE",
+        "FLNC",
+        "GRRR",
+        "IREN",
+        "KRKNF",
+        "KTOS",
+        "MP",
+        "NBIS",
+        "ONDS",
+        "RKLB",
+        "RR",
+        "SEI",
+        "SLNH",
+        "TE",
+        "WULF",
+        "WYFI"
+      ],
+      "stock_views": [
+        {
+          "ticker": "NBIS",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "被列为Neocloud核心标的，属于Mag7合同或Compute相关，预期高回报。",
+          "evidence_quote": "Buckets Mag7 contracts: $CRWV, $NBIS"
+        },
+        {
+          "ticker": "IREN",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "被列为Neocloud核心标的，与Compute相关，预期高回报。",
+          "evidence_quote": "With compute: $IREN"
+        },
+        {
+          "ticker": "CIFR",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "被列为Neocloud核心标的，属于Mag7合同或Compute相关，预期高回报。",
+          "evidence_quote": "Buckets Mag7 contracts: $CRWV, $NBIS , $WULF, $CIFR"
+        },
+        {
+          "ticker": "CRWV",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "被列为Neocloud核心标的，属于Mag7合同或Compute相关，预期高回报。",
+          "evidence_quote": "Buckets Mag7 contracts: $CRWV"
+        },
+        {
+          "ticker": "WULF",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "被列为Neocloud核心标的，属于Mag7合同或Compute相关，预期高回报。",
+          "evidence_quote": "Buckets Mag7 contracts: $CRWV, $NBIS , $WULF"
+        },
+        {
+          "ticker": "BITF",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "被列为Neocloud核心标的，与Compute相关，预期高回报。",
+          "evidence_quote": "With compute: $IREN , $BITF"
+        },
+        {
+          "ticker": "WYFI",
+          "stance": "bullish",
+          "confidence": 0.6,
+          "reason_cn": "被列为Neocloud投机性标的，预期高回报。",
+          "evidence_quote": "Speculative: $WYFI"
+        },
+        {
+          "ticker": "GRRR",
+          "stance": "bullish",
+          "confidence": 0.6,
+          "reason_cn": "被列为Neocloud投机性标的，预期高回报。",
+          "evidence_quote": "Speculative: $WYFI, $GRRR"
+        },
+        {
+          "ticker": "SLNH",
+          "stance": "bullish",
+          "confidence": 0.6,
+          "reason_cn": "被列为Neocloud投机性标的，预期高回报。",
+          "evidence_quote": "Speculative: $WYFI, $GRRR , $SLNH"
+        },
+        {
+          "ticker": "ALAB",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "被列为Connectivity板块标的，预期受益于该主题。",
+          "evidence_quote": "Connectivity: $ALAB"
+        },
+        {
+          "ticker": "CRDO",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "被列为Connectivity板块标的，预期受益于该主题。",
+          "evidence_quote": "Connectivity: $ALAB · $CRDO"
+        },
+        {
+          "ticker": "CLS",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "被列为Connectivity板块标的，预期受益于该主题。",
+          "evidence_quote": "Connectivity: $ALAB · $CRDO · $CLS"
+        },
+        {
+          "ticker": "KRKNF",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "被列为Robotics板块标的，预期受益于该主题。",
+          "evidence_quote": "Robotics: $KRKNF"
+        },
+        {
+          "ticker": "ONDS",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "被列为Robotics板块标的，预期受益于该主题。",
+          "evidence_quote": "Robotics: $KRKNF · $ONDS"
+        },
+        {
+          "ticker": "RR",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "被列为Robotics板块标的，预期受益于该主题。",
+          "evidence_quote": "Robotics: $KRKNF · $ONDS · $RR"
+        },
+        {
+          "ticker": "RKLB",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "被列为National Security板块标的，预期受益于该主题。",
+          "evidence_quote": "National Security: $RKLB"
+        },
+        {
+          "ticker": "MP",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "被列为National Security板块标的，预期受益于该主题。",
+          "evidence_quote": "National Security: $RKLB · $MP"
+        },
+        {
+          "ticker": "KTOS",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "被列为National Security板块标的，预期受益于该主题。",
+          "evidence_quote": "National Security: $RKLB · $MP · $KTOS"
+        },
+        {
+          "ticker": "CCCX",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "被列为National Security板块标的，预期受益于该主题。",
+          "evidence_quote": "National Security: $RKLB · $MP · $KTOS · $CCCX"
+        },
+        {
+          "ticker": "FLNC",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "被列为Energy板块标的，预期受益于该主题。",
+          "evidence_quote": "Energy: $FLNC"
+        },
+        {
+          "ticker": "EOSE",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "被列为Energy板块标的，预期受益于该主题。",
+          "evidence_quote": "Energy: $FLNC · $EOSE"
+        },
+        {
+          "ticker": "TE",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "被列为Energy板块标的，预期受益于该主题。",
+          "evidence_quote": "Energy: $FLNC · $EOSE · $TE"
+        },
+        {
+          "ticker": "SEI",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "被列为Energy板块标的，预期受益于该主题。",
+          "evidence_quote": "Energy: $FLNC · $EOSE · $TE · $SEI"
+        },
+        {
+          "ticker": "DGXX",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "被列为Neocloud板块标的，但未明确提及具体投资逻辑或预期回报。",
+          "evidence_quote": "Neocloud: $NBIS · $IREN · $CIFR · $DGXX"
+        }
+      ],
+      "importance": 0.9,
+      "confidence": 0.8,
+      "risk_notes": [
+        "推文中的投资逻辑基于2025年预测，可能存在不确定性。",
+        "投机性标的（如WYFI、GRRR、SLNH）风险较高。",
+        "未提及具体财务数据或市场验证，仅基于宏观主题分析。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "Serenity @aleabitoreddit · 2025年10月28日 Macro Analysis: Focus Areas: Flows · Proxies · Seasonality · Positioning Setup : _ Neocloud: $NBIS · $IREN · $CIFR · $DGXX Connectivity: $ALAB · $CRDO · $CLS Robotics: $KRKNF · $ONDS · $RR National Security: $RKLB · $MP…",
+      "raw_text_available_private_repo": false
+    },
+    {
+      "post_id": "1985334909108433014",
+      "url": "https://x.com/aleabitoreddit/status/1985334909108433014",
+      "account": "aleabitoreddit",
+      "visibility": "public",
+      "collected_at_utc": "2026-04-30T06:51:52+00:00",
+      "published_label": "",
+      "summary_cn": "推文列举了多家算力股（如IREN、CIFR等）的重大合同进展及市值排名，整体呈现积极态势。",
+      "key_points": [
+        "IREN 与微软签署97亿美元GPU云服务合同，含20%预付款。",
+        "CIFR 与AWS签署55亿美元、15年租赁协议。",
+        "列出Neocloud生态系统中各公司市值排名。",
+        "内容侧重于行业利好消息汇总。"
+      ],
+      "themes": [
+        "算力基础设施",
+        "云服务合同",
+        "AI硬件部署"
+      ],
+      "mentioned_tickers": [
+        "APLD",
+        "CIFR",
+        "CLSK",
+        "CRWV",
+        "HIVE",
+        "HUT",
+        "IREN",
+        "NBIS",
+        "RIOT",
+        "WULF",
+        "WYFI"
+      ],
+      "stock_views": [
+        {
+          "ticker": "IREN",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "获得微软大额合同及预付款，显示强劲需求。",
+          "evidence_quote": "$IREN - IREN secured a $9.7B GPU cloud contract with Microsoft"
+        },
+        {
+          "ticker": "CIFR",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "与AWS达成长期租赁协议，业务稳定。",
+          "evidence_quote": "$CIFR - CIFR secured a $5.5 billion, 15-year lease agreement with Amazon Web Services"
+        },
+        {
+          "ticker": "CRWV",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "仅提及市值，无具体事件。",
+          "evidence_quote": "$CRWV ($66.2B)"
+        },
+        {
+          "ticker": "NBIS",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "仅提及市值，无具体事件。",
+          "evidence_quote": "$NBIS ($32.85B)"
+        },
+        {
+          "ticker": "APLD",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "仅提及市值，无具体事件。",
+          "evidence_quote": "$APLD ($9.69B)"
+        },
+        {
+          "ticker": "RIOT",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "仅提及市值，无具体事件。",
+          "evidence_quote": "$RIOT ($7.34B)"
+        },
+        {
+          "ticker": "WULF",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "仅提及市值，无具体事件。",
+          "evidence_quote": "$WULF ($6.36B)"
+        },
+        {
+          "ticker": "HUT",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "仅提及市值，无具体事件。",
+          "evidence_quote": "$HUT($5.39B)"
+        },
+        {
+          "ticker": "CLSK",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "仅提及市值，无具体事件。",
+          "evidence_quote": "$CLSK ($5.01B)"
+        },
+        {
+          "ticker": "HIVE",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "仅提及市值，无具体事件。",
+          "evidence_quote": "$HIVE ($1.74B CAD)"
+        },
+        {
+          "ticker": "WYFI",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "仅提及市值，无具体事件。",
+          "evidence_quote": "$WYFI ($1.29B)"
+        }
+      ],
+      "importance": 0.7,
+      "confidence": 0.6,
+      "risk_notes": [
+        "推文未提供财务细节或潜在风险。",
+        "市值数据可能随市场波动。",
+        "合同条款细节未完全披露。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "Serenity @aleabitoreddit · 2025年11月3日 The Neocloud List got updated: $IREN - IREN secured a $9.7B GPU cloud contract with Microsoft, including 20% upfront prepayment, to deploy NVIDIA GB300s over five years. $CIFR - CIFR secured a $5.5 billion, 15-year lease…",
+      "raw_text_available_private_repo": false
+    },
+    {
+      "post_id": "1972769926302855553",
+      "url": "https://x.com/aleabitoreddit/status/1972769926302855553",
+      "account": "aleabitoreddit",
+      "visibility": "public",
+      "collected_at_utc": "2026-04-30T06:51:52+00:00",
+      "published_label": "",
+      "summary_cn": "推文表达了对 NBIS、ETOR、LTC、VIRT、AMZN 等多只股票的强烈买入观点，对 IREN、HOOD、TSLA 等持卖出态度，并特别推荐 VIRT 作为非对称波动率对冲工具。",
+      "key_points": [
+        "对 NBIS、ETOR、LTC、VIRT、AMZN 等股票给出强烈买入评级。",
+        "对 IREN、HOOD、TSLA、RDDT、CRCL 等股票给出卖出评级。",
+        "对 TGT、CRM、TSM、CRDO、SG、CIFR、LULU、SLNH、ORCL、MSTR、RIOT、MARA、PYPL、MRVL、IBIT、UPWK、GRAB、ALAB、ASTS、SOFI、NVDA、NVO、PLTR 等股票给出买入或持有评级。",
+        "特别推荐 VIRT 作为非对称波动率对冲工具，强调其低估值和独特性。",
+        "提到 UPWK 在过去两个月内上涨 52%，市盈率从 7 升至 11.5。"
+      ],
+      "themes": [
+        "价值投资",
+        "波动率对冲",
+        "市场收盘思考",
+        "非对称机会"
+      ],
+      "mentioned_tickers": [
+        "ALAB",
+        "AMZN",
+        "ASTS",
+        "CIFR",
+        "CRCL",
+        "CRDO",
+        "CRM",
+        "ETOR",
+        "GRAB",
+        "HIMS",
+        "HOOD",
+        "IBIT",
+        "IREN",
+        "LTC",
+        "LULU",
+        "MARA",
+        "MRVL",
+        "MSTR",
+        "NBIS",
+        "NVDA",
+        "NVO",
+        "ORCL",
+        "PLTR",
+        "PYPL",
+        "RDDT",
+        "RIOT",
+        "RKLB",
+        "SG",
+        "SLNH",
+        "SMCI",
+        "SOFI",
+        "TGT",
+        "TSLA",
+        "TSM",
+        "UPWK",
+        "VIRT"
+      ],
+      "stock_views": [
+        {
+          "ticker": "NBIS",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确列为强烈买入股票。",
+          "evidence_quote": "Extremely Strong Buy $NBIS"
+        },
+        {
+          "ticker": "ETOR",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确列为强烈买入股票。",
+          "evidence_quote": "Extremely Strong Buy $ETOR"
+        },
+        {
+          "ticker": "LTC",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确列为强烈买入股票。",
+          "evidence_quote": "Extremely Strong Buy $LTC"
+        },
+        {
+          "ticker": "VIRT",
+          "stance": "bullish",
+          "confidence": 0.85,
+          "reason_cn": "被特别推荐作为非对称波动率对冲工具，强调其低估值和独特性。",
+          "evidence_quote": "An interesting stock is $VIRT as an asymmetrical volatility hedge"
+        },
+        {
+          "ticker": "AMZN",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确列为强烈买入股票。",
+          "evidence_quote": "Extremely Strong Buy $AMZN"
+        },
+        {
+          "ticker": "SMCI",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确列为强烈买入股票。",
+          "evidence_quote": "Extremely Strong Buy $SMCI"
+        },
+        {
+          "ticker": "TGT",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确列为强烈买入股票。",
+          "evidence_quote": "Extremely Strong Buy $TGT"
+        },
+        {
+          "ticker": "CRM",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确列为强烈买入股票。",
+          "evidence_quote": "Extremely Strong Buy $CRM"
+        },
+        {
+          "ticker": "TSM",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确列为强烈买入股票。",
+          "evidence_quote": "Extremely Strong Buy $TSM"
+        },
+        {
+          "ticker": "CRDO",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确列为强烈买入股票。",
+          "evidence_quote": "Extremely Strong Buy $CRDO"
+        },
+        {
+          "ticker": "SG",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确列为强烈买入股票。",
+          "evidence_quote": "Extremely Strong Buy $SG"
+        },
+        {
+          "ticker": "CIFR",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确列为强烈买入股票。",
+          "evidence_quote": "Extremely Strong Buy $CIFR"
+        },
+        {
+          "ticker": "LULU",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确列为强烈买入股票。",
+          "evidence_quote": "Extremely Strong Buy $LULU"
+        },
+        {
+          "ticker": "SLNH",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确列为强烈买入股票。",
+          "evidence_quote": "Extremely Strong Buy $SLNH"
+        },
+        {
+          "ticker": "ORCL",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确列为强烈买入股票。",
+          "evidence_quote": "Extremely Strong Buy $ORCL"
+        },
+        {
+          "ticker": "MSTR",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确列为强烈买入股票。",
+          "evidence_quote": "Extremely Strong Buy $MSTR"
+        },
+        {
+          "ticker": "RIOT",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确列为强烈买入股票。",
+          "evidence_quote": "Extremely Strong Buy $RIOT"
+        },
+        {
+          "ticker": "MARA",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确列为强烈买入股票。",
+          "evidence_quote": "Extremely Strong Buy $MARA"
+        },
+        {
+          "ticker": "IREN",
+          "stance": "bearish",
+          "confidence": 0.8,
+          "reason_cn": "被明确列为持有或卖出股票，且与 VIRT 形成非对称对冲关系。",
+          "evidence_quote": "Hold $IREN"
+        },
+        {
+          "ticker": "HIMS",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "未明确表达看多或看空观点。",
+          "evidence_quote": "Hold $HIMS"
+        },
+        {
+          "ticker": "RKLB",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "未明确表达看多或看空观点。",
+          "evidence_quote": "Hold $RKLB"
+        },
+        {
+          "ticker": "PYPL",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "未明确表达看多或看空观点。",
+          "evidence_quote": "Hold $PYPL"
+        },
+        {
+          "ticker": "MRVL",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "未明确表达看多或看空观点。",
+          "evidence_quote": "Hold $MRVL"
+        },
+        {
+          "ticker": "IBIT",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "未明确表达看多或看空观点。",
+          "evidence_quote": "Hold $IBIT"
+        },
+        {
+          "ticker": "UPWK",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "被特别提及为价值投资标的，过去两个月上涨 52%。",
+          "evidence_quote": "Upwork (+52% in 2 months, P/E 7-> 11.5)"
+        },
+        {
+          "ticker": "GRAB",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "未明确表达看多或看空观点。",
+          "evidence_quote": "Hold $GRAB"
+        },
+        {
+          "ticker": "ALAB",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "未明确表达看多或看空观点。",
+          "evidence_quote": "Hold $ALAB"
+        },
+        {
+          "ticker": "ASTS",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "未明确表达看多或看空观点。",
+          "evidence_quote": "Hold $ASTS"
+        },
+        {
+          "ticker": "SOFI",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "未明确表达看多或看空观点。",
+          "evidence_quote": "Hold $SOFI"
+        },
+        {
+          "ticker": "NVDA",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确列为强烈买入股票。",
+          "evidence_quote": "Extremely Strong Buy $NVDA"
+        },
+        {
+          "ticker": "NVO",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确列为强烈买入股票。",
+          "evidence_quote": "Extremely Strong Buy $NVO"
+        },
+        {
+          "ticker": "HOOD",
+          "stance": "bearish",
+          "confidence": 0.8,
+          "reason_cn": "被明确列为卖出股票。",
+          "evidence_quote": "Sell $HOOD"
+        },
+        {
+          "ticker": "TSLA",
+          "stance": "bearish",
+          "confidence": 0.8,
+          "reason_cn": "被明确列为卖出股票。",
+          "evidence_quote": "Sell $TSLA"
+        },
+        {
+          "ticker": "RDDT",
+          "stance": "bearish",
+          "confidence": 0.8,
+          "reason_cn": "被明确列为卖出股票。",
+          "evidence_quote": "Sell $RDDT"
+        },
+        {
+          "ticker": "CRCL",
+          "stance": "bearish",
+          "confidence": 0.8,
+          "reason_cn": "被明确列为卖出股票。",
+          "evidence_quote": "Sell $CRCL"
+        },
+        {
+          "ticker": "PLTR",
+          "stance": "bearish",
+          "confidence": 0.8,
+          "reason_cn": "被明确列为卖出股票。",
+          "evidence_quote": "Sell $PLTR"
+        }
+      ],
+      "importance": 0.9,
+      "confidence": 0.85,
+      "risk_notes": [
+        "推文中的观点可能基于短期市场情绪，不一定反映长期基本面。",
+        "部分股票评级为持有或卖出，可能存在不确定性。",
+        "推文未提供详细财务数据或行业分析，仅基于作者个人判断。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "Serenity @aleabitoreddit · 2025年9月29日 Monday Market Close Thoughts: Extremely Strong Buy $NBIS $ETOR $LTC $VIRT Buy $AMZN $SMCI $TGT $CRM $TSM $CRDO $SG $CIFR $LULU $SLNH $ORCL $MSTR $RIOT $MARA Hold $IREN $HIMS $RKLB $PYPL $MRVL $IBIT $UPWK $GRAB $ALAB $ASTS…",
+      "raw_text_available_private_repo": false
+    },
     {
       "post_id": "aleabitoreddit-a50559f81dbe2a5f",
       "url": "",
@@ -21,7 +860,7 @@
         "作者对 CRCL 持看涨态度，认为其 Stablecoin 业务具有增长潜力。",
         "作者提到 Stablecoin 可能带来费用节省，如减少 App Store 和 Stripe 手续费。",
         "作者指出银行试图通过 Clarity Act 游说控制 Stablecoin。",
-        "作者表示订阅收入并非其关注重点，不会改变现有策略。"
+        "作者表示不打算改变订阅模式，但认为 Stablecoin 是未来趋势。"
       ],
       "themes": [
         "Stablecoin",
@@ -37,8 +876,8 @@
           "ticker": "CRCL",
           "stance": "bullish",
           "confidence": 0.8,
-          "reason_cn": "作者明确表达对 CRCL 的看涨态度，认为 Stablecoin 是未来，并指出费用节省的潜力。",
-          "evidence_quote": "Just in case you're wondering why I'm bullish on $CRCL and Stablecoins."
+          "reason_cn": "作者明确表达对 CRCL 的看涨态度，认为 Stablecoin 是未来，并指出其费用节省潜力。",
+          "evidence_quote": "Just in case you’re wondering why I’m bullish on $CRCL and Stablecoins."
         }
       ],
       "importance": 0.7,
@@ -58,27 +897,27 @@
       "visibility": "public",
       "collected_at_utc": "2026-04-27T07:45:00Z",
       "published_label": "3h",
-      "summary_cn": "推文批评银行通过游说阻碍加密货币公司获得牌照，认为这是为了维持垄断和利差，而非保护客户资金。",
+      "summary_cn": "推文批评银行通过游说阻碍加密货币公司获取牌照，认为这是为了维持垄断和利差，而非保护客户资金。",
       "key_points": [
-        "银行声称有申请牌照的途径，但实际在幕后阻止加密货币公司获批。",
-        "引用Custodia银行案例，指出银行游说导致加密货币相关公司申请被拖延。",
-        "批评银行通过立法限制竞争，以牺牲零售客户利益为代价维持利差。",
-        "认为即将通过的法案将对加密货币行业造成毁灭性打击。"
+        "银行声称有申请牌照的途径，但背后阻止加密货币公司获批",
+        "引用Custodia银行案例说明银行阻碍竞争",
+        "指责银行游说通过法案以禁止加密货币竞争",
+        "认为银行对零售用户的说法是谎言"
       ],
       "themes": [
         "银行业垄断",
         "加密货币监管",
         "游说影响",
-        "客户利益受损"
+        "利益冲突"
       ],
       "mentioned_tickers": [],
       "stock_views": [],
       "importance": 0.0,
       "confidence": 0.0,
       "risk_notes": [
-        "推文未提及具体股票代码，仅讨论行业整体问题。",
-        "内容基于主观观点，缺乏具体数据支持。",
-        "涉及政治游说和监管政策，可能影响行业但非个股直接风险。"
+        "推文未提及具体股票代码",
+        "内容涉及对银行行业的整体批评而非个股分析",
+        "未提供投资建议"
       ],
       "fallback_used": false,
       "raw_excerpt": "You’re witnessing hypocrisy in plain sight with Yields + Clarity Act. Banks say there’s a pathway to apply for a banking license but behind the scenes… But these same banks are the ones lobbying behind the board to prevent any crypto related companies from ac…",
@@ -91,19 +930,20 @@
       "visibility": "public",
       "collected_at_utc": "2026-04-27T07:45:00Z",
       "published_label": "4h",
-      "summary_cn": "推文警告$VELO存在因5亿美元货架注册导致的潜在稀释风险，尽管公司近期获得国防合同且扩张计划合理，但相对于其市值的稀释规模被视为财务上的掠夺性风险。",
+      "summary_cn": "推文警告 $VELO 存在因 ATM 和权证导致的巨额稀释风险，尽管其近期获得国防合同且战略方向合理，但财务结构上的稀释被视为重大风险。",
       "key_points": [
-        "$VELO存在5亿美元货架注册，用于ATM/Warrants稀释，规模相对于3.11亿美元市值较大。",
-        "公司近期获得来自国防部、国防总装商和DLA的合同，总计约5.4亿美元，对业务有利。",
-        "公司声称稀释资金用于十年内扩大400套系统生产及并购，但作者认为财务结构风险较高。",
-        "作者建议长期持有者了解此类稀释风险，并认为这是合理的风险披露。"
+        "$VELO 存在 5 亿美元货架额度，用于 ATM 和权证发行，相对于其 3.11 亿美元市值而言规模巨大。",
+        "公司近期获得了来自国防部、国防巨头和 DLA 合同的资金，对业务有积极影响。",
+        "公司声称稀释是为了扩大生产规模及并购，但作者认为财务上并不稳健。",
+        "作者认为稀释风险是长期持有者必须考虑的重大风险。",
+        "推文旨在进行风险披露，提醒投资者注意稀释带来的潜在负面影响。"
       ],
       "themes": [
         "稀释风险",
-        "货架注册",
-        "国防合同",
         "财务结构",
-        "风险披露"
+        "国防合同",
+        "风险披露",
+        "市值压力"
       ],
       "mentioned_tickers": [
         "VELO"
@@ -113,16 +953,16 @@
           "ticker": "VELO",
           "stance": "bearish",
           "confidence": 0.7,
-          "reason_cn": "作者认为相对于市值的稀释规模是掠夺性的，尽管业务有战略合理性，但财务上存在重大风险。",
+          "reason_cn": "尽管有国防合同利好，但作者明确指出 5 亿美元稀释相对于 3.11 亿美元市值是‘掠夺性’的，且 ATM 机制加剧了财务风险，因此整体持谨慎看空态度。",
           "evidence_quote": "I do think this amount relative to MC is pretty predatory, especially with ATMs."
         }
       ],
       "importance": 0.8,
       "confidence": 0.7,
       "risk_notes": [
-        "ATM/Warrants稀释可能导致股权价值被摊薄。",
-        "公司依赖国防合同，需关注合同持续性和竞争环境。",
-        "市值较小，大额稀释对股价影响显著。"
+        "推文内容涉及稀释风险，可能影响股价稳定性。",
+        "作者强调这是风险披露，不构成投资建议。",
+        "投资者需注意 ATM 机制可能导致的持续稀释压力。"
       ],
       "fallback_used": false,
       "raw_excerpt": "Just a heads up to $VELO. There was a $500M shelf for an ATM / Warrants dilution, which is structurally large relative to its $311m MC. This was a popular retail X stock for speculated SpaceX, Andruil, and Defense supply chains: With: - $32.6M from Department…",
@@ -135,11 +975,11 @@
       "visibility": "public",
       "collected_at_utc": "2026-04-27T07:45:00Z",
       "published_label": "5h",
-      "summary_cn": "推文批评美国破坏全球供应链以对抗中俄，主张优先保障自身供应链安全，并提及对ASML、ARM、NVDA、TSM等公司的潜在威胁。",
+      "summary_cn": "推文批评美国破坏全球供应链以支持盟友，主张优先建立自主供应链，并提及对ASML、ARM、NVDA、TSM等公司的潜在威胁。",
       "key_points": [
         "批评美国削弱与盟友（如日本、韩国）的供应链关系",
-        "建议优先投资稀土、炼油及替代贸易路线",
-        "警告不要破坏自身供应链（如半导体、化工）",
+        "建议优先投资稀土、精炼厂及替代贸易路线",
+        "警告不要破坏自身供应链以对抗俄罗斯/中国",
         "提及对ASML、ARM、NVDA、TSM等公司的潜在威胁"
       ],
       "themes": [
@@ -159,36 +999,36 @@
           "ticker": "ASML",
           "stance": "bearish",
           "confidence": 0.6,
-          "reason_cn": "推文提到威胁欧洲ASML作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险",
+          "reason_cn": "推文暗示美国可能威胁欧洲ASML公司作为对中国的筹码",
           "evidence_quote": "threatening European $ASML"
         },
         {
           "ticker": "ARM",
           "stance": "bearish",
           "confidence": 0.6,
-          "reason_cn": "推文提到威胁日本ARM作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险",
-          "evidence_quote": "Japanese $ARM"
+          "reason_cn": "推文暗示美国可能威胁日本ARM公司作为对中国的筹码",
+          "evidence_quote": "threatening... Japanese $ARM"
         },
         {
           "ticker": "NVDA",
           "stance": "bearish",
           "confidence": 0.6,
-          "reason_cn": "推文提到威胁美国NVDA作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险",
-          "evidence_quote": "US $NVDA"
+          "reason_cn": "推文暗示美国可能威胁美国NVDA公司作为对中国的筹码",
+          "evidence_quote": "threatening... US $NVDA"
         },
         {
           "ticker": "TSM",
           "stance": "bearish",
           "confidence": 0.6,
-          "reason_cn": "推文提到威胁台湾TSM作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险",
-          "evidence_quote": "Taiwan $TSM"
+          "reason_cn": "推文暗示美国可能威胁台湾TSM公司作为对中国的筹码",
+          "evidence_quote": "threatening... Taiwan $TSM"
         }
       ],
-      "importance": 0.8,
-      "confidence": 0.7,
+      "importance": 0.7,
+      "confidence": 0.6,
       "risk_notes": [
-        "推文内容基于地缘政治假设，非投资建议",
-        "实际市场影响需结合政策变化及公司应对策略"
+        "推文内容基于假设性地缘政治情景，非当前事实",
+        "未提供具体投资建议，仅分析推文观点"
       ],
       "fallback_used": false,
       "raw_excerpt": "Who is even writing this? We don't need more leverage over our allies like Japan, Europe, or South Korea. We need them over Russia and China. - In SEA over 40% of gas stations in Laos have closed, - Cambodia and Thailand have started rationing and price contr…",
@@ -204,13 +1044,15 @@
       "summary_cn": "推文讲述了一个人从30万美元通过RDDT等个股获利至300万后，因进行SPY的0DTE期权交易亏损至5万美元的教训，并对比了长期持有AVGO和NVDA的复利优势。",
       "key_points": [
         "0DTE期权交易风险极高，即使全仓买入热门股也可能导致巨额亏损。",
-        "长期持有如AVGO和NVDA等股票能实现复利增长，优于短期期权博弈。",
-        "推文以Nancy Pelosi的财富积累为例，强调长期投资的重要性。"
+        "长期持有如AVGO和NVDA等股票能实现复利增长，是代际财富积累的关键。",
+        "推文强调避免短期期权交易，转向长期投资策略。",
+        "提及RDDT作为当前热门话题，但重点在于期权交易的失败案例。"
       ],
       "themes": [
-        "期权风险",
-        "长期复利",
-        "财富积累"
+        "风险管理",
+        "长期投资",
+        "期权交易陷阱",
+        "复利效应"
       ],
       "mentioned_tickers": [
         "AVGO",
@@ -222,45 +1064,46 @@
       "stock_views": [
         {
           "ticker": "RDDT",
-          "stance": "bullish",
-          "confidence": 0.6,
-          "reason_cn": "推文提到该股票在2025年4月底部被用作幸运个股，帮助账户从30万增长到300万。",
-          "evidence_quote": "Gets lucky with individual names at April 2025 bottom"
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "RDDT被提及为当前热门话题，但推文未明确表达对该股本身的看多或看空观点，仅作为背景提及。",
+          "evidence_quote": "The most viral story on $RDDT right now"
         },
         {
           "ticker": "SPY",
           "stance": "bearish",
           "confidence": 0.8,
-          "reason_cn": "推文批评在SPY上进行0DTE期权交易导致从300万亏损至5万美元。",
+          "reason_cn": "推文指出在SPY上进行0DTE期权交易导致从300万亏损至5万美元，暗示短期期权策略对SPY不利。",
           "evidence_quote": "Proceeds to do 0DTE options on $SPY -> Turned $3M -> $50k"
         },
         {
           "ticker": "MRVL",
           "stance": "bullish",
-          "confidence": 0.5,
-          "reason_cn": "推文假设若将资金全仓买入MRVL，可能在2-3年内增长至600万美元。",
+          "confidence": 0.6,
+          "reason_cn": "推文假设若将资金全仓买入MRVL，可能在2-3年内增长至600万美元，暗示长期持有该股的潜力。",
           "evidence_quote": "Even if they full ported it into Jim Cramer’s favorite stock $MRVL, probably would have been $6M in 2-3 years"
         },
         {
           "ticker": "AVGO",
           "stance": "bullish",
           "confidence": 0.7,
-          "reason_cn": "推文建议参考Pelosi对AVGO的长期持有以观察复利效应。",
+          "reason_cn": "推文建议参考Pelosi的期权持仓，长期持有AVGO以实现复利增长，表明对该股的长期看好。",
           "evidence_quote": "look at how their on $AVGO to $NVDA keep compounding over time"
         },
         {
           "ticker": "NVDA",
           "stance": "bullish",
           "confidence": 0.7,
-          "reason_cn": "推文建议参考Pelosi对NVDA的长期持有以观察复利效应。",
+          "reason_cn": "与AVGO类似，推文强调长期持有NVDA能实现复利增长，暗示对该股的长期看好。",
           "evidence_quote": "look at how their on $AVGO to $NVDA keep compounding over time"
         }
       ],
       "importance": 0.8,
-      "confidence": 0.75,
+      "confidence": 0.7,
       "risk_notes": [
+        "推文中的观点基于个人经历，不构成投资建议。",
         "0DTE期权交易具有极高风险，可能导致本金大幅亏损。",
-        "推文中的收益预测基于假设情境，不构成投资建议。"
+        "长期投资策略需结合个人风险承受能力，不可盲目模仿。"
       ],
       "fallback_used": false,
       "raw_excerpt": "The most viral story on $RDDT right now: -> Guy started with $300,000 -> Gets lucky with individual names at April 2025 bottom -> Runs it up to $3,000,000 and claims they had financial freedom -> Proceeds to do 0DTE options on $SPY -> Turned $3M -> $50k. Usua…",
@@ -270,20 +1113,227 @@
   "stock_views": [
     {
       "ticker": "NVDA",
+      "bullish_count": 2,
+      "bearish_count": 1,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被明确列为强烈买入股票。",
+        "推文暗示美国可能威胁美国NVDA公司作为对中国的筹码",
+        "与AVGO类似，推文强调长期持有NVDA能实现复利增长，暗示对该股的长期看好。"
+      ],
+      "post_ids": [
+        "1972769926302855553",
+        "aleabitoreddit-80c48a2718df82fc",
+        "aleabitoreddit-fd5ce52b672e9511"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "IREN",
+      "bullish_count": 2,
+      "bearish_count": 1,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 1,
+      "latest_reasons": [
+        "作者将其列为与计算相关的股票，并预期高回报。",
+        "被列为Neocloud核心标的，与Compute相关，预期高回报。",
+        "获得微软大额合同及预付款，显示强劲需求。",
+        "被明确列为持有或卖出股票，且与 VIRT 形成非对称对冲关系。"
+      ],
+      "post_ids": [
+        "1972016308662513748",
+        "1983399179759300943",
+        "1985334909108433014",
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "CIFR",
+      "bullish_count": 3,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 1,
+      "latest_reasons": [
+        "作者将其列为‘新云’投资组合的一部分，并预期高回报。",
+        "被列为Neocloud核心标的，属于Mag7合同或Compute相关，预期高回报。",
+        "与AWS达成长期租赁协议，业务稳定。",
+        "被明确列为强烈买入股票。"
+      ],
+      "post_ids": [
+        "1972016308662513748",
+        "1983399179759300943",
+        "1985334909108433014",
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "TSM",
       "bullish_count": 1,
       "bearish_count": 1,
       "neutral_count": 0,
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "推文提到威胁美国NVDA作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险",
-        "推文建议参考Pelosi对NVDA的长期持有以观察复利效应。"
+        "被明确列为强烈买入股票。",
+        "推文暗示美国可能威胁台湾TSM公司作为对中国的筹码"
       ],
       "post_ids": [
-        "aleabitoreddit-80c48a2718df82fc",
-        "aleabitoreddit-fd5ce52b672e9511"
+        "1972769926302855553",
+        "aleabitoreddit-80c48a2718df82fc"
       ],
       "net_stance": "mixed"
+    },
+    {
+      "ticker": "SLNH",
+      "bullish_count": 2,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 1,
+      "latest_reasons": [
+        "作者将其列为投机性股票，并预期高回报。",
+        "被列为Neocloud投机性标的，预期高回报。",
+        "被明确列为强烈买入股票。"
+      ],
+      "post_ids": [
+        "1972016308662513748",
+        "1983399179759300943",
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "NBIS",
+      "bullish_count": 2,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 1,
+      "latest_reasons": [
+        "作者将其列为‘新云’投资组合的一部分，并预期高回报。",
+        "被列为Neocloud核心标的，属于Mag7合同或Compute相关，预期高回报。",
+        "仅提及市值，无具体事件。",
+        "被明确列为强烈买入股票。"
+      ],
+      "post_ids": [
+        "1972016308662513748",
+        "1983399179759300943",
+        "1985334909108433014",
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "CRWV",
+      "bullish_count": 2,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "作者将其列为‘新云’投资组合的一部分，并预期高回报。",
+        "被列为Neocloud核心标的，属于Mag7合同或Compute相关，预期高回报。",
+        "仅提及市值，无具体事件。"
+      ],
+      "post_ids": [
+        "1972016308662513748",
+        "1983399179759300943",
+        "1985334909108433014"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "CRDO",
+      "bullish_count": 2,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被列为Connectivity板块标的，预期受益于该主题。",
+        "被明确列为强烈买入股票。"
+      ],
+      "post_ids": [
+        "1983399179759300943",
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "CRCL",
+      "bullish_count": 1,
+      "bearish_count": 1,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被明确列为卖出股票。",
+        "作者明确表达对 CRCL 的看涨态度，认为 Stablecoin 是未来，并指出其费用节省潜力。"
+      ],
+      "post_ids": [
+        "1972769926302855553",
+        "aleabitoreddit-a50559f81dbe2a5f"
+      ],
+      "net_stance": "mixed"
+    },
+    {
+      "ticker": "WYFI",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 1,
+      "latest_reasons": [
+        "作者将其列为投机性股票，并预期高回报。",
+        "被列为Neocloud投机性标的，预期高回报。",
+        "仅提及市值，无具体事件。"
+      ],
+      "post_ids": [
+        "1972016308662513748",
+        "1983399179759300943",
+        "1985334909108433014"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "WULF",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 1,
+      "latest_reasons": [
+        "作者将其列为‘新云’投资组合的一部分，并预期高回报。",
+        "被列为Neocloud核心标的，属于Mag7合同或Compute相关，预期高回报。",
+        "仅提及市值，无具体事件。"
+      ],
+      "post_ids": [
+        "1972016308662513748",
+        "1983399179759300943",
+        "1985334909108433014"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "VIRT",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被特别推荐作为非对称波动率对冲工具，强调其低估值和独特性。"
+      ],
+      "post_ids": [
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
     },
     {
       "ticker": "VELO",
@@ -293,7 +1343,7 @@
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "作者认为相对于市值的稀释规模是掠夺性的，尽管业务有战略合理性，但财务上存在重大风险。"
+        "尽管有国防合同利好，但作者明确指出 5 亿美元稀释相对于 3.11 亿美元市值是‘掠夺性’的，且 ATM 机制加剧了财务风险，因此整体持谨慎看空态度。"
       ],
       "post_ids": [
         "aleabitoreddit-329a6d08df2c2f4f"
@@ -301,19 +1351,66 @@
       "net_stance": "bearish"
     },
     {
-      "ticker": "TSM",
+      "ticker": "UPWK",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 1,
+      "latest_reasons": [
+        "作者提到其账户在UPWK上的表现，并分享其分析。",
+        "被特别提及为价值投资标的，过去两个月上涨 52%。"
+      ],
+      "post_ids": [
+        "1972016308662513748",
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "TSLA",
       "bullish_count": 0,
       "bearish_count": 1,
       "neutral_count": 0,
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "推文提到威胁台湾TSM作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险"
+        "被明确列为卖出股票。"
       ],
       "post_ids": [
-        "aleabitoreddit-80c48a2718df82fc"
+        "1972769926302855553"
       ],
       "net_stance": "bearish"
+    },
+    {
+      "ticker": "TGT",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被明确列为强烈买入股票。"
+      ],
+      "post_ids": [
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "TE",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被列为Energy板块标的，预期受益于该主题。"
+      ],
+      "post_ids": [
+        "1983399179759300943"
+      ],
+      "net_stance": "bullish"
     },
     {
       "ticker": "SPY",
@@ -323,7 +1420,7 @@
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "推文批评在SPY上进行0DTE期权交易导致从300万亏损至5万美元。"
+        "推文指出在SPY上进行0DTE期权交易导致从300万亏损至5万美元，暗示短期期权策略对SPY不利。"
       ],
       "post_ids": [
         "aleabitoreddit-fd5ce52b672e9511"
@@ -331,17 +1428,188 @@
       "net_stance": "bearish"
     },
     {
-      "ticker": "RDDT",
+      "ticker": "SMCI",
       "bullish_count": 1,
       "bearish_count": 0,
       "neutral_count": 0,
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "推文提到该股票在2025年4月底部被用作幸运个股，帮助账户从30万增长到300万。"
+        "被明确列为强烈买入股票。"
       ],
       "post_ids": [
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "SG",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被明确列为强烈买入股票。"
+      ],
+      "post_ids": [
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "SEI",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被列为Energy板块标的，预期受益于该主题。"
+      ],
+      "post_ids": [
+        "1983399179759300943"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "RR",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被列为Robotics板块标的，预期受益于该主题。"
+      ],
+      "post_ids": [
+        "1983399179759300943"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "RKLB",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被列为National Security板块标的，预期受益于该主题。",
+        "未明确表达看多或看空观点。"
+      ],
+      "post_ids": [
+        "1983399179759300943",
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "RIOT",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "仅提及市值，无具体事件。",
+        "被明确列为强烈买入股票。"
+      ],
+      "post_ids": [
+        "1985334909108433014",
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "RDDT",
+      "bullish_count": 0,
+      "bearish_count": 1,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被明确列为卖出股票。",
+        "RDDT被提及为当前热门话题，但推文未明确表达对该股本身的看多或看空观点，仅作为背景提及。"
+      ],
+      "post_ids": [
+        "1972769926302855553",
         "aleabitoreddit-fd5ce52b672e9511"
+      ],
+      "net_stance": "bearish"
+    },
+    {
+      "ticker": "PLTR",
+      "bullish_count": 0,
+      "bearish_count": 1,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被明确列为卖出股票。"
+      ],
+      "post_ids": [
+        "1972769926302855553"
+      ],
+      "net_stance": "bearish"
+    },
+    {
+      "ticker": "ORCL",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被明确列为强烈买入股票。"
+      ],
+      "post_ids": [
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "ONDS",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被列为Robotics板块标的，预期受益于该主题。"
+      ],
+      "post_ids": [
+        "1983399179759300943"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "NVO",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被明确列为强烈买入股票。"
+      ],
+      "post_ids": [
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "MSTR",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被明确列为强烈买入股票。"
+      ],
+      "post_ids": [
+        "1972769926302855553"
       ],
       "net_stance": "bullish"
     },
@@ -349,29 +1617,262 @@
       "ticker": "MRVL",
       "bullish_count": 1,
       "bearish_count": 0,
-      "neutral_count": 0,
+      "neutral_count": 1,
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "推文假设若将资金全仓买入MRVL，可能在2-3年内增长至600万美元。"
+        "未明确表达看多或看空观点。",
+        "推文假设若将资金全仓买入MRVL，可能在2-3年内增长至600万美元，暗示长期持有该股的潜力。"
       ],
       "post_ids": [
+        "1972769926302855553",
         "aleabitoreddit-fd5ce52b672e9511"
       ],
       "net_stance": "bullish"
     },
     {
-      "ticker": "CRCL",
+      "ticker": "MP",
       "bullish_count": 1,
       "bearish_count": 0,
       "neutral_count": 0,
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "作者明确表达对 CRCL 的看涨态度，认为 Stablecoin 是未来，并指出费用节省的潜力。"
+        "被列为National Security板块标的，预期受益于该主题。"
       ],
       "post_ids": [
-        "aleabitoreddit-a50559f81dbe2a5f"
+        "1983399179759300943"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "MARA",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被明确列为强烈买入股票。"
+      ],
+      "post_ids": [
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "LULU",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被明确列为强烈买入股票。"
+      ],
+      "post_ids": [
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "LTC",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被明确列为强烈买入股票。"
+      ],
+      "post_ids": [
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "KTOS",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被列为National Security板块标的，预期受益于该主题。"
+      ],
+      "post_ids": [
+        "1983399179759300943"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "KRKNF",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被列为Robotics板块标的，预期受益于该主题。"
+      ],
+      "post_ids": [
+        "1983399179759300943"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "HOOD",
+      "bullish_count": 0,
+      "bearish_count": 1,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 1,
+      "latest_reasons": [
+        "作者提到其账户在HOOD上的表现，并分享其分析。",
+        "被明确列为卖出股票。"
+      ],
+      "post_ids": [
+        "1972016308662513748",
+        "1972769926302855553"
+      ],
+      "net_stance": "bearish"
+    },
+    {
+      "ticker": "GRRR",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 1,
+      "latest_reasons": [
+        "作者将其列为投机性股票，并预期高回报。",
+        "被列为Neocloud投机性标的，预期高回报。"
+      ],
+      "post_ids": [
+        "1972016308662513748",
+        "1983399179759300943"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "FLNC",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被列为Energy板块标的，预期受益于该主题。"
+      ],
+      "post_ids": [
+        "1983399179759300943"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "EWY",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "推文将EWY交易描述为'stupid good'（极佳），并强调其研究质量高，暗示对交易机会持积极态度。"
+      ],
+      "post_ids": [
+        "2025956208138649924"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "ETOR",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被明确列为强烈买入股票。"
+      ],
+      "post_ids": [
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "EOSE",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被列为Energy板块标的，预期受益于该主题。"
+      ],
+      "post_ids": [
+        "1983399179759300943"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "CRM",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被明确列为强烈买入股票。"
+      ],
+      "post_ids": [
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "CLS",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被列为Connectivity板块标的，预期受益于该主题。"
+      ],
+      "post_ids": [
+        "1983399179759300943"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "CCCX",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被列为National Security板块标的，预期受益于该主题。"
+      ],
+      "post_ids": [
+        "1983399179759300943"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "BITF",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 1,
+      "latest_reasons": [
+        "作者将其列为与计算相关的股票，并预期高回报。",
+        "被列为Neocloud核心标的，与Compute相关，预期高回报。"
+      ],
+      "post_ids": [
+        "1972016308662513748",
+        "1983399179759300943"
       ],
       "net_stance": "bullish"
     },
@@ -383,7 +1884,7 @@
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "推文建议参考Pelosi对AVGO的长期持有以观察复利效应。"
+        "推文建议参考Pelosi的期权持仓，长期持有AVGO以实现复利增长，表明对该股的长期看好。"
       ],
       "post_ids": [
         "aleabitoreddit-fd5ce52b672e9511"
@@ -398,7 +1899,7 @@
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "推文提到威胁欧洲ASML作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险"
+        "推文暗示美国可能威胁欧洲ASML公司作为对中国的筹码"
       ],
       "post_ids": [
         "aleabitoreddit-80c48a2718df82fc"
@@ -413,71 +1914,265 @@
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "推文提到威胁日本ARM作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险"
+        "推文暗示美国可能威胁日本ARM公司作为对中国的筹码"
       ],
       "post_ids": [
         "aleabitoreddit-80c48a2718df82fc"
       ],
       "net_stance": "bearish"
+    },
+    {
+      "ticker": "AMZN",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被明确列为强烈买入股票。"
+      ],
+      "post_ids": [
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "ALAB",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被列为Connectivity板块标的，预期受益于该主题。",
+        "未明确表达看多或看空观点。"
+      ],
+      "post_ids": [
+        "1983399179759300943",
+        "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "SOFI",
+      "bullish_count": 0,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "未明确表达看多或看空观点。"
+      ],
+      "post_ids": [
+        "1972769926302855553"
+      ],
+      "net_stance": "neutral"
+    },
+    {
+      "ticker": "PYPL",
+      "bullish_count": 0,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "未明确表达看多或看空观点。"
+      ],
+      "post_ids": [
+        "1972769926302855553"
+      ],
+      "net_stance": "neutral"
+    },
+    {
+      "ticker": "IBIT",
+      "bullish_count": 0,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "未明确表达看多或看空观点。"
+      ],
+      "post_ids": [
+        "1972769926302855553"
+      ],
+      "net_stance": "neutral"
+    },
+    {
+      "ticker": "HUT",
+      "bullish_count": 0,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "仅提及市值，无具体事件。"
+      ],
+      "post_ids": [
+        "1985334909108433014"
+      ],
+      "net_stance": "neutral"
+    },
+    {
+      "ticker": "HIVE",
+      "bullish_count": 0,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "仅提及市值，无具体事件。"
+      ],
+      "post_ids": [
+        "1985334909108433014"
+      ],
+      "net_stance": "neutral"
+    },
+    {
+      "ticker": "HIMS",
+      "bullish_count": 0,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "未明确表达看多或看空观点。"
+      ],
+      "post_ids": [
+        "1972769926302855553"
+      ],
+      "net_stance": "neutral"
+    },
+    {
+      "ticker": "GRAB",
+      "bullish_count": 0,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "未明确表达看多或看空观点。"
+      ],
+      "post_ids": [
+        "1972769926302855553"
+      ],
+      "net_stance": "neutral"
+    },
+    {
+      "ticker": "DGXX",
+      "bullish_count": 0,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被列为Neocloud板块标的，但未明确提及具体投资逻辑或预期回报。"
+      ],
+      "post_ids": [
+        "1983399179759300943"
+      ],
+      "net_stance": "neutral"
+    },
+    {
+      "ticker": "CLSK",
+      "bullish_count": 0,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "仅提及市值，无具体事件。"
+      ],
+      "post_ids": [
+        "1985334909108433014"
+      ],
+      "net_stance": "neutral"
+    },
+    {
+      "ticker": "ASTS",
+      "bullish_count": 0,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "未明确表达看多或看空观点。"
+      ],
+      "post_ids": [
+        "1972769926302855553"
+      ],
+      "net_stance": "neutral"
+    },
+    {
+      "ticker": "APLD",
+      "bullish_count": 0,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "仅提及市值，无具体事件。"
+      ],
+      "post_ids": [
+        "1985334909108433014"
+      ],
+      "net_stance": "neutral"
     }
   ],
   "daily": {
     "top_themes": [
       [
-        "Stablecoin",
+        "ETF交易策略",
         1
       ],
       [
-        "费用节省",
+        "波动率定价",
         1
       ],
       [
-        "监管",
+        "技术分析",
         1
       ],
       [
-        "订阅模式",
+        "市场研究分享",
         1
       ],
       [
-        "银行业垄断",
+        "云计算投资",
         1
       ],
       [
-        "加密货币监管",
+        "高回报预期",
         1
       ],
       [
-        "游说影响",
+        "股票推荐",
         1
       ],
       [
-        "客户利益受损",
+        "Neocloud",
         1
       ],
       [
-        "稀释风险",
+        "Connectivity",
         1
       ],
       [
-        "货架注册",
+        "Robotics",
         1
       ]
     ],
     "important_post_ids": [
+      "2025956208138649924",
+      "1972016308662513748",
+      "1983399179759300943",
+      "1985334909108433014",
+      "1972769926302855553",
       "aleabitoreddit-a50559f81dbe2a5f",
       "aleabitoreddit-329a6d08df2c2f4f",
       "aleabitoreddit-80c48a2718df82fc",
       "aleabitoreddit-fd5ce52b672e9511"
     ]
   },
-  "warnings": [
-    "Edge/X authorized collection returned no posts.",
-    "https://nitter.net/aleabitoreddit/rss failed: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>",
-    "https://nitter.net/aleabitoreddit failed: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>",
-    "https://nitter.poast.org/aleabitoreddit/rss failed: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>",
-    "https://nitter.poast.org/aleabitoreddit failed: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>",
-    "https://nitter.privacydev.net/aleabitoreddit/rss failed: <urlopen error [Errno 11004] getaddrinfo failed>",
-    "https://nitter.privacydev.net/aleabitoreddit failed: <urlopen error [Errno 11004] getaddrinfo failed>"
-  ]
+  "warnings": []
 }
