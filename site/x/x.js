@@ -109,8 +109,15 @@ function normalizePost(post) {
   };
 }
 
+function postSortTimestamp(post) {
+  const timestamp = Date.parse(post?.publishedAt || post?.createdAt || "");
+  return Number.isFinite(timestamp) ? timestamp : 0;
+}
+
 function getPosts(data) {
-  return asArray(data?.posts).map(normalizePost);
+  return asArray(data?.posts)
+    .map(normalizePost)
+    .sort((a, b) => postSortTimestamp(b) - postSortTimestamp(a));
 }
 
 function getStockViewsFromPosts(posts) {
