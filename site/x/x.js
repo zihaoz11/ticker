@@ -10,6 +10,7 @@ function getDataUrl() {
 const state = {
   data: null,
   error: null,
+  selectedDate: localDateKey(new Date()),
 };
 
 const elements = {
@@ -19,6 +20,11 @@ const elements = {
   postCount: document.getElementById("postCount"),
   errorBox: document.getElementById("errorBox"),
   postsList: document.getElementById("postsList"),
+  prevDateButton: document.getElementById("prevDateButton"),
+  nextDateButton: document.getElementById("nextDateButton"),
+  datePicker: document.getElementById("datePicker"),
+  dateLabel: document.getElementById("dateLabel"),
+  dateCount: document.getElementById("dateCount"),
 };
 
 function escapeHtml(value) {
@@ -56,6 +62,36 @@ function formatDate(value) {
   });
 }
 
+function localDateKey(date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+function dateFromKey(key) {
+  const [year, month, day] = String(key || "").split("-").map(Number);
+  if (!year || !month || !day) return new Date();
+  return new Date(year, month - 1, day);
+}
+
+function addDays(key, days) {
+  const date = dateFromKey(key);
+  date.setDate(date.getDate() + days);
+  return localDateKey(date);
+}
+
+function formatDateLabel(key) {
+  const date = dateFromKey(key);
+  const label = date.toLocaleDateString(undefined, {
+    year: "numeric",
+    month: "short",
+    day: "2-digit",
+    weekday: "short",
+  });
+  return key === localDateKey(new Date()) ? `Today · ${label}` : label;
+}
+
 function normalizeTicker(value) {
   return String(value || "").replace(/^\$/, "").trim().toUpperCase();
 }
@@ -83,19 +119,41 @@ function postSortTimestamp(post) {
   return Number.isFinite(timestamp) ? timestamp : 0;
 }
 
+function postDateKey(post) {
+  const date = new Date(post?.publishedAt || post?.createdAt || "");
+  return Number.isNaN(date.getTime()) ? "" : localDateKey(date);
+}
+
 function getPosts(data) {
   return asArray(data?.posts)
     .map(normalizePost)
     .sort((a, b) => postSortTimestamp(b) - postSortTimestamp(a));
 }
 
+function availablePostDates(posts) {
+  return Array.from(new Set(posts.map(postDateKey).filter(Boolean))).sort();
+}
+
 function badge(label, className = "") {
   return `<span class="badge ${className}">${escapeHtml(label)}</span>`;
 }
 
-function renderPosts(posts) {
+function renderDateControls(allPosts, filteredPosts) {
+  const dates = availablePostDates(allPosts);
+  const today = localDateKey(new Date());
+  const minDate = dates[0] || today;
+  elements.datePicker.value = state.selectedDate;
+  elements.datePicker.min = minDate;
+  elements.datePicker.max = today;
+  elements.dateLabel.textContent = formatDateLabel(state.selectedDate);
+  elements.dateCount.textContent = `${filteredPosts.length} posts`;
+  elements.prevDateButton.disabled = state.selectedDate <= minDate;
+  elements.nextDateButton.disabled = state.selectedDate >= today;
+}
+
+function renderPosts(posts, selectedDate) {
   if (!posts.length) {
-    elements.postsList.innerHTML = `<div class="empty-state">No posts found in latest.json.</div>`;
+    elements.postsList.innerHTML = `<div class="empty-state">No posts found for ${escapeHtml(formatDateLabel(selectedDate))}.</div>`;
     return;
   }
   elements.postsList.innerHTML = posts.map((post) => {
@@ -124,7 +182,8 @@ function renderPosts(posts) {
 
 function renderAll() {
   const data = state.data || {};
-  const posts = getPosts(data);
+  const allPosts = getPosts(data);
+  const posts = allPosts.filter((post) => postDateKey(post) === state.selectedDate);
   const publishedTimes = posts
     .map((post) => formatDate(post.publishedAt))
     .filter((value) => value !== "-")
@@ -136,7 +195,13 @@ function renderAll() {
   elements.postCount.textContent = String(posts.length);
   elements.errorBox.hidden = !state.error;
   elements.errorBox.textContent = state.error || "";
-  renderPosts(posts);
+  renderDateControls(allPosts, posts);
+  renderPosts(posts, state.selectedDate);
+}
+
+function setSelectedDate(key) {
+  state.selectedDate = key || localDateKey(new Date());
+  renderAll();
 }
 
 async function loadData() {
@@ -151,5 +216,9 @@ async function loadData() {
   }
   renderAll();
 }
+
+elements.prevDateButton.addEventListener("click", () => setSelectedDate(addDays(state.selectedDate, -1)));
+elements.nextDateButton.addEventListener("click", () => setSelectedDate(addDays(state.selectedDate, 1)));
+elements.datePicker.addEventListener("change", () => setSelectedDate(elements.datePicker.value));
 
 loadData();
