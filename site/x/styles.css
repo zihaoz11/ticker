@@ -98,7 +98,7 @@ main {
 
 .summary {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1px;
   overflow: hidden;
   border: 1px solid var(--line);
@@ -240,6 +240,12 @@ button:focus-visible {
 .meta-row {
   justify-content: flex-start;
   flex-wrap: wrap;
+}
+
+.ticker-line {
+  color: var(--accent);
+  font-weight: 700;
+  overflow-wrap: anywhere;
 }
 
 .badge-row {
