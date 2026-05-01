@@ -192,6 +192,65 @@ button:focus-visible {
   overflow-wrap: anywhere;
 }
 
+.date-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.date-nav-button {
+  min-width: 38px;
+  width: 38px;
+  padding: 0;
+  border-color: var(--line);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.date-nav-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.42;
+}
+
+.date-picker-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.date-picker-wrap strong {
+  min-width: 170px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.date-picker-wrap input {
+  height: 38px;
+  min-width: 145px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--text);
+  font: inherit;
+}
+
+.date-count {
+  margin-left: auto;
+  color: var(--muted);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
 .card-list {
   display: grid;
   gap: 14px;
@@ -418,10 +477,27 @@ button:focus-visible {
   }
 
   .section-heading,
+  .date-toolbar,
   .card-topline,
   .stock-header {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .date-picker-wrap {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .date-picker-wrap strong,
+  .date-picker-wrap input,
+  .date-count {
+    width: 100%;
+  }
+
+  .date-count {
+    margin-left: 0;
   }
 
   .tabs {
