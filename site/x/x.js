@@ -248,6 +248,7 @@ async function runManualRefresh() {
     publish_only_on_new: true,
     reuse_analysis_cache: true,
     fail_on_new_fallback: true,
+    remove_local_site_payload_after_publish: true,
   };
   let lastError = "";
   try {
