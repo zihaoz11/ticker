@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "account": "aleabitoreddit",
-  "generated_at": "2026-05-01T03:02:41+00:00",
+  "generated_at": "2026-05-01T03:21:13+00:00",
   "status": {
     "post_count": 5,
     "public_count": 5,
@@ -16,10 +16,11 @@
       "visibility": "public",
       "collected_at_utc": "2026-04-27T07:45:00Z",
       "published_at": "2026-04-27T06:45:00+00:00",
-      "summary_cn": "作者因 Stablecoin 相关费用节省及汇率优势对 CRCL 持看涨态度，并提及银行试图通过立法控制稳定币。",
+      "published_at_source": "relative_label",
+      "summary_cn": "作者因 Stablecoin 相关费用节省及汇率优势对 CRCL 持乐观态度，并提及银行试图通过立法控制稳定币。",
       "key_points": [
         "作者对 CRCL 持看涨态度，理由包括订阅费节省和汇率优势。",
-        "Stablecoin 被视为未来趋势，银行正试图通过 Clarity Act 进行监管。",
+        "Stablecoin 被视为未来，银行正试图通过 Clarity Act 进行监管。",
         "作者不依赖订阅收入，因此不会改变现有策略。"
       ],
       "themes": [
@@ -41,7 +42,7 @@
       "importance": 0.7,
       "confidence": 0.8,
       "risk_notes": [
-        "作者观点基于个人观察，非投资建议。",
+        "作者观点基于个人观察，非专业投资建议。",
         "Stablecoin 监管存在不确定性。"
       ],
       "fallback_used": false,
@@ -55,11 +56,12 @@
       "visibility": "public",
       "collected_at_utc": "2026-04-27T07:45:00Z",
       "published_at": "2026-04-27T04:45:00+00:00",
-      "summary_cn": "推文批评银行通过游说阻碍加密货币公司获得牌照，认为这是为了维持垄断和利差，而非保护客户资金。",
+      "published_at_source": "relative_label",
+      "summary_cn": "推文批评银行通过游说阻碍加密货币公司获取牌照，认为这是为了维持垄断和利差，而非保护客户资金。",
       "key_points": [
-        "银行声称有申请牌照的途径，但背后阻止加密货币公司获批",
-        "引用 Custodia 银行案例说明银行阻碍竞争",
-        "指责银行游说通过法案以禁止加密货币竞争",
+        "银行声称有申请牌照的途径，但实际上在幕后阻挠",
+        "引用Custodia银行案例说明银行阻止加密货币公司获得牌照",
+        "指责银行游说通过法案以禁止竞争并掠夺零售客户利息",
         "认为银行对零售用户的说法是谎言"
       ],
       "themes": [
@@ -70,12 +72,12 @@
       ],
       "mentioned_tickers": [],
       "stock_views": [],
-      "importance": 0.3,
-      "confidence": 0.8,
+      "importance": 0.0,
+      "confidence": 0.0,
       "risk_notes": [
         "推文未提及具体股票代码",
-        "内容涉及行业批评而非个股分析",
-        "无投资建议"
+        "内容涉及对银行行业的批评但未关联特定上市公司",
+        "属于一般性行业评论而非个股分析"
       ],
       "fallback_used": false,
       "raw_excerpt": "",
@@ -88,18 +90,19 @@
       "visibility": "public",
       "collected_at_utc": "2026-04-27T07:45:00Z",
       "published_at": "2026-04-27T03:45:00+00:00",
-      "summary_cn": "推文警告 $VELO 存在因 ATM 和权证导致的潜在稀释风险，尽管其近期获得国防合同利好，但相对于市值的稀释规模构成重大财务风险。",
+      "published_at_source": "relative_label",
+      "summary_cn": "推文警告 $VELO 存在因 ATM 和权证导致的潜在稀释风险，尽管其近期获得国防合同利好，但相对于市值的稀释规模被视为财务上的掠夺性风险。",
       "key_points": [
-        "$VELO 存在 5 亿美元货架额度用于 ATM 和权证，相对于其 3.11 亿美元市值规模较大。",
-        "公司近期获得了来自国防部、国防总装商和 DLA 合同的约 5400 万美元收入，对业务有利。",
-        "作者认为稀释用于扩大生产和并购在战略上合理，但财务上具有掠夺性。",
+        "$VELO 存在 5 亿美元货架额度用于 ATM 和权证，可能导致显著稀释。",
+        "公司近期获得了来自国防部及国防总包商的合同，对业务有利。",
+        "作者认为相对于市值，当前的稀释规模具有财务掠夺性。",
         "投资者应警惕此类稀释风险，尤其是对于长期持有者。"
       ],
       "themes": [
         "稀释风险",
+        "ATM 机制",
         "国防合同",
-        "财务结构",
-        "风险披露"
+        "财务结构"
       ],
       "mentioned_tickers": [
         "VELO"
@@ -109,15 +112,15 @@
           "ticker": "VELO",
           "stance": "bearish",
           "confidence": 0.7,
-          "reason_cn": "作者明确指出稀释规模相对于市值是“掠夺性”的，并强调这是重大风险，尽管承认战略合理性，但财务角度不看好。"
+          "reason_cn": "作者明确指出稀释规模相对于市值是“掠夺性”的，并强调这是重大风险，尽管承认战略上可能合理，但财务上不利。"
         }
       ],
       "importance": 0.8,
       "confidence": 0.7,
       "risk_notes": [
-        "ATM 和权证可能导致股权稀释",
-        "稀释规模相对于当前市值较大",
-        "需关注长期生产扩张和并购计划对资本结构的影响"
+        "ATM 机制可能导致股权稀释",
+        "权证发行可能增加下行压力",
+        "稀释规模相对于当前市值过大"
       ],
       "fallback_used": false,
       "raw_excerpt": "",
@@ -130,11 +133,12 @@
       "visibility": "public",
       "collected_at_utc": "2026-04-27T07:45:00Z",
       "published_at": "2026-04-27T02:45:00+00:00",
-      "summary_cn": "推文批评美国破坏全球供应链以对抗中俄，主张优先保障自身供应链安全，并提及对ASML、ARM、NVDA、TSM等公司所在领域的潜在威胁。",
+      "published_at_source": "relative_label",
+      "summary_cn": "推文批评美国破坏全球供应链以对抗中俄，主张优先保障自身供应链安全，并提及对ASML、ARM、NVDA、TSM等公司的潜在威胁。",
       "key_points": [
-        "批评美国对盟友（如日本、韩国）的供应链施压",
+        "批评美国削弱与盟友（如日本、韩国）的供应链关系",
         "建议优先投资稀土、炼油及替代贸易路线",
-        "警告不要破坏自身供应链以支持俄罗斯或以色列",
+        "警告不要破坏自身供应链（如半导体、化工）",
         "提及对ASML、ARM、NVDA、TSM等公司的潜在威胁"
       ],
       "themes": [
@@ -154,33 +158,32 @@
           "ticker": "ASML",
           "stance": "bearish",
           "confidence": 0.6,
-          "reason_cn": "推文提到威胁欧洲ASML作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险"
+          "reason_cn": "推文暗示美国可能威胁欧洲ASML公司作为对中俄的筹码"
         },
         {
           "ticker": "ARM",
           "stance": "bearish",
           "confidence": 0.6,
-          "reason_cn": "推文提到威胁日本ARM作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险"
+          "reason_cn": "推文暗示美国可能威胁日本ARM公司作为对中俄的筹码"
         },
         {
           "ticker": "NVDA",
           "stance": "bearish",
           "confidence": 0.6,
-          "reason_cn": "推文提到威胁美国NVDA作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险"
+          "reason_cn": "推文暗示美国可能威胁美国NVDA公司作为对中俄的筹码"
         },
         {
           "ticker": "TSM",
           "stance": "bearish",
           "confidence": 0.6,
-          "reason_cn": "推文提到威胁台湾TSM作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险"
+          "reason_cn": "推文暗示美国可能威胁台湾TSM公司作为对中俄的筹码"
         }
       ],
       "importance": 0.7,
       "confidence": 0.6,
       "risk_notes": [
-        "推文内容基于假设性地缘政治情景，非事实陈述",
-        "未提供具体数据支持观点",
-        "推文情绪化较强，可能影响市场情绪"
+        "推文内容基于假设性地缘政治情景，非当前事实",
+        "未提供具体投资建议，仅分析推文观点"
       ],
       "fallback_used": false,
       "raw_excerpt": "",
@@ -193,16 +196,19 @@
       "visibility": "public",
       "collected_at_utc": "2026-04-27T07:45:00Z",
       "published_at": "2026-04-26T17:45:00+00:00",
-      "summary_cn": "推文讲述了一个人从30万美元通过RDDT等个股获利至300万后，因进行SPY的0DTE期权交易亏损至5万美元的教训，并对比了长期持有AVGO和NVDA的复利优势。",
+      "published_at_source": "relative_label",
+      "summary_cn": "推文讲述了一个从30万美元通过RDDT等个股获利至300万，却因做空0DTE期权在SPY上亏损5万美元的警示故事，并对比了长期持有AVGO和NVDA等科技股的复利优势。",
       "key_points": [
-        "0DTE期权交易风险极高，即使全仓买入热门股也可能导致巨额亏损。",
-        "长期持有如AVGO和NVDA等股票能实现复利增长，优于短期期权博弈。",
-        "推文以Nancy Pelosi的财富积累为例，强调长期投资的重要性。"
+        "0DTE期权风险极高，即使全仓热门股也可能导致巨额亏损",
+        "长期持有如AVGO和NVDA等股票能实现复利增长",
+        "避免短期投机，注重代际财富积累的智慧",
+        "RDDT作为热门股票被提及，但重点在于期权交易教训"
       ],
       "themes": [
-        "期权风险",
-        "长期复利",
-        "财富积累"
+        "风险管理",
+        "长期投资",
+        "期权陷阱",
+        "复利效应"
       ],
       "mentioned_tickers": [
         "AVGO",
@@ -214,41 +220,41 @@
       "stock_views": [
         {
           "ticker": "RDDT",
-          "stance": "bullish",
-          "confidence": 0.6,
-          "reason_cn": "推文提到该股票在2025年4月底部被用作获利工具，暗示其表现良好。"
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "RDDT被提及为故事起点，但未直接表达看多或看空观点"
         },
         {
           "ticker": "SPY",
           "stance": "bearish",
           "confidence": 0.8,
-          "reason_cn": "推文批评在SPY上进行0DTE期权交易导致从300万亏损至5万美元。"
+          "reason_cn": "推文指出在SPY上进行0DTE期权交易导致从300万亏损至50万"
         },
         {
           "ticker": "MRVL",
           "stance": "bullish",
-          "confidence": 0.5,
-          "reason_cn": "推文假设若将资金投入Jim Cramer喜爱的MRVL，可能在2-3年内达到600万美元。"
+          "confidence": 0.6,
+          "reason_cn": "假设全仓MRVL可能在2-3年内增长至600万，暗示长期看好"
         },
         {
           "ticker": "AVGO",
           "stance": "bullish",
           "confidence": 0.7,
-          "reason_cn": "推文赞扬AVGO长期复利增长，作为期权投资者的正面案例。"
+          "reason_cn": "推文建议参考Pelosi对AVGO的长期持有以学习复利"
         },
         {
           "ticker": "NVDA",
           "stance": "bullish",
           "confidence": 0.7,
-          "reason_cn": "推文将NVDA与AVGO并列，强调其长期复利增长的优势。"
+          "reason_cn": "与AVGO类似，被推荐作为长期复利持有的例子"
         }
       ],
       "importance": 0.8,
       "confidence": 0.7,
       "risk_notes": [
-        "推文内容基于个人经历，不构成投资建议。",
-        "0DTE期权交易具有极高风险，可能导致本金大幅亏损。",
-        "长期投资需结合个人风险承受能力，不可盲目模仿。"
+        "0DTE期权具有极高波动性和归零风险",
+        "短期投机可能导致本金大幅损失",
+        "长期持有策略需承受市场波动"
       ],
       "fallback_used": false,
       "raw_excerpt": "",
@@ -264,8 +270,8 @@
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "推文提到威胁美国NVDA作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险",
-        "推文将NVDA与AVGO并列，强调其长期复利增长的优势。"
+        "推文暗示美国可能威胁美国NVDA公司作为对中俄的筹码",
+        "与AVGO类似，被推荐作为长期复利持有的例子"
       ],
       "post_ids": [
         "aleabitoreddit-80c48a2718df82fc",
@@ -281,7 +287,7 @@
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "作者明确指出稀释规模相对于市值是“掠夺性”的，并强调这是重大风险，尽管承认战略合理性，但财务角度不看好。"
+        "作者明确指出稀释规模相对于市值是“掠夺性”的，并强调这是重大风险，尽管承认战略上可能合理，但财务上不利。"
       ],
       "post_ids": [
         "aleabitoreddit-329a6d08df2c2f4f"
@@ -296,7 +302,7 @@
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "推文提到威胁台湾TSM作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险"
+        "推文暗示美国可能威胁台湾TSM公司作为对中俄的筹码"
       ],
       "post_ids": [
         "aleabitoreddit-80c48a2718df82fc"
@@ -311,27 +317,12 @@
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "推文批评在SPY上进行0DTE期权交易导致从300万亏损至5万美元。"
+        "推文指出在SPY上进行0DTE期权交易导致从300万亏损至50万"
       ],
       "post_ids": [
         "aleabitoreddit-fd5ce52b672e9511"
       ],
       "net_stance": "bearish"
-    },
-    {
-      "ticker": "RDDT",
-      "bullish_count": 1,
-      "bearish_count": 0,
-      "neutral_count": 0,
-      "mixed_count": 0,
-      "unclear_count": 0,
-      "latest_reasons": [
-        "推文提到该股票在2025年4月底部被用作获利工具，暗示其表现良好。"
-      ],
-      "post_ids": [
-        "aleabitoreddit-fd5ce52b672e9511"
-      ],
-      "net_stance": "bullish"
     },
     {
       "ticker": "MRVL",
@@ -341,7 +332,7 @@
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "推文假设若将资金投入Jim Cramer喜爱的MRVL，可能在2-3年内达到600万美元。"
+        "假设全仓MRVL可能在2-3年内增长至600万，暗示长期看好"
       ],
       "post_ids": [
         "aleabitoreddit-fd5ce52b672e9511"
@@ -371,7 +362,7 @@
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "推文赞扬AVGO长期复利增长，作为期权投资者的正面案例。"
+        "推文建议参考Pelosi对AVGO的长期持有以学习复利"
       ],
       "post_ids": [
         "aleabitoreddit-fd5ce52b672e9511"
@@ -386,7 +377,7 @@
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "推文提到威胁欧洲ASML作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险"
+        "推文暗示美国可能威胁欧洲ASML公司作为对中俄的筹码"
       ],
       "post_ids": [
         "aleabitoreddit-80c48a2718df82fc"
@@ -401,12 +392,27 @@
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "推文提到威胁日本ARM作为对华/对俄的 chokepoint，暗示可能面临制裁或市场风险"
+        "推文暗示美国可能威胁日本ARM公司作为对中俄的筹码"
       ],
       "post_ids": [
         "aleabitoreddit-80c48a2718df82fc"
       ],
       "net_stance": "bearish"
+    },
+    {
+      "ticker": "RDDT",
+      "bullish_count": 0,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "RDDT被提及为故事起点，但未直接表达看多或看空观点"
+      ],
+      "post_ids": [
+        "aleabitoreddit-fd5ce52b672e9511"
+      ],
+      "net_stance": "neutral"
     }
   ],
   "daily": {
@@ -444,11 +450,11 @@
         1
       ],
       [
-        "国防合同",
+        "ATM 机制",
         1
       ],
       [
-        "财务结构",
+        "国防合同",
         1
       ]
     ],
