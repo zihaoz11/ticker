@@ -245,7 +245,7 @@ async function runManualRefresh() {
     window_hours: 336,
     publish: true,
     use_llm: true,
-    publish_only_on_new: true,
+    publish_only_on_new: false,
     reuse_analysis_cache: true,
     fail_on_new_fallback: true,
     remove_local_site_payload_after_publish: true,
@@ -269,7 +269,7 @@ async function runManualRefresh() {
         if (newCount > 0) {
           setRefreshStatus(`Refresh complete. ${newCount} new post(s) published to GitHub.`, "success");
         } else {
-          setRefreshStatus("Refresh complete. No new posts since the last refresh; existing posts were kept.", "success");
+          setRefreshStatus("Refresh complete. No new posts; existing analysis was regenerated and published with cache reuse.", "success");
         }
         renderAll();
         return;
