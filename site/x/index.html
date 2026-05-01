@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>X Analysis Dashboard</title>
-    <link rel="stylesheet" href="styles.css?v=20260501-0430">
+    <link rel="stylesheet" href="styles.css?v=20260501-0445">
   </head>
   <body>
     <header class="site-header">
@@ -38,12 +38,21 @@
           <h2>Posts</h2>
           <span>Latest posts and mentioned tickers.</span>
         </div>
+        <div class="date-toolbar" aria-label="Post date filter">
+          <button id="prevDateButton" class="date-nav-button" type="button" aria-label="Previous day">‹</button>
+          <div class="date-picker-wrap">
+            <strong id="dateLabel">Today</strong>
+            <input id="datePicker" type="date" aria-label="Choose post date">
+          </div>
+          <button id="nextDateButton" class="date-nav-button" type="button" aria-label="Next day">›</button>
+          <span id="dateCount" class="date-count">- posts</span>
+        </div>
         <div id="postsList" class="card-list">
           <div class="empty-state">Loading posts...</div>
         </div>
       </section>
     </main>
 
-    <script src="x.js?v=20260501-0430" defer></script>
+    <script src="x.js?v=20260501-0445" defer></script>
   </body>
 </html>
