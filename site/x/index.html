@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>X Analysis Dashboard</title>
-    <link rel="stylesheet" href="styles.css?v=20260430-0758">
+    <link rel="stylesheet" href="styles.css?v=20260501-0430">
   </head>
   <body>
     <header class="site-header">
@@ -29,62 +29,21 @@
           <span class="summary-label">Posts</span>
           <strong id="postCount">-</strong>
         </div>
-        <div>
-          <span class="summary-label">Stocks</span>
-          <strong id="stockCount">-</strong>
-        </div>
       </section>
 
       <section id="errorBox" class="error-box" hidden></section>
 
-      <nav class="tabs" aria-label="View switcher">
-        <button class="tab-button is-active" type="button" data-tab="posts">Posts</button>
-        <button class="tab-button" type="button" data-tab="stocks">Stocks</button>
-        <button class="tab-button" type="button" data-tab="daily">Daily</button>
-        <button class="tab-button" type="button" data-tab="pipeline">Pipeline</button>
-      </nav>
-
-      <section id="postsPanel" class="tab-panel is-active" aria-label="Posts">
+      <section id="postsPanel" class="tab-panel" aria-label="Posts">
         <div class="section-heading">
           <h2>Posts</h2>
-          <span>Per-post Chinese summary and stock stance extraction.</span>
+          <span>Latest posts and mentioned tickers.</span>
         </div>
         <div id="postsList" class="card-list">
           <div class="empty-state">Loading posts...</div>
         </div>
       </section>
-
-      <section id="stocksPanel" class="tab-panel" aria-label="Stocks" hidden>
-        <div class="section-heading">
-          <h2>Stocks</h2>
-          <span>Aggregated bullish, bearish, neutral, mixed, and unclear views by ticker.</span>
-        </div>
-        <div id="stocksList" class="stock-grid">
-          <div class="empty-state">Loading stocks...</div>
-        </div>
-      </section>
-
-      <section id="dailyPanel" class="tab-panel" aria-label="Daily" hidden>
-        <div class="section-heading">
-          <h2>Daily</h2>
-          <span>Daily themes, important posts, and market notes.</span>
-        </div>
-        <div id="dailyList" class="card-list">
-          <div class="empty-state">Loading daily summary...</div>
-        </div>
-      </section>
-
-      <section id="pipelinePanel" class="tab-panel" aria-label="Pipeline" hidden>
-        <div class="section-heading">
-          <h2>Pipeline</h2>
-          <span>Collector, analyzer, publisher, and site payload status.</span>
-        </div>
-        <div id="pipelineList" class="pipeline-grid">
-          <div class="empty-state">Loading pipeline status...</div>
-        </div>
-      </section>
     </main>
 
-    <script src="x.js?v=20260430-0758" defer></script>
+    <script src="x.js?v=20260501-0430" defer></script>
   </body>
 </html>
