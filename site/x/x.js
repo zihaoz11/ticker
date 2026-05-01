@@ -7,6 +7,16 @@ function getDataUrl() {
     : STATIC_DATA_URL;
 }
 
+function getRunApiCandidates() {
+  const candidates = [];
+  if (window.location.protocol === "http:" && ["127.0.0.1", "localhost"].includes(window.location.hostname)) {
+    candidates.push(`${window.location.origin}/api/x-analysis/run`);
+  }
+  candidates.push("http://127.0.0.1:4174/api/x-analysis/run");
+  candidates.push("http://127.0.0.1:4173/api/x-analysis/run");
+  return Array.from(new Set(candidates));
+}
+
 const state = {
   data: null,
   error: null,
@@ -19,6 +29,8 @@ const elements = {
   generatedAt: document.getElementById("generatedAt"),
   postCount: document.getElementById("postCount"),
   errorBox: document.getElementById("errorBox"),
+  refreshStatus: document.getElementById("refreshStatus"),
+  refreshButton: document.getElementById("refreshButton"),
   postsList: document.getElementById("postsList"),
   prevDateButton: document.getElementById("prevDateButton"),
   nextDateButton: document.getElementById("nextDateButton"),
@@ -199,6 +211,12 @@ function renderAll() {
   renderPosts(posts, state.selectedDate);
 }
 
+function setRefreshStatus(message, tone = "info") {
+  elements.refreshStatus.hidden = !message;
+  elements.refreshStatus.textContent = message || "";
+  elements.refreshStatus.dataset.tone = tone;
+}
+
 function setSelectedDate(key) {
   state.selectedDate = key || localDateKey(new Date());
   renderAll();
@@ -217,8 +235,62 @@ async function loadData() {
   renderAll();
 }
 
+async function runManualRefresh() {
+  elements.refreshButton.disabled = true;
+  elements.refreshButton.textContent = "Refreshing...";
+  setRefreshStatus("Checking X for new posts. Keep the local server, Edge profile, and Ollama available.", "info");
+  const body = {
+    account: "aleabitoreddit",
+    max_items: 200,
+    window_hours: 336,
+    publish: true,
+    use_llm: true,
+    publish_only_on_new: true,
+    reuse_analysis_cache: true,
+  };
+  let lastError = "";
+  try {
+    for (const url of getRunApiCandidates()) {
+      try {
+        const response = await fetch(url, {
+          method: "POST",
+          headers: {"Content-Type": "application/json"},
+          body: JSON.stringify(body),
+        });
+        const payload = await response.json().catch(() => ({}));
+        if (!response.ok) {
+          throw new Error(payload?.error || `HTTP ${response.status}`);
+        }
+        state.data = payload.latest_payload || state.data;
+        state.error = null;
+        const newCount = Number(payload.new_raw_count || 0);
+        if (newCount > 0) {
+          setRefreshStatus(`Refresh complete. ${newCount} new post(s) published to GitHub.`, "success");
+        } else {
+          setRefreshStatus("Refresh complete. No new posts since the last refresh; existing posts were kept.", "success");
+        }
+        renderAll();
+        return;
+      } catch (error) {
+        lastError = error instanceof Error ? error.message : String(error);
+      }
+    }
+    throw new Error(lastError || "Local refresh API is unavailable.");
+  } catch (error) {
+    const detail = error instanceof Error ? error.message : String(error);
+    setRefreshStatus(
+      `Refresh failed. Open the local dashboard first with start_dashboard.cmd, then use http://127.0.0.1:4174/x-analysis/. Detail: ${detail}`,
+      "error",
+    );
+  } finally {
+    elements.refreshButton.disabled = false;
+    elements.refreshButton.textContent = "Refresh";
+  }
+}
+
 elements.prevDateButton.addEventListener("click", () => setSelectedDate(addDays(state.selectedDate, -1)));
 elements.nextDateButton.addEventListener("click", () => setSelectedDate(addDays(state.selectedDate, 1)));
 elements.datePicker.addEventListener("change", () => setSelectedDate(elements.datePicker.value));
+elements.refreshButton.addEventListener("click", runManualRefresh);
 
 loadData();
