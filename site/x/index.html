@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>X Analysis Dashboard</title>
-    <link rel="stylesheet" href="styles.css?v=20260501-0445">
+    <link rel="stylesheet" href="styles.css?v=20260501-0505">
   </head>
   <body>
     <header class="site-header">
@@ -12,7 +12,10 @@
         <h1>X Analysis Dashboard</h1>
         <p id="subtitle">Loading @aleabitoreddit market notes</p>
       </div>
-      <a class="header-link" href="../../data/site/x-analysis/latest.json" target="_blank" rel="noreferrer">JSON</a>
+      <div class="header-actions">
+        <button id="refreshButton" class="refresh-button" type="button">Refresh</button>
+        <a class="header-link" href="../../data/site/x-analysis/latest.json" target="_blank" rel="noreferrer">JSON</a>
+      </div>
     </header>
 
     <main>
@@ -32,6 +35,7 @@
       </section>
 
       <section id="errorBox" class="error-box" hidden></section>
+      <section id="refreshStatus" class="refresh-status" hidden></section>
 
       <section id="postsPanel" class="tab-panel" aria-label="Posts">
         <div class="section-heading">
@@ -53,6 +57,6 @@
       </section>
     </main>
 
-    <script src="x.js?v=20260501-0445" defer></script>
+    <script src="x.js?v=20260501-0505" defer></script>
   </body>
 </html>
