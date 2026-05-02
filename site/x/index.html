@@ -47,6 +47,12 @@
           <h2>Posts</h2>
           <span>Latest posts and mentioned tickers.</span>
         </div>
+        <div class="filter-toolbar" aria-label="Post filters">
+          <button class="filter-button is-active" type="button" data-filter="all">All</button>
+          <button class="filter-button" type="button" data-filter="public">Public</button>
+          <button class="filter-button" type="button" data-filter="sub">Sub</button>
+          <button class="filter-button" type="button" data-filter="favorites">Favorites</button>
+        </div>
         <div class="date-toolbar" aria-label="Post date filter">
           <button id="prevDateButton" class="date-nav-button" type="button" aria-label="Previous day">&lsaquo;</button>
           <div class="date-picker-wrap">
@@ -55,12 +61,6 @@
           </div>
           <button id="nextDateButton" class="date-nav-button" type="button" aria-label="Next day">&rsaquo;</button>
           <span id="dateCount" class="date-count">- posts</span>
-        </div>
-        <div class="filter-toolbar" aria-label="Post filters">
-          <button class="filter-button is-active" type="button" data-filter="all">All</button>
-          <button class="filter-button" type="button" data-filter="public">Public</button>
-          <button class="filter-button" type="button" data-filter="sub">Sub</button>
-          <button class="filter-button" type="button" data-filter="favorites">Favorites</button>
         </div>
         <div id="postsList" class="card-list">
           <div class="empty-state">Loading posts...</div>
