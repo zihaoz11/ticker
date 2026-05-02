@@ -1,5 +1,12 @@
 const GITHUB_DATA_URL = "https://zihaoz11.github.io/ticker/data/site/x-analysis/latest.json";
 const STATIC_DATA_URL = "../../data/site/x-analysis/latest.json";
+const FAVORITES_STORAGE_KEY = "x-analysis-favorite-posts-v1";
+const FILTER_LABELS = {
+  all: "All",
+  public: "Public",
+  sub: "Sub",
+  favorites: "Favorites",
+};
 
 function getDataUrl() {
   return window.location.pathname.startsWith("/x-analysis/")
@@ -21,6 +28,8 @@ const state = {
   data: null,
   error: null,
   selectedDate: localDateKey(new Date()),
+  activeFilter: "all",
+  favoriteIds: loadFavoriteIds(),
 };
 
 const elements = {
@@ -28,6 +37,7 @@ const elements = {
   statusText: document.getElementById("statusText"),
   generatedAt: document.getElementById("generatedAt"),
   postCount: document.getElementById("postCount"),
+  visibilityCount: document.getElementById("visibilityCount"),
   errorBox: document.getElementById("errorBox"),
   refreshStatus: document.getElementById("refreshStatus"),
   refreshButton: document.getElementById("refreshButton"),
@@ -37,6 +47,7 @@ const elements = {
   datePicker: document.getElementById("datePicker"),
   dateLabel: document.getElementById("dateLabel"),
   dateCount: document.getElementById("dateCount"),
+  filterButtons: Array.from(document.querySelectorAll("[data-filter]")),
 };
 
 function escapeHtml(value) {
@@ -59,6 +70,23 @@ function firstText(...values) {
     if (typeof value === "string" && value.trim()) return value.trim();
   }
   return "";
+}
+
+function loadFavoriteIds() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(FAVORITES_STORAGE_KEY) || "[]");
+    return new Set(Array.isArray(parsed) ? parsed.map(String).filter(Boolean) : []);
+  } catch {
+    return new Set();
+  }
+}
+
+function saveFavoriteIds() {
+  try {
+    localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(Array.from(state.favoriteIds)));
+  } catch {
+    // Favorites are local convenience state; ignore storage failures.
+  }
 }
 
 function formatDate(value) {
@@ -110,20 +138,50 @@ function normalizeTicker(value) {
 
 function normalizePost(post) {
   const visibility = firstText(post?.visibility, "public");
+  const publishedAt = firstText(post?.published_at, post?.created_at);
+  const url = firstText(post?.url, post?.source_url);
+  const summary = firstText(post?.summary_cn, post?.summary);
+  const id = firstText(post?.post_id, post?.id, url, `${publishedAt}|${summary}`, "unknown");
   const mentionedTickers = asArray(post?.mentioned_tickers || post?.tickers)
     .map(normalizeTicker)
     .filter(Boolean);
   return {
-    id: firstText(post?.post_id, post?.id, post?.url, "unknown"),
-    url: firstText(post?.url, post?.source_url),
-    publishedAt: firstText(post?.published_at, post?.created_at),
+    id,
+    favoriteKey: id,
+    url,
+    publishedAt,
     createdAt: firstText(post?.published_at, post?.created_at, post?.collected_at_utc),
     visibility,
     isSubscriberOnly: visibility === "subscriber_only",
-    summary: firstText(post?.summary_cn, post?.summary),
+    summary,
     keyPoints: asArray(post?.key_points),
     mentionedTickers,
   };
+}
+
+function visibilityLabel(post) {
+  return post.isSubscriberOnly ? "sub" : "public";
+}
+
+function visibilitySummary(posts) {
+  const subCount = posts.filter((post) => post.isSubscriberOnly).length;
+  const publicCount = posts.length - subCount;
+  return `${publicCount} public / ${subCount} sub`;
+}
+
+function isFavorite(post) {
+  return state.favoriteIds.has(post.favoriteKey);
+}
+
+function favoriteSummary(posts) {
+  return posts.filter(isFavorite).length;
+}
+
+function filteredPostsForActiveFilter(posts) {
+  if (state.activeFilter === "public") return posts.filter((post) => !post.isSubscriberOnly);
+  if (state.activeFilter === "sub") return posts.filter((post) => post.isSubscriberOnly);
+  if (state.activeFilter === "favorites") return posts.filter(isFavorite);
+  return posts;
 }
 
 function postSortTimestamp(post) {
@@ -150,6 +208,13 @@ function badge(label, className = "") {
   return `<span class="badge ${className}">${escapeHtml(label)}</span>`;
 }
 
+function filterCountFor(datePosts, filter) {
+  if (filter === "public") return datePosts.filter((post) => !post.isSubscriberOnly).length;
+  if (filter === "sub") return datePosts.filter((post) => post.isSubscriberOnly).length;
+  if (filter === "favorites") return favoriteSummary(datePosts);
+  return datePosts.length;
+}
+
 function renderDateControls(allPosts, filteredPosts) {
   const dates = availablePostDates(allPosts);
   const today = localDateKey(new Date());
@@ -158,44 +223,85 @@ function renderDateControls(allPosts, filteredPosts) {
   elements.datePicker.min = minDate;
   elements.datePicker.max = today;
   elements.dateLabel.textContent = formatDateLabel(state.selectedDate);
-  elements.dateCount.textContent = `${filteredPosts.length} posts`;
+  elements.dateCount.textContent = `${filteredPosts.length} posts · ${visibilitySummary(filteredPosts)}`;
   elements.prevDateButton.disabled = state.selectedDate <= minDate;
   elements.nextDateButton.disabled = state.selectedDate >= today;
 }
 
+function renderFilterControls(datePosts) {
+  for (const button of elements.filterButtons) {
+    const filter = button.dataset.filter || "all";
+    button.classList.toggle("is-active", filter === state.activeFilter);
+    button.textContent = `${FILTER_LABELS[filter] || filter} ${filterCountFor(datePosts, filter)}`;
+  }
+}
+
+function renderPostCard(post) {
+  const timeLabel = post.publishedAt
+    ? `Published ${formatDate(post.publishedAt)}`
+    : "Published time unknown";
+  const tickerLine = post.mentionedTickers.length
+    ? `<div class="ticker-line">${escapeHtml(post.mentionedTickers.map((item) => `$${item}`).join(" "))}</div>`
+    : "";
+  const favorite = isFavorite(post);
+  return `
+    <article class="post-card ${post.isSubscriberOnly ? "is-subscriber-only" : "is-public"}">
+      <div class="card-topline">
+        <span>${escapeHtml(timeLabel)}</span>
+        <div class="card-actions">
+          ${badge(visibilityLabel(post), post.isSubscriberOnly ? "visibility-private" : "visibility-public")}
+          <button
+            class="favorite-button ${favorite ? "is-favorite" : ""}"
+            type="button"
+            data-favorite-id="${escapeHtml(post.favoriteKey)}"
+            aria-pressed="${favorite ? "true" : "false"}"
+          >${favorite ? "Saved" : "Save"}</button>
+        </div>
+      </div>
+      <h3>${escapeHtml(post.summary || "No summary yet")}</h3>
+      ${post.keyPoints.length ? `<ul class="point-list">${post.keyPoints.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
+      <div class="meta-row">
+        ${tickerLine}
+        ${post.url ? `<a href="${escapeHtml(post.url)}" target="_blank" rel="noreferrer">Open source</a>` : ""}
+      </div>
+    </article>
+  `;
+}
+
+function renderPostGroup(title, posts) {
+  if (!posts.length) return "";
+  return `
+    <section class="post-group" aria-label="${escapeHtml(title)}">
+      <div class="post-group-heading">
+        <h3>${escapeHtml(title)}</h3>
+        <span>${posts.length} posts</span>
+      </div>
+      <div class="post-group-list">
+        ${posts.map(renderPostCard).join("")}
+      </div>
+    </section>
+  `;
+}
+
 function renderPosts(posts, selectedDate) {
   if (!posts.length) {
-    elements.postsList.innerHTML = `<div class="empty-state">No posts found for ${escapeHtml(formatDateLabel(selectedDate))}.</div>`;
+    const filterLabel = FILTER_LABELS[state.activeFilter] || state.activeFilter;
+    elements.postsList.innerHTML = `<div class="empty-state">No ${escapeHtml(filterLabel.toLowerCase())} posts found for ${escapeHtml(formatDateLabel(selectedDate))}.</div>`;
     return;
   }
-  elements.postsList.innerHTML = posts.map((post) => {
-    const timeLabel = post.publishedAt
-      ? `Published ${formatDate(post.publishedAt)}`
-      : "Published time unknown";
-    const tickerLine = post.mentionedTickers.length
-      ? `<div class="ticker-line">${escapeHtml(post.mentionedTickers.map((item) => `$${item}`).join(" "))}</div>`
-      : "";
-    return `
-      <article class="post-card">
-        <div class="card-topline">
-          <span>${escapeHtml(timeLabel)}</span>
-          ${badge(post.visibility, post.isSubscriberOnly ? "visibility-private" : "visibility-public")}
-        </div>
-        <h3>${escapeHtml(post.summary || "No summary yet")}</h3>
-        ${post.keyPoints.length ? `<ul class="point-list">${post.keyPoints.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
-        <div class="meta-row">
-          ${tickerLine}
-          ${post.url ? `<a href="${escapeHtml(post.url)}" target="_blank" rel="noreferrer">Open source</a>` : ""}
-        </div>
-      </article>
-    `;
-  }).join("");
+  const subscriberPosts = posts.filter((post) => post.isSubscriberOnly);
+  const publicPosts = posts.filter((post) => !post.isSubscriberOnly);
+  elements.postsList.innerHTML = [
+    renderPostGroup("Subscriber-only", subscriberPosts),
+    renderPostGroup("Public", publicPosts),
+  ].join("");
 }
 
 function renderAll() {
   const data = state.data || {};
   const allPosts = getPosts(data);
-  const posts = allPosts.filter((post) => postDateKey(post) === state.selectedDate);
+  const datePosts = allPosts.filter((post) => postDateKey(post) === state.selectedDate);
+  const posts = filteredPostsForActiveFilter(datePosts);
   const publishedTimes = posts
     .map((post) => formatDate(post.publishedAt))
     .filter((value) => value !== "-")
@@ -205,9 +311,11 @@ function renderAll() {
   elements.statusText.textContent = state.error ? "Error" : "Ready";
   elements.generatedAt.textContent = formatDate(data.generated_at || data.updated_at);
   elements.postCount.textContent = String(posts.length);
+  elements.visibilityCount.textContent = visibilitySummary(posts);
   elements.errorBox.hidden = !state.error;
   elements.errorBox.textContent = state.error || "";
   renderDateControls(allPosts, posts);
+  renderFilterControls(datePosts);
   renderPosts(posts, state.selectedDate);
 }
 
@@ -295,5 +403,25 @@ elements.prevDateButton.addEventListener("click", () => setSelectedDate(addDays(
 elements.nextDateButton.addEventListener("click", () => setSelectedDate(addDays(state.selectedDate, 1)));
 elements.datePicker.addEventListener("change", () => setSelectedDate(elements.datePicker.value));
 elements.refreshButton.addEventListener("click", runManualRefresh);
+for (const button of elements.filterButtons) {
+  button.addEventListener("click", () => {
+    state.activeFilter = button.dataset.filter || "all";
+    renderAll();
+  });
+}
+elements.postsList.addEventListener("click", (event) => {
+  const target = event.target instanceof Element ? event.target : null;
+  const button = target?.closest("[data-favorite-id]");
+  if (!button) return;
+  const id = button.dataset.favoriteId;
+  if (!id) return;
+  if (state.favoriteIds.has(id)) {
+    state.favoriteIds.delete(id);
+  } else {
+    state.favoriteIds.add(id);
+  }
+  saveFavoriteIds();
+  renderAll();
+});
 
 loadData();
