@@ -359,14 +359,14 @@ async function loadData() {
 async function runManualRefresh() {
   elements.refreshButton.disabled = true;
   elements.refreshButton.textContent = "Refreshing...";
-  setRefreshStatus("Checking X for new posts. Keep the local server, Edge profile, and Ollama available.", "info");
+  setRefreshStatus("Checking X for new posts from the last 24 hours. Keep the local server, Edge profile, and Ollama available.", "info");
   const body = {
     account: "aleabitoreddit",
     max_items: 200,
-    window_hours: 336,
+    window_hours: 24,
     publish: true,
     use_llm: true,
-    publish_only_on_new: false,
+    publish_only_on_new: true,
     reuse_analysis_cache: true,
     reanalyze_fallback_cache: true,
     fail_on_new_fallback: true,
@@ -393,7 +393,7 @@ async function runManualRefresh() {
         if (newCount > 0) {
           setRefreshStatus(`Refresh complete. ${newCount} new post(s) published to GitHub.`, "success");
         } else {
-          setRefreshStatus("Refresh complete. No new posts; existing analysis was regenerated and published with cache reuse.", "success");
+          setRefreshStatus("Refresh complete. No new posts found in the last 24 hours; publish was skipped.", "success");
         }
         renderAll();
         return;
