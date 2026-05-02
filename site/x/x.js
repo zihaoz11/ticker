@@ -204,6 +204,13 @@ function availablePostDates(posts) {
   return Array.from(new Set(posts.map(postDateKey).filter(Boolean))).sort();
 }
 
+function nearestAvailableDate(dates, selectedDate) {
+  if (!dates.length) return selectedDate;
+  if (dates.includes(selectedDate)) return selectedDate;
+  const previous = dates.filter((date) => date <= selectedDate).pop();
+  return previous || dates[0];
+}
+
 function currentViewPosts(allPosts) {
   return filteredPostsForActiveFilter(allPosts);
 }
@@ -211,9 +218,17 @@ function currentViewPosts(allPosts) {
 function ensureSelectedDateInView(viewPosts) {
   const dates = availablePostDates(viewPosts);
   if (!dates.length) return;
-  if (!dates.includes(state.selectedDate)) {
-    state.selectedDate = dates[dates.length - 1];
-  }
+  state.selectedDate = nearestAvailableDate(dates, state.selectedDate);
+}
+
+function adjacentAvailableDate(direction) {
+  const allPosts = getPosts(state.data || {});
+  const dates = availablePostDates(currentViewPosts(allPosts));
+  if (!dates.length) return state.selectedDate;
+  const currentDate = nearestAvailableDate(dates, state.selectedDate);
+  const index = dates.indexOf(currentDate);
+  const nextIndex = Math.max(0, Math.min(dates.length - 1, index + direction));
+  return dates[nextIndex] || currentDate;
 }
 
 function badge(label, className = "") {
@@ -231,13 +246,15 @@ function renderDateControls(allPosts, filteredPosts) {
   const dates = availablePostDates(allPosts);
   const today = localDateKey(new Date());
   const minDate = dates[0] || today;
+  const maxDate = dates[dates.length - 1] || today;
+  const selectedIndex = dates.indexOf(state.selectedDate);
   elements.datePicker.value = state.selectedDate;
   elements.datePicker.min = minDate;
-  elements.datePicker.max = today;
+  elements.datePicker.max = maxDate;
   elements.dateLabel.textContent = formatDateLabel(state.selectedDate);
   elements.dateCount.textContent = `${filteredPosts.length} posts · ${visibilitySummary(filteredPosts)}`;
-  elements.prevDateButton.disabled = state.selectedDate <= minDate;
-  elements.nextDateButton.disabled = state.selectedDate >= today;
+  elements.prevDateButton.disabled = selectedIndex <= 0;
+  elements.nextDateButton.disabled = selectedIndex < 0 || selectedIndex >= dates.length - 1;
 }
 
 function renderFilterControls(datePosts) {
@@ -414,8 +431,8 @@ async function runManualRefresh() {
   }
 }
 
-elements.prevDateButton.addEventListener("click", () => setSelectedDate(addDays(state.selectedDate, -1)));
-elements.nextDateButton.addEventListener("click", () => setSelectedDate(addDays(state.selectedDate, 1)));
+elements.prevDateButton.addEventListener("click", () => setSelectedDate(adjacentAvailableDate(-1)));
+elements.nextDateButton.addEventListener("click", () => setSelectedDate(adjacentAvailableDate(1)));
 elements.datePicker.addEventListener("change", () => setSelectedDate(elements.datePicker.value));
 elements.refreshButton.addEventListener("click", runManualRefresh);
 for (const button of elements.filterButtons) {
