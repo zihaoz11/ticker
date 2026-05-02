@@ -104,7 +104,7 @@ main {
 
 .summary {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1px;
   overflow: hidden;
   border: 1px solid var(--line);
@@ -299,7 +299,64 @@ button:focus-visible {
   white-space: nowrap;
 }
 
+.filter-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  min-width: 0;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.filter-button {
+  min-width: 86px;
+  height: 34px;
+  border-color: var(--line);
+  background: #fff;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.filter-button.is-active {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
 .card-list {
+  display: grid;
+  gap: 14px;
+}
+
+.post-group {
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+}
+
+.post-group-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 4px 2px;
+  border-bottom: 1px solid var(--line);
+}
+
+.post-group-heading h3 {
+  font-size: 16px;
+}
+
+.post-group-heading span {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.post-group-list {
   display: grid;
   gap: 14px;
 }
@@ -322,6 +379,10 @@ button:focus-visible {
   padding: 16px;
 }
 
+.post-card.is-subscriber-only {
+  border-left: 4px solid var(--mixed);
+}
+
 .empty-state {
   padding: 22px;
   color: var(--muted);
@@ -342,6 +403,32 @@ button:focus-visible {
 .card-topline {
   color: var(--muted);
   font-size: 13px;
+}
+
+.card-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  min-width: 0;
+}
+
+.favorite-button {
+  min-width: 62px;
+  height: 28px;
+  padding: 0 10px;
+  border-color: var(--line);
+  background: #fff;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.favorite-button.is-favorite {
+  border-color: #edcf8b;
+  background: var(--mixed-soft);
+  color: var(--mixed);
 }
 
 .meta-row {
@@ -559,8 +646,17 @@ button:focus-visible {
     width: 100%;
   }
 
+  .filter-toolbar {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   button {
     width: 100%;
+  }
+
+  .favorite-button {
+    width: auto;
   }
 }
 
@@ -586,6 +682,10 @@ button:focus-visible {
   }
 
   .tabs {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-toolbar {
     grid-template-columns: 1fr;
   }
 }
