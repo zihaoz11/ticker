@@ -1,9 +1,9 @@
-const LOCAL_DATA_URL = "/api/x-analysis/latest";
+const GITHUB_DATA_URL = "https://zihaoz11.github.io/ticker/data/site/x-analysis/latest.json";
 const STATIC_DATA_URL = "../../data/site/x-analysis/latest.json";
 
 function getDataUrl() {
   return window.location.pathname.startsWith("/x-analysis/")
-    ? LOCAL_DATA_URL
+    ? GITHUB_DATA_URL
     : STATIC_DATA_URL;
 }
 
