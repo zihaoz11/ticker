@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>X Analysis Dashboard</title>
-    <link rel="stylesheet" href="styles.css?v=20260501-0505">
+    <link rel="stylesheet" href="styles.css?v=20260502-filters-favorites">
   </head>
   <body>
     <header class="site-header">
@@ -14,6 +14,7 @@
       </div>
       <div class="header-actions">
         <button id="refreshButton" class="refresh-button" type="button">Refresh</button>
+        <a class="header-link" href="https://zihaoz11.github.io/ticker/site/x/" target="_blank" rel="noreferrer">Public</a>
         <a class="header-link" href="https://zihaoz11.github.io/ticker/data/site/x-analysis/latest.json" target="_blank" rel="noreferrer">JSON</a>
       </div>
     </header>
@@ -32,6 +33,10 @@
           <span class="summary-label">Posts</span>
           <strong id="postCount">-</strong>
         </div>
+        <div>
+          <span class="summary-label">Visibility</span>
+          <strong id="visibilityCount">-</strong>
+        </div>
       </section>
 
       <section id="errorBox" class="error-box" hidden></section>
@@ -43,13 +48,19 @@
           <span>Latest posts and mentioned tickers.</span>
         </div>
         <div class="date-toolbar" aria-label="Post date filter">
-          <button id="prevDateButton" class="date-nav-button" type="button" aria-label="Previous day">‹</button>
+          <button id="prevDateButton" class="date-nav-button" type="button" aria-label="Previous day">&lsaquo;</button>
           <div class="date-picker-wrap">
             <strong id="dateLabel">Today</strong>
             <input id="datePicker" type="date" aria-label="Choose post date">
           </div>
-          <button id="nextDateButton" class="date-nav-button" type="button" aria-label="Next day">›</button>
+          <button id="nextDateButton" class="date-nav-button" type="button" aria-label="Next day">&rsaquo;</button>
           <span id="dateCount" class="date-count">- posts</span>
+        </div>
+        <div class="filter-toolbar" aria-label="Post filters">
+          <button class="filter-button is-active" type="button" data-filter="all">All</button>
+          <button class="filter-button" type="button" data-filter="public">Public</button>
+          <button class="filter-button" type="button" data-filter="sub">Sub</button>
+          <button class="filter-button" type="button" data-filter="favorites">Favorites</button>
         </div>
         <div id="postsList" class="card-list">
           <div class="empty-state">Loading posts...</div>
@@ -57,6 +68,6 @@
       </section>
     </main>
 
-    <script src="x.js?v=20260501-0505" defer></script>
+    <script src="x.js?v=20260502-filters-favorites" defer></script>
   </body>
 </html>
