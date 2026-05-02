@@ -204,6 +204,18 @@ function availablePostDates(posts) {
   return Array.from(new Set(posts.map(postDateKey).filter(Boolean))).sort();
 }
 
+function currentViewPosts(allPosts) {
+  return filteredPostsForActiveFilter(allPosts);
+}
+
+function ensureSelectedDateInView(viewPosts) {
+  const dates = availablePostDates(viewPosts);
+  if (!dates.length) return;
+  if (!dates.includes(state.selectedDate)) {
+    state.selectedDate = dates[dates.length - 1];
+  }
+}
+
 function badge(label, className = "") {
   return `<span class="badge ${className}">${escapeHtml(label)}</span>`;
 }
@@ -300,8 +312,9 @@ function renderPosts(posts, selectedDate) {
 function renderAll() {
   const data = state.data || {};
   const allPosts = getPosts(data);
-  const datePosts = allPosts.filter((post) => postDateKey(post) === state.selectedDate);
-  const posts = filteredPostsForActiveFilter(datePosts);
+  const viewPosts = currentViewPosts(allPosts);
+  ensureSelectedDateInView(viewPosts);
+  const posts = viewPosts.filter((post) => postDateKey(post) === state.selectedDate);
   const publishedTimes = posts
     .map((post) => formatDate(post.publishedAt))
     .filter((value) => value !== "-")
@@ -314,8 +327,8 @@ function renderAll() {
   elements.visibilityCount.textContent = visibilitySummary(posts);
   elements.errorBox.hidden = !state.error;
   elements.errorBox.textContent = state.error || "";
-  renderDateControls(allPosts, posts);
-  renderFilterControls(datePosts);
+  renderFilterControls(allPosts);
+  renderDateControls(viewPosts, posts);
   renderPosts(posts, state.selectedDate);
 }
 
@@ -357,6 +370,8 @@ async function runManualRefresh() {
     reuse_analysis_cache: true,
     reanalyze_fallback_cache: true,
     fail_on_new_fallback: true,
+    fail_on_incomplete_subscriber: true,
+    ensure_visible_edge: true,
     remove_local_site_payload_after_publish: true,
   };
   let lastError = "";
