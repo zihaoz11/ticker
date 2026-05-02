@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
   "account": "aleabitoreddit",
-  "generated_at": "2026-05-02T06:35:07+00:00",
+  "generated_at": "2026-05-02T07:21:05+00:00",
   "status": {
-    "post_count": 125,
-    "public_count": 125,
-    "subscriber_only_count": 0,
-    "warnings_count": 7
+    "post_count": 127,
+    "public_count": 114,
+    "subscriber_only_count": 13,
+    "warnings_count": 6
   },
   "posts": [
     {
@@ -14,7 +14,7 @@
       "url": "https://x.com/aleabitoreddit/status/2050462731149730222",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:48+00:00",
+      "collected_at_utc": "2026-05-02T07:18:36+00:00",
       "published_at": "2026-05-02T06:29:45+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户分享了过去一个月在多个半导体和AI相关股票上的收益，其中AAOI和SOI表现优异，而SNDK、INTC、MRVL和ARM相对跑输，所有提及的股票均被归类为共享看涨投资组合的一部分。",
@@ -91,7 +91,7 @@
       "url": "https://x.com/aleabitoreddit/status/2050302664031039691",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:48+00:00",
+      "collected_at_utc": "2026-05-02T07:18:36+00:00",
       "published_at": "2026-05-01T19:53:42+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户批评收取高额费用的股票推荐者，认为其理念不足以支撑收费，并暗示自己拥有更好的投资想法，但未提及任何具体股票代码。",
@@ -123,7 +123,7 @@
       "url": "https://x.com/aleabitoreddit/status/2050286321663643867",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:48+00:00",
+      "collected_at_utc": "2026-05-02T07:18:38+00:00",
       "published_at": "2026-05-01T18:48:46+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子主要包含对零售投资者和作者财务成功的正面反馈，未提及任何具体股票代码或投资观点。",
@@ -155,7 +155,7 @@
       "url": "https://x.com/aleabitoreddit/status/2050272539851821157",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:48+00:00",
+      "collected_at_utc": "2026-05-02T07:18:38+00:00",
       "published_at": "2026-05-01T17:54:00+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "SIVE 因瑞典本地投资者向美国投资者转移持股而面临财富再分配，且本地投资者无法从 2026-2027 年超大规模计算中心的光子芯片和硅光子业务放量中获益，而美国/西方散户及机构则获得了更多浮筹份额。",
@@ -197,7 +197,7 @@
       "url": "https://x.com/aleabitoreddit/status/2050265078965182518",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:50+00:00",
+      "collected_at_utc": "2026-05-02T07:18:38+00:00",
       "published_at": "2026-05-01T17:24:21+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子指出市场此前对 $EWY 等韩国半导体股过度悲观，作者认为 $SNDK 的强劲需求（3 年预购）及 $RPI、$SIVE 等个股的上涨趋势验证了其看涨观点，将 $EWY 描述为主要由三星和 SK 海力士驱动而非韩国经济代表。",
@@ -262,7 +262,7 @@
       "url": "https://x.com/aleabitoreddit/status/2050249906758341003",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:50+00:00",
+      "collected_at_utc": "2026-05-02T07:18:39+00:00",
       "published_at": "2026-05-01T16:24:04+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了关于解除封锁的策略，并提及了 6830 和 322310 作为潜在的多倍回报投资标的，但未提供具体的公司背景或详细分析。",
@@ -295,7 +295,7 @@
       "url": "https://x.com/aleabitoreddit/status/2050242891117900233",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:51+00:00",
+      "collected_at_utc": "2026-05-02T07:18:39+00:00",
       "published_at": "2026-05-01T15:56:11+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "Reddit 用户 Serenity 在持有 $RDDT 股票 6 周后认为其被严重低估，尽管股价仍下跌，但公司净利润率高且营收增长强劲，预期长期将重回 $200 以上。",
@@ -339,7 +339,7 @@
       "url": "https://x.com/aleabitoreddit/status/2050237030828052862",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:51+00:00",
+      "collected_at_utc": "2026-05-02T07:18:39+00:00",
       "published_at": "2026-05-01T15:32:54+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "光子板块表现强劲，帖子提及了AXTI和AAOI的上涨，并暗示这些股票符合之前的看涨论点。",
@@ -556,7 +556,7 @@
       "url": "https://x.com/aleabitoreddit/status/2050040294205448401",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:52+00:00",
+      "collected_at_utc": "2026-05-02T07:18:40+00:00",
       "published_at": "2026-05-01T02:31:08+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户认为 SOI 股价直线上涨，对 SLOIF 改变看法并建仓以获取 CPO 敞口，同时看好 NVDA 作为光电子架构催化剂，认为这些公司估值被低估且 SLOIF 具有垄断地位。",
@@ -613,7 +613,7 @@
       "url": "https://x.com/aleabitoreddit/status/2050031111103984072",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:52+00:00",
+      "collected_at_utc": "2026-05-02T07:18:40+00:00",
       "published_at": "2026-05-01T01:54:39+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了 TOWA (6315) 作为 HBM4 压缩成型垄断者的稳健增长潜力，将其与 MU 等内存公司联系起来，并暗示其客户包括三星、SK 海力士和美满电子。",
@@ -668,7 +668,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049985874193195425",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:52+00:00",
+      "collected_at_utc": "2026-05-02T07:18:41+00:00",
       "published_at": "2026-04-30T22:54:53+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了 $AXTI 作为磷化铟（InP）供应链主要供应商的地位，反驳了将其仅视为单一客户（Sumitomo）供应商的观点，同时指出其市场规模（TAM）较小且非专有技术，并提及了 $AXTI 作为潜在“3x brrrs”（三倍回报）投资标的的看涨观点。",
@@ -712,7 +712,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049969772251709921",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:52+00:00",
+      "collected_at_utc": "2026-05-02T07:18:41+00:00",
       "published_at": "2026-04-30T21:50:54+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子批评 SLNH、BKKT、ASST 和 IREN 因 ATM 稀释而表现不佳，将其与 Serenity 的过往失败类比，并暗示这些股票属于被过度追捧的'3x brrrs'类别，同时提及 MSSCORP 和 Auros 作为其他潜在标的。",
@@ -776,7 +776,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049956624480276628",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:54+00:00",
+      "collected_at_utc": "2026-05-02T07:18:41+00:00",
       "published_at": "2026-04-30T20:58:40+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "SNDK 财报显示营收和 EPS 大幅超预期，毛利率显著提升，Q4 指引强劲，被视为高增长标的。",
@@ -818,7 +818,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049949682022203738",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:54+00:00",
+      "collected_at_utc": "2026-05-02T07:18:41+00:00",
       "published_at": "2026-04-30T20:31:05+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "Reddit 用户 aleabitoreddit 指出 Serenity 发布的 $RDDT 季度财报表现强劲，营收和每股收益均大幅超出预期，毛利率高达 91.5%，并提及了其他潜在的多袋股候选标的如 MSSCORP 和 Auros。",
@@ -861,7 +861,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049941088165892196",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:54+00:00",
+      "collected_at_utc": "2026-05-02T07:18:43+00:00",
       "published_at": "2026-04-30T19:56:56+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了瑞典股票 SIVE/SIVEF 因机构限制而缺乏持仓的历史背景及当前变化，同时提及了 SIVE 的无限 TWAP 现象，并列举了 MSSCORP 和 Auros 作为潜在的多袋股（multi-bagger）或 3x 回报标的。",
@@ -911,7 +911,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049916817519587600",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:55+00:00",
+      "collected_at_utc": "2026-05-02T07:18:43+00:00",
       "published_at": "2026-04-30T18:20:29+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了 $SIVEF 和 $SIVE 因 CHIPS 法案及客户 ALLSPACE 被 $YSS 收购而上涨，将其视为国防承包商相关概念，并提及 $SIVE 在 2.5 周内上涨 200% 的强劲表现。",
@@ -969,7 +969,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049905588197568560",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:55+00:00",
+      "collected_at_utc": "2026-05-02T07:18:43+00:00",
       "published_at": "2026-04-30T17:35:52+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "Serenity @aleabitoreddit · Apr 30 Looks like $JPM is up 1.29% today as it’s anecdotally receiving an influx of new male applications.",
@@ -998,7 +998,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049876593674440706",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:55+00:00",
+      "collected_at_utc": "2026-05-02T07:18:44+00:00",
       "published_at": "2026-04-30T15:40:39+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子分析了 LPKF 系列 ($LPK, $LPKFF) 和 AEHR 的财报，指出市场过度关注短期财务数据而忽视了资格认证周期和销量爬坡指标的重要性，认为这些公司的当前业绩若无重大利空则无足轻重，并暗示 LPKF 系列可能属于被低估的潜力股。",
@@ -1054,7 +1054,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049775164184055998",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:56+00:00",
+      "collected_at_utc": "2026-05-02T07:18:44+00:00",
       "published_at": "2026-04-30T08:57:36+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了 $SOI 和 $SLOIF 的强劲上涨及估值优势，并提及 $NVDA 作为光电子架构的关键催化剂，同时列出了其他潜在的多重收益标的。",
@@ -1111,7 +1111,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049767690425016780",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:56+00:00",
+      "collected_at_utc": "2026-05-02T07:18:44+00:00",
       "published_at": "2026-04-30T08:27:54+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了 Lightmatter 可能使用 Sivers 激光器的新发现，并指出 Celestial 是 Sivers 的直接客户，推测 Marvell 可能直接从 Sivers 采购激光器而非通过 Poet，同时列举了 TSM、GFS、TSEM、AMKR、ASX 作为 Lightmatter 的合作伙伴，并将这些股票列为潜在的多倍股。",
@@ -1197,7 +1197,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049761085872570864",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:58+00:00",
+      "collected_at_utc": "2026-05-02T07:18:45+00:00",
       "published_at": "2026-04-30T08:01:40+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子分析了 Marvell (MRVL) 与 Sivers (SIVE/SIVEF) 及 Celestial AI 之间的供应链关系变化，指出 MRVL 可能已直接从 Sivers 采购激光器而非通过 Poet，并认为 Sivers 与 Celestial 存在直接联系，尽管零售算法因 Marvell/Poet 合作取消而恐慌抛售，但作者认为桥梁并未烧毁。",
@@ -1253,42 +1253,65 @@
       "post_id": "2049745676125536657",
       "url": "https://x.com/aleabitoreddit/status/2049745676125536657",
       "account": "aleabitoreddit",
-      "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:58+00:00",
+      "visibility": "subscriber_only",
+      "collected_at_utc": "2026-05-02T07:19:18+00:00",
       "published_at": "2026-04-30T07:00:26+00:00",
       "published_at_source": "x_time_datetime",
-      "summary_cn": "帖子讨论了三星和SK海力士供应商相关的韩国股票投资观点，将其列为潜在的多倍回报（multi-bagger）或3倍回报（3x brrrs）想法，但未提供具体公司名称或代码。",
+      "summary_cn": "帖子将三星/SK海力士供应商概念与$SIVE和$AEHR类比，重点推荐$322310作为下一代HBM的SK海力士和三星供应商，认为其是HBM4e混合键合的直接受益者。",
       "key_points": [
-        "帖子标题提及三星（Samsung）和SK海力士（SK Hynix）的供应商概念，但未在正文中列出具体股票代码或公司名称。",
-        "内容被归类为'3x brrrs'或'multi-bagger ideas'，表明这是一种共享的看涨论点，适用于任何被提及的股票，但此处未明确提及任何具体股票。",
-        "帖子包含订阅提示（Subscribe to unlock），表明完整内容可能受限，当前可见文本中无具体股票分析。",
-        "未提及任何具体公司、股票代码或市场数据，因此无法提取具体的看涨或看跌理由。"
+        "帖子将$SIVE和$AEHR作为内存芯片领域的类比参照，暗示其具有类似的市场地位或业务模式。",
+        "$322310被明确标识为SK海力士和三星的下一代HBM供应商，专注于HBM4e混合键合技术。",
+        "该观点被归类为一种混合了$SIVE和$AEHR特征的内存板块投资思路，但市场规模（TAM）较小。",
+        "帖子将$322310列为具有3倍回报潜力的候选标的之一。"
       ],
       "themes": [
         "半导体供应链",
-        "韩国股市",
-        "供应商概念",
-        "投资投机想法"
+        "HBM内存技术",
+        "韩国股市投资",
+        "高增长潜力标的"
       ],
-      "mentioned_tickers": [],
-      "stock_views": [],
-      "importance": 0.0,
-      "confidence": 0.0,
+      "mentioned_tickers": [
+        "322310",
+        "AEHR",
+        "SIVE"
+      ],
+      "stock_views": [
+        {
+          "ticker": "SIVE",
+          "stance": "bullish",
+          "confidence": 0.6,
+          "reason_cn": "作为类比参照，暗示其在芯片或半导体领域具有类似$322310的高增长潜力，尽管具体细节有限。"
+        },
+        {
+          "ticker": "AEHR",
+          "stance": "bullish",
+          "confidence": 0.6,
+          "reason_cn": "作为类比参照，暗示其在芯片或半导体领域具有类似$322310的高增长潜力，尽管具体细节有限。"
+        },
+        {
+          "ticker": "322310",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "明确为SK海力士和三星的下一代HBM供应商，直接受益于HBM4e混合键合技术，被视为内存板块的直接投资机会。"
+        }
+      ],
+      "importance": 0.85,
+      "confidence": 0.7,
       "risk_notes": [
-        "帖子内容不完整，需要订阅才能解锁，当前文本中无具体投资建议或数据。",
-        "未提及任何具体公司，因此无法评估个股风险或基本面。",
-        "帖子可能包含未经证实的投资观点，需谨慎对待。"
+        "帖子提及市场规模（TAM）较小，可能限制整体增长潜力。",
+        "对$SIVE和$AEHR的具体业务细节描述有限，主要依赖类比推理。",
+        "投资观点基于单一来源的推测性分析，未提供财务数据或历史业绩支持。"
       ],
       "fallback_used": false,
-      "raw_excerpt": "",
-      "raw_text_available_private_repo": false
+      "raw_excerpt": "[subscriber-only text hidden]",
+      "raw_text_available_private_repo": true
     },
     {
       "post_id": "2049737227677421908",
       "url": "https://x.com/aleabitoreddit/status/2049737227677421908",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:58+00:00",
+      "collected_at_utc": "2026-05-02T07:18:45+00:00",
       "published_at": "2026-04-30T06:26:52+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了 $LPK、$LPKFF 和 $AEHR 的财报分析，指出除非有极端坏消息否则不应过度关注当前收益，并暗示这些股票属于被市场低估的资格周期玩家，同时提到了 $SIVE 和 6830 作为额外的看涨观点。",
@@ -1346,7 +1369,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049655082250314014",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:58+00:00",
+      "collected_at_utc": "2026-05-02T07:18:46+00:00",
       "published_at": "2026-04-30T01:00:27+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "作者持有 6830，认为其在晶圆检验领域具有功能性垄断地位，但市场可能将其与材料/失效分析领域的寡头混淆，客户包括台积电、英伟达、苹果和应用材料。",
@@ -1415,7 +1438,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049646205039522009",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:59+00:00",
+      "collected_at_utc": "2026-05-02T07:18:46+00:00",
       "published_at": "2026-04-30T00:25:10+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子分析了 $TOWA、$TOWCF、$MU 作为 HBM4 支出的受益者，以及 $VIAV、$FORM 的盈利预期，同时提及 $ONTO、$CAMT、$KEYS 和 MSSCORP 因内存制造商资本支出增加而具有看涨潜力。",
@@ -1510,7 +1533,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049626323161899085",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:59+00:00",
+      "collected_at_utc": "2026-05-02T07:18:46+00:00",
       "published_at": "2026-04-29T23:06:10+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户 aleabitoreddit 发布了一条关于回复私信请求困难的 PSA，未提及任何股票代码或市场观点。",
@@ -1540,7 +1563,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049609993071259684",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:33:59+00:00",
+      "collected_at_utc": "2026-05-02T07:18:48+00:00",
       "published_at": "2026-04-29T22:01:16+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子指出 Shunsin (6451) 因被英伟达 (NVDA) 选为 Groq 加速器独家机架级供应商而受到积极影响，同时提及了 3x brrrs 等看涨观点。",
@@ -1587,7 +1610,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049604721766494640",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:00+00:00",
+      "collected_at_utc": "2026-05-02T07:18:48+00:00",
       "published_at": "2026-04-29T21:40:20+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖文对 $VIAV 和 $FORM 的财报持极度乐观态度，认为这将推动 $ONTO、$CAMT、$TOWA 和 $KEYS 等股票上涨，并将 6830 列为潜在的多倍股候选者。",
@@ -1666,7 +1689,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049592634398875731",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:00+00:00",
+      "collected_at_utc": "2026-05-02T07:18:48+00:00",
       "published_at": "2026-04-29T20:52:18+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子分析了微软、亚马逊、Meta 和台积电的资本支出信号，指出上游半导体供应链因组件价格上涨而承压，并列举了包括 MSSCORP 和 Auros 在内的多个看涨股票作为最佳猜测。",
@@ -1729,7 +1752,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049576551944204385",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:00+00:00",
+      "collected_at_utc": "2026-05-02T07:18:48+00:00",
       "published_at": "2026-04-29T19:48:23+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户提到 $SIVE 和 $AAOI 为积极组合中的股票，并祝愿其成为百万富翁，同时提及了 6830 和 322310 作为潜在的 3x 收益标的。",
@@ -1776,7 +1799,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049564617215795571",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:00+00:00",
+      "collected_at_utc": "2026-05-02T07:18:49+00:00",
       "published_at": "2026-04-29T19:00:58+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户质疑为何英伟达 (INTC) 和 Silicon Motion (SIMO) 等芯片股持续大涨，认为这是押注正确板块的结果，并提及了其他潜在的多头标的。",
@@ -1823,8 +1846,8 @@
       "post_id": "2049523399911952597",
       "url": "https://x.com/aleabitoreddit/status/2049523399911952597",
       "account": "aleabitoreddit",
-      "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:00+00:00",
+      "visibility": "subscriber_only",
+      "collected_at_utc": "2026-05-01T17:07:57+00:00",
       "published_at": "2026-04-29T16:17:11+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户列举了六家拥有功能性垄断地位的公司，包括TOWA、6830、LPK、SOI、AXTI以及未明确代码的Juelz，认为它们是高增长潜力的投资标的。",
@@ -1890,15 +1913,15 @@
         "部分公司代码可能为内部代号或非公开交易代码。"
       ],
       "fallback_used": false,
-      "raw_excerpt": "",
-      "raw_text_available_private_repo": false
+      "raw_excerpt": "[subscriber-only text hidden]",
+      "raw_text_available_private_repo": true
     },
     {
       "post_id": "2049446281039446474",
       "url": "https://x.com/aleabitoreddit/status/2049446281039446474",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:02+00:00",
+      "collected_at_utc": "2026-05-02T07:18:49+00:00",
       "published_at": "2026-04-29T11:10:44+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户批评 Anthropic 最新模型表现不佳，推测其可能因受 $IREN 投资者对话影响而训练数据出现偏差，并表达了对该模型不再使用的态度。",
@@ -1939,7 +1962,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049437962195055060",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:02+00:00",
+      "collected_at_utc": "2026-05-02T07:18:49+00:00",
       "published_at": "2026-04-29T10:37:41+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "Serenity 指出 $SIVE 市值刚突破 10 亿美元，目前仅少数美国机构可购买，多数机构需等待纳斯达克上市，暗示该事件对机构资金配置具有潜在意义。",
@@ -1979,8 +2002,8 @@
       "post_id": "2049424041136533543",
       "url": "https://x.com/aleabitoreddit/status/2049424041136533543",
       "account": "aleabitoreddit",
-      "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:02+00:00",
+      "visibility": "subscriber_only",
+      "collected_at_utc": "2026-05-01T17:07:59+00:00",
       "published_at": "2026-04-29T09:42:22+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户 Serenity 在 Reddit 上表示计划买入一家功能性 CPO 垄断公司（未指明具体名称）以及一家未知的韩国三星/海力士内存供应商，并打算在年底前全仓持有，除非发生重大变化。",
@@ -2007,15 +2030,15 @@
         "用户表示“感到有些厌倦”，可能暗示情绪化交易或持仓调整风险。"
       ],
       "fallback_used": false,
-      "raw_excerpt": "",
-      "raw_text_available_private_repo": false
+      "raw_excerpt": "[subscriber-only text hidden]",
+      "raw_text_available_private_repo": true
     },
     {
       "post_id": "2049390824673456494",
       "url": "https://x.com/aleabitoreddit/status/2049390824673456494",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:03+00:00",
+      "collected_at_utc": "2026-05-02T07:18:50+00:00",
       "published_at": "2026-04-29T07:30:23+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子认为 LPK 是玻璃基板领域的垄断瓶颈，适用于先进封装和 CPO 应用，作者将其列为潜在 10 倍股，认为当前时机合适。",
@@ -2057,7 +2080,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049386026460942645",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:03+00:00",
+      "collected_at_utc": "2026-05-02T07:18:52+00:00",
       "published_at": "2026-04-29T07:11:19+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了瑞典芯片公司 SIVE 可能即将获得第二轮美国《芯片法案》资助的看涨观点，同时提及了合作伙伴 Ericsson (ERIC)，并暗示市场可能遗漏了相关信息。",
@@ -2104,7 +2127,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049360475046224050",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:03+00:00",
+      "collected_at_utc": "2026-05-02T07:18:52+00:00",
       "published_at": "2026-04-29T05:29:47+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "HOOD 因产品创新停滞转向预测市场和垃圾币而受批评，导致零售客户流失至已支持韩国股票交易的 IBKR。",
@@ -2152,40 +2175,49 @@
       "post_id": "2049336470079668713",
       "url": "https://x.com/aleabitoreddit/status/2049336470079668713",
       "account": "aleabitoreddit",
-      "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:03+00:00",
+      "visibility": "subscriber_only",
+      "collected_at_utc": "2026-05-02T07:19:18+00:00",
       "published_at": "2026-04-29T03:54:23+00:00",
       "published_at_source": "x_time_datetime",
-      "summary_cn": "帖子提出光子学垄断概念，将6830和322310列为潜在的多袋股想法，但未提供具体公司细节或明确观点。",
+      "summary_cn": "帖子讨论了将 Miss Snake Sisters (MSSCORP, 代码 6830) 视为光互连垄断者的新长线投资观点，并指出台积电 (TSM) 是其客户之一。",
       "key_points": [
-        "帖子将6830和322310列为'3x brrrs'（多袋股）想法的一部分，暗示共享看涨理由。",
-        "帖子未提供6830和322310的具体公司细节、市场份额或估值信息。",
-        "帖子未明确说明光子学垄断概念的具体实现方式或市场影响。"
+        "帖子提出将 6830 作为光互连 (CPO) 领域的垄断性长线投资标的。",
+        "帖子明确指出 TSM 是 MSSCORP 提供先进材料的客户。",
+        "帖子将 6830 描述为一种新的长线投资想法，市场价值约为 12 亿美元。",
+        "帖子使用了 'best guesses' 或类似的多头投资主题来涵盖列表中的股票。"
       ],
       "themes": [
-        "光子学",
-        "垄断",
-        "多袋股"
+        "光互连 (CPO)",
+        "垄断性投资",
+        "客户供应链关系"
       ],
-      "mentioned_tickers": [],
-      "stock_views": [],
-      "importance": 0.3,
-      "confidence": 0.5,
+      "mentioned_tickers": [
+        "TSM"
+      ],
+      "stock_views": [
+        {
+          "ticker": "TSM",
+          "stance": "bullish",
+          "confidence": 0.6,
+          "reason_cn": "作为 MSSCORP 的先进材料客户被提及，属于该投资逻辑中的关键客户角色。"
+        }
+      ],
+      "importance": 0.8,
+      "confidence": 0.65,
       "risk_notes": [
-        "帖子未提供具体公司细节或估值信息，可能导致投资判断不准确。",
-        "帖子未明确说明光子学垄断概念的具体实现方式或市场影响。",
-        "帖子未提供明确的投资建议或风险提示。"
+        "帖子内容包含非正式用语（如 'Robot Pokemon Skarmory'），可能暗示信息非正式或存在不确定性。",
+        "关于 MSSCORP 的具体细节（如市场份额、供应商关系）在提供的文本片段中未详细展开。"
       ],
       "fallback_used": false,
-      "raw_excerpt": "",
-      "raw_text_available_private_repo": false
+      "raw_excerpt": "[subscriber-only text hidden]",
+      "raw_text_available_private_repo": true
     },
     {
       "post_id": "2049288233583006018",
       "url": "https://x.com/aleabitoreddit/status/2049288233583006018",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:03+00:00",
+      "collected_at_utc": "2026-05-02T07:18:52+00:00",
       "published_at": "2026-04-29T00:42:43+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了 IBKR 对亚洲和欧洲股票（如韩国、日本、欧洲股票）实施 100% 维持保证金的要求，认为这是不合理的，并提到 IBKR 现在提供韩国股票，表达了对此的兴奋和长期持有的想法。",
@@ -2227,7 +2259,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049253679744872797",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:04+00:00",
+      "collected_at_utc": "2026-05-02T07:18:53+00:00",
       "published_at": "2026-04-28T22:25:25+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了从2008年到2026年通过持有NVDA实现巨额财富的可能性，并提及在RDDT上分享的案例，同时暗示寻找下一个类似NVDA的标的（如SNDK、MSSCORP、Auros）作为潜在的多袋增长机会。",
@@ -2276,8 +2308,8 @@
       "post_id": "2049251501978325014",
       "url": "https://x.com/aleabitoreddit/status/2049251501978325014",
       "account": "aleabitoreddit",
-      "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:04+00:00",
+      "visibility": "subscriber_only",
+      "collected_at_utc": "2026-05-02T07:19:18+00:00",
       "published_at": "2026-04-28T22:16:45+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了台积电（$TSM）可能获得日本 CoPoS 链接的潜在机会，将其列为多袋股（multi-bagger）或 3x brrrs 投资组合中的候选标的之一，但未提供针对 TSM 的具体基本面细节。",
@@ -2312,15 +2344,15 @@
         "帖子可能包含未经证实的市场传闻或猜测。"
       ],
       "fallback_used": false,
-      "raw_excerpt": "",
-      "raw_text_available_private_repo": false
+      "raw_excerpt": "[subscriber-only text hidden]",
+      "raw_text_available_private_repo": true
     },
     {
       "post_id": "2049227875812045146",
       "url": "https://x.com/aleabitoreddit/status/2049227875812045146",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:04+00:00",
+      "collected_at_utc": "2026-05-02T07:18:53+00:00",
       "published_at": "2026-04-28T20:42:53+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了$SOI、$SIVE、$IQE、$AXTI、$LPKF、$AAOI等半导体和光学设备股票的强劲表现，指出机构在零售投资者推动上涨后跟进买入，并提及了其他如$MSSCORP、$Auros等被归类为'3x brrrs'或'best guesses'的额外看涨标的。",
@@ -2399,7 +2431,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049212010660049008",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:04+00:00",
+      "collected_at_utc": "2026-05-02T07:18:53+00:00",
       "published_at": "2026-04-28T19:39:50+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户认为 $LPK 是玻璃基板领域的关键垄断瓶颈，适用于先进封装和 CPO，尽管市场回调但该股表现抗跌，存在买入压力，被视为潜在的多倍股。",
@@ -2449,7 +2481,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049197267404648516",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:06+00:00",
+      "collected_at_utc": "2026-05-02T07:18:54+00:00",
       "published_at": "2026-04-28T18:41:15+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了 Serenity Stocks 表现强劲但预期过高，提及 $SOI 和 $HPS 需上涨 10% 才能满足投资者，同时引用 Garric G. Nahapetian 称这些股票已回调至买入区间，并额外提及了 6830 和 322310 作为潜在标的。",
@@ -2498,7 +2530,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049160131641004263",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:06+00:00",
+      "collected_at_utc": "2026-05-02T07:18:54+00:00",
       "published_at": "2026-04-28T16:13:41+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子认为市场因OpenAI内部泄露的媒体叙事而过度反应，对$AAOI和$TSEM等芯片股持看涨态度，认为这些公司不受单一泄露影响，并提及了MSSCORP和Auros作为潜在的多重收益股。",
@@ -2547,7 +2579,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049032343974007088",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:06+00:00",
+      "collected_at_utc": "2026-05-02T07:18:54+00:00",
       "published_at": "2026-04-28T07:45:54+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了日本投资者对 $SIVE 的兴趣增加，并分析了 $NVDA 从 $LITE 和 $COHR 手中收购份额，以及 $AMD 与 $GFS 合作的情况，同时提及了 $SIVE 的买入策略。",
@@ -2626,7 +2658,7 @@
       "url": "https://x.com/aleabitoreddit/status/2049015455160111466",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:07+00:00",
+      "collected_at_utc": "2026-05-02T07:18:55+00:00",
       "published_at": "2026-04-28T06:38:48+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子提到 $AAOI 和 $LITE 是 Serenity 账户在 4 个月内实现三位数回报的 13 只股票之一，并暗示这些股票属于'3x brrrs'（三倍收益）或'aura farming'（光环效应）的看涨组合，但未提供除整体表现外的具体个股理由。",
@@ -2675,8 +2707,8 @@
       "post_id": "2049006161500991925",
       "url": "https://x.com/aleabitoreddit/status/2049006161500991925",
       "account": "aleabitoreddit",
-      "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:07+00:00",
+      "visibility": "subscriber_only",
+      "collected_at_utc": "2026-05-01T17:08:04+00:00",
       "published_at": "2026-04-28T06:01:52+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子对比了韩国半导体供应链公司的低估值与纳斯达克上市公司 LWLG 因获得 TSEM 合同而暴涨的现象，将 NVDA、INTC、LWLG、TSEM 列为关注标的，并提及 6830 和 322310 作为潜在的多头猜测标的。",
@@ -2735,49 +2767,77 @@
         "帖子未提供投资建议，仅作为市场观察。"
       ],
       "fallback_used": false,
-      "raw_excerpt": "",
-      "raw_text_available_private_repo": false
+      "raw_excerpt": "[subscriber-only text hidden]",
+      "raw_text_available_private_repo": true
     },
     {
       "post_id": "2048994957462302918",
       "url": "https://x.com/aleabitoreddit/status/2048994957462302918",
       "account": "aleabitoreddit",
-      "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:07+00:00",
+      "visibility": "subscriber_only",
+      "collected_at_utc": "2026-05-02T07:19:19+00:00",
       "published_at": "2026-04-28T05:17:21+00:00",
       "published_at_source": "x_time_datetime",
-      "summary_cn": "用户 aleabitoreddit 分享了韩国股票多头列表，包含 6830 和 322310 等标的，将其列为潜在的多倍回报（multi-bagger）或 3 倍收益（3x brrrs）机会，但未提供具体的个股基本面分析或明确的投资建议。",
+      "summary_cn": "帖子讨论了韩国股票长仓列表，包括三星电机 (003160)、STI (039440)、YEST (122640) 以及 IBKR 新提供的韩国股票功能，整体观点为看涨。",
       "key_points": [
-        "帖子将 6830 和 322310 列为韩国股票多头列表的一部分。",
-        "这些股票被描述为具有多倍回报潜力（multi-bagger）或 3 倍收益（3x brrrs）的候选标的。",
-        "帖子未提供关于这些公司的具体市场地位、客户、供应商关系、估值或具体上涨理由的详细分析。",
-        "帖子内容属于一般性的投资观点分享，缺乏针对特定标的的深入基本面数据。"
+        "帖子作者正在筛选韩国股票长仓列表，认为大盘股如三星电机 (003160) 风险可控。",
+        "具体提到的韩国股票包括 DI (003160) 在测试器中表现疲软，STI (039440) 涉及无纹真空设备，YEST (122640) 被提及但未详细说明。",
+        "IBKR 现在提供韩国股票交易，作者对此表示兴奋并计划利用此功能进行投资。",
+        "所有提到的韩国股票均被视为潜在的长仓标的，但未提供具体的个股估值或市场份额数据。"
       ],
       "themes": [
-        "韩国股票多头",
-        "多倍回报潜力",
-        "3 倍收益机会",
-        "投资观点分享"
+        "韩国股票投资",
+        "长仓策略",
+        "IBKR 新功能"
       ],
-      "mentioned_tickers": [],
-      "stock_views": [],
-      "importance": 0.4,
-      "confidence": 0.3,
+      "mentioned_tickers": [
+        "003160",
+        "039440",
+        "122640",
+        "IBKR"
+      ],
+      "stock_views": [
+        {
+          "ticker": "003160",
+          "stance": "bullish",
+          "confidence": 0.5,
+          "reason_cn": "作为大盘股，风险可控，适合长仓列表。"
+        },
+        {
+          "ticker": "039440",
+          "stance": "bullish",
+          "confidence": 0.5,
+          "reason_cn": "涉及无纹真空设备，被纳入长仓列表。"
+        },
+        {
+          "ticker": "122640",
+          "stance": "bullish",
+          "confidence": 0.5,
+          "reason_cn": "被纳入长仓列表，但未提供具体细节。"
+        },
+        {
+          "ticker": "IBKR",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "IBKR 新增韩国股票交易功能，作者对此表示兴奋并计划利用。"
+        }
+      ],
+      "importance": 0.7,
+      "confidence": 0.6,
       "risk_notes": [
-        "帖子未提供具体的财务数据或基本面分析，仅基于一般性观点。",
-        "用户未披露具体的投资逻辑或风险因素。",
-        "帖子内容可能属于一般性的投资观点分享，缺乏针对特定标的的深入基本面数据。"
+        "部分韩国股票的具体细节（如市场份额、客户关系）未在帖子中提供。",
+        "帖子仅作为初步筛选，未进行深入的财务分析或风险评估。"
       ],
       "fallback_used": false,
-      "raw_excerpt": "",
-      "raw_text_available_private_repo": false
+      "raw_excerpt": "[subscriber-only text hidden]",
+      "raw_text_available_private_repo": true
     },
     {
       "post_id": "2048956013374755266",
       "url": "https://x.com/aleabitoreddit/status/2048956013374755266",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:07+00:00",
+      "collected_at_utc": "2026-05-02T07:18:55+00:00",
       "published_at": "2026-04-28T02:42:36+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户提到IBKR（Interactive Brokers）现在支持韩国股票，认为这将很有趣，并列举了一些无法长期持有的想法，暗示对IBKR的新功能持乐观态度。",
@@ -2817,7 +2877,7 @@
       "url": "https://x.com/aleabitoreddit/status/2048929438679896317",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:07+00:00",
+      "collected_at_utc": "2026-05-02T07:18:55+00:00",
       "published_at": "2026-04-28T00:57:00+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子确认1.6T光模块预计于2026年下半年进入大规模量产，视AVGO和MRVL为主要受益者，同时认为AAOI可能是最显著的受益者，将三者均视为该趋势下的看涨标的。",
@@ -2873,7 +2933,7 @@
       "url": "https://x.com/aleabitoreddit/status/2048914800533721376",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:08+00:00",
+      "collected_at_utc": "2026-05-02T07:18:57+00:00",
       "published_at": "2026-04-27T23:58:50+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子将 Towa (6315) 描述为 HBM4 压缩成型领域的垄断者，指出其客户包括美光 (MU)、SK 海力士和三星，尽管今年年初表现平淡，但预期这些客户财报将带来利好。",
@@ -2922,7 +2982,7 @@
       "url": "https://x.com/aleabitoreddit/status/2048846462164045991",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:08+00:00",
+      "collected_at_utc": "2026-05-02T07:18:57+00:00",
       "published_at": "2026-04-27T19:27:16+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了内存板块（$MU, $EWY, $SNDK, $6315, $TSM, $LPK）因SK海力士、三星及台积电增加资本支出及HBM4生产启动而呈现的看涨观点，将其视为被市场忽视的潜在机会。",
@@ -3001,7 +3061,7 @@
       "url": "https://x.com/aleabitoreddit/status/2048833654336729213",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:08+00:00",
+      "collected_at_utc": "2026-05-02T07:18:57+00:00",
       "published_at": "2026-04-27T18:36:23+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子将 SIVE、LITE、POET 和 MRVL 列为具有特殊潜力或协同效应的股票，其中 SIVE 和 LITE 被描述为能制作稀有蓝红缅因龙虾，POET 负责蒸煮和包装，MRVL 负责组装并供应给餐厅。",
@@ -3064,7 +3124,7 @@
       "url": "https://x.com/aleabitoreddit/status/2048822871527682152",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:08+00:00",
+      "collected_at_utc": "2026-05-02T07:18:57+00:00",
       "published_at": "2026-04-27T17:53:32+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "MTSI 计划投资 4500 万美元并加入 IQE 董事会，旨在解决光子供应链中的结构性瓶颈并锁定长期外延晶圆供应，分析师将此视为对两家公司的看涨信号。",
@@ -3113,8 +3173,8 @@
       "post_id": "2048817355141337188",
       "url": "https://x.com/aleabitoreddit/status/2048817355141337188",
       "account": "aleabitoreddit",
-      "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:10+00:00",
+      "visibility": "subscriber_only",
+      "collected_at_utc": "2026-05-01T17:08:05+00:00",
       "published_at": "2026-04-27T17:31:37+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了 $POET 可能因超大规模云服务商垂直整合而被 $MRVL 取代的风险，认为 $POET 未能实现多源供应是看空理由，未提及 $MRVL 的具体利好。",
@@ -3153,15 +3213,15 @@
         "未提及 $MRVL 的具体市场地位或竞争优势。"
       ],
       "fallback_used": false,
-      "raw_excerpt": "",
-      "raw_text_available_private_repo": false
+      "raw_excerpt": "[subscriber-only text hidden]",
+      "raw_text_available_private_repo": true
     },
     {
       "post_id": "2048801270337831047",
       "url": "https://x.com/aleabitoreddit/status/2048801270337831047",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:10+00:00",
+      "collected_at_utc": "2026-05-02T07:18:58+00:00",
       "published_at": "2026-04-27T16:27:42+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子认为 $SIVE 估值合理且未被充分认知，其价值源于 $JBL 和 $AMD 在 CPO 领域的进展降低了风险，同时提及 $AAPL 的 SiPH 市场尚不知情；$JBL、$AMD、$GFS 和 $AAPL 作为支撑 $SIVE 逻辑的关键因素被共同提及，整体呈现对 $SIVE 的看涨观点。",
@@ -3233,7 +3293,7 @@
       "url": "https://x.com/aleabitoreddit/status/2048798568543387922",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:10+00:00",
+      "collected_at_utc": "2026-05-02T07:18:58+00:00",
       "published_at": "2026-04-27T16:16:58+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了 Marvell (MRVL) 可能直接从 COHR、SIVE 或 LITE 采购激光器的可能性，认为这会导致 Marvell 的 Celestial 路线图延迟，但作者仍对垂直整合的长期预期持乐观态度，并询问 Marvell 是否拥有从 Siver 采购的期权权利。",
@@ -3297,7 +3357,7 @@
       "url": "https://x.com/aleabitoreddit/status/2048785899610427809",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:10+00:00",
+      "collected_at_utc": "2026-05-02T07:18:58+00:00",
       "published_at": "2026-04-27T15:26:37+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "MRVL 因客户 Poet 的 CFO 违反 NDA 而取消采购订单，导致 Poet 股价下跌 46%，突显了单一客户集中风险；Poet 持有 4.2 亿美元现金以缓冲下行风险。",
@@ -3396,7 +3456,7 @@
       "url": "https://x.com/aleabitoreddit/status/2048680795586568237",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:11+00:00",
+      "collected_at_utc": "2026-05-02T07:18:59+00:00",
       "published_at": "2026-04-27T08:28:58+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子认为 $SIVE 是 $AAPL 硅光子供应商的潜在‘圣杯’，属于早期 Alpha 机会，并提及了 MSSCORP 和 Auros 作为其他潜在的多倍股候选。",
@@ -3446,7 +3506,7 @@
       "url": "https://x.com/aleabitoreddit/status/2048663719933333524",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:11+00:00",
+      "collected_at_utc": "2026-05-02T07:18:59+00:00",
       "published_at": "2026-04-27T07:21:07+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户认为 $SIVE 是 AMD 激光供应商的潜在标的，且其估值被低估，同时列举了 $SIVE、$LITE 等作为高增长潜力的股票，并提及了 $AAPL、$JBL、$MRVL 等作为其业务增长的驱动因素。",
@@ -3605,7 +3665,7 @@
       "url": "https://x.com/aleabitoreddit/status/2048623230416761019",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:11+00:00",
+      "collected_at_utc": "2026-05-02T07:19:01+00:00",
       "published_at": "2026-04-27T04:40:14+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子指出市场关注 CPU 而忽视了内存，但指出 SK 海力士、MU 和三星正在增加资本支出，三星已开始 HMB4 生产，台积电也发出了全面资本支出创纪录的信号，并将 LPK 与玻璃行业进行类比，暗示其面临类似挑战。",
@@ -3770,28 +3830,58 @@
       "post_id": "2048565314053681285",
       "url": "https://x.com/aleabitoreddit/status/2048565314053681285",
       "account": "aleabitoreddit",
-      "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:13+00:00",
+      "visibility": "subscriber_only",
+      "collected_at_utc": "2026-05-02T07:19:19+00:00",
       "published_at": "2026-04-27T00:50:06+00:00",
       "published_at_source": "x_time_datetime",
-      "summary_cn": "Serenity @aleabitoreddit · Apr 26 Fun fact for research: You can find a lot of \"hid… Subscribe to unlock",
-      "key_points": [],
-      "themes": [],
-      "mentioned_tickers": [],
-      "stock_views": [],
-      "importance": 0.0,
-      "confidence": 0.0,
-      "risk_notes": [],
+      "summary_cn": "帖子指出可通过查看SEC filings中$COHR列出的竞争对手发现隐藏宝石，提及$COHR的竞争对手包括5N、$LITE、Eoptolink和Innolight，并将这些公司列为潜在的多袋股或3倍回报标的。",
+      "key_points": [
+        "通过研究$COHR在SEC filings中列出的竞争对手，可以发现被低估的'隐藏宝石'。",
+        "具体提到的竞争对手包括5N（股价从$0.92涨至$24）、$LITE、Eoptolink和Innolight。",
+        "这些公司被归类为'hidden gems'、'best guesses'或'multi-bagger'，暗示共享的看涨逻辑。",
+        "帖子未提供除竞争对手身份外的具体公司细节（如市场份额、客户或估值）。"
+      ],
+      "themes": [
+        "Hidden Gems",
+        "Competitor Analysis",
+        "SEC Filings Research",
+        "Multi-bagger Potential"
+      ],
+      "mentioned_tickers": [
+        "COHR",
+        "LITE"
+      ],
+      "stock_views": [
+        {
+          "ticker": "COHR",
+          "stance": "bullish",
+          "confidence": 0.6,
+          "reason_cn": "作为分析起点，其SEC filings中的竞争对手列表被用作发现隐藏宝石的方法，暗示其供应链或生态中的其他公司具有增长潜力。"
+        },
+        {
+          "ticker": "LITE",
+          "stance": "bullish",
+          "confidence": 0.6,
+          "reason_cn": "被列为$COHR的竞争对手之一，属于帖子讨论的'hidden gems'或'multi-bagger'候选名单。"
+        }
+      ],
+      "importance": 0.7,
+      "confidence": 0.6,
+      "risk_notes": [
+        "帖子未提供具体的财务数据、市场份额或客户信息。",
+        "所有提及的竞争对手（如5N、Eoptolink、Innolight）仅基于$COHR的SEC filings提及，缺乏独立的详细分析。",
+        "股价历史（如5N从$0.92到$24）未说明时间跨度或市场条件。"
+      ],
       "fallback_used": false,
-      "raw_excerpt": "",
-      "raw_text_available_private_repo": false
+      "raw_excerpt": "[subscriber-only text hidden]",
+      "raw_text_available_private_repo": true
     },
     {
       "post_id": "2048479754672844939",
       "url": "https://x.com/aleabitoreddit/status/2048479754672844939",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:13+00:00",
+      "collected_at_utc": "2026-05-02T07:19:01+00:00",
       "published_at": "2026-04-26T19:10:07+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户因对 AI 增长感到幻灭，认为未来五年通过持有计算基础设施和控制权（如 AI 和机器人技术所需的底层设施）是摆脱永久底层阶级的唯一机会，并列举了相关股票作为潜在投资标的。",
@@ -3911,7 +4001,7 @@
       "url": "https://x.com/aleabitoreddit/status/2048449289152778686",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:13+00:00",
+      "collected_at_utc": "2026-05-02T07:19:01+00:00",
       "published_at": "2026-04-26T17:09:03+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子分析了 CPU 瓶颈（涉及 $INTC, $AMD, $ARM）对 $AMAT, $TSM, $KLAC 的利好，以及 PGMEA 短缺对 $DOW 的影响，将相关股票列为潜在受益者。",
@@ -3993,7 +4083,7 @@
       "url": "https://x.com/aleabitoreddit/status/2048301213943579012",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:13+00:00",
+      "collected_at_utc": "2026-05-02T07:19:01+00:00",
       "published_at": "2026-04-26T07:20:39+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了 $SIVE 作为 CPO 概念股的巨大上涨潜力，将其与 $AAPL、$JBL 和 $MRVL 等市场领导者进行类比，认为其市值被低估，并提到了其他如 MSSCORP 和 Auros 等潜在的多袋股候选者。",
@@ -4057,7 +4147,7 @@
       "url": "https://x.com/aleabitoreddit/status/2048270427571851368",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:13+00:00",
+      "collected_at_utc": "2026-05-02T07:19:02+00:00",
       "published_at": "2026-04-26T05:18:19+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户分享账户粉丝数意外增长至23万，并提及了SNDK、MSSCORP和Auros等股票作为潜在的多倍回报或最佳猜测标的，但未提供具体的投资观点或分析。",
@@ -4088,7 +4178,7 @@
       "url": "https://x.com/aleabitoreddit/status/2048155816457568258",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:14+00:00",
+      "collected_at_utc": "2026-05-02T07:19:02+00:00",
       "published_at": "2026-04-25T21:42:54+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子中 $IREN 被社区成员指责为通过稀释和虚假信息操纵股价，而 $SIVE、$6830 和 $322310 被提及为潜在的 3 倍回报（3x brrrs）或最佳猜测（best guesses）标的，但具体细节有限。",
@@ -4129,7 +4219,7 @@
       "url": "https://x.com/aleabitoreddit/status/2048143244673081730",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:14+00:00",
+      "collected_at_utc": "2026-05-02T07:19:02+00:00",
       "published_at": "2026-04-25T20:52:56+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户高置信度地看空IREN，认为持有该股的投资者是世界上最愚蠢的人，未提及其他股票代码。",
@@ -4168,7 +4258,7 @@
       "url": "https://x.com/aleabitoreddit/status/2048129936813428922",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:14+00:00",
+      "collected_at_utc": "2026-05-02T07:19:02+00:00",
       "published_at": "2026-04-25T20:00:04+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖文将光子学列为 2025 年上半年可能开始的最新超级周期，将 $LITE、$COHR 和 $AXTI 列为该领域的领先者（3x brrrs），并询问其从当前价格是否有 50% 的上涨空间。",
@@ -4226,7 +4316,7 @@
       "url": "https://x.com/aleabitoreddit/status/2048123597223579736",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:14+00:00",
+      "collected_at_utc": "2026-05-02T07:19:03+00:00",
       "published_at": "2026-04-25T19:34:52+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户分享了对 $TSEM、$AEHR、$TER、$AAOI 等允许交易标的的看涨观点，认为 $AEHR 极具潜力，同时提及了 $GOOGL 和 $AMZN 作为潜在客户，并额外关注了文本中出现的 $SIVE 和 6830/322310 作为候选标的。",
@@ -4306,7 +4396,7 @@
       "url": "https://x.com/aleabitoreddit/status/2048083218080121211",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:14+00:00",
+      "collected_at_utc": "2026-05-02T07:19:03+00:00",
       "published_at": "2026-04-25T16:54:25+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了Reddit上关于$RDDT、$AMD和$RKLB的两个热门投资故事，认为这些案例证明了在半导体等特定行业中寻找细分领域领导者（niche leaders）可以改变生活，暗示这些股票具有多袋潜力（multi-bagger）或三倍回报（3x brrrs）的看涨逻辑。",
@@ -4364,7 +4454,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047851588795203818",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:15+00:00",
+      "collected_at_utc": "2026-05-02T07:19:03+00:00",
       "published_at": "2026-04-25T01:34:00+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户分享了 X 平台的收入分享计划，表示会将收益捐赠给当地慈善机构，特别是宠物收容所，并提及了 $SNDK 和 $SIVE 等股票，同时列出了 6830 和 322310 作为潜在的多倍回报投资标的。",
@@ -4399,7 +4489,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047790368700445153",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:15+00:00",
+      "collected_at_utc": "2026-05-02T07:19:04+00:00",
       "published_at": "2026-04-24T21:30:44+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了 $SIVE 和 $SIVEF 作为高增长激光公司（2027 年量产）的潜力，将其列为“传奇性”的多倍股观点，同时提及 $AAPL、$JBL 和 $MRVL 作为需要大规模生产激光器的客户或相关方，并指出 $AXTI 也是该观点的一部分。",
@@ -4479,7 +4569,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047729405309640899",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:15+00:00",
+      "collected_at_utc": "2026-05-02T07:19:04+00:00",
       "published_at": "2026-04-24T17:28:29+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了变压器/开关设备瓶颈，建议做多 Hammond (HPS)，并提及了 6830 和 322310 作为潜在的多重收益标的，认为它们主导了相关市场。",
@@ -4519,7 +4609,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047705901486985666",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:17+00:00",
+      "collected_at_utc": "2026-05-02T07:19:04+00:00",
       "published_at": "2026-04-24T15:55:06+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "Photonics 板块大涨，$MXL、$AAOI、$SIVE、$AEHR、$SOI、$LITE 等被作者列为上涨标的，作者认为这些股票是瓶颈相关机会，并调侃希望持有者不要卖出追高其他标的。",
@@ -4597,7 +4687,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047688270231027947",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:17+00:00",
+      "collected_at_utc": "2026-05-02T07:19:06+00:00",
       "published_at": "2026-04-24T14:45:02+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子批评了将资金给予受 Tangerine Peel 启发公司的做法，认为这导致做空光电子和内存领域增长最快的公司，特别提到了 $SNDK 和 $AAOI 的强劲表现，并暗示 AAOI 作为光收发器和制造公司的持续成长。",
@@ -4649,7 +4739,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047566792294613248",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:17+00:00",
+      "collected_at_utc": "2026-05-02T07:19:06+00:00",
       "published_at": "2026-04-24T06:42:19+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了瑞典媒体对供应链映射的过度反应，并指出苹果（AAPL）正使用 SIVE 的 InP 激光器阵列大规模生产消费硬件，预计 2027 年下半年上市，同时列出了包括 MRVL、AMD、JBL、NVDA、AMZN、META、GOOGL、MSFT 在内的多个受益标的作为潜在的多倍股。",
@@ -4757,7 +4847,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047520460884353096",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:18+00:00",
+      "collected_at_utc": "2026-05-02T07:19:06+00:00",
       "published_at": "2026-04-24T03:38:13+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户分享了30只美国可交易股票的近期表现及推荐理由，重点涵盖INTC、MRVL、TSM、COHR、RKLB、DRAM、AVGO、AMZN、ARM等半导体与科技股，认为这些公司分别代表美国晶圆代工希望、AI芯片与光模块增长、半导体骨干、以及特定领域领导者，整体持乐观态度。",
@@ -4858,7 +4948,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047485717341987232",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:18+00:00",
+      "collected_at_utc": "2026-05-02T07:19:06+00:00",
       "published_at": "2026-04-24T01:20:10+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户庆祝订阅数增长并提及 $MRVL、$INTC 和 $ARM 近期上涨，同时表示将停止分享个人收益率以避免影响他人情绪。",
@@ -4913,7 +5003,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047472057890513357",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:18+00:00",
+      "collected_at_utc": "2026-05-02T07:19:07+00:00",
       "published_at": "2026-04-24T00:25:53+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户分享了自己停止分享 YTD 收益的决定，提及了 $MRVL、$INTC 和 $ARM 的近期表现，并暗示这些股票可能属于某种看涨组合（如'3x brrrs'），但未提供具体的个股分析或理由。",
@@ -4968,7 +5058,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047426124586893566",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:18+00:00",
+      "collected_at_utc": "2026-05-02T07:19:07+00:00",
       "published_at": "2026-04-23T21:23:22+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了市场对 AI 供应链瓶颈的 FOMO 情绪，列举了从 GPU 到内存、电力、光模块、存储、CPU 等多个环节的热门股票（$NVDA, $MU, $IREN, $LITE, $SNDK, $AAOI, $INTC），并暗示下一个热点可能是 6830 和 322310，整体呈现对这些股票的看涨观点。",
@@ -5054,7 +5144,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047413257812717859",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:18+00:00",
+      "collected_at_utc": "2026-05-02T07:19:07+00:00",
       "published_at": "2026-04-23T20:32:14+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了英特尔（INTC）的财报、美国制造、CPU 瓶颈及代工业务，将其列为看涨观点（3x brrrs）之一，但未提供其他候选标的的具体细节。",
@@ -5095,7 +5185,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047395389742174406",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:19+00:00",
+      "collected_at_utc": "2026-05-02T07:19:07+00:00",
       "published_at": "2026-04-23T19:21:14+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子质疑耐克（NKE）前高管领导露露乐都（LULU）品牌复兴的可行性，将其类比为PayPal聘请前惠普CEO的荒谬，暗示该人事任命可能损害LULU的复苏前景。",
@@ -5144,7 +5234,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047375576894452068",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:19+00:00",
+      "collected_at_utc": "2026-05-02T07:19:08+00:00",
       "published_at": "2026-04-23T18:02:30+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了 $AAPL 可能使用 $SIVE 的 InP 激光阵列进行大规模生产，预计于 2027 年下半年推出，并提及了其他潜在的多袋股候选者如 MSSCORP 和 Auros。",
@@ -5195,7 +5285,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047255106677362910",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:19+00:00",
+      "collected_at_utc": "2026-05-02T07:19:08+00:00",
       "published_at": "2026-04-23T10:03:48+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了软银向OpenAI提供400亿美元桥接贷款的复杂金融结构，并表达了对类似FTX事件中股权/代币价值的担忧，同时提及了6830和322310作为潜在的多重收益投资标的。",
@@ -5229,7 +5319,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047238732382876064",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:21+00:00",
+      "collected_at_utc": "2026-05-02T07:19:08+00:00",
       "published_at": "2026-04-23T08:58:44+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了 IBKR 作为优质经纪商在财报前的看涨观点，并提及 HOOD 缺乏国际股票；同时列出了 MSSCORP 和 Auros 作为潜在的多倍股候选者。",
@@ -5276,7 +5366,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047232354184536273",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:21+00:00",
+      "collected_at_utc": "2026-05-02T07:19:10+00:00",
       "published_at": "2026-04-23T08:33:23+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子分析了 SIVE 的看涨技术形态，将其视为瑞典本地人向美国投资者转让所有权的机会，并提及了纳斯达克上市和 2027 年超大规模数据中心（hyperscaler）的容量爬坡预期，同时引用了关于瑞典股东再次抛售的相反观点。",
@@ -5319,7 +5409,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047209727738957983",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:21+00:00",
+      "collected_at_utc": "2026-05-02T07:19:10+00:00",
       "published_at": "2026-04-23T07:03:29+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了到 2027-2028 年光通信领域可能达到 9 亿美元市值的几家超大规模公司，包括 $SIVE、$POET、$MRVL、$AMZN 和 $MSFT，认为市场尚未充分理解其潜力，并提出了从 $SIVE 到 $POET 再到 $MRVL 等公司的投机性映射路径。",
@@ -5391,7 +5481,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047182611160965383",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:22+00:00",
+      "collected_at_utc": "2026-05-02T07:19:10+00:00",
       "published_at": "2026-04-23T05:15:43+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了服务器 CPU 的供应短缺和价格上涨，将 $SNDK、$INTC 和 $AMD 列为受此影响的股票，并指出这些公司计划在未来进行进一步的价格调整。",
@@ -5446,7 +5536,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047168499211235609",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:22+00:00",
+      "collected_at_utc": "2026-05-02T07:19:10+00:00",
       "published_at": "2026-04-23T04:19:39+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子指出 Win (3105) 和 Shunsin (6451) 在短期内虽有波动，但未来 12 个月极具吸引力，特别是 Shunsin 作为富士康光子学封装/测试业务，两者均被视为具有上涨潜力的标的。",
@@ -5496,7 +5586,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047110496999137730",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:22+00:00",
+      "collected_at_utc": "2026-05-02T07:19:11+00:00",
       "published_at": "2026-04-23T00:29:10+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户 spotlight 了 EU 小盘股，列举了 $ALRIB（量子/MBE）、$LPK（玻璃基板）和 $SIVE（DFB 激光器）作为投资标的，并提及亚洲公司如 Nippon Chemical，认为美国资本需捕捉这些 EU 中小盘股机会。",
@@ -5552,7 +5642,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047086440757309492",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:22+00:00",
+      "collected_at_utc": "2026-05-02T07:19:11+00:00",
       "published_at": "2026-04-22T22:53:35+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子认为投资美国国家安全供应链（如$AMSC、$NVTS）是爱国且正和博弈的，并指出国防生产法案的隐含受益者包括$AMSC（HTS 导线）、$PLPC（电力电子）和$ATKR（输电），同时提及$NVTS作为长期被对冲基金做空的美股能源及太阳能领域的代表。",
@@ -5620,7 +5710,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047054864040308895",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:23+00:00",
+      "collected_at_utc": "2026-05-02T07:19:11+00:00",
       "published_at": "2026-04-22T20:48:06+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了ARM的看涨观点，理由是CPU瓶颈转移及AI模型轻量化趋势，同时提及了MSSCORP和Auros作为潜在的多重收益标的。",
@@ -5662,7 +5752,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047030798554132901",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:23+00:00",
+      "collected_at_utc": "2026-05-02T07:19:12+00:00",
       "published_at": "2026-04-22T19:12:29+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了美国国防生产法案对国内基础设施的潜在受益者，特别提到了先进导体和输电领域的公司，包括 $AMSC、$PLPC、$ATKR 以及被提及为超导体公司的 $ASMC。",
@@ -5728,7 +5818,7 @@
       "url": "https://x.com/aleabitoreddit/status/2047019381637677061",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:23+00:00",
+      "collected_at_utc": "2026-05-02T07:19:12+00:00",
       "published_at": "2026-04-22T18:27:07+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "NVIDIA (NVDA) 被提及正在推动 800V 直流基础设施发展，并与韩国电力设备公司展开讨论，被视为积极信号。",
@@ -5769,7 +5859,7 @@
       "url": "https://x.com/aleabitoreddit/status/2046918449168085183",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:25+00:00",
+      "collected_at_utc": "2026-05-02T07:19:12+00:00",
       "published_at": "2026-04-22T11:46:02+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子讨论了 $POET 因订单超预期和与 $MRVL 的供应商关系导致股价上涨，并认为这些利好尚未被市场充分定价，同时提及 $SIVE 将受益于 $POET 的激光生产，整体观点偏向看涨。",
@@ -5827,7 +5917,7 @@
       "url": "https://x.com/aleabitoreddit/status/2046906948088435024",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:25+00:00",
+      "collected_at_utc": "2026-05-02T07:19:12+00:00",
       "published_at": "2026-04-22T11:00:20+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户@aleabitoreddit 对 IQE、SIVE 和 AXTI 持看涨态度，认为机构资金（如 UBS、Point72）已买入 IQE 并可能跟进其他标的，同时提及瑞典媒体可能看空 SIVE 但用户对此持乐观看法，并暗示 AXTI 是相关发现。",
@@ -5882,42 +5972,53 @@
       "post_id": "2046903608122495384",
       "url": "https://x.com/aleabitoreddit/status/2046903608122495384",
       "account": "aleabitoreddit",
-      "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:25+00:00",
+      "visibility": "subscriber_only",
+      "collected_at_utc": "2026-05-02T07:19:19+00:00",
       "published_at": "2026-04-22T10:47:04+00:00",
       "published_at_source": "x_time_datetime",
-      "summary_cn": "帖子提及了多个股票代码（如 $SIVE、MSSCORP、Auros），将其列为潜在的多倍股或最佳猜测，但未提供具体的公司背景、市场地位或详细的基本面分析，仅作为一般性投资观点列出。",
+      "summary_cn": "用户抱怨邻居噪音，随后列举了因 PGME/PGMEA 短缺而受益的几家台湾化学公司（Toagosei、Shiny Chemical、Daxin、San Fu）作为潜在投资标的，其中 4045 (Toagosei) 为允许分析的标的，其余为候选标的。",
       "key_points": [
-        "帖子将 $SIVE、6830 和 322310 等股票列为'3x brrrs'（三倍回报）或'best guesses'（最佳猜测），暗示存在共享的看涨逻辑。",
-        "对于 6830 和 322310，帖子未提供具体的市场份额、客户、供应商关系或估值细节，仅以编号列表形式提及。",
-        "帖子内容缺乏对具体公司基本面、风险因素或催化剂的深入分析，主要依赖共享的看涨主题。",
-        "所有提及的股票均被归类为潜在的多倍股，但缺乏针对单个股票的差异化理由。"
+        "用户提及 PGME 和 PGMEA 市场出现短缺。",
+        "用户列举了 Toagosei (4045)、Shiny Chemical (TW 1773)、Daxin (TW 5234) 和 San Fu (TW) 作为相关公司。",
+        "这些公司被描述为高纯度 PGME 和 PGMEA 或稀释剂/光刻胶/溶剂供应商。",
+        "用户将此类列举视为一种投资思路（类似'best guesses'或'3x brrrs'），暗示对这些股票持看涨态度。",
+        "对于 4045，具体理由是其作为 PGMEA 供应商在短缺背景下的受益地位。",
+        "对于其他候选标的，具体细节有限，但共享短缺带来的看涨逻辑。"
       ],
       "themes": [
-        "多倍股潜力",
-        "最佳猜测投资组合",
-        "共享看涨主题",
-        "缺乏详细基本面分析"
+        "半导体材料短缺",
+        "台湾化学股",
+        "高纯度化学品",
+        "投资选股"
       ],
-      "mentioned_tickers": [],
-      "stock_views": [],
-      "importance": 0.4,
-      "confidence": 0.3,
+      "mentioned_tickers": [
+        "4045"
+      ],
+      "stock_views": [
+        {
+          "ticker": "4045",
+          "stance": "bullish",
+          "confidence": 0.6,
+          "reason_cn": "用户明确提及 PGME/PGMEA 短缺，并将 4045 (Toagosei) 列为高纯度 PGMEA 供应商，暗示其因短缺而受益。"
+        }
+      ],
+      "importance": 0.7,
+      "confidence": 0.6,
       "risk_notes": [
-        "帖子未提供具体的公司基本面数据，如市场份额、客户集中度或供应链风险。",
-        "缺乏对估值水平、催化剂或潜在下行风险的详细讨论。",
-        "共享看涨主题可能掩盖个别股票的具体风险因素。"
+        "用户未提供具体的财务数据或市场份额细节。",
+        "短缺状况可能随时间变化，影响投资逻辑。",
+        "台湾股市可能受地缘政治因素影响。"
       ],
       "fallback_used": false,
-      "raw_excerpt": "",
-      "raw_text_available_private_repo": false
+      "raw_excerpt": "[subscriber-only text hidden]",
+      "raw_text_available_private_repo": true
     },
     {
       "post_id": "2046894773706035638",
       "url": "https://x.com/aleabitoreddit/status/2046894773706035638",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:25+00:00",
+      "collected_at_utc": "2026-05-02T07:19:12+00:00",
       "published_at": "2026-04-22T10:11:58+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "帖子分析了欧洲 AI 热潮下几家半导体材料公司的股价表现，特别关注了玻璃基板（$LPK）、InP 外延片（$IQE）、硅光子基板（$SOI）和 MBE/量子（$ALRIB）等细分领域，同时提及了瑞典公司 $SIVE 受负面新闻影响下跌，以及 $POET 作为玻璃基板概念股的稀有性。",
@@ -5997,7 +6098,7 @@
       "url": "https://x.com/aleabitoreddit/status/2046884581471928778",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:25+00:00",
+      "collected_at_utc": "2026-05-02T07:19:12+00:00",
       "published_at": "2026-04-22T09:31:28+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "用户 Serenity 在公开帖子中表达了对光电子供应链的熟悉度，并推荐了 $IQE 和 $AXTI 作为潜在赢家，同时提及了 $SIVE 和 6830 等额外标的，认为这些公司在欧洲半导体领域表现优异，属于其‘最佳猜测’或‘3x brrrs'投资组合的一部分。",
@@ -6049,7 +6150,7 @@
       "url": "https://x.com/aleabitoreddit/status/2046879187076817237",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:25+00:00",
+      "collected_at_utc": "2026-05-02T07:19:12+00:00",
       "published_at": "2026-04-22T09:10:02+00:00",
       "published_at_source": "x_time_datetime",
       "summary_cn": "POET 因 CFO 确认其为 MRVL 的直接供应商而大涨，市场关注其上游激光供应商 SIVE，同时提及 MSSCORP 和 Auros 作为潜在的多重收益标的。",
@@ -6223,36 +6324,43 @@
       "post_id": "2046677013445132584",
       "url": "https://x.com/aleabitoreddit/status/2046677013445132584",
       "account": "aleabitoreddit",
-      "visibility": "public",
-      "collected_at_utc": "2026-05-02T06:34:25+00:00",
+      "visibility": "subscriber_only",
+      "collected_at_utc": "2026-05-02T07:19:19+00:00",
       "published_at": "2026-04-21T19:46:40+00:00",
       "published_at_source": "x_time_datetime",
-      "summary_cn": "用户 aleabitoreddit 在 Reddit 上发布了一篇关于潜在投资机会的帖子，列出了多个股票代码（如 MSSCORP, Auros 等）作为'3x brrrs'或'best guesses'，暗示这些股票具有上涨潜力，但未提供具体的公司基本面分析或详细理由。",
+      "summary_cn": "用户表示市场总有新机会，特别看好$MXL 的 TAM 扩张，但对其他想法除非极具吸引力（如 CPO）否则不持有多头，目前满足于持有现有头寸。",
       "key_points": [
-        "帖子将多个股票代码（如 6830, 322310）归类为'3x brrrs'或'best guesses'，表明这是一种共享的看涨投资论点，适用于列表中的所有股票。",
-        "帖子未提供关于这些公司的具体市场地位、客户、供应商关系、估值或上行空间等详细信息，仅以股票代码形式提及。",
-        "帖子内容简短，缺乏对每个候选股票的独立分析，主要依赖共享的看涨主题。",
-        "帖子未明确说明风险因素或限制条件，属于一般性的投资机会分享。"
+        "$MXL 被提及具有 TAM（总潜在市场）扩张的潜力，被视为新的市场机会。",
+        "用户明确表示不持有除 CPO 等极具吸引力的想法之外的其他新想法。",
+        "用户目前的态度是满足于持有现有的多头头寸，而非积极寻找新机会。",
+        "CPO 被作为‘极具吸引力’想法的示例提及，暗示其具有强烈的看涨观点。"
       ],
       "themes": [
-        "投资机会",
-        "股票推荐",
-        "潜在上涨",
-        "Reddit 社区讨论"
+        "市场机会",
+        "TAM 扩张",
+        "现有头寸管理",
+        "高潜力标的筛选"
       ],
-      "mentioned_tickers": [],
-      "stock_views": [],
-      "importance": 0.5,
-      "confidence": 0.4,
+      "mentioned_tickers": [
+        "MXL"
+      ],
+      "stock_views": [
+        {
+          "ticker": "MXL",
+          "stance": "bullish",
+          "confidence": 0.6,
+          "reason_cn": "用户指出$MXL 具有 TAM 扩张的机会，并将其作为市场中新机会的例子。"
+        }
+      ],
+      "importance": 0.7,
+      "confidence": 0.6,
       "risk_notes": [
-        "帖子未提供具体的公司基本面数据或财务指标。",
-        "共享看涨论点可能掩盖个别股票的风险或差异。",
-        "帖子内容简短，缺乏深入分析，可能导致投资决策基于不充分信息。",
-        "未提及任何风险因素或限制条件，需谨慎对待此类推荐。"
+        "用户明确表示不持有除极少数情况外的新想法，表明对其他未提及的标的持谨慎或观望态度。",
+        "分析基于用户个人观点，不构成投资建议。"
       ],
       "fallback_used": false,
-      "raw_excerpt": "",
-      "raw_text_available_private_repo": false
+      "raw_excerpt": "[subscriber-only text hidden]",
+      "raw_text_available_private_repo": true
     },
     {
       "post_id": "2046665249001210173",
@@ -6932,12 +7040,142 @@
       "fallback_used": false,
       "raw_excerpt": "",
       "raw_text_available_private_repo": false
+    },
+    {
+      "post_id": "2046159918751981633",
+      "url": "https://x.com/aleabitoreddit/status/2046159918751981633",
+      "account": "aleabitoreddit",
+      "visibility": "subscriber_only",
+      "collected_at_utc": "2026-05-02T07:19:19+00:00",
+      "published_at": "2026-04-20T09:31:55+00:00",
+      "published_at_source": "x_time_datetime",
+      "summary_cn": "帖子讨论了 Skytech (6937) 和 CMIt (7853) 作为 ASE 的 CoPos 供应商可能于 2025 年开始量产，同时提及 CMIt 试图打破 KLAC 的垄断，并将这些股票列为潜在的多袋乘数（multi-bagger）机会。",
+      "key_points": [
+        "Skytech (6937) 和 CMIt (7853) 被描述为 ASE 的 CoPos 供应商，预计于 2025 年开始放量。",
+        "CMIt (7853) 试图打破 KLAC 在光学计量领域的垄断地位，目前仍处于测试样品阶段。",
+        "帖子将这两只股票列为随机挑选的潜在多袋乘数（multi-bagger）或三倍收益（3x brrrs）标的。",
+        "KLAC 被提及作为 CMIt 试图打破垄断的参照对象。"
+      ],
+      "themes": [
+        "半导体设备",
+        "供应链",
+        "潜在增长股",
+        "垄断挑战"
+      ],
+      "mentioned_tickers": [
+        "6937",
+        "KLAC"
+      ],
+      "stock_views": [
+        {
+          "ticker": "6937",
+          "stance": "bullish",
+          "confidence": 0.6,
+          "reason_cn": "作为 ASE 的 CoPos 供应商，预计 2025 年开始放量，被归类为潜在的多袋乘数（multi-bagger）股票。"
+        },
+        {
+          "ticker": "KLAC",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "被提及为 CMIt 试图打破垄断的对象，帖子未提供关于 KLAC 自身的具体看涨或看跌观点。"
+        }
+      ],
+      "importance": 0.7,
+      "confidence": 0.6,
+      "risk_notes": [
+        "CMIt 目前仅处于测试样品阶段，尚未确认量产。",
+        "帖子标题表明这些是'random stocks'（随机股票）和'best guesses'（最佳猜测），表明观点具有高度不确定性。",
+        "未提供具体的财务数据或详细的估值分析。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "[subscriber-only text hidden]",
+      "raw_text_available_private_repo": true
+    },
+    {
+      "post_id": "2045578992452063383",
+      "url": "https://x.com/aleabitoreddit/status/2045578992452063383",
+      "account": "aleabitoreddit",
+      "visibility": "subscriber_only",
+      "collected_at_utc": "2026-05-02T07:19:19+00:00",
+      "published_at": "2026-04-18T19:03:31+00:00",
+      "published_at_source": "x_time_datetime",
+      "summary_cn": "帖子指出 MLCC、电感及 PCB 钻孔面临瓶颈，列举了包括 VSH 在内的多家日本及台湾厂商；同时认为 ASML、TSM、UMC 因半导体资本支出增加而前景向好，TSLA 因 AI 芯片需求利好三星，而 Opus 4.7 和 Anthropic 推动软件板块，但软件整体表现不佳。",
+      "key_points": [
+        "MLCC、电感及 PCB 钻孔行业面临瓶颈，涉及 Murata、Taiyo Yuden、TDK、Kyocera、Yageo、Walsin 及 VSH。",
+        "Sakai Chemical (4078) 作为原材料供应商被提及，但未提供具体业务细节。",
+        "ASML 和 TSM 因半导体资本支出增加及盈利预期良好而被视为看涨。",
+        "三星因 TSLA AI 芯片需求而看涨。",
+        "UMC 因晶圆厂价格上涨而被视为看涨。",
+        "Opus 4.7 和 Anthropic 推动软件板块，但软件整体表现不佳。"
+      ],
+      "themes": [
+        "半导体供应链瓶颈",
+        "AI 芯片需求驱动",
+        "晶圆厂价格调整",
+        "软件板块分化"
+      ],
+      "mentioned_tickers": [
+        "4078",
+        "ASML",
+        "TSLA",
+        "TSM",
+        "UMC",
+        "VSH"
+      ],
+      "stock_views": [
+        {
+          "ticker": "VSH",
+          "stance": "bullish",
+          "confidence": 0.6,
+          "reason_cn": "作为 MLCC 瓶颈列表中的美国公司，与其他日本厂商并列，暗示其处于行业关键位置。"
+        },
+        {
+          "ticker": "4078",
+          "stance": "bullish",
+          "confidence": 0.5,
+          "reason_cn": "作为 Murata 等公司的原材料供应商被提及，受益于供应链需求。"
+        },
+        {
+          "ticker": "ASML",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "因半导体资本支出增加及盈利预期良好而被视为前景向好。"
+        },
+        {
+          "ticker": "TSM",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "因半导体资本支出增加及盈利预期良好而被视为前景向好。"
+        },
+        {
+          "ticker": "TSLA",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "其 AI 芯片需求推动三星股价上涨。"
+        },
+        {
+          "ticker": "UMC",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "因晶圆厂价格上涨而被视为前景向好。"
+        }
+      ],
+      "importance": 0.85,
+      "confidence": 0.75,
+      "risk_notes": [
+        "软件板块整体表现不佳，尽管 Opus 4.7 和 Anthropic 有积极影响。",
+        "部分公司（如 4078）仅提及为供应商，缺乏具体业务细节或估值信息。",
+        "帖子为订阅者内容，可能未包含完整市场背景。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "[subscriber-only text hidden]",
+      "raw_text_available_private_repo": true
     }
   ],
   "stock_views": [
     {
       "ticker": "SIVE",
-      "bullish_count": 31,
+      "bullish_count": 32,
       "bearish_count": 1,
       "neutral_count": 1,
       "mixed_count": 0,
@@ -6957,6 +7195,7 @@
         "2049916817519587600",
         "2049767690425016780",
         "2049761085872570864",
+        "2049745676125536657",
         "2049576551944204385",
         "2049437962195055060",
         "2049386026460942645",
@@ -7090,6 +7329,36 @@
       "net_stance": "bullish"
     },
     {
+      "ticker": "TSM",
+      "bullish_count": 11,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "作为6830（MSSCORP）的潜在客户，被提及为CPO产业链的重要参与者。",
+        "作为 Lightmatter 的合作伙伴之一，受益于其业务扩张，但具体细节有限。",
+        "作为 6830 的客户被提及，文中未提供独立观点。",
+        "作为上游半导体供应商，其资本支出信号被特别提及，暗示其在供应链中的重要性。",
+        "作为 MSSCORP 的先进材料客户被提及，属于该投资逻辑中的关键客户角色。"
+      ],
+      "post_ids": [
+        "2050093551313469467",
+        "2049767690425016780",
+        "2049655082250314014",
+        "2049592634398875731",
+        "2049336470079668713",
+        "2049251501978325014",
+        "2048846462164045991",
+        "2048623230416761019",
+        "aleabitoreddit-80c48a2718df82fc",
+        "2048449289152778686",
+        "2047520460884353096",
+        "2045578992452063383"
+      ],
+      "net_stance": "bullish"
+    },
+    {
       "ticker": "SOI",
       "bullish_count": 11,
       "bearish_count": 0,
@@ -7178,34 +7447,6 @@
       "net_stance": "bullish"
     },
     {
-      "ticker": "TSM",
-      "bullish_count": 9,
-      "bearish_count": 0,
-      "neutral_count": 1,
-      "mixed_count": 0,
-      "unclear_count": 0,
-      "latest_reasons": [
-        "作为6830（MSSCORP）的潜在客户，被提及为CPO产业链的重要参与者。",
-        "作为 Lightmatter 的合作伙伴之一，受益于其业务扩张，但具体细节有限。",
-        "作为 6830 的客户被提及，文中未提供独立观点。",
-        "作为上游半导体供应商，其资本支出信号被特别提及，暗示其在供应链中的重要性。",
-        "帖子将 $TSM 列为多袋股（multi-bagger）或 3x brrrs 投资组合中的候选标的，暗示其具有上涨潜力。"
-      ],
-      "post_ids": [
-        "2050093551313469467",
-        "2049767690425016780",
-        "2049655082250314014",
-        "2049592634398875731",
-        "2049251501978325014",
-        "2048846462164045991",
-        "2048623230416761019",
-        "aleabitoreddit-80c48a2718df82fc",
-        "2048449289152778686",
-        "2047520460884353096"
-      ],
-      "net_stance": "bullish"
-    },
-    {
       "ticker": "INTC",
       "bullish_count": 9,
       "bearish_count": 0,
@@ -7261,6 +7502,35 @@
       "net_stance": "bullish"
     },
     {
+      "ticker": "LITE",
+      "bullish_count": 8,
+      "bearish_count": 0,
+      "neutral_count": 2,
+      "mixed_count": 0,
+      "unclear_count": 1,
+      "latest_reasons": [
+        "作为SIVE的竞争对手和CPO激光领域的标杆，被用作SIVE未来市值扩张的参照对象（speedrun $LITE 's $60B MC）。",
+        "被 $NVDA 收购分配份额，具体细节有限，属于共享看涨主题列表。",
+        "作为'3x brrrs'组合的一部分，在 4 个月内实现了三位数回报，属于高增长标的。",
+        "被描述为能制作特殊稀有蓝红缅因龙虾，具有稀缺性。",
+        "LITE 被提及为 MRVL 潜在的直接激光供应商之一，但帖子未提供其具体市场地位、客户或估值细节，仅作为共享看涨论点的一部分。"
+      ],
+      "post_ids": [
+        "2050093551313469467",
+        "2049032343974007088",
+        "2049015455160111466",
+        "2048833654336729213",
+        "2048798568543387922",
+        "2048663719933333524",
+        "2048565314053681285",
+        "2048129936813428922",
+        "2047705901486985666",
+        "2047426124586893566",
+        "2046696582696083634"
+      ],
+      "net_stance": "bullish"
+    },
+    {
       "ticker": "AXTI",
       "bullish_count": 8,
       "bearish_count": 0,
@@ -7309,34 +7579,6 @@
         "2047688270231027947",
         "2047426124586893566",
         "2047182611160965383"
-      ],
-      "net_stance": "bullish"
-    },
-    {
-      "ticker": "LITE",
-      "bullish_count": 7,
-      "bearish_count": 0,
-      "neutral_count": 2,
-      "mixed_count": 0,
-      "unclear_count": 1,
-      "latest_reasons": [
-        "作为SIVE的竞争对手和CPO激光领域的标杆，被用作SIVE未来市值扩张的参照对象（speedrun $LITE 's $60B MC）。",
-        "被 $NVDA 收购分配份额，具体细节有限，属于共享看涨主题列表。",
-        "作为'3x brrrs'组合的一部分，在 4 个月内实现了三位数回报，属于高增长标的。",
-        "被描述为能制作特殊稀有蓝红缅因龙虾，具有稀缺性。",
-        "LITE 被提及为 MRVL 潜在的直接激光供应商之一，但帖子未提供其具体市场地位、客户或估值细节，仅作为共享看涨论点的一部分。"
-      ],
-      "post_ids": [
-        "2050093551313469467",
-        "2049032343974007088",
-        "2049015455160111466",
-        "2048833654336729213",
-        "2048798568543387922",
-        "2048663719933333524",
-        "2048129936813428922",
-        "2047705901486985666",
-        "2047426124586893566",
-        "2046696582696083634"
       ],
       "net_stance": "bullish"
     },
@@ -7489,6 +7731,29 @@
       "net_stance": "bullish"
     },
     {
+      "ticker": "IBKR",
+      "bullish_count": 5,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "成功启用韩国股票交易，吸引了从 HOOD 流失的零售客户。",
+        "作者对 IBKR 新增韩国股票表示兴奋，并计划长期持有，尽管对保证金政策不满，但整体态度积极。",
+        "IBKR 新增韩国股票交易功能，作者对此表示兴奋并计划利用。",
+        "用户认为 IBKR 支持韩国股票是积极事件，并表达兴奋，暗示看好其市场扩展。",
+        "被视为更好的经纪商，且新开户数量激增为财报前提供看涨理由。"
+      ],
+      "post_ids": [
+        "2049360475046224050",
+        "2049288233583006018",
+        "2048994957462302918",
+        "2048956013374755266",
+        "2047238732382876064"
+      ],
+      "net_stance": "bullish"
+    },
+    {
       "ticker": "GFS",
       "bullish_count": 5,
       "bearish_count": 0,
@@ -7556,23 +7821,49 @@
       "net_stance": "bullish"
     },
     {
-      "ticker": "IBKR",
+      "ticker": "COHR",
       "bullish_count": 4,
       "bearish_count": 0,
-      "neutral_count": 0,
+      "neutral_count": 2,
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "成功启用韩国股票交易，吸引了从 HOOD 流失的零售客户。",
-        "作者对 IBKR 新增韩国股票表示兴奋，并计划长期持有，尽管对保证金政策不满，但整体态度积极。",
-        "用户认为 IBKR 支持韩国股票是积极事件，并表达兴奋，暗示看好其市场扩展。",
-        "被视为更好的经纪商，且新开户数量激增为财报前提供看涨理由。"
+        "作为CPO激光领域的领先公司，与SIVE并列被视为该领域的'bleeding edge'（前沿）。",
+        "被 $NVDA 收购分配份额，具体细节有限，属于共享看涨主题列表。",
+        "COHR 被提及为 MRVL 潜在的直接激光供应商之一，但帖子未提供其具体市场地位、客户或估值细节，仅作为共享看涨论点的一部分。",
+        "作为分析起点，其SEC filings中的竞争对手列表被用作发现隐藏宝石的方法，暗示其供应链或生态中的其他公司具有增长潜力。",
+        "被列为光子学超级周期的领先者之一，被归类为'3x brrrs'（多倍回报股票），并面临潜在的 50% 上涨空间。"
       ],
       "post_ids": [
-        "2049360475046224050",
-        "2049288233583006018",
-        "2048956013374755266",
-        "2047238732382876064"
+        "2050093551313469467",
+        "2049032343974007088",
+        "2048798568543387922",
+        "2048565314053681285",
+        "2048129936813428922",
+        "2047520460884353096"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "AEHR",
+      "bullish_count": 4,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "作为资格认证周期类公司的对标案例被提及，用于解释分析方法，帖子未对其本身做出明确的看涨或看跌判断。",
+        "作为类比参照，暗示其在芯片或半导体领域具有类似$322310的高增长潜力，尽管具体细节有限。",
+        "作为资格周期玩家的代表，分析逻辑与其他同类股票相同。",
+        "用户认为其极具潜力，类比早期 $TER 和预财报 $AAOI，且有具体客户合同。",
+        "Photonics 板块上涨，涨幅为 7.07%，被作者列为上涨标的。"
+      ],
+      "post_ids": [
+        "2049876593674440706",
+        "2049745676125536657",
+        "2049737227677421908",
+        "2048123597223579736",
+        "2047705901486985666"
       ],
       "net_stance": "bullish"
     },
@@ -7718,29 +8009,6 @@
       "net_stance": "bullish"
     },
     {
-      "ticker": "COHR",
-      "bullish_count": 3,
-      "bearish_count": 0,
-      "neutral_count": 2,
-      "mixed_count": 0,
-      "unclear_count": 0,
-      "latest_reasons": [
-        "作为CPO激光领域的领先公司，与SIVE并列被视为该领域的'bleeding edge'（前沿）。",
-        "被 $NVDA 收购分配份额，具体细节有限，属于共享看涨主题列表。",
-        "COHR 被提及为 MRVL 潜在的直接激光供应商之一，但帖子未提供其具体市场地位、客户或估值细节，仅作为共享看涨论点的一部分。",
-        "被列为光子学超级周期的领先者之一，被归类为'3x brrrs'（多倍回报股票），并面临潜在的 50% 上涨空间。",
-        "被包含在 30 只股票列表中，共享'3x brrrs'看涨逻辑，具体理由在输入文本中不完整。"
-      ],
-      "post_ids": [
-        "2050093551313469467",
-        "2049032343974007088",
-        "2048798568543387922",
-        "2048129936813428922",
-        "2047520460884353096"
-      ],
-      "net_stance": "bullish"
-    },
-    {
       "ticker": "AVGO",
       "bullish_count": 3,
       "bearish_count": 0,
@@ -7798,27 +8066,6 @@
         "2048687868919611836",
         "2047110496999137730",
         "2046894773706035638"
-      ],
-      "net_stance": "bullish"
-    },
-    {
-      "ticker": "AEHR",
-      "bullish_count": 3,
-      "bearish_count": 0,
-      "neutral_count": 1,
-      "mixed_count": 0,
-      "unclear_count": 0,
-      "latest_reasons": [
-        "作为资格认证周期类公司的对标案例被提及，用于解释分析方法，帖子未对其本身做出明确的看涨或看跌判断。",
-        "作为资格周期玩家的代表，分析逻辑与其他同类股票相同。",
-        "用户认为其极具潜力，类比早期 $TER 和预财报 $AAOI，且有具体客户合同。",
-        "Photonics 板块上涨，涨幅为 7.07%，被作者列为上涨标的。"
-      ],
-      "post_ids": [
-        "2049876593674440706",
-        "2049737227677421908",
-        "2048123597223579736",
-        "2047705901486985666"
       ],
       "net_stance": "bullish"
     },
@@ -7925,6 +8172,23 @@
       "post_ids": [
         "2047086440757309492",
         "2047030798554132901"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "MXL",
+      "bullish_count": 2,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "Photonics 板块大涨，涨幅达 76.2%，被作者列为上涨标的。",
+        "用户指出$MXL 具有 TAM 扩张的机会，并将其作为市场中新机会的例子。"
+      ],
+      "post_ids": [
+        "2047705901486985666",
+        "2046677013445132584"
       ],
       "net_stance": "bullish"
     },
@@ -8086,6 +8350,23 @@
       "net_stance": "bullish"
     },
     {
+      "ticker": "ASML",
+      "bullish_count": 2,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "帖子将 ASML 列为美国可武器化的关键供应链节点之一，暗示其战略价值高。",
+        "因半导体资本支出增加及盈利预期良好而被视为前景向好。"
+      ],
+      "post_ids": [
+        "aleabitoreddit-80c48a2718df82fc",
+        "2045578992452063383"
+      ],
+      "net_stance": "bullish"
+    },
+    {
       "ticker": "AMSC",
       "bullish_count": 2,
       "bearish_count": 0,
@@ -8139,6 +8420,23 @@
       "net_stance": "bullish"
     },
     {
+      "ticker": "322310",
+      "bullish_count": 2,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "三星和SK海力士的混合键合量测供应商，预计今年下半年开始量产，若成功切换至量产，市值可能从2.1亿美元增长3倍至6.3亿美元。",
+        "明确为SK海力士和三星的下一代HBM供应商，直接受益于HBM4e混合键合技术，被视为内存板块的直接投资机会。"
+      ],
+      "post_ids": [
+        "2050093551313469467",
+        "2049745676125536657"
+      ],
+      "net_stance": "bullish"
+    },
+    {
       "ticker": "WOLF",
       "bullish_count": 1,
       "bearish_count": 0,
@@ -8150,6 +8448,51 @@
       ],
       "post_ids": [
         "2046449839626670369"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "VSH",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "作为 MLCC 瓶颈列表中的美国公司，与其他日本厂商并列，暗示其处于行业关键位置。"
+      ],
+      "post_ids": [
+        "2045578992452063383"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "UMC",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "因晶圆厂价格上涨而被视为前景向好。"
+      ],
+      "post_ids": [
+        "2045578992452063383"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "TSLA",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "其 AI 芯片需求推动三星股价上涨。"
+      ],
+      "post_ids": [
+        "2045578992452063383"
       ],
       "net_stance": "bullish"
     },
@@ -8274,21 +8617,6 @@
       "net_stance": "bullish"
     },
     {
-      "ticker": "MXL",
-      "bullish_count": 1,
-      "bearish_count": 0,
-      "neutral_count": 0,
-      "mixed_count": 0,
-      "unclear_count": 0,
-      "latest_reasons": [
-        "Photonics 板块大涨，涨幅达 76.2%，被作者列为上涨标的。"
-      ],
-      "post_ids": [
-        "2047705901486985666"
-      ],
-      "net_stance": "bullish"
-    },
-    {
       "ticker": "MTSI",
       "bullish_count": 1,
       "bearish_count": 0,
@@ -8386,14 +8714,16 @@
       "ticker": "KLAC",
       "bullish_count": 1,
       "bearish_count": 0,
-      "neutral_count": 0,
+      "neutral_count": 1,
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "作为 CPU 瓶颈受益链条中的设备供应商而受益。"
+        "作为 CPU 瓶颈受益链条中的设备供应商而受益。",
+        "被提及为 CMIt 试图打破垄断的对象，帖子未提供关于 KLAC 自身的具体看涨或看跌观点。"
       ],
       "post_ids": [
-        "2048449289152778686"
+        "2048449289152778686",
+        "2046159918751981633"
       ],
       "net_stance": "bullish"
     },
@@ -8569,21 +8899,6 @@
       "net_stance": "bearish"
     },
     {
-      "ticker": "ASML",
-      "bullish_count": 1,
-      "bearish_count": 0,
-      "neutral_count": 0,
-      "mixed_count": 0,
-      "unclear_count": 0,
-      "latest_reasons": [
-        "帖子将 ASML 列为美国可武器化的关键供应链节点之一，暗示其战略价值高。"
-      ],
-      "post_ids": [
-        "aleabitoreddit-80c48a2718df82fc"
-      ],
-      "net_stance": "bullish"
-    },
-    {
       "ticker": "ASMC",
       "bullish_count": 1,
       "bearish_count": 0,
@@ -8614,17 +8929,47 @@
       "net_stance": "bullish"
     },
     {
-      "ticker": "322310",
+      "ticker": "6937",
       "bullish_count": 1,
       "bearish_count": 0,
       "neutral_count": 0,
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "三星和SK海力士的混合键合量测供应商，预计今年下半年开始量产，若成功切换至量产，市值可能从2.1亿美元增长3倍至6.3亿美元。"
+        "作为 ASE 的 CoPos 供应商，预计 2025 年开始放量，被归类为潜在的多袋乘数（multi-bagger）股票。"
       ],
       "post_ids": [
-        "2050093551313469467"
+        "2046159918751981633"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "4078",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "作为 Murata 等公司的原材料供应商被提及，受益于供应链需求。"
+      ],
+      "post_ids": [
+        "2045578992452063383"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "4045",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "用户明确提及 PGME/PGMEA 短缺，并将 4045 (Toagosei) 列为高纯度 PGMEA 供应商，暗示其因短缺而受益。"
+      ],
+      "post_ids": [
+        "2046903608122495384"
       ],
       "net_stance": "bullish"
     },
@@ -8640,6 +8985,51 @@
       ],
       "post_ids": [
         "2047168499211235609"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "122640",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被纳入长仓列表，但未提供具体细节。"
+      ],
+      "post_ids": [
+        "2048994957462302918"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "039440",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "涉及无纹真空设备，被纳入长仓列表。"
+      ],
+      "post_ids": [
+        "2048994957462302918"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "003160",
+      "bullish_count": 1,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "作为大盘股，风险可控，适合长仓列表。"
+      ],
+      "post_ids": [
+        "2048994957462302918"
       ],
       "net_stance": "bullish"
     },
@@ -8722,10 +9112,6 @@
   "daily": {
     "top_themes": [
       [
-        "多倍股潜力",
-        6
-      ],
-      [
         "垄断优势",
         5
       ],
@@ -8738,11 +9124,19 @@
         5
       ],
       [
+        "多倍股潜力",
+        5
+      ],
+      [
         "估值修复",
         3
       ],
       [
         "半导体供应链",
+        3
+      ],
+      [
+        "半导体设备",
         3
       ],
       [
@@ -8754,11 +9148,7 @@
         3
       ],
       [
-        "多倍回报潜力",
-        3
-      ],
-      [
-        "股票推荐",
+        "光电子与 CPO 技术",
         2
       ]
     ],
@@ -8781,6 +9171,7 @@
       "2049775164184055998",
       "2049767690425016780",
       "2049761085872570864",
+      "2049745676125536657",
       "2049737227677421908",
       "2049655082250314014",
       "2049646205039522009",
@@ -8795,6 +9186,7 @@
       "2049390824673456494",
       "2049386026460942645",
       "2049360475046224050",
+      "2049336470079668713",
       "2049288233583006018",
       "2049253679744872797",
       "2049227875812045146",
@@ -8804,6 +9196,7 @@
       "2049032343974007088",
       "2049015455160111466",
       "2049006161500991925",
+      "2048994957462302918",
       "2048956013374755266",
       "2048929438679896317",
       "2048914800533721376",
@@ -8821,6 +9214,7 @@
       "2048623230416761019",
       "aleabitoreddit-329a6d08df2c2f4f",
       "aleabitoreddit-80c48a2718df82fc",
+      "2048565314053681285",
       "2048479754672844939",
       "aleabitoreddit-fd5ce52b672e9511",
       "2048449289152778686",
@@ -8853,11 +9247,13 @@
       "2047019381637677061",
       "2046918449168085183",
       "2046906948088435024",
+      "2046903608122495384",
       "2046894773706035638",
       "2046884581471928778",
       "2046879187076817237",
       "2046749502326071427",
       "2046696582696083634",
+      "2046677013445132584",
       "2046665249001210173",
       "2046620208387981538",
       "2046507698037170575",
@@ -8869,16 +9265,17 @@
       "2046396643009040624",
       "2046374163338912200",
       "2046363533471035793",
-      "2046333897202692142"
+      "2046333897202692142",
+      "2046159918751981633",
+      "2045578992452063383"
     ]
   },
   "warnings": [
+    "Visible Edge/CDP session ready for X subscriber feed: https://x.com/aleabitoreddit/superfollows (4 article(s)).",
     "Edge/X authorized collection using profile C:\\Users\\zihao\\Desktop\\资金流向热点股票\\outputs\\x-analysis-edge-profile\\Default.",
-    "Edge/X CDP profile unavailable at http://127.0.0.1:9223: Error: BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9223\nCall log:\n  - <ws preparing> retrieving websocket url from http://127.0.0.1:9223\n",
-    "Edge/X configured Edge profile public feed parsed 113 posts from https://x.com/aleabitoreddit.",
-    "Edge/X configured Edge profile subscriber feed: article selector did not appear: Page.wait_for_selector: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"article\") to be visible\n",
-    "Edge/X configured Edge profile subscriber feed parsed 0 posts from https://x.com/aleabitoreddit/superfollows.",
+    "Edge/X CDP profile public feed parsed 105 posts from https://x.com/aleabitoreddit.",
+    "Edge/X CDP profile subscriber feed parsed 17 posts from https://x.com/aleabitoreddit/superfollows.",
     "Edge/X detail hydration expanded 2 truncated post(s).",
-    "Edge/X configured Edge profile parsed 113 posts."
+    "Edge/X CDP profile parsed 116 posts from http://127.0.0.1:9223."
   ]
 }
