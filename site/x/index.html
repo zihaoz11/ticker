@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>X Analysis Dashboard</title>
+    <title>X Analysis Hot Stocks</title>
     <link rel="stylesheet" href="styles.css?v=20260502-filters-favorites">
   </head>
   <body>
     <header class="site-header">
       <div>
-        <h1>X Analysis Dashboard</h1>
+        <h1>X Analysis Hot Stocks</h1>
         <p id="subtitle">Loading @aleabitoreddit market notes</p>
       </div>
       <div class="header-actions">
@@ -42,9 +42,19 @@
       <section id="errorBox" class="error-box" hidden></section>
       <section id="refreshStatus" class="refresh-status" hidden></section>
 
+      <section id="stocksPanel" class="tab-panel" aria-label="Hot stocks">
+        <div class="section-heading">
+          <h2>Hot Stocks</h2>
+          <span>Aggregated ticker views from recent X market notes.</span>
+        </div>
+        <div id="stocksList" class="stock-grid">
+          <div class="empty-state">Loading stocks...</div>
+        </div>
+      </section>
+
       <section id="postsPanel" class="tab-panel" aria-label="Posts">
         <div class="section-heading">
-          <h2>Posts</h2>
+          <h2>Source Posts</h2>
           <span>Latest posts and mentioned tickers.</span>
         </div>
         <div class="filter-toolbar" aria-label="Post filters">
