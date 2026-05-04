@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "account": "aleabitoreddit",
-  "generated_at": "2026-05-04T06:03:06+00:00",
+  "generated_at": "2026-05-04T06:04:22+00:00",
   "status": {
     "post_count": 148,
     "public_count": 138,
@@ -12625,7 +12625,7 @@
   "research_profile_summary": {
     "schema_version": "1.0",
     "research_lens_version": "2026-05-04-auditable-chain-lens-v1",
-    "generated_at": "2026-05-04T06:03:06+00:00",
+    "generated_at": "2026-05-04T06:04:21+00:00",
     "source_post_count": 148,
     "focus_themes": [
       {
@@ -13341,7 +13341,7 @@
       {
         "heading_cn": "待映射产业链实体",
         "items_cn": [
-          "Hidden Gems：竞争对手，来源 posts 2048565314053681285"
+          "暂无待映射实体。"
         ]
       }
     ],
@@ -13353,16 +13353,7 @@
       "MOD",
       "ETN"
     ],
-    "unresolved_entity_count": 1
+    "unresolved_entity_count": 0
   },
-  "needs_ticker_mapping": [
-    {
-      "entity": "Hidden Gems",
-      "chain_role": "竞争对手",
-      "reason_cn": "原文出现产业链关系实体，但没有可验证 ticker/code，先进入映射队列。",
-      "source_post_ids": [
-        "2048565314053681285"
-      ]
-    }
-  ]
+  "needs_ticker_mapping": []
 }
