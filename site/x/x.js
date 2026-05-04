@@ -17,13 +17,13 @@ function getDataUrl() {
     : STATIC_DATA_URL;
 }
 
-function getRunApiCandidates() {
+function getRunApiCandidates(path = "/api/x-analysis/run") {
   const candidates = [];
   if (window.location.protocol === "http:" && ["127.0.0.1", "localhost"].includes(window.location.hostname)) {
-    candidates.push(`${window.location.origin}/api/x-analysis/run`);
+    candidates.push(`${window.location.origin}${path}`);
   }
-  candidates.push("http://127.0.0.1:4174/api/x-analysis/run");
-  candidates.push("http://127.0.0.1:4173/api/x-analysis/run");
+  candidates.push(`http://127.0.0.1:4174${path}`);
+  candidates.push(`http://127.0.0.1:4173${path}`);
   return Array.from(new Set(candidates));
 }
 
@@ -32,6 +32,7 @@ const state = {
   error: null,
   selectedDate: localDateKey(new Date()),
   activeFilter: "all",
+  activeTab: "posts",
   favoriteIds: loadFavoriteIds(),
 };
 
@@ -51,6 +52,16 @@ const elements = {
   dateLabel: document.getElementById("dateLabel"),
   dateCount: document.getElementById("dateCount"),
   filterButtons: Array.from(document.querySelectorAll("[data-filter]")),
+  tabButtons: Array.from(document.querySelectorAll("[data-tab]")),
+  postsPanel: document.getElementById("postsPanel"),
+  gemsPanel: document.getElementById("gemsPanel"),
+  reportPanel: document.getElementById("reportPanel"),
+  postPanelSummary: document.getElementById("postPanelSummary"),
+  gemPanelSummary: document.getElementById("gemPanelSummary"),
+  reportPanelSummary: document.getElementById("reportPanelSummary"),
+  profileSummary: document.getElementById("profileSummary"),
+  hiddenGemsList: document.getElementById("hiddenGemsList"),
+  dailyReport: document.getElementById("dailyReport"),
 };
 
 function escapeHtml(value) {
@@ -203,6 +214,33 @@ function getPosts(data) {
     .sort((a, b) => postSortTimestamp(b) - postSortTimestamp(a));
 }
 
+function getHiddenGems(data) {
+  return asArray(data?.hidden_gems)
+    .map((gem, index) => ({
+      rank: Number(gem?.rank || index + 1),
+      ticker: normalizeTicker(gem?.ticker),
+      score: Number(gem?.score || 0),
+      confidence: Number(gem?.confidence || 0),
+      chainRole: firstText(gem?.chain_role, "观察节点"),
+      evidenceDensity: Number(gem?.evidence_density || 0),
+      novelty: firstText(gem?.novelty, ""),
+      sourcePostIds: asArray(gem?.source_post_ids).map(String).filter(Boolean),
+      relatedTickers: asArray(gem?.related_tickers).map(normalizeTicker).filter(Boolean),
+      signals: asArray(gem?.signals).map(String).filter(Boolean),
+      thesis: firstText(gem?.thesis_cn),
+      catalystPath: firstText(gem?.catalyst_path_cn),
+      bloggerFit: firstText(gem?.blogger_fit_cn),
+      riskNotes: asArray(gem?.risk_notes).map(String).filter(Boolean),
+    }))
+    .filter((gem) => gem.ticker)
+    .sort((a, b) => a.rank - b.rank || b.score - a.score);
+}
+
+function percentLabel(value) {
+  if (!Number.isFinite(value)) return "0%";
+  return `${Math.round(Math.max(0, Math.min(1, value)) * 100)}%`;
+}
+
 function availablePostDates(posts) {
   return Array.from(new Set(posts.map(postDateKey).filter(Boolean))).sort();
 }
@@ -315,6 +353,111 @@ function renderPostGroup(title, posts) {
   `;
 }
 
+function renderProfileSummary(data) {
+  const profile = data?.research_profile_summary || {};
+  const focusThemes = asArray(profile.focus_themes);
+  const styleSignals = asArray(profile.style_signals);
+  const lensRules = asArray(profile.lens_rules_cn);
+  const sourceCount = Number(profile.source_post_count || 0);
+  elements.profileSummary.innerHTML = `
+    <section class="info-card">
+      <span class="summary-label">Corpus</span>
+      <strong>${escapeHtml(sourceCount)} posts</strong>
+      <span class="small-text">${escapeHtml(firstText(profile.research_lens_version, "-"))}</span>
+    </section>
+    <section class="info-card">
+      <span class="summary-label">Themes</span>
+      <div class="badge-row">
+        ${focusThemes.length ? focusThemes.slice(0, 8).map((item) => badge(`${item.theme || item[0]} ${item.count || item[1] || ""}`, "theme-badge")).join("") : badge("No themes")}
+      </div>
+    </section>
+    <section class="info-card">
+      <span class="summary-label">Lens</span>
+      <ul class="point-list">
+        ${(styleSignals.length ? styleSignals : lensRules.slice(0, 4)).slice(0, 5).map((item) => {
+          const text = typeof item === "string" ? item : `${item.signal || ""}${item.count ? ` ${item.count}` : ""}`;
+          return `<li>${escapeHtml(text)}</li>`;
+        }).join("") || "<li>-</li>"}
+      </ul>
+    </section>
+  `;
+}
+
+function renderGemCard(gem) {
+  const related = gem.relatedTickers.length
+    ? `<div class="ticker-line">${escapeHtml(gem.relatedTickers.map((item) => `$${item}`).join(" "))}</div>`
+    : "";
+  return `
+    <article class="gem-card">
+      <div class="stock-header">
+        <div>
+          <span class="summary-label">#${escapeHtml(gem.rank)}</span>
+          <h3>$${escapeHtml(gem.ticker)}</h3>
+        </div>
+        <div class="score-pill">${escapeHtml(gem.score.toFixed(0))}</div>
+      </div>
+      <div class="badge-row">
+        ${badge(gem.chainRole, "theme-badge")}
+        ${badge(`confidence ${percentLabel(gem.confidence)}`)}
+        ${badge(`evidence ${gem.evidenceDensity}`)}
+        ${gem.novelty ? badge(gem.novelty) : ""}
+      </div>
+      <p>${escapeHtml(gem.thesis || "-")}</p>
+      <div class="reason-list">
+        <div class="stance-reason">
+          <span class="summary-label">Catalyst</span>
+          <p>${escapeHtml(gem.catalystPath || "-")}</p>
+        </div>
+        <div class="stance-reason">
+          <span class="summary-label">Lens fit</span>
+          <p>${escapeHtml(gem.bloggerFit || "-")}</p>
+        </div>
+      </div>
+      ${gem.signals.length ? `<div class="badge-row">${gem.signals.map((item) => badge(item)).join("")}</div>` : ""}
+      <div class="meta-row">
+        ${related}
+        <span class="small-text">posts ${escapeHtml(gem.sourcePostIds.slice(0, 5).join(", ") || "-")}</span>
+      </div>
+      ${gem.riskNotes.length ? `<ul class="point-list">${gem.riskNotes.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
+    </article>
+  `;
+}
+
+function renderHiddenGems(data) {
+  const gems = getHiddenGems(data);
+  renderProfileSummary(data);
+  elements.gemPanelSummary.textContent = `${gems.length} candidates`;
+  if (!gems.length) {
+    elements.hiddenGemsList.innerHTML = `<div class="empty-state">No hidden gem candidates in the current payload.</div>`;
+    return;
+  }
+  elements.hiddenGemsList.innerHTML = gems.map(renderGemCard).join("");
+}
+
+function renderDailyReport(data) {
+  const report = data?.daily_report || {};
+  const sections = asArray(report.sections);
+  elements.reportPanelSummary.textContent = firstText(report.date, "-");
+  if (!report.title_cn && !sections.length) {
+    elements.dailyReport.innerHTML = `<div class="empty-state">No daily report in the current payload.</div>`;
+    return;
+  }
+  elements.dailyReport.innerHTML = `
+    <section class="report-header">
+      <h3>${escapeHtml(firstText(report.title_cn, "Daily Report"))}</h3>
+      <p>${escapeHtml(firstText(report.summary_cn, ""))}</p>
+    </section>
+    ${sections.map((section) => `
+      <section class="report-section">
+        <h3>${escapeHtml(firstText(section.heading_cn, "Section"))}</h3>
+        <ul class="point-list">
+          ${asArray(section.items_cn).map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
+        </ul>
+      </section>
+    `).join("")}
+  `;
+}
+
 function renderPosts(posts, selectedDate) {
   if (!posts.length) {
     const filterLabel = FILTER_LABELS[state.activeFilter] || state.activeFilter;
@@ -327,6 +470,17 @@ function renderPosts(posts, selectedDate) {
     renderPostGroup("Subscriber-only", subscriberPosts),
     renderPostGroup("Public", publicPosts),
   ].join("");
+}
+
+function renderTabs() {
+  for (const button of elements.tabButtons) {
+    const tab = button.dataset.tab || "posts";
+    button.classList.toggle("is-active", tab === state.activeTab);
+  }
+  elements.postsPanel.hidden = state.activeTab !== "posts";
+  elements.gemsPanel.hidden = state.activeTab !== "gems";
+  elements.reportPanel.hidden = state.activeTab !== "report";
+  elements.refreshButton.textContent = state.activeTab === "posts" ? "Refresh Posts" : "Refresh Learning";
 }
 
 function renderAll() {
@@ -347,9 +501,13 @@ function renderAll() {
   elements.visibilityCount.textContent = visibilitySummary(posts);
   elements.errorBox.hidden = !state.error;
   elements.errorBox.textContent = state.error || "";
+  elements.postPanelSummary.textContent = `${allPosts.length} total posts`;
   renderFilterControls(allPosts);
   renderDateControls(viewPosts, posts);
   renderPosts(posts, state.selectedDate);
+  renderHiddenGems(data);
+  renderDailyReport(data);
+  renderTabs();
 }
 
 function setRefreshStatus(message, tone = "info") {
@@ -377,9 +535,17 @@ async function loadData() {
 }
 
 async function runManualRefresh() {
+  if (state.activeTab === "gems" || state.activeTab === "report") {
+    await runLearningRefresh();
+    return;
+  }
+  await runPostsRefresh();
+}
+
+async function runPostsRefresh() {
   elements.refreshButton.disabled = true;
-  elements.refreshButton.textContent = "Refreshing...";
-  setRefreshStatus("Checking X for new posts from the last 24 hours. Keep the local server, Edge profile, and Ollama available.", "info");
+  elements.refreshButton.textContent = "Refreshing Posts...";
+  setRefreshStatus("Posts refresh: checking X for new posts from the last 24 hours. Keep the local server, Edge profile, and Ollama available.", "info");
   const body = {
     account: "aleabitoreddit",
     max_items: 200,
@@ -396,7 +562,7 @@ async function runManualRefresh() {
   };
   let lastError = "";
   try {
-    for (const url of getRunApiCandidates()) {
+    for (const url of getRunApiCandidates("/api/x-analysis/run")) {
       try {
         const response = await fetch(url, {
           method: "POST",
@@ -411,9 +577,9 @@ async function runManualRefresh() {
         state.error = null;
         const newCount = Number(payload.new_raw_count || 0);
         if (newCount > 0) {
-          setRefreshStatus(`Refresh complete. ${newCount} new post(s) published to GitHub.`, "success");
+          setRefreshStatus(`Posts refresh complete. ${newCount} new post(s) published to GitHub; learning outputs were rebuilt from preserved history.`, "success");
         } else {
-          setRefreshStatus("Refresh complete. No new posts found in the last 24 hours; publish was skipped.", "success");
+          setRefreshStatus("Posts refresh complete. No new posts found in the last 24 hours; publish was skipped.", "success");
         }
         renderAll();
         return;
@@ -425,12 +591,59 @@ async function runManualRefresh() {
   } catch (error) {
     const detail = error instanceof Error ? error.message : String(error);
     setRefreshStatus(
-      `Refresh failed. Open the local dashboard first with start_x_analysis.cmd, then use http://127.0.0.1:4174/x-analysis/. Detail: ${detail}`,
+      `Posts refresh failed. Open the local dashboard first with start_x_analysis.cmd, then use http://127.0.0.1:4174/x-analysis/. Detail: ${detail}`,
       "error",
     );
   } finally {
     elements.refreshButton.disabled = false;
-    elements.refreshButton.textContent = "Refresh";
+    renderTabs();
+  }
+}
+
+async function runLearningRefresh() {
+  elements.refreshButton.disabled = true;
+  elements.refreshButton.textContent = "Refreshing Learning...";
+  const label = state.activeTab === "report" ? "Daily Report" : "Hidden Gems";
+  setRefreshStatus(`${label} refresh: rebuilding research lens, hidden gems, and daily report from existing post history. X will not be fetched.`, "info");
+  const body = {
+    account: "aleabitoreddit",
+    publish: true,
+    remove_local_site_payload_after_publish: true,
+  };
+  let lastError = "";
+  try {
+    for (const url of getRunApiCandidates("/api/x-analysis/refresh-learning")) {
+      try {
+        const response = await fetch(url, {
+          method: "POST",
+          headers: {"Content-Type": "application/json"},
+          body: JSON.stringify(body),
+        });
+        const payload = await response.json().catch(() => ({}));
+        if (!response.ok) {
+          throw new Error(payload?.error || `HTTP ${response.status}`);
+        }
+        state.data = payload.latest_payload || state.data;
+        state.error = null;
+        const gemCount = Number(payload.hidden_gem_count || state.data?.hidden_gems?.length || 0);
+        const postCount = Number(payload.source_post_count || state.data?.posts?.length || 0);
+        setRefreshStatus(`${label} refresh complete. Rebuilt ${gemCount} hidden gem candidate(s) and daily report from ${postCount} preserved post(s).`, "success");
+        renderAll();
+        return;
+      } catch (error) {
+        lastError = error instanceof Error ? error.message : String(error);
+      }
+    }
+    throw new Error(lastError || "Local learning refresh API is unavailable.");
+  } catch (error) {
+    const detail = error instanceof Error ? error.message : String(error);
+    setRefreshStatus(
+      `${label} refresh failed. Open the local dashboard first with start_x_analysis.cmd, then use http://127.0.0.1:4174/x-analysis/. Detail: ${detail}`,
+      "error",
+    );
+  } finally {
+    elements.refreshButton.disabled = false;
+    renderTabs();
   }
 }
 
@@ -438,6 +651,12 @@ elements.prevDateButton.addEventListener("click", () => setSelectedDate(adjacent
 elements.nextDateButton.addEventListener("click", () => setSelectedDate(adjacentAvailableDate(1)));
 elements.datePicker.addEventListener("change", () => setSelectedDate(elements.datePicker.value));
 elements.refreshButton.addEventListener("click", runManualRefresh);
+for (const button of elements.tabButtons) {
+  button.addEventListener("click", () => {
+    state.activeTab = button.dataset.tab || "posts";
+    renderAll();
+  });
+}
 for (const button of elements.filterButtons) {
   button.addEventListener("click", () => {
     state.activeFilter = button.dataset.filter || "all";
