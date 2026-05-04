@@ -229,9 +229,25 @@ function getOutsideCandidates(report) {
       triggerSignals: asArray(item?.trigger_signals).map(String).filter(Boolean),
       sourcePostIds: asArray(item?.source_post_ids).map(String).filter(Boolean),
       riskNotes: asArray(item?.risk_notes).map(String).filter(Boolean),
+      researchReport: normalizeCandidateResearchReport(item?.research_report_cn),
     }))
     .filter((item) => item.ticker)
     .sort((a, b) => a.rank - b.rank || b.score - a.score);
+}
+
+function normalizeCandidateResearchReport(report) {
+  if (!report || typeof report !== "object") {
+    return { title: "", thesis: "", sourcePostIds: [], sections: [] };
+  }
+  return {
+    title: firstText(report.title_cn),
+    thesis: firstText(report.one_line_thesis_cn),
+    sourcePostIds: asArray(report.source_post_ids).map(String).filter(Boolean),
+    sections: asArray(report.sections).map((section) => ({
+      heading: firstText(section?.heading_cn),
+      items: asArray(section?.items_cn).map(String).filter(Boolean),
+    })).filter((section) => section.heading || section.items.length),
+  };
 }
 
 function percentLabel(value) {
@@ -351,6 +367,28 @@ function renderPostGroup(title, posts) {
   `;
 }
 
+function renderCandidateResearchReport(report) {
+  if (!report.title && !report.thesis && !report.sections.length) return "";
+  return `
+    <section class="candidate-research-report">
+      <div class="research-report-heading">
+        <span class="summary-label">Research note</span>
+        <h4>${escapeHtml(report.title || "产业链边界扩展研报")}</h4>
+      </div>
+      ${report.thesis ? `<p class="research-thesis">${escapeHtml(report.thesis)}</p>` : ""}
+      <div class="research-section-list">
+        ${report.sections.map((section) => `
+          <section class="research-subsection">
+            <h5>${escapeHtml(section.heading || "分析段落")}</h5>
+            ${section.items.length ? `<ul class="point-list">${section.items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
+          </section>
+        `).join("")}
+      </div>
+      ${report.sourcePostIds.length ? `<div class="small-text">research source posts ${escapeHtml(report.sourcePostIds.slice(0, 6).join(", "))}</div>` : ""}
+    </section>
+  `;
+}
+
 function renderOutsideCandidateCard(candidate) {
   return `
     <article class="candidate-card">
@@ -384,6 +422,7 @@ function renderOutsideCandidateCard(candidate) {
           <p>${escapeHtml(candidate.outsideReason || "-")}</p>
         </div>
       </div>
+      ${renderCandidateResearchReport(candidate.researchReport)}
       ${candidate.triggerSignals.length ? `<div class="badge-row">${candidate.triggerSignals.map((item) => badge(item)).join("")}</div>` : ""}
       ${candidate.triggerKeywords.length ? `<div class="small-text">keywords ${escapeHtml(candidate.triggerKeywords.slice(0, 8).join(", "))}</div>` : ""}
       <div class="small-text">anchor source posts ${escapeHtml(candidate.anchorSourcePostIds.slice(0, 6).join(", ") || "-")}</div>
