@@ -229,10 +229,30 @@ function getOutsideCandidates(report) {
       triggerSignals: asArray(item?.trigger_signals).map(String).filter(Boolean),
       sourcePostIds: asArray(item?.source_post_ids).map(String).filter(Boolean),
       riskNotes: asArray(item?.risk_notes).map(String).filter(Boolean),
+      externalEvidence: normalizeExternalEvidence(item?.external_evidence),
       researchReport: normalizeCandidateResearchReport(item?.research_report_cn),
     }))
     .filter((item) => item.ticker)
     .sort((a, b) => a.rank - b.rank || b.score - a.score);
+}
+
+function normalizeExternalEvidence(evidence) {
+  if (!evidence || typeof evidence !== "object") {
+    return { items: [], warnings: [] };
+  }
+  return {
+    items: asArray(evidence.items).map((item) => ({
+      category: firstText(item?.category),
+      source: firstText(item?.source),
+      title: firstText(item?.title),
+      date: firstText(item?.date),
+      url: firstText(item?.url),
+      summary: firstText(item?.summary),
+      evidenceType: firstText(item?.evidence_type_cn),
+      reliability: firstText(item?.reliability),
+    })).filter((item) => item.title || item.summary),
+    warnings: asArray(evidence.warnings).map(String).filter(Boolean),
+  };
 }
 
 function normalizeCandidateResearchReport(report) {
@@ -248,6 +268,33 @@ function normalizeCandidateResearchReport(report) {
       items: asArray(section?.items_cn).map(String).filter(Boolean),
     })).filter((section) => section.heading || section.items.length),
   };
+}
+
+function renderExternalEvidence(evidence) {
+  if (!evidence.items.length && !evidence.warnings.length) return "";
+  return `
+    <section class="external-evidence-panel">
+      <div class="research-report-heading">
+        <span class="summary-label">External evidence</span>
+        <h4>SEC / policy / order evidence</h4>
+      </div>
+      ${evidence.items.length ? `
+        <div class="evidence-list">
+          ${evidence.items.slice(0, 8).map((item) => `
+            <article class="evidence-item">
+              <div class="evidence-item-topline">
+                <span>${escapeHtml(item.evidenceType || item.category || "evidence")}</span>
+                <span>${escapeHtml([item.source, item.date].filter(Boolean).join(" · ") || "-")}</span>
+              </div>
+              <h5>${item.url ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.title || item.url)}</a>` : escapeHtml(item.title || "-")}</h5>
+              ${item.summary ? `<p>${escapeHtml(item.summary)}</p>` : ""}
+            </article>
+          `).join("")}
+        </div>
+      ` : `<div class="small-text">No external evidence captured in this refresh.</div>`}
+      ${evidence.warnings.length ? `<ul class="point-list">${evidence.warnings.slice(0, 3).map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
+    </section>
+  `;
 }
 
 function percentLabel(value) {
@@ -422,6 +469,7 @@ function renderOutsideCandidateCard(candidate) {
           <p>${escapeHtml(candidate.outsideReason || "-")}</p>
         </div>
       </div>
+      ${renderExternalEvidence(candidate.externalEvidence)}
       ${renderCandidateResearchReport(candidate.researchReport)}
       ${candidate.triggerSignals.length ? `<div class="badge-row">${candidate.triggerSignals.map((item) => badge(item)).join("")}</div>` : ""}
       ${candidate.triggerKeywords.length ? `<div class="small-text">keywords ${escapeHtml(candidate.triggerKeywords.slice(0, 8).join(", "))}</div>` : ""}
