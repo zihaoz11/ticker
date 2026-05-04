@@ -44,7 +44,6 @@ const elements = {
   errorBox: document.getElementById("errorBox"),
   refreshStatus: document.getElementById("refreshStatus"),
   refreshButton: document.getElementById("refreshButton"),
-  stocksList: document.getElementById("stocksList"),
   postsList: document.getElementById("postsList"),
   prevDateButton: document.getElementById("prevDateButton"),
   nextDateButton: document.getElementById("nextDateButton"),
@@ -204,30 +203,6 @@ function getPosts(data) {
     .sort((a, b) => postSortTimestamp(b) - postSortTimestamp(a));
 }
 
-function getStockViews(data) {
-  return asArray(data?.stock_views)
-    .map((item) => {
-      const bullish = Number(item?.bullish_count || 0);
-      const bearish = Number(item?.bearish_count || 0);
-      const neutral = Number(item?.neutral_count || 0);
-      const mixed = Number(item?.mixed_count || 0);
-      const unclear = Number(item?.unclear_count || 0);
-      return {
-        ticker: normalizeTicker(item?.ticker),
-        netStance: firstText(item?.net_stance, "unclear"),
-        bullish,
-        bearish,
-        neutral,
-        mixed,
-        unclear,
-        total: bullish + bearish + neutral + mixed + unclear,
-        latestReasons: asArray(item?.latest_reasons).map(String).filter(Boolean),
-      };
-    })
-    .filter((item) => item.ticker)
-    .sort((a, b) => (b.total - a.total) || (b.bullish - a.bullish) || a.ticker.localeCompare(b.ticker));
-}
-
 function availablePostDates(posts) {
   return Array.from(new Set(posts.map(postDateKey).filter(Boolean))).sort();
 }
@@ -261,14 +236,6 @@ function adjacentAvailableDate(direction) {
 
 function badge(label, className = "") {
   return `<span class="badge ${className}">${escapeHtml(label)}</span>`;
-}
-
-function stanceClass(stance) {
-  const normalized = String(stance || "unclear").toLowerCase();
-  if (["bullish", "bearish", "neutral", "mixed", "unclear"].includes(normalized)) {
-    return `stance-${normalized}`;
-  }
-  return "stance-unclear";
 }
 
 function filterCountFor(datePosts, filter) {
@@ -348,35 +315,6 @@ function renderPostGroup(title, posts) {
   `;
 }
 
-function renderStockCard(stock) {
-  const reasons = stock.latestReasons.length
-    ? `<div class="reason-list">${stock.latestReasons.map((item) => `<p>${escapeHtml(item)}</p>`).join("")}</div>`
-    : `<p class="muted">No ticker-specific reason yet.</p>`;
-  return `
-    <article class="stock-card">
-      <div class="stock-header">
-        <h3>$${escapeHtml(stock.ticker)}</h3>
-        ${badge(stock.netStance, stanceClass(stock.netStance))}
-      </div>
-      <div class="count-grid">
-        <span>Bullish <strong>${stock.bullish}</strong></span>
-        <span>Bearish <strong>${stock.bearish}</strong></span>
-        <span>Mixed <strong>${stock.mixed}</strong></span>
-        <span>Total <strong>${stock.total}</strong></span>
-      </div>
-      ${reasons}
-    </article>
-  `;
-}
-
-function renderStocks(stocks) {
-  if (!stocks.length) {
-    elements.stocksList.innerHTML = `<div class="empty-state">No hot stocks found in the latest payload.</div>`;
-    return;
-  }
-  elements.stocksList.innerHTML = stocks.map(renderStockCard).join("");
-}
-
 function renderPosts(posts, selectedDate) {
   if (!posts.length) {
     const filterLabel = FILTER_LABELS[state.activeFilter] || state.activeFilter;
@@ -394,7 +332,6 @@ function renderPosts(posts, selectedDate) {
 function renderAll() {
   const data = state.data || {};
   const allPosts = getPosts(data);
-  const stocks = getStockViews(data);
   const viewPosts = currentViewPosts(allPosts);
   ensureSelectedDateInView(viewPosts);
   const posts = viewPosts.filter((post) => postDateKey(post) === state.selectedDate);
@@ -412,7 +349,6 @@ function renderAll() {
   elements.errorBox.textContent = state.error || "";
   renderFilterControls(allPosts);
   renderDateControls(viewPosts, posts);
-  renderStocks(stocks);
   renderPosts(posts, state.selectedDate);
 }
 
