@@ -225,6 +225,10 @@ button:focus-visible {
   gap: 14px;
 }
 
+.tab-panel[hidden] {
+  display: none;
+}
+
 .section-heading {
   display: flex;
   align-items: baseline;
@@ -362,6 +366,7 @@ button:focus-visible {
 }
 
 .post-card,
+.gem-card,
 .stock-card,
 .info-card,
 .empty-state {
@@ -372,6 +377,7 @@ button:focus-visible {
 }
 
 .post-card,
+.gem-card,
 .stock-card,
 .info-card {
   display: grid;
@@ -545,10 +551,15 @@ button:focus-visible {
 }
 
 .stock-grid,
-.pipeline-grid {
+.pipeline-grid,
+.profile-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
+}
+
+.profile-grid {
+  grid-template-columns: 0.8fr 1.4fr 1.4fr;
 }
 
 .stock-header h3 {
@@ -559,6 +570,45 @@ button:focus-visible {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px;
+}
+
+.score-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 54px;
+  height: 40px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.report-body {
+  display: grid;
+  gap: 14px;
+}
+
+.report-header,
+.report-section {
+  min-width: 0;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  overflow-wrap: anywhere;
+}
+
+.report-header {
+  display: grid;
+  gap: 8px;
+}
+
+.report-section {
+  display: grid;
+  gap: 10px;
 }
 
 .count-grid span {
@@ -612,7 +662,8 @@ button:focus-visible {
 
   .summary,
   .stock-grid,
-  .pipeline-grid {
+  .pipeline-grid,
+  .profile-grid {
     grid-template-columns: 1fr;
   }
 
@@ -671,6 +722,7 @@ button:focus-visible {
   }
 
   .post-card,
+  .gem-card,
   .stock-card,
   .info-card {
     padding: 13px;
