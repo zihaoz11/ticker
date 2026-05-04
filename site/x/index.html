@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>X Analysis Dashboard</title>
-    <link rel="stylesheet" href="styles.css?v=20260503-post-summary">
+    <link rel="stylesheet" href="styles.css?v=20260504-hidden-gems">
   </head>
   <body>
     <header class="site-header">
@@ -13,7 +13,7 @@
         <p id="subtitle">Loading @aleabitoreddit market notes</p>
       </div>
       <div class="header-actions">
-        <button id="refreshButton" class="refresh-button" type="button">Refresh</button>
+        <button id="refreshButton" class="refresh-button" type="button">Refresh Posts</button>
         <a class="header-link" href="https://zihaoz11.github.io/ticker/site/x/" target="_blank" rel="noreferrer">Public</a>
         <a class="header-link" href="https://zihaoz11.github.io/ticker/data/site/x-analysis/latest.json" target="_blank" rel="noreferrer">JSON</a>
       </div>
@@ -42,10 +42,16 @@
       <section id="errorBox" class="error-box" hidden></section>
       <section id="refreshStatus" class="refresh-status" hidden></section>
 
+      <nav class="tabs" aria-label="Dashboard views">
+        <button class="tab-button is-active" type="button" data-tab="posts">Posts</button>
+        <button class="tab-button" type="button" data-tab="gems">Hidden Gems</button>
+        <button class="tab-button" type="button" data-tab="report">Daily Report</button>
+      </nav>
+
       <section id="postsPanel" class="tab-panel" aria-label="Posts">
         <div class="section-heading">
           <h2>Posts</h2>
-          <span>Latest posts and mentioned tickers.</span>
+          <span id="postPanelSummary">-</span>
         </div>
         <div class="filter-toolbar" aria-label="Post filters">
           <button class="filter-button is-active" type="button" data-filter="all">All</button>
@@ -66,8 +72,29 @@
           <div class="empty-state">Loading posts...</div>
         </div>
       </section>
+
+      <section id="gemsPanel" class="tab-panel" aria-label="Hidden Gems" hidden>
+        <div class="section-heading">
+          <h2>Hidden Gems</h2>
+          <span id="gemPanelSummary">-</span>
+        </div>
+        <div id="profileSummary" class="profile-grid"></div>
+        <div id="hiddenGemsList" class="card-list">
+          <div class="empty-state">Loading hidden gems...</div>
+        </div>
+      </section>
+
+      <section id="reportPanel" class="tab-panel" aria-label="Daily Report" hidden>
+        <div class="section-heading">
+          <h2>Daily Report</h2>
+          <span id="reportPanelSummary">-</span>
+        </div>
+        <div id="dailyReport" class="report-body">
+          <div class="empty-state">Loading daily report...</div>
+        </div>
+      </section>
     </main>
 
-    <script src="x.js?v=20260503-post-summary" defer></script>
+    <script src="x.js?v=20260504-hidden-gems" defer></script>
   </body>
 </html>
