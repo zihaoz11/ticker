@@ -604,6 +604,49 @@ button:focus-visible {
   border-top: 1px solid var(--line);
 }
 
+.external-evidence-panel {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.evidence-list {
+  display: grid;
+  gap: 10px;
+}
+
+.evidence-item {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+  padding-left: 10px;
+  border-left: 3px solid var(--line);
+}
+
+.evidence-item-topline {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.evidence-item h5 {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.evidence-item p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+
 .research-report-heading {
   display: grid;
   gap: 4px;
