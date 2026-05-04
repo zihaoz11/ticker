@@ -596,6 +596,51 @@ button:focus-visible {
   gap: 12px;
 }
 
+.candidate-research-report {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.research-report-heading {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.research-report-heading h4 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.research-thesis {
+  margin: 0;
+  color: var(--text);
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+.research-section-list {
+  display: grid;
+  gap: 12px;
+}
+
+.research-subsection {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.research-subsection h5 {
+  margin: 0;
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.35;
+}
+
 .report-header,
 .report-section {
   min-width: 0;
@@ -628,6 +673,7 @@ button:focus-visible {
 }
 
 .reason-list p,
+.candidate-research-report li,
 .info-card p {
   overflow-wrap: anywhere;
   word-break: break-word;
