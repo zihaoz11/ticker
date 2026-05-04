@@ -54,13 +54,9 @@ const elements = {
   filterButtons: Array.from(document.querySelectorAll("[data-filter]")),
   tabButtons: Array.from(document.querySelectorAll("[data-tab]")),
   postsPanel: document.getElementById("postsPanel"),
-  gemsPanel: document.getElementById("gemsPanel"),
   reportPanel: document.getElementById("reportPanel"),
   postPanelSummary: document.getElementById("postPanelSummary"),
-  gemPanelSummary: document.getElementById("gemPanelSummary"),
   reportPanelSummary: document.getElementById("reportPanelSummary"),
-  profileSummary: document.getElementById("profileSummary"),
-  hiddenGemsList: document.getElementById("hiddenGemsList"),
   dailyReport: document.getElementById("dailyReport"),
 };
 
@@ -214,25 +210,27 @@ function getPosts(data) {
     .sort((a, b) => postSortTimestamp(b) - postSortTimestamp(a));
 }
 
-function getHiddenGems(data) {
-  return asArray(data?.hidden_gems)
-    .map((gem, index) => ({
-      rank: Number(gem?.rank || index + 1),
-      ticker: normalizeTicker(gem?.ticker),
-      score: Number(gem?.score || 0),
-      confidence: Number(gem?.confidence || 0),
-      chainRole: firstText(gem?.chain_role, "观察节点"),
-      evidenceDensity: Number(gem?.evidence_density || 0),
-      novelty: firstText(gem?.novelty, ""),
-      sourcePostIds: asArray(gem?.source_post_ids).map(String).filter(Boolean),
-      relatedTickers: asArray(gem?.related_tickers).map(normalizeTicker).filter(Boolean),
-      signals: asArray(gem?.signals).map(String).filter(Boolean),
-      thesis: firstText(gem?.thesis_cn),
-      catalystPath: firstText(gem?.catalyst_path_cn),
-      bloggerFit: firstText(gem?.blogger_fit_cn),
-      riskNotes: asArray(gem?.risk_notes).map(String).filter(Boolean),
+function getOutsideCandidates(report) {
+  return asArray(report?.outside_candidates)
+    .map((item, index) => ({
+      rank: Number(item?.rank || index + 1),
+      ticker: normalizeTicker(item?.ticker),
+      company: firstText(item?.company),
+      score: Number(item?.score || 0),
+      confidence: Number(item?.confidence || 0),
+      chainRole: firstText(item?.chain_role, "产业链关键节点"),
+      importance: firstText(item?.importance_cn),
+      boundaryExpansion: firstText(item?.boundary_expansion_cn),
+      triggerLogic: firstText(item?.trigger_logic_cn),
+      outsideReason: firstText(item?.outside_reason_cn),
+      anchorTickers: asArray(item?.anchor_tickers).map(normalizeTicker).filter(Boolean),
+      anchorSourcePostIds: asArray(item?.anchor_source_post_ids).map(String).filter(Boolean),
+      triggerKeywords: asArray(item?.trigger_keywords).map(String).filter(Boolean),
+      triggerSignals: asArray(item?.trigger_signals).map(String).filter(Boolean),
+      sourcePostIds: asArray(item?.source_post_ids).map(String).filter(Boolean),
+      riskNotes: asArray(item?.risk_notes).map(String).filter(Boolean),
     }))
-    .filter((gem) => gem.ticker)
+    .filter((item) => item.ticker)
     .sort((a, b) => a.rank - b.rank || b.score - a.score);
 }
 
@@ -353,90 +351,52 @@ function renderPostGroup(title, posts) {
   `;
 }
 
-function renderProfileSummary(data) {
-  const profile = data?.research_profile_summary || {};
-  const focusThemes = asArray(profile.focus_themes);
-  const styleSignals = asArray(profile.style_signals);
-  const lensRules = asArray(profile.lens_rules_cn);
-  const sourceCount = Number(profile.source_post_count || 0);
-  elements.profileSummary.innerHTML = `
-    <section class="info-card">
-      <span class="summary-label">Corpus</span>
-      <strong>${escapeHtml(sourceCount)} posts</strong>
-      <span class="small-text">${escapeHtml(firstText(profile.research_lens_version, "-"))}</span>
-    </section>
-    <section class="info-card">
-      <span class="summary-label">Themes</span>
-      <div class="badge-row">
-        ${focusThemes.length ? focusThemes.slice(0, 8).map((item) => badge(`${item.theme || item[0]} ${item.count || item[1] || ""}`, "theme-badge")).join("") : badge("No themes")}
-      </div>
-    </section>
-    <section class="info-card">
-      <span class="summary-label">Lens</span>
-      <ul class="point-list">
-        ${(styleSignals.length ? styleSignals : lensRules.slice(0, 4)).slice(0, 5).map((item) => {
-          const text = typeof item === "string" ? item : `${item.signal || ""}${item.count ? ` ${item.count}` : ""}`;
-          return `<li>${escapeHtml(text)}</li>`;
-        }).join("") || "<li>-</li>"}
-      </ul>
-    </section>
-  `;
-}
-
-function renderGemCard(gem) {
-  const related = gem.relatedTickers.length
-    ? `<div class="ticker-line">${escapeHtml(gem.relatedTickers.map((item) => `$${item}`).join(" "))}</div>`
-    : "";
+function renderOutsideCandidateCard(candidate) {
   return `
-    <article class="gem-card">
+    <article class="candidate-card">
       <div class="stock-header">
         <div>
-          <span class="summary-label">#${escapeHtml(gem.rank)}</span>
-          <h3>$${escapeHtml(gem.ticker)}</h3>
+          <span class="summary-label">#${escapeHtml(candidate.rank)} outside post</span>
+          <h3>$${escapeHtml(candidate.ticker)} ${escapeHtml(candidate.company)}</h3>
         </div>
-        <div class="score-pill">${escapeHtml(gem.score.toFixed(0))}</div>
+        <div class="score-pill">${escapeHtml(candidate.score.toFixed(0))}</div>
       </div>
       <div class="badge-row">
-        ${badge(gem.chainRole, "theme-badge")}
-        ${badge(`confidence ${percentLabel(gem.confidence)}`)}
-        ${badge(`evidence ${gem.evidenceDensity}`)}
-        ${gem.novelty ? badge(gem.novelty) : ""}
+        ${badge(candidate.chainRole, "theme-badge")}
+        ${badge(`confidence ${percentLabel(candidate.confidence)}`)}
       </div>
-      <p>${escapeHtml(gem.thesis || "-")}</p>
+      ${candidate.anchorTickers.length ? `<div class="small-text">source anchors ${escapeHtml(candidate.anchorTickers.map((item) => `$${item}`).join(" "))}</div>` : ""}
       <div class="reason-list">
         <div class="stance-reason">
-          <span class="summary-label">Catalyst</span>
-          <p>${escapeHtml(gem.catalystPath || "-")}</p>
+          <span class="summary-label">Why this node matters</span>
+          <p>${escapeHtml(candidate.importance || "-")}</p>
         </div>
         <div class="stance-reason">
-          <span class="summary-label">Lens fit</span>
-          <p>${escapeHtml(gem.bloggerFit || "-")}</p>
+          <span class="summary-label">Boundary expansion path</span>
+          <p>${escapeHtml(candidate.boundaryExpansion || "-")}</p>
+        </div>
+        <div class="stance-reason">
+          <span class="summary-label">Blogger logic imitation</span>
+          <p>${escapeHtml(candidate.triggerLogic || "-")}</p>
+        </div>
+        <div class="stance-reason">
+          <span class="summary-label">Outside-post guard</span>
+          <p>${escapeHtml(candidate.outsideReason || "-")}</p>
         </div>
       </div>
-      ${gem.signals.length ? `<div class="badge-row">${gem.signals.map((item) => badge(item)).join("")}</div>` : ""}
-      <div class="meta-row">
-        ${related}
-        <span class="small-text">posts ${escapeHtml(gem.sourcePostIds.slice(0, 5).join(", ") || "-")}</span>
-      </div>
-      ${gem.riskNotes.length ? `<ul class="point-list">${gem.riskNotes.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
+      ${candidate.triggerSignals.length ? `<div class="badge-row">${candidate.triggerSignals.map((item) => badge(item)).join("")}</div>` : ""}
+      ${candidate.triggerKeywords.length ? `<div class="small-text">keywords ${escapeHtml(candidate.triggerKeywords.slice(0, 8).join(", "))}</div>` : ""}
+      <div class="small-text">anchor source posts ${escapeHtml(candidate.anchorSourcePostIds.slice(0, 6).join(", ") || "-")}</div>
+      <div class="small-text">logic source posts ${escapeHtml(candidate.sourcePostIds.slice(0, 6).join(", ") || "-")}</div>
+      ${candidate.riskNotes.length ? `<ul class="point-list">${candidate.riskNotes.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
     </article>
   `;
-}
-
-function renderHiddenGems(data) {
-  const gems = getHiddenGems(data);
-  renderProfileSummary(data);
-  elements.gemPanelSummary.textContent = `${gems.length} candidates`;
-  if (!gems.length) {
-    elements.hiddenGemsList.innerHTML = `<div class="empty-state">No hidden gem candidates in the current payload.</div>`;
-    return;
-  }
-  elements.hiddenGemsList.innerHTML = gems.map(renderGemCard).join("");
 }
 
 function renderDailyReport(data) {
   const report = data?.daily_report || {};
   const sections = asArray(report.sections);
+  const outsideCandidates = getOutsideCandidates(report);
   elements.reportPanelSummary.textContent = firstText(report.date, "-");
   if (!report.title_cn && !sections.length) {
     elements.dailyReport.innerHTML = `<div class="empty-state">No daily report in the current payload.</div>`;
@@ -447,6 +407,14 @@ function renderDailyReport(data) {
       <h3>${escapeHtml(firstText(report.title_cn, "Daily Report"))}</h3>
       <p>${escapeHtml(firstText(report.summary_cn, ""))}</p>
     </section>
+    ${outsideCandidates.length ? `
+      <section class="report-section">
+        <h3>Outside-Post Boundary Expansion Candidates</h3>
+        <div class="candidate-list">
+          ${outsideCandidates.map(renderOutsideCandidateCard).join("")}
+        </div>
+      </section>
+    ` : ""}
     ${sections.map((section) => `
       <section class="report-section">
         <h3>${escapeHtml(firstText(section.heading_cn, "Section"))}</h3>
@@ -473,12 +441,12 @@ function renderPosts(posts, selectedDate) {
 }
 
 function renderTabs() {
+  if (state.activeTab === "gems") state.activeTab = "report";
   for (const button of elements.tabButtons) {
     const tab = button.dataset.tab || "posts";
     button.classList.toggle("is-active", tab === state.activeTab);
   }
   elements.postsPanel.hidden = state.activeTab !== "posts";
-  elements.gemsPanel.hidden = state.activeTab !== "gems";
   elements.reportPanel.hidden = state.activeTab !== "report";
   elements.refreshButton.textContent = state.activeTab === "posts" ? "Refresh Posts" : "Refresh Learning";
 }
@@ -505,7 +473,6 @@ function renderAll() {
   renderFilterControls(allPosts);
   renderDateControls(viewPosts, posts);
   renderPosts(posts, state.selectedDate);
-  renderHiddenGems(data);
   renderDailyReport(data);
   renderTabs();
 }
@@ -535,7 +502,7 @@ async function loadData() {
 }
 
 async function runManualRefresh() {
-  if (state.activeTab === "gems" || state.activeTab === "report") {
+  if (state.activeTab === "report") {
     await runLearningRefresh();
     return;
   }
@@ -577,7 +544,7 @@ async function runPostsRefresh() {
         state.error = null;
         const newCount = Number(payload.new_raw_count || 0);
         if (newCount > 0) {
-          setRefreshStatus(`Posts refresh complete. ${newCount} new post(s) published to GitHub; learning outputs were rebuilt from preserved history.`, "success");
+          setRefreshStatus(`Posts refresh complete. ${newCount} new post(s) published to GitHub; daily report was rebuilt from preserved history.`, "success");
         } else {
           setRefreshStatus("Posts refresh complete. No new posts found in the last 24 hours; publish was skipped.", "success");
         }
@@ -603,8 +570,8 @@ async function runPostsRefresh() {
 async function runLearningRefresh() {
   elements.refreshButton.disabled = true;
   elements.refreshButton.textContent = "Refreshing Learning...";
-  const label = state.activeTab === "report" ? "Daily Report" : "Hidden Gems";
-  setRefreshStatus(`${label} refresh: rebuilding research lens, hidden gems, and daily report from existing post history. X will not be fetched.`, "info");
+  const label = "Daily Report";
+  setRefreshStatus(`${label} refresh: rebuilding the research lens and outside-post boundary expansion candidates from existing post history. X will not be fetched.`, "info");
   const body = {
     account: "aleabitoreddit",
     publish: true,
@@ -625,9 +592,9 @@ async function runLearningRefresh() {
         }
         state.data = payload.latest_payload || state.data;
         state.error = null;
-        const gemCount = Number(payload.hidden_gem_count || state.data?.hidden_gems?.length || 0);
+        const candidateCount = Number(payload.daily_candidate_count || state.data?.daily_report?.outside_candidates?.length || 0);
         const postCount = Number(payload.source_post_count || state.data?.posts?.length || 0);
-        setRefreshStatus(`${label} refresh complete. Rebuilt ${gemCount} hidden gem candidate(s) and daily report from ${postCount} preserved post(s).`, "success");
+        setRefreshStatus(`${label} refresh complete. Rebuilt ${candidateCount} outside-post boundary candidate(s) from ${postCount} preserved post(s).`, "success");
         renderAll();
         return;
       } catch (error) {
