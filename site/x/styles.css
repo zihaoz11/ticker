@@ -366,7 +366,7 @@ button:focus-visible {
 }
 
 .post-card,
-.gem-card,
+.candidate-card,
 .stock-card,
 .info-card,
 .empty-state {
@@ -377,7 +377,7 @@ button:focus-visible {
 }
 
 .post-card,
-.gem-card,
+.candidate-card,
 .stock-card,
 .info-card {
   display: grid;
@@ -591,6 +591,11 @@ button:focus-visible {
   gap: 14px;
 }
 
+.candidate-list {
+  display: grid;
+  gap: 12px;
+}
+
 .report-header,
 .report-section {
   min-width: 0;
@@ -722,7 +727,7 @@ button:focus-visible {
   }
 
   .post-card,
-  .gem-card,
+  .candidate-card,
   .stock-card,
   .info-card {
     padding: 13px;
