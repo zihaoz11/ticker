@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>X Analysis Dashboard</title>
-    <link rel="stylesheet" href="styles.css?v=20260504-hidden-gems">
+    <link rel="stylesheet" href="styles.css?v=20260504-daily-report">
   </head>
   <body>
     <header class="site-header">
@@ -44,7 +44,6 @@
 
       <nav class="tabs" aria-label="Dashboard views">
         <button class="tab-button is-active" type="button" data-tab="posts">Posts</button>
-        <button class="tab-button" type="button" data-tab="gems">Hidden Gems</button>
         <button class="tab-button" type="button" data-tab="report">Daily Report</button>
       </nav>
 
@@ -73,17 +72,6 @@
         </div>
       </section>
 
-      <section id="gemsPanel" class="tab-panel" aria-label="Hidden Gems" hidden>
-        <div class="section-heading">
-          <h2>Hidden Gems</h2>
-          <span id="gemPanelSummary">-</span>
-        </div>
-        <div id="profileSummary" class="profile-grid"></div>
-        <div id="hiddenGemsList" class="card-list">
-          <div class="empty-state">Loading hidden gems...</div>
-        </div>
-      </section>
-
       <section id="reportPanel" class="tab-panel" aria-label="Daily Report" hidden>
         <div class="section-heading">
           <h2>Daily Report</h2>
@@ -95,6 +83,6 @@
       </section>
     </main>
 
-    <script src="x.js?v=20260504-hidden-gems" defer></script>
+    <script src="x.js?v=20260504-daily-report" defer></script>
   </body>
 </html>
