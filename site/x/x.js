@@ -728,25 +728,30 @@ function renderTearLayerTabs(layers) {
   `).join("");
 }
 
-function renderTearStockViews(views) {
-  if (!views.length) return "";
-  return `
-    <div class="tear-stock-view-list">
-      ${views.slice(0, 12).map((view) => `
-        <div class="tear-stock-view">
-          <span class="ticker-chip">$${escapeHtml(view.ticker)}</span>
-          <span>${escapeHtml(view.stance)}</span>
-          ${view.reason ? `<p>${escapeHtml(view.reason)}</p>` : ""}
-        </div>
-      `).join("")}
-    </div>
-  `;
+function tearEntryDetailPoints(entry) {
+  const seen = new Set();
+  const points = [];
+  for (const item of entry.keyPoints) {
+    const text = String(item || "").trim();
+    if (!text || seen.has(text)) continue;
+    seen.add(text);
+    points.push(text);
+  }
+  for (const view of entry.stockViews) {
+    const ticker = normalizeTicker(view.ticker);
+    if (!ticker) continue;
+    const stance = view.stance && view.stance !== "unclear" ? `（${view.stance}）` : "";
+    const text = view.reason ? `$${ticker}${stance}：${view.reason}` : `$${ticker}${stance}`;
+    if (!seen.has(text)) {
+      seen.add(text);
+      points.push(text);
+    }
+  }
+  return points;
 }
 
 function renderTearEntryCard(entry) {
-  const tickerLine = entry.mentionedTickers.length
-    ? `<div class="ticker-line">${escapeHtml(entry.mentionedTickers.slice(0, 30).map((item) => `$${item}`).join(" "))}</div>`
-    : "";
+  const detailPoints = tearEntryDetailPoints(entry);
   const emailUrl = gmailMessageUrl(entry.sourceId);
   return `
     <article class="post-card tear-card">
@@ -758,10 +763,8 @@ function renderTearEntryCard(entry) {
       </div>
       <h3>${escapeHtml(entry.subject || entry.layerTitle || "tear email")}</h3>
       ${entry.summary ? `<p class="tear-summary">${escapeHtml(entry.summary)}</p>` : ""}
-      ${entry.keyPoints.length ? `<ul class="point-list">${entry.keyPoints.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
-      ${renderTearStockViews(entry.stockViews)}
+      ${detailPoints.length ? `<ul class="point-list">${detailPoints.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
       <div class="meta-row">
-        ${tickerLine}
         ${entry.themes.length ? `<span>${escapeHtml(entry.themes.slice(0, 6).join(" / "))}</span>` : ""}
         ${emailUrl ? `<a href="${escapeHtml(emailUrl)}" target="_blank" rel="noreferrer">Open Gmail email</a>` : ""}
       </div>
