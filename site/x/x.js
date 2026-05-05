@@ -44,7 +44,9 @@ const elements = {
   subtitle: document.getElementById("subtitle"),
   statusText: document.getElementById("statusText"),
   generatedAt: document.getElementById("generatedAt"),
+  primaryMetricLabel: document.getElementById("primaryMetricLabel"),
   postCount: document.getElementById("postCount"),
+  secondaryMetricLabel: document.getElementById("secondaryMetricLabel"),
   visibilityCount: document.getElementById("visibilityCount"),
   errorBox: document.getElementById("errorBox"),
   refreshStatus: document.getElementById("refreshStatus"),
@@ -643,6 +645,7 @@ function renderAuthorControls(authors) {
 }
 
 function renderTearLayerTabs(layers) {
+  elements.tearLayerTabs.hidden = !layers.length;
   elements.tearLayerTabs.innerHTML = layers.map((layer) => `
     <button
       class="content-tab-button ${layer.id === state.activeTearLayer ? "is-active" : ""}"
@@ -708,6 +711,8 @@ function renderTearAuthor(author) {
   elements.subtitle.textContent = `${author.displayName} email summaries${currentLayer ? ` - ${currentLayer.title}` : ""}`;
   elements.statusText.textContent = state.error ? "Error" : "Ready";
   elements.generatedAt.textContent = formatDate(author.updated_at);
+  elements.primaryMetricLabel.textContent = "Entries";
+  elements.secondaryMetricLabel.textContent = "Layers";
   elements.postCount.textContent = String(layerEntries.length);
   elements.visibilityCount.textContent = `${layers.length} layers`;
   elements.postPanelSummary.textContent = "-";
@@ -716,7 +721,7 @@ function renderTearAuthor(author) {
   renderTearLayerTabs(layers);
   elements.tearEntriesList.innerHTML = layerEntries.length
     ? layerEntries.map(renderTearEntryCard).join("")
-    : `<div class="empty-state">No tear summaries found for this content layer.</div>`;
+    : `<div class="empty-state">No tear email summaries yet. Run Refresh tear after Gmail OAuth is configured.</div>`;
 }
 
 function renderPosts(posts, selectedDate) {
@@ -777,6 +782,8 @@ function renderAll() {
   elements.subtitle.textContent = `@${firstText(data.account, "aleabitoreddit")} latest posts${publishedTimes ? ` - ${publishedTimes}` : ""}`;
   elements.statusText.textContent = state.error ? "Error" : "Ready";
   elements.generatedAt.textContent = formatDate(data.generated_at || data.updated_at);
+  elements.primaryMetricLabel.textContent = "Posts";
+  elements.secondaryMetricLabel.textContent = "Visibility";
   elements.postCount.textContent = String(posts.length);
   elements.visibilityCount.textContent = visibilitySummary(posts);
   elements.errorBox.hidden = !state.error;
