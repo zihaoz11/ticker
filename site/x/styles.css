@@ -163,7 +163,9 @@ main {
   color: var(--danger);
 }
 
-.tabs {
+.author-tabs,
+.tabs,
+.content-tabs {
   display: inline-flex;
   gap: 4px;
   max-width: 100%;
@@ -173,6 +175,20 @@ main {
   border-radius: 8px;
   background: var(--panel);
   overflow-x: auto;
+}
+
+.author-tabs {
+  display: flex;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.content-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 8px;
+  padding: 8px;
 }
 
 button {
@@ -214,10 +230,33 @@ button:focus-visible {
   border-color: var(--line-strong);
 }
 
-.tab-button.is-active {
+.author-button.is-active,
+.tab-button.is-active,
+.content-tab-button.is-active {
   background: var(--accent-soft);
   color: var(--accent);
   border-color: var(--accent);
+}
+
+.content-tab-button {
+  display: inline-grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  min-width: 180px;
+  height: auto;
+  min-height: 38px;
+  text-align: left;
+}
+
+.content-tab-button span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content-tab-button strong {
+  color: var(--muted);
+  font-size: 13px;
 }
 
 .tab-panel {
@@ -446,6 +485,41 @@ button:focus-visible {
   color: var(--accent);
   font-weight: 700;
   overflow-wrap: anywhere;
+}
+
+.tear-card {
+  border-left: 4px solid var(--accent);
+}
+
+.tear-summary {
+  color: var(--text);
+  overflow-wrap: anywhere;
+}
+
+.tear-stock-view-list {
+  display: grid;
+  gap: 8px;
+}
+
+.tear-stock-view {
+  display: grid;
+  grid-template-columns: auto auto minmax(0, 1fr);
+  align-items: baseline;
+  gap: 8px;
+  min-width: 0;
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfc;
+}
+
+.tear-stock-view p {
+  overflow-wrap: anywhere;
+}
+
+.ticker-chip {
+  color: var(--accent);
+  font-weight: 800;
 }
 
 .badge-row {
@@ -785,9 +859,18 @@ button:focus-visible {
     margin-left: 0;
   }
 
+  .author-tabs,
   .tabs {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+  }
+
+  .content-tabs {
+    width: 100%;
+  }
+
+  .content-tab-button {
     width: 100%;
   }
 
@@ -802,6 +885,10 @@ button:focus-visible {
 
   .favorite-button {
     width: auto;
+  }
+
+  .tear-stock-view {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -827,6 +914,7 @@ button:focus-visible {
     grid-template-columns: 1fr;
   }
 
+  .author-tabs,
   .tabs {
     grid-template-columns: 1fr;
   }
