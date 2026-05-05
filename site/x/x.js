@@ -69,6 +69,12 @@ const elements = {
   dailyReport: document.getElementById("dailyReport"),
   tearPanelSummary: document.getElementById("tearPanelSummary"),
   tearLayerTabs: document.getElementById("tearLayerTabs"),
+  tearDateToolbar: document.getElementById("tearDateToolbar"),
+  tearPrevDateButton: document.getElementById("tearPrevDateButton"),
+  tearNextDateButton: document.getElementById("tearNextDateButton"),
+  tearDatePicker: document.getElementById("tearDatePicker"),
+  tearDateLabel: document.getElementById("tearDateLabel"),
+  tearDateCount: document.getElementById("tearDateCount"),
   tearEntriesList: document.getElementById("tearEntriesList"),
 };
 
@@ -283,6 +289,7 @@ function getTearEntries(author) {
     .filter((entry) => entry && typeof entry === "object")
     .map((entry) => ({
       id: firstText(entry.entry_id, entry.source_id, `${entry.content_date}|${entry.subject}`),
+      sourceId: firstText(entry.source_id),
       subject: firstText(entry.subject),
       contentDate: firstText(entry.content_date, entry.email_ts),
       emailTs: firstText(entry.email_ts),
@@ -329,6 +336,45 @@ function getTearLayers(author, entries) {
     buckets.set(entry.layerId, current);
   }
   return Array.from(buckets.values()).sort((a, b) => String(b.latestDate).localeCompare(String(a.latestDate)));
+}
+
+function tearDateKey(entry) {
+  const contentDate = firstText(entry?.contentDate);
+  if (/^\d{4}-\d{2}-\d{2}$/.test(contentDate)) return contentDate;
+  const date = new Date(firstText(entry?.emailTs, contentDate));
+  return Number.isNaN(date.getTime()) ? "" : localDateKey(date);
+}
+
+function availableTearDates(entries) {
+  return Array.from(new Set(entries.map(tearDateKey).filter(Boolean))).sort();
+}
+
+function currentTearLayerEntries(author) {
+  const entries = getTearEntries(author);
+  return state.activeTearLayer
+    ? entries.filter((entry) => entry.layerId === state.activeTearLayer)
+    : entries;
+}
+
+function ensureSelectedDateInTearView(layerEntries) {
+  const dates = availableTearDates(layerEntries);
+  if (!dates.length) return;
+  state.selectedDate = nearestAvailableDate(dates, state.selectedDate);
+}
+
+function adjacentAvailableTearDate(direction) {
+  const author = activeAuthor(state.data || {});
+  const layerEntries = currentTearLayerEntries(author);
+  const dates = availableTearDates(layerEntries);
+  if (!dates.length) return state.selectedDate;
+  const currentDate = nearestAvailableDate(dates, state.selectedDate);
+  const index = dates.indexOf(currentDate);
+  const nextIndex = Math.max(0, Math.min(dates.length - 1, index + direction));
+  return dates[nextIndex] || currentDate;
+}
+
+function gmailMessageUrl(sourceId) {
+  return sourceId ? `https://mail.google.com/mail/u/0/#all/${encodeURIComponent(sourceId)}` : "";
 }
 
 function getOutsideCandidates(report) {
@@ -478,6 +524,30 @@ function renderDateControls(allPosts, filteredPosts) {
   elements.dateCount.textContent = `${filteredPosts.length} posts - ${visibilitySummary(filteredPosts)}`;
   elements.prevDateButton.disabled = selectedIndex <= 0;
   elements.nextDateButton.disabled = selectedIndex < 0 || selectedIndex >= dates.length - 1;
+}
+
+function renderTearDateControls(layerEntries, dateEntries) {
+  const dates = availableTearDates(layerEntries);
+  elements.tearDateToolbar.hidden = !dates.length;
+  if (!dates.length) {
+    elements.tearDatePicker.value = "";
+    elements.tearDateLabel.textContent = "-";
+    elements.tearDateCount.textContent = "0 entries";
+    elements.tearPrevDateButton.disabled = true;
+    elements.tearNextDateButton.disabled = true;
+    return;
+  }
+  const today = localDateKey(new Date());
+  const minDate = dates[0] || today;
+  const maxDate = dates[dates.length - 1] || today;
+  const selectedIndex = dates.indexOf(state.selectedDate);
+  elements.tearDatePicker.value = state.selectedDate;
+  elements.tearDatePicker.min = minDate;
+  elements.tearDatePicker.max = maxDate;
+  elements.tearDateLabel.textContent = formatDateLabel(state.selectedDate);
+  elements.tearDateCount.textContent = `${dateEntries.length} entries - ${layerEntries.length} in layer`;
+  elements.tearPrevDateButton.disabled = selectedIndex <= 0;
+  elements.tearNextDateButton.disabled = selectedIndex < 0 || selectedIndex >= dates.length - 1;
 }
 
 function renderFilterControls(datePosts) {
@@ -677,6 +747,7 @@ function renderTearEntryCard(entry) {
   const tickerLine = entry.mentionedTickers.length
     ? `<div class="ticker-line">${escapeHtml(entry.mentionedTickers.slice(0, 30).map((item) => `$${item}`).join(" "))}</div>`
     : "";
+  const emailUrl = gmailMessageUrl(entry.sourceId);
   return `
     <article class="post-card tear-card">
       <div class="card-topline">
@@ -692,6 +763,7 @@ function renderTearEntryCard(entry) {
       <div class="meta-row">
         ${tickerLine}
         ${entry.themes.length ? `<span>${escapeHtml(entry.themes.slice(0, 6).join(" / "))}</span>` : ""}
+        ${emailUrl ? `<a href="${escapeHtml(emailUrl)}" target="_blank" rel="noreferrer">Open Gmail email</a>` : ""}
       </div>
     </article>
   `;
@@ -707,21 +779,24 @@ function renderTearAuthor(author) {
   const layerEntries = state.activeTearLayer
     ? entries.filter((entry) => entry.layerId === state.activeTearLayer)
     : entries;
+  ensureSelectedDateInTearView(layerEntries);
+  const dateEntries = layerEntries.filter((entry) => tearDateKey(entry) === state.selectedDate);
   const currentLayer = layers.find((layer) => layer.id === state.activeTearLayer);
   elements.subtitle.textContent = `${author.displayName} email summaries${currentLayer ? ` - ${currentLayer.title}` : ""}`;
   elements.statusText.textContent = state.error ? "Error" : "Ready";
   elements.generatedAt.textContent = formatDate(author.updated_at);
   elements.primaryMetricLabel.textContent = "Entries";
   elements.secondaryMetricLabel.textContent = "Layers";
-  elements.postCount.textContent = String(layerEntries.length);
+  elements.postCount.textContent = String(dateEntries.length);
   elements.visibilityCount.textContent = `${layers.length} layers`;
   elements.postPanelSummary.textContent = "-";
   elements.reportPanelSummary.textContent = "-";
   elements.tearPanelSummary.textContent = `${entries.length} total entries`;
   renderTearLayerTabs(layers);
-  elements.tearEntriesList.innerHTML = layerEntries.length
-    ? layerEntries.map(renderTearEntryCard).join("")
-    : `<div class="empty-state">No tear email summaries yet. Run Refresh tear after Gmail OAuth is configured.</div>`;
+  renderTearDateControls(layerEntries, dateEntries);
+  elements.tearEntriesList.innerHTML = dateEntries.length
+    ? dateEntries.map(renderTearEntryCard).join("")
+    : `<div class="empty-state">No tear email summaries found for ${escapeHtml(currentLayer?.title || "this layer")} on ${escapeHtml(formatDateLabel(state.selectedDate))}.</div>`;
 }
 
 function renderPosts(posts, selectedDate) {
@@ -988,6 +1063,9 @@ async function runTearRefresh() {
 elements.prevDateButton.addEventListener("click", () => setSelectedDate(adjacentAvailableDate(-1)));
 elements.nextDateButton.addEventListener("click", () => setSelectedDate(adjacentAvailableDate(1)));
 elements.datePicker.addEventListener("change", () => setSelectedDate(elements.datePicker.value));
+elements.tearPrevDateButton.addEventListener("click", () => setSelectedDate(adjacentAvailableTearDate(-1)));
+elements.tearNextDateButton.addEventListener("click", () => setSelectedDate(adjacentAvailableTearDate(1)));
+elements.tearDatePicker.addEventListener("change", () => setSelectedDate(elements.tearDatePicker.value));
 elements.refreshButton.addEventListener("click", runManualRefresh);
 elements.authorTabs.addEventListener("click", (event) => {
   const target = event.target instanceof Element ? event.target : null;
