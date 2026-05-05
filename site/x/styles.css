@@ -191,6 +191,11 @@ main {
   padding: 8px;
 }
 
+.tabs[hidden],
+.content-tabs[hidden] {
+  display: none;
+}
+
 button {
   min-width: 88px;
   height: 38px;
