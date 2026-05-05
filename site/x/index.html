@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>X Analysis Dashboard</title>
-    <link rel="stylesheet" href="styles.css?v=20260505-tear-tabs-fix">
+    <link rel="stylesheet" href="styles.css?v=20260505-tear-date-email">
   </head>
   <body>
     <header class="site-header">
@@ -92,12 +92,21 @@
           <span id="tearPanelSummary">-</span>
         </div>
         <nav id="tearLayerTabs" class="content-tabs" aria-label="tear content layers"></nav>
+        <div id="tearDateToolbar" class="date-toolbar" aria-label="tear email date filter" hidden>
+          <button id="tearPrevDateButton" class="date-nav-button" type="button" aria-label="Previous tear date">&lsaquo;</button>
+          <div class="date-picker-wrap">
+            <strong id="tearDateLabel">Today</strong>
+            <input id="tearDatePicker" type="date" aria-label="Choose tear email date">
+          </div>
+          <button id="tearNextDateButton" class="date-nav-button" type="button" aria-label="Next tear date">&rsaquo;</button>
+          <span id="tearDateCount" class="date-count">- entries</span>
+        </div>
         <div id="tearEntriesList" class="card-list">
           <div class="empty-state">Loading tear summaries...</div>
         </div>
       </section>
     </main>
 
-    <script src="x.js?v=20260505-tear-tabs-fix" defer></script>
+    <script src="x.js?v=20260505-tear-date-email" defer></script>
   </body>
 </html>
