@@ -1,6 +1,8 @@
 const GITHUB_DATA_URL = "https://zihaoz11.github.io/ticker/data/site/x-analysis/latest.json";
 const STATIC_DATA_URL = "../../data/site/x-analysis/latest.json";
 const FAVORITES_STORAGE_KEY = "x-analysis-favorite-posts-v1";
+const AUTHOR_STORAGE_KEY = "x-analysis-active-author-v1";
+const TEAR_LAYER_STORAGE_KEY = "x-analysis-tear-layer-v1";
 const FILTER_LABELS = {
   all: "All",
   public: "Public",
@@ -31,6 +33,8 @@ const state = {
   data: null,
   error: null,
   selectedDate: localDateKey(new Date()),
+  activeAuthor: loadStoredValue(AUTHOR_STORAGE_KEY, "serenity"),
+  activeTearLayer: loadStoredValue(TEAR_LAYER_STORAGE_KEY, ""),
   activeFilter: "all",
   activeTab: "posts",
   favoriteIds: loadFavoriteIds(),
@@ -45,6 +49,8 @@ const elements = {
   errorBox: document.getElementById("errorBox"),
   refreshStatus: document.getElementById("refreshStatus"),
   refreshButton: document.getElementById("refreshButton"),
+  authorTabs: document.getElementById("authorTabs"),
+  serenityTabs: document.getElementById("serenityTabs"),
   postsList: document.getElementById("postsList"),
   prevDateButton: document.getElementById("prevDateButton"),
   nextDateButton: document.getElementById("nextDateButton"),
@@ -55,9 +61,13 @@ const elements = {
   tabButtons: Array.from(document.querySelectorAll("[data-tab]")),
   postsPanel: document.getElementById("postsPanel"),
   reportPanel: document.getElementById("reportPanel"),
+  tearPanel: document.getElementById("tearPanel"),
   postPanelSummary: document.getElementById("postPanelSummary"),
   reportPanelSummary: document.getElementById("reportPanelSummary"),
   dailyReport: document.getElementById("dailyReport"),
+  tearPanelSummary: document.getElementById("tearPanelSummary"),
+  tearLayerTabs: document.getElementById("tearLayerTabs"),
+  tearEntriesList: document.getElementById("tearEntriesList"),
 };
 
 function escapeHtml(value) {
@@ -88,6 +98,22 @@ function loadFavoriteIds() {
     return new Set(Array.isArray(parsed) ? parsed.map(String).filter(Boolean) : []);
   } catch {
     return new Set();
+  }
+}
+
+function loadStoredValue(key, fallback) {
+  try {
+    return localStorage.getItem(key) || fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+function saveStoredValue(key, value) {
+  try {
+    localStorage.setItem(key, value);
+  } catch {
+    // Local UI preference only.
   }
 }
 
@@ -208,6 +234,99 @@ function getPosts(data) {
   return asArray(data?.posts)
     .map(normalizePost)
     .sort((a, b) => postSortTimestamp(b) - postSortTimestamp(a));
+}
+
+function getAuthors(data) {
+  const authors = asArray(data?.authors)
+    .filter((author) => author && typeof author === "object")
+    .map((author) => ({
+      ...author,
+      id: firstText(author.id, "serenity"),
+      displayName: firstText(author.display_name, author.name, author.id, "Serenity"),
+    }));
+  if (!authors.find((author) => author.id === "serenity")) {
+    authors.unshift({
+      id: "serenity",
+      displayName: "Serenity",
+      kind: "x",
+      content_layers: [
+        { id: "posts", title: "Posts", entry_count: asArray(data?.posts).length },
+        { id: "daily_report", title: "Daily Report", entry_count: data?.daily_report ? 1 : 0 },
+      ],
+    });
+  }
+  if (!authors.find((author) => author.id === "tear")) {
+    authors.push({
+      id: "tear",
+      displayName: "tear",
+      kind: "gmail",
+      content_layers: [],
+      entries: [],
+    });
+  }
+  return authors;
+}
+
+function activeAuthor(data) {
+  const authors = getAuthors(data);
+  return authors.find((author) => author.id === state.activeAuthor) || authors[0];
+}
+
+function isTearAuthor(author) {
+  return author?.id === "tear";
+}
+
+function getTearEntries(author) {
+  return asArray(author?.entries)
+    .filter((entry) => entry && typeof entry === "object")
+    .map((entry) => ({
+      id: firstText(entry.entry_id, entry.source_id, `${entry.content_date}|${entry.subject}`),
+      subject: firstText(entry.subject),
+      contentDate: firstText(entry.content_date, entry.email_ts),
+      emailTs: firstText(entry.email_ts),
+      layerId: firstText(entry.content_layer_id, "tear-email"),
+      layerTitle: firstText(entry.content_layer_title, "tear email"),
+      summary: firstText(entry.summary_cn),
+      keyPoints: asArray(entry.key_points).map(String).filter(Boolean),
+      themes: asArray(entry.themes).map(String).filter(Boolean),
+      mentionedTickers: asArray(entry.mentioned_tickers).map(normalizeTicker).filter(Boolean),
+      stockViews: asArray(entry.stock_views)
+        .filter((view) => view && typeof view === "object")
+        .map((view) => ({
+          ticker: normalizeTicker(view.ticker),
+          stance: firstText(view.stance, "unclear"),
+          confidence: Number(view.confidence || 0),
+          reason: firstText(view.reason_cn),
+        }))
+        .filter((view) => view.ticker),
+      fallbackUsed: Boolean(entry.fallback_used),
+    }))
+    .sort((a, b) => String(b.contentDate || b.emailTs).localeCompare(String(a.contentDate || a.emailTs)));
+}
+
+function getTearLayers(author, entries) {
+  const layers = asArray(author?.content_layers)
+    .filter((layer) => layer && typeof layer === "object")
+    .map((layer) => ({
+      id: firstText(layer.id, "tear-email"),
+      title: firstText(layer.title, layer.id, "tear email"),
+      entryCount: Number(layer.entry_count || 0),
+      latestDate: firstText(layer.latest_date),
+    }));
+  if (layers.length) return layers;
+  const buckets = new Map();
+  for (const entry of entries) {
+    const current = buckets.get(entry.layerId) || {
+      id: entry.layerId,
+      title: entry.layerTitle,
+      entryCount: 0,
+      latestDate: "",
+    };
+    current.entryCount += 1;
+    if (entry.contentDate > current.latestDate) current.latestDate = entry.contentDate;
+    buckets.set(entry.layerId, current);
+  }
+  return Array.from(buckets.values()).sort((a, b) => String(b.latestDate).localeCompare(String(a.latestDate)));
 }
 
 function getOutsideCandidates(report) {
@@ -513,6 +632,93 @@ function renderDailyReport(data) {
   `;
 }
 
+function renderAuthorControls(authors) {
+  elements.authorTabs.innerHTML = authors.map((author) => `
+    <button
+      class="author-button ${author.id === state.activeAuthor ? "is-active" : ""}"
+      type="button"
+      data-author="${escapeHtml(author.id)}"
+    >${escapeHtml(author.displayName)}</button>
+  `).join("");
+}
+
+function renderTearLayerTabs(layers) {
+  elements.tearLayerTabs.innerHTML = layers.map((layer) => `
+    <button
+      class="content-tab-button ${layer.id === state.activeTearLayer ? "is-active" : ""}"
+      type="button"
+      data-tear-layer="${escapeHtml(layer.id)}"
+    >
+      <span>${escapeHtml(layer.title)}</span>
+      <strong>${escapeHtml(layer.entryCount)}</strong>
+    </button>
+  `).join("");
+}
+
+function renderTearStockViews(views) {
+  if (!views.length) return "";
+  return `
+    <div class="tear-stock-view-list">
+      ${views.slice(0, 12).map((view) => `
+        <div class="tear-stock-view">
+          <span class="ticker-chip">$${escapeHtml(view.ticker)}</span>
+          <span>${escapeHtml(view.stance)}</span>
+          ${view.reason ? `<p>${escapeHtml(view.reason)}</p>` : ""}
+        </div>
+      `).join("")}
+    </div>
+  `;
+}
+
+function renderTearEntryCard(entry) {
+  const tickerLine = entry.mentionedTickers.length
+    ? `<div class="ticker-line">${escapeHtml(entry.mentionedTickers.slice(0, 30).map((item) => `$${item}`).join(" "))}</div>`
+    : "";
+  return `
+    <article class="post-card tear-card">
+      <div class="card-topline">
+        <span>${escapeHtml(entry.contentDate || "-")}</span>
+        <div class="card-actions">
+          ${entry.fallbackUsed ? badge("needs LLM", "visibility-private") : badge("summary", "visibility-public")}
+        </div>
+      </div>
+      <h3>${escapeHtml(entry.subject || entry.layerTitle || "tear email")}</h3>
+      ${entry.summary ? `<p class="tear-summary">${escapeHtml(entry.summary)}</p>` : ""}
+      ${entry.keyPoints.length ? `<ul class="point-list">${entry.keyPoints.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
+      ${renderTearStockViews(entry.stockViews)}
+      <div class="meta-row">
+        ${tickerLine}
+        ${entry.themes.length ? `<span>${escapeHtml(entry.themes.slice(0, 6).join(" / "))}</span>` : ""}
+      </div>
+    </article>
+  `;
+}
+
+function renderTearAuthor(author) {
+  const entries = getTearEntries(author);
+  const layers = getTearLayers(author, entries);
+  if (!layers.find((layer) => layer.id === state.activeTearLayer)) {
+    state.activeTearLayer = layers[0]?.id || "";
+    saveStoredValue(TEAR_LAYER_STORAGE_KEY, state.activeTearLayer);
+  }
+  const layerEntries = state.activeTearLayer
+    ? entries.filter((entry) => entry.layerId === state.activeTearLayer)
+    : entries;
+  const currentLayer = layers.find((layer) => layer.id === state.activeTearLayer);
+  elements.subtitle.textContent = `${author.displayName} email summaries${currentLayer ? ` - ${currentLayer.title}` : ""}`;
+  elements.statusText.textContent = state.error ? "Error" : "Ready";
+  elements.generatedAt.textContent = formatDate(author.updated_at);
+  elements.postCount.textContent = String(layerEntries.length);
+  elements.visibilityCount.textContent = `${layers.length} layers`;
+  elements.postPanelSummary.textContent = "-";
+  elements.reportPanelSummary.textContent = "-";
+  elements.tearPanelSummary.textContent = `${entries.length} total entries`;
+  renderTearLayerTabs(layers);
+  elements.tearEntriesList.innerHTML = layerEntries.length
+    ? layerEntries.map(renderTearEntryCard).join("")
+    : `<div class="empty-state">No tear summaries found for this content layer.</div>`;
+}
+
 function renderPosts(posts, selectedDate) {
   if (!posts.length) {
     const filterLabel = FILTER_LABELS[state.activeFilter] || state.activeFilter;
@@ -527,19 +733,38 @@ function renderPosts(posts, selectedDate) {
   ].join("");
 }
 
-function renderTabs() {
+function renderTabs(author) {
   if (state.activeTab === "gems") state.activeTab = "report";
+  const tearActive = isTearAuthor(author);
+  elements.serenityTabs.hidden = tearActive;
   for (const button of elements.tabButtons) {
     const tab = button.dataset.tab || "posts";
     button.classList.toggle("is-active", tab === state.activeTab);
   }
-  elements.postsPanel.hidden = state.activeTab !== "posts";
-  elements.reportPanel.hidden = state.activeTab !== "report";
-  elements.refreshButton.textContent = state.activeTab === "posts" ? "Refresh Posts" : "Refresh Learning";
+  elements.postsPanel.hidden = tearActive || state.activeTab !== "posts";
+  elements.reportPanel.hidden = tearActive || state.activeTab !== "report";
+  elements.tearPanel.hidden = !tearActive;
+  elements.refreshButton.textContent = tearActive
+    ? "Refresh tear"
+    : state.activeTab === "posts" ? "Refresh Posts" : "Refresh Learning";
 }
 
 function renderAll() {
   const data = state.data || {};
+  const authors = getAuthors(data);
+  const author = activeAuthor(data);
+  if (author?.id && author.id !== state.activeAuthor) {
+    state.activeAuthor = author.id;
+    saveStoredValue(AUTHOR_STORAGE_KEY, state.activeAuthor);
+  }
+  renderAuthorControls(authors);
+  if (isTearAuthor(author)) {
+    elements.errorBox.hidden = !state.error;
+    elements.errorBox.textContent = state.error || "";
+    renderTearAuthor(author);
+    renderTabs(author);
+    return;
+  }
   const allPosts = getPosts(data);
   const viewPosts = currentViewPosts(allPosts);
   ensureSelectedDateInView(viewPosts);
@@ -561,7 +786,7 @@ function renderAll() {
   renderDateControls(viewPosts, posts);
   renderPosts(posts, state.selectedDate);
   renderDailyReport(data);
-  renderTabs();
+  renderTabs(author);
 }
 
 function setRefreshStatus(message, tone = "info") {
@@ -589,6 +814,10 @@ async function loadData() {
 }
 
 async function runManualRefresh() {
+  if (isTearAuthor(activeAuthor(state.data || {}))) {
+    await runTearRefresh();
+    return;
+  }
   if (state.activeTab === "report") {
     await runLearningRefresh();
     return;
@@ -650,7 +879,7 @@ async function runPostsRefresh() {
     );
   } finally {
     elements.refreshButton.disabled = false;
-    renderTabs();
+    renderAll();
   }
 }
 
@@ -697,7 +926,55 @@ async function runLearningRefresh() {
     );
   } finally {
     elements.refreshButton.disabled = false;
-    renderTabs();
+    renderAll();
+  }
+}
+
+async function runTearRefresh() {
+  elements.refreshButton.disabled = true;
+  elements.refreshButton.textContent = "Refreshing tear...";
+  setRefreshStatus("tear refresh: reading recent Gmail newsletters, generating Chinese summaries, and publishing public summaries only.", "info");
+  const body = {
+    query: "from:tear@tradingedge.club newer_than:60d",
+    max_results: 200,
+    publish: true,
+    use_llm: true,
+    remove_local_site_payload_after_publish: true,
+  };
+  let lastError = "";
+  try {
+    for (const url of getRunApiCandidates("/api/x-analysis/refresh-tear")) {
+      try {
+        const response = await fetch(url, {
+          method: "POST",
+          headers: {"Content-Type": "application/json"},
+          body: JSON.stringify(body),
+        });
+        const payload = await response.json().catch(() => ({}));
+        if (!response.ok) {
+          throw new Error(payload?.error || `HTTP ${response.status}`);
+        }
+        state.data = payload.latest_payload || state.data;
+        state.error = null;
+        const newCount = Number(payload.new_entry_count || 0);
+        const totalCount = Number(payload.entry_count || 0);
+        setRefreshStatus(`tear refresh complete. ${newCount} new email summar${newCount === 1 ? "y" : "ies"}; ${totalCount} total.`, "success");
+        renderAll();
+        return;
+      } catch (error) {
+        lastError = error instanceof Error ? error.message : String(error);
+      }
+    }
+    throw new Error(lastError || "Local tear refresh API is unavailable.");
+  } catch (error) {
+    const detail = error instanceof Error ? error.message : String(error);
+    setRefreshStatus(
+      `tear refresh failed. Check Gmail OAuth credentials, then use http://127.0.0.1:4174/x-analysis/. Detail: ${detail}`,
+      "error",
+    );
+  } finally {
+    elements.refreshButton.disabled = false;
+    renderAll();
   }
 }
 
@@ -705,6 +982,22 @@ elements.prevDateButton.addEventListener("click", () => setSelectedDate(adjacent
 elements.nextDateButton.addEventListener("click", () => setSelectedDate(adjacentAvailableDate(1)));
 elements.datePicker.addEventListener("change", () => setSelectedDate(elements.datePicker.value));
 elements.refreshButton.addEventListener("click", runManualRefresh);
+elements.authorTabs.addEventListener("click", (event) => {
+  const target = event.target instanceof Element ? event.target : null;
+  const button = target?.closest("[data-author]");
+  if (!button) return;
+  state.activeAuthor = button.dataset.author || "serenity";
+  saveStoredValue(AUTHOR_STORAGE_KEY, state.activeAuthor);
+  renderAll();
+});
+elements.tearLayerTabs.addEventListener("click", (event) => {
+  const target = event.target instanceof Element ? event.target : null;
+  const button = target?.closest("[data-tear-layer]");
+  if (!button) return;
+  state.activeTearLayer = button.dataset.tearLayer || "";
+  saveStoredValue(TEAR_LAYER_STORAGE_KEY, state.activeTearLayer);
+  renderAll();
+});
 for (const button of elements.tabButtons) {
   button.addEventListener("click", () => {
     state.activeTab = button.dataset.tab || "posts";
