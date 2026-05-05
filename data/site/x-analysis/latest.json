@@ -1,34 +1,568 @@
 {
   "schema_version": "1.0",
   "account": "aleabitoreddit",
-  "generated_at": "2026-05-05T00:45:36+00:00",
+  "generated_at": "2026-05-05T19:27:05+00:00",
   "status": {
-    "post_count": 157,
-    "public_count": 147,
+    "post_count": 166,
+    "public_count": 156,
     "subscriber_only_count": 10,
     "warnings_count": 6
   },
   "posts": [
     {
+      "post_id": "2051738110845997109",
+      "url": "https://x.com/aleabitoreddit/status/2051738110845997109",
+      "account": "aleabitoreddit",
+      "visibility": "public",
+      "collected_at_utc": "2026-05-05T19:23:37+00:00",
+      "published_at": "2026-05-05T18:57:39+00:00",
+      "published_at_source": "x_time_datetime",
+      "summary_cn": "SK Telecom 投资者分享其过去三年持有的最佳投资（Faker）及完整投资组合列表，包含 Anthropic 和 Perplexity 等公司，并提及 6830 和 322310 作为具体持仓案例。",
+      "key_points": [
+        "SK Telecom 将 Faker 视为其过去三年最好的投资。",
+        "帖子列出了 SK Telecom 在过去三年投资的所有公司，包括 Anthropic 和 Perplexity。",
+        "6830 和 322310 在帖子中被明确列为具体持仓，但未提供详细的个股分析理由。",
+        "帖子整体呈现为对 SK Telecom 投资组合的展示，未包含明确的买入或卖出建议。"
+      ],
+      "themes": [
+        "投资组合展示",
+        "SK Telecom 投资",
+        "科技股持仓"
+      ],
+      "mentioned_tickers": [],
+      "stock_views": [],
+      "importance": 0.7,
+      "confidence": 0.6,
+      "risk_notes": [
+        "帖子未提供具体的财务数据或估值分析。",
+        "MSSCORP 和 Auros 的个股分析理由在帖子中未详细说明。",
+        "投资组合列表可能包含未公开披露的持仓信息。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "",
+      "raw_text_available_private_repo": false
+    },
+    {
+      "post_id": "2051732766900019439",
+      "url": "https://x.com/aleabitoreddit/status/2051732766900019439",
+      "account": "aleabitoreddit",
+      "visibility": "public",
+      "collected_at_utc": "2026-05-05T19:23:37+00:00",
+      "published_at": "2026-05-05T18:36:25+00:00",
+      "published_at_source": "x_time_datetime",
+      "summary_cn": "帖文强调光子学（Photonics）和内存（Memory）是最佳主题，指出从$EWY中跳出的$AAOI等光子学相关股票涨幅巨大，并重申光子学/内存是目前最佳交易，同时提及了MSSCORP和Auros作为额外候选标的。",
+      "key_points": [
+        "光子学和内存被明确视为当前最佳主题交易。",
+        "从$EWY（半导体/科技指数）中跳出的$AAOI（Arteris，光子学/AI供应链）涨幅巨大，被视为代际级收益。",
+        "帖文作者认为光子学/内存架构变化微妙，仍是最佳交易。",
+        "6830 和 322310 被提及为潜在的多袋（multi-bagger）或3倍收益（3x brrrs）标的，但具体细节未在帖文中展开。",
+        "帖文主要聚焦于AI供应链，但作者坚持认为光子学/内存优于其他AI供应链。"
+      ],
+      "themes": [
+        "光子学",
+        "内存",
+        "AI供应链",
+        "半导体",
+        "多袋潜力"
+      ],
+      "mentioned_tickers": [
+        "AAOI",
+        "EWY"
+      ],
+      "stock_views": [
+        {
+          "ticker": "EWY",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "作为光子学和内存主题的代表性指数，帖文指出从该指数中跳出的个股（如AAOI）涨幅巨大，暗示该指数整体表现强劲。"
+        },
+        {
+          "ticker": "AAOI",
+          "stance": "bullish",
+          "confidence": 0.9,
+          "reason_cn": "被明确描述为从$EWY中跳出的光子学相关股票，涨幅巨大，且属于帖文作者认为的最佳主题（光子学+内存）。"
+        }
+      ],
+      "importance": 0.9,
+      "confidence": 0.85,
+      "risk_notes": [
+        "帖文未提供MSSCORP和Auros的具体基本面细节（如市场份额、客户、估值等），仅基于共享的多袋/3倍收益主题进行推荐。",
+        "帖文未提及任何风险因素或限制条件。",
+        "帖文为个人观点，不构成投资建议。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "",
+      "raw_text_available_private_repo": false
+    },
+    {
+      "post_id": "2051698843197247930",
+      "url": "https://x.com/aleabitoreddit/status/2051698843197247930",
+      "account": "aleabitoreddit",
+      "visibility": "public",
+      "collected_at_utc": "2026-05-05T19:23:38+00:00",
+      "published_at": "2026-05-05T16:21:37+00:00",
+      "published_at_source": "x_time_datetime",
+      "summary_cn": "用户观察到EWY、SNDK和MU等股票大幅上涨，认为年度收益率已过于离谱，同时提及了6830和322310作为潜在的3倍收益或最佳猜测标的。",
+      "key_points": [
+        "EWY、SNDK和MU被提及为近期大幅上涨的股票，用户认为其年度表现过于夸张。",
+        "6830和322310被作为潜在的'3x brrrs'或'best guesses'提及，但未提供具体的公司基本面细节。",
+        "整体观点偏向看涨，但仅限于对近期市场上涨趋势的观察，缺乏对候选标的的具体分析。"
+      ],
+      "themes": [
+        "市场上涨趋势",
+        "年度收益率过高",
+        "潜在高收益标的猜测"
+      ],
+      "mentioned_tickers": [
+        "EWY",
+        "MU",
+        "SNDK"
+      ],
+      "stock_views": [
+        {
+          "ticker": "EWY",
+          "stance": "bullish",
+          "confidence": 0.6,
+          "reason_cn": "用户指出其上涨幅度巨大，属于整体上涨趋势的一部分。"
+        },
+        {
+          "ticker": "SNDK",
+          "stance": "bullish",
+          "confidence": 0.6,
+          "reason_cn": "用户指出其上涨幅度巨大，属于整体上涨趋势的一部分。"
+        },
+        {
+          "ticker": "MU",
+          "stance": "bullish",
+          "confidence": 0.6,
+          "reason_cn": "用户指出其今日上涨12%，属于整体上涨趋势的一部分。"
+        }
+      ],
+      "importance": 0.7,
+      "confidence": 0.5,
+      "risk_notes": [
+        "候选标的MSSCORP和Auros的具体基本面信息未在文本中提供。",
+        "用户观点基于短期价格波动，缺乏长期基本面分析。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "",
+      "raw_text_available_private_repo": false
+    },
+    {
+      "post_id": "2051694795270365584",
+      "url": "https://x.com/aleabitoreddit/status/2051694795270365584",
+      "account": "aleabitoreddit",
+      "visibility": "public",
+      "collected_at_utc": "2026-05-05T19:23:38+00:00",
+      "published_at": "2026-05-05T16:05:32+00:00",
+      "published_at_source": "x_time_datetime",
+      "summary_cn": "帖子询问了 $POET 是否有新闻，暗示其可能受到空头打压，但未提供具体基本面理由，属于共享看涨观点列表中的不明确条目。",
+      "key_points": [
+        "帖子标题询问 $POET 是否有新闻，暗示其股价表现与空头活动相关。",
+        "帖子未提供 $POET 的具体公司背景、市场份额或估值细节，仅将其作为潜在看涨观点提及。",
+        "帖子整体语气偏向于对 $POET 的关注，但未明确表达看涨或看跌立场。"
+      ],
+      "themes": [
+        "市场情绪",
+        "空头活动",
+        "潜在投资机会"
+      ],
+      "mentioned_tickers": [
+        "POET"
+      ],
+      "stock_views": [
+        {
+          "ticker": "POET",
+          "stance": "unclear",
+          "confidence": 0.2,
+          "reason_cn": "帖子仅询问是否有新闻，暗示可能存在看涨因素，但未提供具体理由或数据支持。"
+        }
+      ],
+      "importance": 0.3,
+      "confidence": 0.2,
+      "risk_notes": [
+        "帖子未提供 $POET 的具体财务数据或市场地位信息。",
+        "帖子语气较为模糊，可能受市场情绪影响较大。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "",
+      "raw_text_available_private_repo": false
+    },
+    {
+      "post_id": "2051628401354785026",
+      "url": "https://x.com/aleabitoreddit/status/2051628401354785026",
+      "account": "aleabitoreddit",
+      "visibility": "public",
+      "collected_at_utc": "2026-05-05T19:23:40+00:00",
+      "published_at": "2026-05-05T11:41:42+00:00",
+      "published_at_source": "x_time_datetime",
+      "summary_cn": "帖子讨论了 $RPI 作为无基本面‘模因股’接近历史高点，并对比了 $APPL 因市值巨大而难以受产品购买量影响，同时提及了 Openclaw/Picoclaw/Nanobot 等概念及囤积行为。",
+      "key_points": [
+        "$RPI 被描述为具有无基本面特征的模因股，正接近历史高点，且基于收入预测记录。",
+        "$APPL 被视为已拥有超过 3.7 万亿美元市值的公司，产品大规模购买无法对其造成实质性影响。",
+        "帖子将 $RPI 的上涨归因于 Openclaw、Picoclaw、Nanobot 概念以及市场囤积行为。",
+        "对比了 Apple 与 Raspberry Pi 在市场反应上的差异，指出后者更具弹性。"
+      ],
+      "themes": [
+        "模因股",
+        "无基本面",
+        "市场囤积",
+        "估值对比"
+      ],
+      "mentioned_tickers": [
+        "APPL",
+        "RPI"
+      ],
+      "stock_views": [
+        {
+          "ticker": "RPI",
+          "stance": "bullish",
+          "confidence": 0.6,
+          "reason_cn": "被视为模因股，接近历史高点，受益于 Openclaw/Picoclaw/Nanobot 概念及市场囤积行为，且收入预测创纪录。"
+        },
+        {
+          "ticker": "APPL",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "作为对比对象，因其巨大市值（3.7T+）而难以受产品购买量影响，未表达明确看涨或看跌观点。"
+        }
+      ],
+      "importance": 0.7,
+      "confidence": 0.6,
+      "risk_notes": [
+        "$RPI 被明确描述为无基本面，存在高波动风险。",
+        "帖子语气偏向模因股投机，缺乏传统基本面分析支持。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "",
+      "raw_text_available_private_repo": false
+    },
+    {
+      "post_id": "2051593478245851178",
+      "url": "https://x.com/aleabitoreddit/status/2051593478245851178",
+      "account": "aleabitoreddit",
+      "visibility": "public",
+      "collected_at_utc": "2026-05-05T19:23:40+00:00",
+      "published_at": "2026-05-05T09:22:56+00:00",
+      "published_at_source": "x_time_datetime",
+      "summary_cn": "帖子表达了对 CPO 板块的极度乐观情绪，引用高盛预测其市场规模将从 2026 年的 1.64 亿美元增长至 2028 年的 910 亿美元，并提及了 6830 和 322310 作为潜在的 3 倍回报（3x brrrs）投资标的。",
+      "key_points": [
+        "CPO 板块被描述为极度看涨，高盛预测其 TAM 将从 2026 年的 150 亿美元增长到 2028 年的 1540 亿美元，其中 CPO 占 910 亿美元。",
+        "帖子将 6830 和 322310 列为潜在的 3 倍回报（3x brrrs）或最佳猜测（best guesses）投资标的。",
+        "对于 6830 和 322310，帖子未提供具体的市场份额、客户或供应商关系等详细信息，仅将其归入共享的看涨主题中。",
+        "帖子未提及任何具体的风险因素或限制条件。"
+      ],
+      "themes": [
+        "CPO 市场增长",
+        "3 倍回报潜力",
+        "高盛预测"
+      ],
+      "mentioned_tickers": [],
+      "stock_views": [],
+      "importance": 0.8,
+      "confidence": 0.7,
+      "risk_notes": [
+        "帖子未提供具体的风险因素或限制条件。",
+        "对于 MSSCORP (6830) 和 Auros (322310)，帖子未提供具体的市场份额、客户或供应商关系等详细信息。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "",
+      "raw_text_available_private_repo": false
+    },
+    {
+      "post_id": "2051571231590379708",
+      "url": "https://x.com/aleabitoreddit/status/2051571231590379708",
+      "account": "aleabitoreddit",
+      "visibility": "public",
+      "collected_at_utc": "2026-05-05T19:23:40+00:00",
+      "published_at": "2026-05-05T07:54:32+00:00",
+      "published_at_source": "x_time_datetime",
+      "summary_cn": "用户@aleabitoreddit 回顾了过去一年对 $AXTI、$SOI、$TSEM、$AAOI、$IQE、$LITE、$AEHR、$COHR 等股票的看涨预测，并特别强调 $SIVE 和 $SIVEF 是当前的核心关注点，认为其上涨概率极高，同时提及了其他如 Innolight 等股票的历史表现。",
+      "key_points": [
+        "用户列举了多只股票（$AXTI、$SOI、$TSEM、$AAOI、$IQE、$LITE、$AEHR、$COHR）在过去一年中的看涨预测及预期涨幅，将其描述为'best guesses'或'3x brrrs'，表明这些股票共享一个看涨的投资逻辑。",
+        "用户特别指出 $SIVE 和 $SIVEF 是当前的'Quote TopInvestor'关注的重点，认为其上涨概率（probability）非常高，且之前类似的看涨预测已多次应验。",
+        "对于 $SIVE 和 $SIVEF，用户未提供具体的公司基本面细节（如市场份额、客户等），而是基于历史预测准确率和当前市场情绪给出看涨观点，具体细节有限。",
+        "文中提到的其他股票（如 $COHR、Innolight）作为历史案例被提及，用于佐证用户看涨策略的有效性，但未在当前帖文中展开新的具体论点。"
+      ],
+      "themes": [
+        "看涨预测回顾",
+        "高概率机会",
+        "共享看涨逻辑",
+        "历史业绩验证"
+      ],
+      "mentioned_tickers": [
+        "AAOI",
+        "AEHR",
+        "AXTI",
+        "COHR",
+        "IQE",
+        "LITE",
+        "SIVE",
+        "SIVEF",
+        "SOI",
+        "TSEM"
+      ],
+      "stock_views": [
+        {
+          "ticker": "AXTI",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "作为用户回顾的'best guesses'列表之一，共享看涨逻辑，预测从$12涨至$105。"
+        },
+        {
+          "ticker": "SOI",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "作为用户回顾的'best guesses'列表之一，共享看涨逻辑，预测从$43涨至$145。"
+        },
+        {
+          "ticker": "TSEM",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "作为用户回顾的'best guesses'列表之一，共享看涨逻辑，预测从$110涨至$218。"
+        },
+        {
+          "ticker": "AAOI",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "作为用户回顾的'best guesses'列表之一，共享看涨逻辑，预测从$30涨至$180。"
+        },
+        {
+          "ticker": "IQE",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "作为用户回顾的'best guesses'列表之一，共享看涨逻辑，预测从$13涨至$46。"
+        },
+        {
+          "ticker": "LITE",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "作为用户回顾的'best guesses'列表之一，共享看涨逻辑，预测从$363涨至$1000。"
+        },
+        {
+          "ticker": "AEHR",
+          "stance": "bullish",
+          "confidence": 0.8,
+          "reason_cn": "作为用户回顾的'best guesses'列表之一，共享看涨逻辑，预测从$30涨至$85（若计算siph segment）。"
+        },
+        {
+          "ticker": "COHR",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "作为用户回顾的'best guesses'列表之一，共享看涨逻辑，提及去年表现。"
+        },
+        {
+          "ticker": "SIVE",
+          "stance": "bullish",
+          "confidence": 0.95,
+          "reason_cn": "用户认为这是'Quote TopInvestor'最关注的标的，上涨概率极低（即错误概率极低），基于历史看涨预测多次应验。"
+        },
+        {
+          "ticker": "SIVEF",
+          "stance": "bullish",
+          "confidence": 0.95,
+          "reason_cn": "与$SIVE关联，用户认为其上涨概率极高，基于历史看涨预测多次应验。"
+        }
+      ],
+      "importance": 0.9,
+      "confidence": 0.85,
+      "risk_notes": [
+        "文中提到的涨幅预测（如$12 -> $105）为历史回顾，不代表未来表现。",
+        "对于$SIVE和$SIVEF，用户未提供具体的公司基本面细节（如市场份额、客户、供应商关系等），仅基于历史预测准确率和市场情绪给出观点，存在信息不足的风险。",
+        "用户提到'if you count siph segment'，表明对$AEHR的看涨观点依赖于特定细分市场的计算，可能存在不确定性。",
+        "文中未提及任何看跌观点或风险提示，整体情绪偏向乐观，需警惕市场波动。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "",
+      "raw_text_available_private_repo": false
+    },
+    {
+      "post_id": "2051566667009073315",
+      "url": "https://x.com/aleabitoreddit/status/2051566667009073315",
+      "account": "aleabitoreddit",
+      "visibility": "public",
+      "collected_at_utc": "2026-05-05T19:23:40+00:00",
+      "published_at": "2026-05-05T07:36:24+00:00",
+      "published_at_source": "x_time_datetime",
+      "summary_cn": "帖子回顾了与 $SIVE 相关的近期信息发现及映射，涉及 $JBL、$MRVL、$POET、$GFS、$AMD、$AAPL、$YSS、$RTX 和 $ERIC 等芯片与光子学生态系统的公司，并提及了 $SIVE 的潜在合作伙伴及供应链关系。",
+      "key_points": [
+        "帖子列出了 $SIVE 的潜在映射关系，包括 $JBL、$MRVL、$POET、$GFS、$AMD、$AAPL、$YSS、$RTX 和 $ERIC。",
+        "提到的公司涵盖了从光模块（$JBL, $MRVL）到光子学（$AMD, $AAPL）及国防/通信（$RTX, $ERIC）的多个领域。",
+        "帖子未提供具体公司的市场份额、客户或估值细节，仅作为信息发现与映射的概览。",
+        "整体观点倾向于对这些公司作为 $SIVE 生态系统的潜在受益者持看涨态度。"
+      ],
+      "themes": [
+        "光通信与光子学生态系统",
+        "供应链映射",
+        "信息发现与潜在投资标的"
+      ],
+      "mentioned_tickers": [
+        "AAPL",
+        "AMD",
+        "ERIC",
+        "GFS",
+        "JBL",
+        "MRVL",
+        "POET",
+        "RTX",
+        "SIVE",
+        "YSS"
+      ],
+      "stock_views": [
+        {
+          "ticker": "SIVE",
+          "stance": "bullish",
+          "confidence": 0.6,
+          "reason_cn": "作为信息发现与映射的核心标的，帖子将其与其他芯片和光子学公司联系起来，暗示其生态系统的价值。"
+        },
+        {
+          "ticker": "JBL",
+          "stance": "bullish",
+          "confidence": 0.5,
+          "reason_cn": "被列为 $SIVE 映射关系中的关键组件，属于光模块领域。"
+        },
+        {
+          "ticker": "MRVL",
+          "stance": "bullish",
+          "confidence": 0.5,
+          "reason_cn": "作为 $SIVE 映射关系中的关键组件，属于光模块领域。"
+        },
+        {
+          "ticker": "POET",
+          "stance": "bullish",
+          "confidence": 0.5,
+          "reason_cn": "作为 $SIVE 映射关系中的关键组件，属于光子学领域。"
+        },
+        {
+          "ticker": "GFS",
+          "stance": "bullish",
+          "confidence": 0.5,
+          "reason_cn": "作为 $SIVE 映射关系中的关键组件，属于光子学生态系统。"
+        },
+        {
+          "ticker": "AMD",
+          "stance": "bullish",
+          "confidence": 0.5,
+          "reason_cn": "作为 $SIVE 映射关系中的关键组件，属于 CPO 领域。"
+        },
+        {
+          "ticker": "AAPL",
+          "stance": "bullish",
+          "confidence": 0.5,
+          "reason_cn": "作为 $SIVE 映射关系中的关键组件，属于光子学领域。"
+        },
+        {
+          "ticker": "YSS",
+          "stance": "bullish",
+          "confidence": 0.5,
+          "reason_cn": "作为 $SIVE 映射关系中的关键组件，属于 Golden Dome/DoD 领域。"
+        },
+        {
+          "ticker": "RTX",
+          "stance": "bullish",
+          "confidence": 0.5,
+          "reason_cn": "作为 $SIVE 映射关系中的关键组件，属于国防领域。"
+        },
+        {
+          "ticker": "ERIC",
+          "stance": "bullish",
+          "confidence": 0.5,
+          "reason_cn": "作为 $SIVE 映射关系中的关键组件，属于通信领域。"
+        }
+      ],
+      "importance": 0.7,
+      "confidence": 0.6,
+      "risk_notes": [
+        "帖子仅作为信息发现与映射的概览，未提供具体公司的市场份额、客户或估值细节。",
+        "帖子未提供具体的投资建议，仅作为信息发现与映射的概览。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "",
+      "raw_text_available_private_repo": false
+    },
+    {
+      "post_id": "2051472715165704657",
+      "url": "https://x.com/aleabitoreddit/status/2051472715165704657",
+      "account": "aleabitoreddit",
+      "visibility": "public",
+      "collected_at_utc": "2026-05-05T19:23:40+00:00",
+      "published_at": "2026-05-05T01:23:04+00:00",
+      "published_at_source": "x_time_datetime",
+      "summary_cn": "发帖者认为机构低估了 Shunsin (6451)，将其视为英伟达 (NVDA) 光互连 (CPO) 扩张的受益者，并指出富士康 (Foxconn) 被英伟达选为 Groq 加速器的独家机架级供应商，这对 Shunsin 的光学封装部门是重大利好，同时提及台积电 (TSM) 和 ASX 是富士康的供应链合作伙伴。",
+      "key_points": [
+        "Shunsin (6451) 被视为英伟达 (NVDA) CPO 光互连扩张的潜在受益者，发帖者认为机构（如高盛 GS）低估了其价值。",
+        "Shunsin (6451) 被描述为富士康 (Foxconn) 光学封装部门的受益者，因为富士康被英伟达 (NVDA) 选为 Groq 加速器的独家机架级供应商。",
+        "台积电 (TSM) 和 ASX 被提及为富士康 (Foxconn) 的主要供应链合作伙伴，暗示其在相关供应链中的重要性。",
+        "发帖者明确表示不需要每天发布持仓名称，但特意补充了关于 Shunsin (6451) 的遗漏信息。"
+      ],
+      "themes": [
+        "光互连 (CPO)",
+        "供应链",
+        "机构低估",
+        "独家供应商关系"
+      ],
+      "mentioned_tickers": [
+        "6451",
+        "ASX",
+        "NVDA",
+        "TSM"
+      ],
+      "stock_views": [
+        {
+          "ticker": "6451",
+          "stance": "bullish",
+          "confidence": 0.85,
+          "reason_cn": "被视为英伟达 CPO 扩张的受益者，且因富士康被选为 Groq 独家供应商而直接受益。"
+        },
+        {
+          "ticker": "NVDA",
+          "stance": "bullish",
+          "confidence": 0.7,
+          "reason_cn": "作为 CPO 扩张和 Groq 加速器项目的核心驱动因素，其供应链动态（如选择富士康）被视为积极信号。"
+        },
+        {
+          "ticker": "TSM",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "仅作为富士康的供应链合作伙伴被提及，未提供具体的看涨或看跌理由。"
+        },
+        {
+          "ticker": "ASX",
+          "stance": "neutral",
+          "confidence": 0.5,
+          "reason_cn": "仅作为富士康的供应链合作伙伴被提及，未提供具体的看涨或看跌理由。"
+        }
+      ],
+      "importance": 0.75,
+      "confidence": 0.7,
+      "risk_notes": [
+        "发帖者明确表示不需要每天发布持仓名称，因此部分观点可能不完整。",
+        "对于 TSM 和 ASX，仅提及供应链关系，缺乏具体的基本面分析或估值数据。",
+        "Shunsin (6451) 的看涨观点基于假设（机构低估），未提供具体的财务数据支持。"
+      ],
+      "fallback_used": false,
+      "raw_excerpt": "",
+      "raw_text_available_private_repo": false
+    },
+    {
       "post_id": "2051432439432740931",
       "url": "https://x.com/aleabitoreddit/status/2051432439432740931",
       "account": "aleabitoreddit",
       "visibility": "public",
-      "collected_at_utc": "2026-05-05T00:42:42+00:00",
+      "collected_at_utc": "2026-05-05T19:23:40+00:00",
       "published_at": "2026-05-04T22:43:01+00:00",
       "published_at_source": "x_time_datetime",
-      "summary_cn": "Sivers ($SIVE) 因被确认为 GFS 生态系统中的两家公开激光供应商之一而受到积极关注，GFS 推出 SCALE 解决方案后股价上涨，AMD 作为使用 GFS 进行 CPO 解决方案的半导体公司被提及，整体观点偏向看涨。",
+      "summary_cn": "GFS 推出 SCALE 解决方案并上涨 4.3%，被视为对 $SIVE 的利好信号，因其作为 GFS 生态系统中仅有的两家公开激光供应商之一被纳入演示；AMD 使用 GFS 进行 CPO 解决方案也被提及为积极因素。",
       "key_points": [
-        "$SIVE 被明确列为 GFS 生态系统图像演示中的两家公开激光供应商之一，这被视为对 Sivers 的高度看涨指标。",
-        "GFS 宣布其 SCALE™解决方案后股价上涨 4.3%，这一事件被解读为对 $SIVE 的利好。",
-        "$AMD 被提及为使用 GFS 构建 CPO 光学解决方案的半导体公司，表明其在相关供应链中的角色。",
-        "帖子整体围绕 GFS 生态系统的扩展及其对 $SIVE 和 $AMD 的潜在影响展开，未提供 $GFS 以外的具体个股详细分析。"
+        "$GFS 宣布其 SCALE™解决方案，股价上涨 4.3%，被解读为市场可能错过的积极信号。",
+        "$SIVE 被明确提及为 GFS 生态系统中两家公开激光供应商之一，其被纳入演示被视为高度看涨指标。",
+        "$AMD 被提及使用 $GFS 构建 CPO 光学解决方案，进一步支持 GFS 生态系统的积极前景。",
+        "帖子整体基调为看涨，但未提供 $SIVE 或 $AMD 的具体估值或市场份额细节，仅依赖共享的生态系统叙事。"
       ],
       "themes": [
-        "GFS 生态系统扩展",
-        "激光供应商地位",
-        "CPO 光学解决方案",
-        "供应链整合"
+        "光通信与激光技术",
+        "供应链整合",
+        "市场情绪与催化剂"
       ],
       "mentioned_tickers": [
         "AMD",
@@ -39,28 +573,28 @@
         {
           "ticker": "SIVE",
           "stance": "bullish",
-          "confidence": 0.85,
-          "reason_cn": "被确认为 GFS 生态系统中两家公开激光供应商之一，且 GFS 宣布 SCALE 解决方案后股价上涨，直接利好 SIVE。"
+          "confidence": 0.75,
+          "reason_cn": "作为 GFS 生态系统中两家公开激光供应商之一被纳入演示，被视为高度看涨指标。"
         },
         {
           "ticker": "GFS",
           "stance": "bullish",
-          "confidence": 0.75,
-          "reason_cn": "GFS 宣布 SCALE™解决方案后股价上涨 4.3%，且其作为激光供应商在 AMD 等公司的 CPO 解决方案中被采用。"
+          "confidence": 0.85,
+          "reason_cn": "推出 SCALE 解决方案后股价上涨 4.3%，且被 AMD 用于 CPO 解决方案，显示其技术被主流半导体公司采用。"
         },
         {
           "ticker": "AMD",
           "stance": "bullish",
           "confidence": 0.6,
-          "reason_cn": "作为使用 GFS 构建 CPO 光学解决方案的半导体公司，受益于 GFS 生态系统的扩展。"
+          "reason_cn": "被提及使用 GFS 构建 CPO 光学解决方案，间接支持 GFS 生态系统的价值，但未提供 AMD 自身的具体财务或产品细节。"
         }
       ],
       "importance": 0.8,
-      "confidence": 0.75,
+      "confidence": 0.7,
       "risk_notes": [
-        "帖子未提供 $SIVE、$GFS 或 $AMD 的具体估值数据或风险因素。",
-        "分析基于单一帖子的观点，可能缺乏全面的市场背景。",
-        "未提及 $AMD 的具体产品细节或市场份额，仅作为供应链参与者被提及。"
+        "帖子未提供 $SIVE 或 $AMD 的具体估值、市场份额或客户合同细节，仅依赖共享的生态系统叙事。",
+        "市场情绪可能过度乐观，缺乏对潜在竞争或技术障碍的讨论。",
+        "帖子未提及任何负面催化剂或监管风险。"
       ],
       "fallback_used": false,
       "raw_excerpt": "",
@@ -9552,19 +10086,21 @@
   "stock_views": [
     {
       "ticker": "SIVE",
-      "bullish_count": 41,
+      "bullish_count": 43,
       "bearish_count": 1,
       "neutral_count": 1,
       "mixed_count": 0,
       "unclear_count": 1,
       "latest_reasons": [
-        "被确认为 GFS 生态系统中两家公开激光供应商之一，且 GFS 宣布 SCALE 解决方案后股价上涨，直接利好 SIVE。",
+        "用户认为这是'Quote TopInvestor'最关注的标的，上涨概率极低（即错误概率极低），基于历史看涨预测多次应验。",
+        "作为信息发现与映射的核心标的，帖子将其与其他芯片和光子学公司联系起来，暗示其生态系统的价值。",
+        "作为 GFS 生态系统中两家公开激光供应商之一被纳入演示，被视为高度看涨指标。",
         "被推测为 Lightelligence 的潜在激光供应商，且属于'3x brrrs'或'best guesses'看涨列表。",
-        "被视为 CPO/硅光子领域的下一个 $LITE，是即将推出的 CPO/硅光子公司的激光供应商，目前市值约 1.4 亿美元。",
-        "作为 CPO 激光供应商，处于技术前沿，受益于 CPO 市场从 150 亿美元到 1540 亿美元的超级周期增长。",
-        "作为CPO激光器领域的关键标的，被明确列为'3x brrrs'（三倍回报）或'best guesses'（最佳猜测）之一，受益于CPO市场预计142%的复合年增长率。"
+        "被视为 CPO/硅光子领域的下一个 $LITE，是即将推出的 CPO/硅光子公司的激光供应商，目前市值约 1.4 亿美元。"
       ],
       "post_ids": [
+        "2051571231590379708",
+        "2051566667009073315",
         "2051432439432740931",
         "2051357868126044577",
         "2051305220236607986",
@@ -9614,19 +10150,20 @@
     },
     {
       "ticker": "NVDA",
-      "bullish_count": 19,
+      "bullish_count": 20,
       "bearish_count": 0,
       "neutral_count": 4,
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
+        "作为 CPO 扩张和 Groq 加速器项目的核心驱动因素，其供应链动态（如选择富士康）被视为积极信号。",
         "作为未来需要 InP 激光器支持的 TPU v7 芯片和超大规模集群的代表，受益于 $AXTI 和 $SMTOY 的供应链。",
         "下周的 GTC 会议被视为光子学和该架构的最大催化剂，间接支撑其作为 CPO 板块核心驱动的地位。",
         "作为 MSSCORP 的关键客户，受益于 CPO 产能爬坡带来的收益，且 MSSCORP 的垄断地位对其至关重要。",
-        "作为金曼报告中覆盖的生态系统核心，但报告仅关注明显名称，暗示其重要性。",
-        "被描述为生态系统中的核心组成部分，且帖子整体对未被覆盖的标的持看涨态度，暗示其作为知名标的同样受益于该逻辑。"
+        "作为金曼报告中覆盖的生态系统核心，但报告仅关注明显名称，暗示其重要性。"
       ],
       "post_ids": [
+        "2051472715165704657",
         "2051322315649290619",
         "2051319157552267710",
         "2051105661220774266",
@@ -9655,19 +10192,20 @@
     },
     {
       "ticker": "SOI",
-      "bullish_count": 15,
+      "bullish_count": 16,
       "bearish_count": 0,
       "neutral_count": 1,
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
+        "作为用户回顾的'best guesses'列表之一，共享看涨逻辑，预测从$43涨至$145。",
         "用户观察到其股价大幅上涨，表现出积极态度。",
         "股价被描述为直线上涨，验证了作者的看涨观点。",
         "被用户发现并定义为 $AXTI 的 SiPH 基板等价物，属于'3x brrrs'看涨组合的一部分。",
-        "其他机构在零售投资者恐慌抛售时悄悄做多 $SOI，暗示其被低估或具有投资价值。",
-        "一个月内上涨153.9%，表现优异。"
+        "其他机构在零售投资者恐慌抛售时悄悄做多 $SOI，暗示其被低估或具有投资价值。"
       ],
       "post_ids": [
+        "2051571231590379708",
         "2051319157552267710",
         "2051202378058346567",
         "2050790690591048002",
@@ -9689,19 +10227,20 @@
     },
     {
       "ticker": "MRVL",
-      "bullish_count": 14,
+      "bullish_count": 15,
       "bearish_count": 1,
       "neutral_count": 5,
       "mixed_count": 1,
       "unclear_count": 1,
       "latest_reasons": [
+        "作为 $SIVE 映射关系中的关键组件，属于光模块领域。",
         "上涨54%，但被用户视为相对跑输者，无额外基本面理由。",
         "作为CPO技术的主要客户，被提及为SIVE等公司的潜在买家或合作伙伴。",
         "推测 Marvell 可能直接从 Sivers 采购激光器，改变现有供应链结构。",
-        "帖子提到 MRVL 可能已改变采购策略，直接从 Sivers 购买激光器，但这是推测性的，且市场因合作取消而恐慌。",
-        "在‘买入’列表中，作为博通代表，作者对其持强烈看多态度。"
+        "帖子提到 MRVL 可能已改变采购策略，直接从 Sivers 购买激光器，但这是推测性的，且市场因合作取消而恐慌。"
       ],
       "post_ids": [
+        "2051566667009073315",
         "2050462731149730222",
         "2050093551313469467",
         "2049767690425016780",
@@ -9731,17 +10270,18 @@
       "ticker": "TSM",
       "bullish_count": 14,
       "bearish_count": 0,
-      "neutral_count": 1,
+      "neutral_count": 2,
       "mixed_count": 0,
       "unclear_count": 1,
       "latest_reasons": [
+        "仅作为富士康的供应链合作伙伴被提及，未提供具体的看涨或看跌理由。",
         "作为 MSSCORP 的关键客户，受益于 CPO 产能爬坡带来的收益，且 MSSCORP 的垄断地位对其至关重要。",
         "作为6830（MSSCORP）的潜在客户，被提及为CPO产业链的重要参与者。",
         "作为 Lightmatter 的合作伙伴之一，受益于其业务扩张，但具体细节有限。",
-        "在‘买入’列表中，作为台积电代表，作者对其持强烈看多态度。",
-        "被明确列为强烈买入"
+        "在‘买入’列表中，作为台积电代表，作者对其持强烈看多态度。"
       ],
       "post_ids": [
+        "2051472715165704657",
         "2051105661220774266",
         "2050093551313469467",
         "2049767690425016780",
@@ -9758,6 +10298,38 @@
         "2048449289152778686",
         "2047520460884353096",
         "2045578992452063383"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "AAOI",
+      "bullish_count": 14,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被明确描述为从$EWY中跳出的光子学相关股票，涨幅巨大，且属于帖文作者认为的最佳主题（光子学+内存）。",
+        "作为用户回顾的'best guesses'列表之一，共享看涨逻辑，预测从$30涨至$180。",
+        "作为去年预测的一部分，且用户推测存在一个可能是其'equivalent'（等价物）的新标的，暗示其地位稳固。",
+        "一个月内上涨100%，表现优异。",
+        "股价上涨12.47%，被包含在'3x brrrs'看涨组合中，作者暗示其原始看涨论点有效。"
+      ],
+      "post_ids": [
+        "2051732766900019439",
+        "2051571231590379708",
+        "2050790690591048002",
+        "2050462731149730222",
+        "2050237030828052862",
+        "2049576551944204385",
+        "2049227875812045146",
+        "2049160131641004263",
+        "2049015455160111466",
+        "2048929438679896317",
+        "2048123597223579736",
+        "2047705901486985666",
+        "2047688270231027947",
+        "2047426124586893566"
       ],
       "net_stance": "bullish"
     },
@@ -9795,19 +10367,20 @@
     },
     {
       "ticker": "LITE",
-      "bullish_count": 12,
+      "bullish_count": 13,
       "bearish_count": 0,
       "neutral_count": 2,
       "mixed_count": 0,
       "unclear_count": 1,
       "latest_reasons": [
+        "作为用户回顾的'best guesses'列表之一，共享看涨逻辑，预测从$363涨至$1000。",
         "作为当前光收发器的供应商被提及，$SIVE 被类比为下一个 $LITE。",
         "被明确列为激光瓶颈的最佳曝光，提供对光子学和 CPO 的广泛选择权。",
         "作为行业参与者，其支出导致产能瓶颈，被视为看涨名单的一部分。",
-        "被视为 CPO 领域的核心标的，且 $SIVE 被提出作为其潜在的低估值替代或等价物。",
-        "作为SIVE的竞争对手和CPO激光领域的标杆，被用作SIVE未来市值扩张的参照对象（speedrun $LITE 's $60B MC）。"
+        "被视为 CPO 领域的核心标的，且 $SIVE 被提出作为其潜在的低估值替代或等价物。"
       ],
       "post_ids": [
+        "2051571231590379708",
         "2051305220236607986",
         "2051014522610372712",
         "2050833230736269767",
@@ -9827,50 +10400,21 @@
       "net_stance": "bullish"
     },
     {
-      "ticker": "AAOI",
-      "bullish_count": 12,
-      "bearish_count": 0,
-      "neutral_count": 0,
-      "mixed_count": 0,
-      "unclear_count": 0,
-      "latest_reasons": [
-        "作为去年预测的一部分，且用户推测存在一个可能是其'equivalent'（等价物）的新标的，暗示其地位稳固。",
-        "一个月内上涨100%，表现优异。",
-        "股价上涨12.47%，被包含在'3x brrrs'看涨组合中，作者暗示其原始看涨论点有效。",
-        "用户将其列为积极组合中的股票，并祝愿其成为百万富翁。",
-        "被提及为'3x brrrs'或'best guesses'之一，共享看涨逻辑，但具体细节有限。"
-      ],
-      "post_ids": [
-        "2050790690591048002",
-        "2050462731149730222",
-        "2050237030828052862",
-        "2049576551944204385",
-        "2049227875812045146",
-        "2049160131641004263",
-        "2049015455160111466",
-        "2048929438679896317",
-        "2048123597223579736",
-        "2047705901486985666",
-        "2047688270231027947",
-        "2047426124586893566"
-      ],
-      "net_stance": "bullish"
-    },
-    {
       "ticker": "AXTI",
-      "bullish_count": 11,
+      "bullish_count": 12,
       "bearish_count": 0,
       "neutral_count": 0,
       "mixed_count": 1,
       "unclear_count": 0,
       "latest_reasons": [
+        "作为用户回顾的'best guesses'列表之一，共享看涨逻辑，预测从$12涨至$105。",
         "被视为最传奇的投资观点，控制全球大部分 InP 衬底，是未来 AI 芯片的关键瓶颈，市值接近 53 亿美元时难以被超越。",
         "在过去一年中上涨超过 6000%，被描述为早期受益者之一。",
         "被视为 SiPH 基板领域的标杆，且 $SOI 被提出作为其潜在的低估值替代或等价物。",
-        "股价上涨17.34%，被包含在'3x brrrs'看涨组合中，作者暗示其原始看涨论点有效。",
-        "帖子同时呈现了看涨和看跌观点。看涨理由是其在 InP 供应链中的高份额（40%+）及作为少数供应商的地位；看跌理由是市场规模小、技术非专有以及高估值倍数。"
+        "股价上涨17.34%，被包含在'3x brrrs'看涨组合中，作者暗示其原始看涨论点有效。"
       ],
       "post_ids": [
+        "2051571231590379708",
         "2051322315649290619",
         "2051305220236607986",
         "2050790690591048002",
@@ -9888,19 +10432,20 @@
     },
     {
       "ticker": "AMD",
-      "bullish_count": 11,
+      "bullish_count": 12,
       "bearish_count": 0,
       "neutral_count": 1,
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "作为使用 GFS 构建 CPO 光学解决方案的半导体公司，受益于 GFS 生态系统的扩展。",
+        "作为 $SIVE 映射关系中的关键组件，属于 CPO 领域。",
+        "被提及使用 GFS 构建 CPO 光学解决方案，间接支持 GFS 生态系统的价值，但未提供 AMD 自身的具体财务或产品细节。",
         "作为CPO技术的主要客户，被提及为SIVE等公司的潜在买家或合作伙伴。",
         "与 $GFS 在 CPO 领域合作，属于共享看涨主题列表。",
-        "在 CPO 领域的进展与 $GFS 的合作显著降低了 $SIVE 公司的整体风险。",
-        "其 CPO 项目被提及，且 $SIVE 被视为其潜在的激光供应商，暗示供应链合作机会。"
+        "在 CPO 领域的进展与 $GFS 的合作显著降低了 $SIVE 公司的整体风险。"
       ],
       "post_ids": [
+        "2051566667009073315",
         "2051432439432740931",
         "2050093551313469467",
         "2049032343974007088",
@@ -9913,6 +10458,35 @@
         "2046696582696083634",
         "2046494023297429645",
         "2046363533471035793"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "POET",
+      "bullish_count": 8,
+      "bearish_count": 2,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 1,
+      "latest_reasons": [
+        "帖子仅询问是否有新闻，暗示可能存在看涨因素，但未提供具体理由或数据支持。",
+        "作为 $SIVE 映射关系中的关键组件，属于光子学领域。",
+        "被提及为 $SIVE 的潜在客户，类似于 $LITE 当前向 Innolight 供货的关系。",
+        "作为CPO技术的主要客户，被提及为SIVE等公司的潜在买家或合作伙伴。",
+        "负责蒸煮龙虾并准备即食容器，处于供应链关键环节。"
+      ],
+      "post_ids": [
+        "2051694795270365584",
+        "2051566667009073315",
+        "2051305220236607986",
+        "2050093551313469467",
+        "2048833654336729213",
+        "2048817355141337188",
+        "2048785899610427809",
+        "2047209727738957983",
+        "2046918449168085183",
+        "2046894773706035638",
+        "2046879187076817237"
       ],
       "net_stance": "bullish"
     },
@@ -9947,33 +10521,6 @@
       "net_stance": "bearish"
     },
     {
-      "ticker": "POET",
-      "bullish_count": 7,
-      "bearish_count": 2,
-      "neutral_count": 0,
-      "mixed_count": 0,
-      "unclear_count": 0,
-      "latest_reasons": [
-        "被提及为 $SIVE 的潜在客户，类似于 $LITE 当前向 Innolight 供货的关系。",
-        "作为CPO技术的主要客户，被提及为SIVE等公司的潜在买家或合作伙伴。",
-        "负责蒸煮龙虾并准备即食容器，处于供应链关键环节。",
-        "超大规模云服务商可能垂直整合，且 $POET 未能实现多源供应，面临被 $MRVL 取代的风险。",
-        "因 CFO 违反 NDA 导致订单取消，股价下跌 46%，但拥有现金缓冲。"
-      ],
-      "post_ids": [
-        "2051305220236607986",
-        "2050093551313469467",
-        "2048833654336729213",
-        "2048817355141337188",
-        "2048785899610427809",
-        "2047209727738957983",
-        "2046918449168085183",
-        "2046894773706035638",
-        "2046879187076817237"
-      ],
-      "net_stance": "bullish"
-    },
-    {
       "ticker": "INTC",
       "bullish_count": 9,
       "bearish_count": 0,
@@ -10005,19 +10552,20 @@
     },
     {
       "ticker": "COHR",
-      "bullish_count": 7,
+      "bullish_count": 8,
       "bearish_count": 0,
       "neutral_count": 2,
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
+        "作为用户回顾的'best guesses'列表之一，共享看涨逻辑，提及去年表现。",
         "被明确列为激光瓶颈的最佳曝光，提供对光子学和 CPO 的广泛选择权。",
         "作为行业参与者，其支出导致产能瓶颈，被视为看涨名单的一部分。",
         "作为去年'超级周期'预测的一部分被提及，具体当前角色未详述，但被归入看涨组合。",
-        "作为CPO激光领域的领先公司，与SIVE并列被视为该领域的'bleeding edge'（前沿）。",
-        "被 $NVDA 收购分配份额，具体细节有限，属于共享看涨主题列表。"
+        "作为CPO激光领域的领先公司，与SIVE并列被视为该领域的'bleeding edge'（前沿）。"
       ],
       "post_ids": [
+        "2051571231590379708",
         "2051014522610372712",
         "2050833230736269767",
         "2050790690591048002",
@@ -10032,19 +10580,20 @@
     },
     {
       "ticker": "AAPL",
-      "bullish_count": 7,
+      "bullish_count": 8,
       "bearish_count": 0,
       "neutral_count": 3,
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
+        "作为 $SIVE 映射关系中的关键组件，属于光子学领域。",
         "被列为 MSSCORP 的客户之一，但帖子未提供具体的看涨或看跌理由，仅作为客户列表提及。",
         "作为硅光技术的主要客户（Apple Watches），被提及为SIVE等公司的潜在买家或合作伙伴。",
         "作为 6830 的客户被提及，文中未提供独立观点。",
-        "其 SiPH 市场潜力目前未被市场充分认知，构成潜在 upside，是 $SIVE 逻辑的一部分。",
-        "被视为 $SIVE 的潜在大客户，若属实则构成重大利好，但存在讨论可能过早的风险。"
+        "其 SiPH 市场潜力目前未被市场充分认知，构成潜在 upside，是 $SIVE 逻辑的一部分。"
       ],
       "post_ids": [
+        "2051566667009073315",
         "2051105661220774266",
         "2050093551313469467",
         "2049655082250314014",
@@ -10060,19 +10609,20 @@
     },
     {
       "ticker": "SNDK",
-      "bullish_count": 6,
+      "bullish_count": 7,
       "bearish_count": 0,
       "neutral_count": 1,
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
+        "用户指出其上涨幅度巨大，属于整体上涨趋势的一部分。",
         "上涨70%，但被用户视为相对跑输者，无额外基本面理由。",
         "作者强调 $SNDK 面临 3 年预购需求，被描述为‘黑洞’，反驳了关于需求枯竭的担忧。",
         "SNDK 财报数据（营收、EPS、毛利率）均大幅超出市场预期，且 Q4 指引强劲，显示公司增长势头强劲。",
-        "作为内存板块核心成员，受益于SK海力士和三星增加的资本支出，且被归类为市场忽视的看涨名单（3x brrrs）之一。",
-        "帖子指出 $SNDK 是光电子和内存领域增长最快的公司之一，且股价呈超几何式增长，表明其市场表现强劲。"
+        "作为内存板块核心成员，受益于SK海力士和三星增加的资本支出，且被归类为市场忽视的看涨名单（3x brrrs）之一。"
       ],
       "post_ids": [
+        "2051698843197247930",
         "2050462731149730222",
         "2050265078965182518",
         "2049956624480276628",
@@ -10080,6 +10630,157 @@
         "2047688270231027947",
         "2047426124586893566",
         "2047182611160965383"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "GFS",
+      "bullish_count": 7,
+      "bearish_count": 0,
+      "neutral_count": 2,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "作为 $SIVE 映射关系中的关键组件，属于光子学生态系统。",
+        "推出 SCALE 解决方案后股价上涨 4.3%，且被 AMD 用于 CPO 解决方案，显示其技术被主流半导体公司采用。",
+        "作为 Lightmatter 的合作伙伴之一，受益于其业务扩张，但具体细节有限。",
+        "与 $AMD 在 CPO 领域合作，属于共享看涨主题列表。",
+        "与 $AMD 的合作关系帮助降低了 $SIVE 公司的风险，是看涨 $SIVE 逻辑的一部分。"
+      ],
+      "post_ids": [
+        "2051566667009073315",
+        "2051432439432740931",
+        "2049767690425016780",
+        "2049032343974007088",
+        "2048801270337831047",
+        "2048663719933333524",
+        "2046696582696083634",
+        "2046494023297429645",
+        "2046363533471035793"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "TSEM",
+      "bullish_count": 6,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "作为用户回顾的'best guesses'列表之一，共享看涨逻辑，预测从$110涨至$218。",
+        "作为CPO代工厂领域的关键标的，被明确列为'3x brrrs'（三倍回报）或'best guesses'（最佳猜测）之一，受益于CPO市场预计142%的复合年增长率。",
+        "作为 CPO 市场中的代工厂，受益于 CPO 市场的急剧增长。",
+        "作为 Lightmatter 的合作伙伴之一，受益于其业务扩张，但具体细节有限。",
+        "帖子认为该公司不受OpenAI内部泄露影响，市场反应过度。"
+      ],
+      "post_ids": [
+        "2051571231590379708",
+        "2051033642416361642",
+        "2050762148545216899",
+        "2049767690425016780",
+        "2049160131641004263",
+        "2049006161500991925",
+        "2048123597223579736"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "SIVEF",
+      "bullish_count": 6,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "与$SIVE关联，用户认为其上涨概率极高，基于历史看涨预测多次应验。",
+        "被推测为 Lightelligence 的潜在激光供应商，且属于'3x brrrs'或'best guesses'看涨列表。",
+        "与 SIVE 共享相同的机构持仓变化逻辑，虽未单独详述，但隐含在整体看涨叙事中。",
+        "作为 CHIPS 法案受益者，且其客户 ALLSPACE 被 $YSS 收购，被视为国防概念受益。",
+        "帖子认为 Sivers 与 Celestial AI 有直接联系，且 MRVL 可能直接从 Sivers 采购，尽管市场因合作取消而恐慌，但作者认为桥梁并未烧毁。"
+      ],
+      "post_ids": [
+        "2051571231590379708",
+        "2051357868126044577",
+        "2049941088165892196",
+        "2049916817519587600",
+        "2049761085872570864",
+        "2047790368700445153"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "MU",
+      "bullish_count": 6,
+      "bearish_count": 0,
+      "neutral_count": 2,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "用户指出其今日上涨12%，属于整体上涨趋势的一部分。",
+        "MU 被提及为内存公司之一，其财报信号可能影响 TOWA 等公司的表现，但帖子未直接讨论 MU 的具体观点。",
+        "在‘持有’列表中，作者建议持有而非买入。",
+        "被提及为 HBM4 支出的受益者之一，且内存制造商正在增加资本支出。",
+        "作为 Towa (6315) 的客户，其财报信号被提及，暗示其行业地位稳固且对供应链伙伴有利。"
+      ],
+      "post_ids": [
+        "2051698843197247930",
+        "2050031111103984072",
+        "aleabitoreddit-77e520b0e730aec8",
+        "2049646205039522009",
+        "2048914800533721376",
+        "2048846462164045991",
+        "2048623230416761019",
+        "2047426124586893566"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "JBL",
+      "bullish_count": 6,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被列为 $SIVE 映射关系中的关键组件，属于光模块领域。",
+        "作为CPO技术的主要客户，被提及为SIVE等公司的潜在买家或合作伙伴。",
+        "作为 $SIVE 看涨逻辑的关键支撑，其 1.6T 技术填补了 CPO 领域的空白。",
+        "其 1.6T 出货量被用作 $SIVE 增长比例的驱动因素之一。",
+        "在帖子中作为类比对象出现，用于说明 $SIVE 的增长规模，未提供具体的个股看涨或看跌理由。"
+      ],
+      "post_ids": [
+        "2051566667009073315",
+        "2050093551313469467",
+        "2048801270337831047",
+        "2048663719933333524",
+        "2048301213943579012",
+        "2047790368700445153",
+        "2047566792294613248"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "IQE",
+      "bullish_count": 5,
+      "bearish_count": 1,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "作为用户回顾的'best guesses'列表之一，共享看涨逻辑，预测从$13涨至$46。",
+        "被机构在零售投资者推动上涨后买入，属于共享看涨逻辑的标的。",
+        "IQE 被描述为光子供应链中的结构性卡脖子环节，且 MTSI 的投资旨在锁定其长期供应。",
+        "机构资金（UBS、Point72）已买入，验证了用户的看涨观点，且用户预测更多机构将跟进。",
+        "因 InP 外延片（InP epiwafers）业务表现不佳，股价下跌 12.22%。"
+      ],
+      "post_ids": [
+        "2051571231590379708",
+        "2049227875812045146",
+        "2048822871527682152",
+        "2046906948088435024",
+        "2046894773706035638",
+        "2046884581471928778"
       ],
       "net_stance": "bullish"
     },
@@ -10104,32 +10805,6 @@
         "2048994957462302918",
         "2048956013374755266",
         "2047238732382876064"
-      ],
-      "net_stance": "bullish"
-    },
-    {
-      "ticker": "GFS",
-      "bullish_count": 6,
-      "bearish_count": 0,
-      "neutral_count": 2,
-      "mixed_count": 0,
-      "unclear_count": 0,
-      "latest_reasons": [
-        "GFS 宣布 SCALE™解决方案后股价上涨 4.3%，且其作为激光供应商在 AMD 等公司的 CPO 解决方案中被采用。",
-        "作为 Lightmatter 的合作伙伴之一，受益于其业务扩张，但具体细节有限。",
-        "与 $AMD 在 CPO 领域合作，属于共享看涨主题列表。",
-        "与 $AMD 的合作关系帮助降低了 $SIVE 公司的风险，是看涨 $SIVE 逻辑的一部分。",
-        "仅提及在 AMD 的 CPO 演示中出现，未提供具体观点或立场。"
-      ],
-      "post_ids": [
-        "2051432439432740931",
-        "2049767690425016780",
-        "2049032343974007088",
-        "2048801270337831047",
-        "2048663719933333524",
-        "2046696582696083634",
-        "2046494023297429645",
-        "2046363533471035793"
       ],
       "net_stance": "bullish"
     },
@@ -10187,53 +10862,6 @@
       "net_stance": "bullish"
     },
     {
-      "ticker": "TSEM",
-      "bullish_count": 5,
-      "bearish_count": 0,
-      "neutral_count": 1,
-      "mixed_count": 0,
-      "unclear_count": 0,
-      "latest_reasons": [
-        "作为CPO代工厂领域的关键标的，被明确列为'3x brrrs'（三倍回报）或'best guesses'（最佳猜测）之一，受益于CPO市场预计142%的复合年增长率。",
-        "作为 CPO 市场中的代工厂，受益于 CPO 市场的急剧增长。",
-        "作为 Lightmatter 的合作伙伴之一，受益于其业务扩张，但具体细节有限。",
-        "帖子认为该公司不受OpenAI内部泄露影响，市场反应过度。",
-        "作为 LWLG 的合同方被提及，无具体业务细节或估值分析。"
-      ],
-      "post_ids": [
-        "2051033642416361642",
-        "2050762148545216899",
-        "2049767690425016780",
-        "2049160131641004263",
-        "2049006161500991925",
-        "2048123597223579736"
-      ],
-      "net_stance": "bullish"
-    },
-    {
-      "ticker": "SIVEF",
-      "bullish_count": 5,
-      "bearish_count": 0,
-      "neutral_count": 0,
-      "mixed_count": 0,
-      "unclear_count": 0,
-      "latest_reasons": [
-        "被推测为 Lightelligence 的潜在激光供应商，且属于'3x brrrs'或'best guesses'看涨列表。",
-        "与 SIVE 共享相同的机构持仓变化逻辑，虽未单独详述，但隐含在整体看涨叙事中。",
-        "作为 CHIPS 法案受益者，且其客户 ALLSPACE 被 $YSS 收购，被视为国防概念受益。",
-        "帖子认为 Sivers 与 Celestial AI 有直接联系，且 MRVL 可能直接从 Sivers 采购，尽管市场因合作取消而恐慌，但作者认为桥梁并未烧毁。",
-        "与 $SIVE 一起被视为高增长激光公司，受益于 2027 年超大规模云服务商对激光器的需求，具有多倍股潜力。"
-      ],
-      "post_ids": [
-        "2051357868126044577",
-        "2049941088165892196",
-        "2049916817519587600",
-        "2049761085872570864",
-        "2047790368700445153"
-      ],
-      "net_stance": "bullish"
-    },
-    {
       "ticker": "NBIS",
       "bullish_count": 5,
       "bearish_count": 0,
@@ -10259,74 +10887,25 @@
       "net_stance": "bullish"
     },
     {
-      "ticker": "MU",
+      "ticker": "EWY",
       "bullish_count": 5,
       "bearish_count": 0,
-      "neutral_count": 2,
-      "mixed_count": 0,
-      "unclear_count": 0,
-      "latest_reasons": [
-        "MU 被提及为内存公司之一，其财报信号可能影响 TOWA 等公司的表现，但帖子未直接讨论 MU 的具体观点。",
-        "在‘持有’列表中，作者建议持有而非买入。",
-        "被提及为 HBM4 支出的受益者之一，且内存制造商正在增加资本支出。",
-        "作为 Towa (6315) 的客户，其财报信号被提及，暗示其行业地位稳固且对供应链伙伴有利。",
-        "作为内存板块核心成员，受益于SK海力士和三星增加的资本支出，且被归类为市场忽视的看涨名单（3x brrrs）之一。"
-      ],
-      "post_ids": [
-        "2050031111103984072",
-        "aleabitoreddit-77e520b0e730aec8",
-        "2049646205039522009",
-        "2048914800533721376",
-        "2048846462164045991",
-        "2048623230416761019",
-        "2047426124586893566"
-      ],
-      "net_stance": "bullish"
-    },
-    {
-      "ticker": "JBL",
-      "bullish_count": 5,
-      "bearish_count": 0,
-      "neutral_count": 1,
-      "mixed_count": 0,
-      "unclear_count": 0,
-      "latest_reasons": [
-        "作为CPO技术的主要客户，被提及为SIVE等公司的潜在买家或合作伙伴。",
-        "作为 $SIVE 看涨逻辑的关键支撑，其 1.6T 技术填补了 CPO 领域的空白。",
-        "其 1.6T 出货量被用作 $SIVE 增长比例的驱动因素之一。",
-        "在帖子中作为类比对象出现，用于说明 $SIVE 的增长规模，未提供具体的个股看涨或看跌理由。",
-        "被提及为需要大规模生产激光器的实体，受整体看涨论点覆盖，具体细节有限。"
-      ],
-      "post_ids": [
-        "2050093551313469467",
-        "2048801270337831047",
-        "2048663719933333524",
-        "2048301213943579012",
-        "2047790368700445153",
-        "2047566792294613248"
-      ],
-      "net_stance": "bullish"
-    },
-    {
-      "ticker": "IQE",
-      "bullish_count": 4,
-      "bearish_count": 1,
       "neutral_count": 0,
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "被机构在零售投资者推动上涨后买入，属于共享看涨逻辑的标的。",
-        "IQE 被描述为光子供应链中的结构性卡脖子环节，且 MTSI 的投资旨在锁定其长期供应。",
-        "机构资金（UBS、Point72）已买入，验证了用户的看涨观点，且用户预测更多机构将跟进。",
-        "因 InP 外延片（InP epiwafers）业务表现不佳，股价下跌 12.22%。",
-        "用户将其作为光电子供应链的潜在赢家推荐，并计划在未来回顾其表现。"
+        "作为光子学和内存主题的代表性指数，帖文指出从该指数中跳出的个股（如AAOI）涨幅巨大，暗示该指数整体表现强劲。",
+        "用户指出其上涨幅度巨大，属于整体上涨趋势的一部分。",
+        "作者反驳了市场对 $EWY 的看空观点，认为其此前被错误地贴上‘崩盘’标签，且该指数主要由三星和 SK 海力士驱动，当前估值可能已过度悲观。",
+        "推文明确称该交易策略为'S tier research'（S级研究）且'stupid good'（非常棒），暗示对EWY的交易机会持积极看法。",
+        "作为内存板块核心成员，受益于SK海力士和三星增加的资本支出，且被归类为市场忽视的看涨名单（3x brrrs）之一。"
       ],
       "post_ids": [
-        "2049227875812045146",
-        "2048822871527682152",
-        "2046906948088435024",
-        "2046894773706035638",
-        "2046884581471928778"
+        "2051732766900019439",
+        "2051698843197247930",
+        "2050265078965182518",
+        "2025956208138649924",
+        "2048846462164045991"
       ],
       "net_stance": "bullish"
     },
@@ -10350,6 +10929,30 @@
         "2048929438679896317",
         "aleabitoreddit-fd5ce52b672e9511",
         "2047520460884353096"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "AEHR",
+      "bullish_count": 5,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "作为用户回顾的'best guesses'列表之一，共享看涨逻辑，预测从$30涨至$85（若计算siph segment）。",
+        "作为资格认证周期类公司的对标案例被提及，用于解释分析方法，帖子未对其本身做出明确的看涨或看跌判断。",
+        "作为类比参照，暗示其在芯片或半导体领域具有类似$322310的高增长潜力，尽管具体细节有限。",
+        "作为资格周期玩家的代表，分析逻辑与其他同类股票相同。",
+        "用户认为其极具潜力，类比早期 $TER 和预财报 $AAOI，且有具体客户合同。"
+      ],
+      "post_ids": [
+        "2051571231590379708",
+        "2049876593674440706",
+        "2049745676125536657",
+        "2049737227677421908",
+        "2048123597223579736",
+        "2047705901486985666"
       ],
       "net_stance": "bullish"
     },
@@ -10420,6 +11023,27 @@
       "net_stance": "bullish"
     },
     {
+      "ticker": "RPI",
+      "bullish_count": 4,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被视为模因股，接近历史高点，受益于 Openclaw/Picoclaw/Nanobot 概念及市场囤积行为，且收入预测创纪录。",
+        "帖子提到从 $RPI 到 $SIVE 的发帖显示作者的观点正确，暗示这些股票具有上涨潜力。",
+        "被媒体错误贬低为 meme 股，但实际已上涨 100% 并守住收益，表明其基本面强劲。",
+        "用户明确支持该股票，指出其已上涨 100% 并守住收益，反驳了媒体关于其即将崩盘的言论。"
+      ],
+      "post_ids": [
+        "2051628401354785026",
+        "2050265078965182518",
+        "2046507698037170575",
+        "2046333897202692142"
+      ],
+      "net_stance": "bullish"
+    },
+    {
       "ticker": "RDDT",
       "bullish_count": 3,
       "bearish_count": 1,
@@ -10467,29 +11091,6 @@
       "net_stance": "bullish"
     },
     {
-      "ticker": "AEHR",
-      "bullish_count": 4,
-      "bearish_count": 0,
-      "neutral_count": 1,
-      "mixed_count": 0,
-      "unclear_count": 0,
-      "latest_reasons": [
-        "作为资格认证周期类公司的对标案例被提及，用于解释分析方法，帖子未对其本身做出明确的看涨或看跌判断。",
-        "作为类比参照，暗示其在芯片或半导体领域具有类似$322310的高增长潜力，尽管具体细节有限。",
-        "作为资格周期玩家的代表，分析逻辑与其他同类股票相同。",
-        "用户认为其极具潜力，类比早期 $TER 和预财报 $AAOI，且有具体客户合同。",
-        "Photonics 板块上涨，涨幅为 7.07%，被作者列为上涨标的。"
-      ],
-      "post_ids": [
-        "2049876593674440706",
-        "2049745676125536657",
-        "2049737227677421908",
-        "2048123597223579736",
-        "2047705901486985666"
-      ],
-      "net_stance": "bullish"
-    },
-    {
       "ticker": "6830",
       "bullish_count": 4,
       "bearish_count": 0,
@@ -10511,21 +11112,21 @@
       "net_stance": "bullish"
     },
     {
-      "ticker": "RPI",
+      "ticker": "YSS",
       "bullish_count": 3,
       "bearish_count": 0,
       "neutral_count": 0,
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
-        "帖子提到从 $RPI 到 $SIVE 的发帖显示作者的观点正确，暗示这些股票具有上涨潜力。",
-        "被媒体错误贬低为 meme 股，但实际已上涨 100% 并守住收益，表明其基本面强劲。",
-        "用户明确支持该股票，指出其已上涨 100% 并守住收益，反驳了媒体关于其即将崩盘的言论。"
+        "作为 $SIVE 映射关系中的关键组件，属于 Golden Dome/DoD 领域。",
+        "作为太空和国防领域的CPO应用客户（Golden Dome），被提及为SIVE等公司的潜在买家或合作伙伴。",
+        "作为收购 ALLSPACE 的国防承包商，其收购行为被视为推动供应链（$SIVE）上涨的催化剂。"
       ],
       "post_ids": [
-        "2050265078965182518",
-        "2046507698037170575",
-        "2046333897202692142"
+        "2051566667009073315",
+        "2050093551313469467",
+        "2049916817519587600"
       ],
       "net_stance": "bullish"
     },
@@ -10680,25 +11281,6 @@
       "net_stance": "bearish"
     },
     {
-      "ticker": "EWY",
-      "bullish_count": 3,
-      "bearish_count": 0,
-      "neutral_count": 0,
-      "mixed_count": 0,
-      "unclear_count": 0,
-      "latest_reasons": [
-        "作者反驳了市场对 $EWY 的看空观点，认为其此前被错误地贴上‘崩盘’标签，且该指数主要由三星和 SK 海力士驱动，当前估值可能已过度悲观。",
-        "推文明确称该交易策略为'S tier research'（S级研究）且'stupid good'（非常棒），暗示对EWY的交易机会持积极看法。",
-        "作为内存板块核心成员，受益于SK海力士和三星增加的资本支出，且被归类为市场忽视的看涨名单（3x brrrs）之一。"
-      ],
-      "post_ids": [
-        "2050265078965182518",
-        "2025956208138649924",
-        "2048846462164045991"
-      ],
-      "net_stance": "bullish"
-    },
-    {
       "ticker": "CRWV",
       "bullish_count": 3,
       "bearish_count": 0,
@@ -10758,6 +11340,25 @@
       "net_stance": "bullish"
     },
     {
+      "ticker": "6451",
+      "bullish_count": 3,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "被视为英伟达 CPO 扩张的受益者，且因富士康被选为 Groq 独家供应商而直接受益。",
+        "被英伟达选为 Groq 加速器的独家机架级供应商，利好其光学封装业务。",
+        "Shunsin (6451) 因其在富士康光子学封装/测试领域的角色而被视为极具吸引力。"
+      ],
+      "post_ids": [
+        "2051472715165704657",
+        "2049609993071259684",
+        "2047168499211235609"
+      ],
+      "net_stance": "bullish"
+    },
+    {
       "ticker": "6315",
       "bullish_count": 3,
       "bearish_count": 0,
@@ -10792,23 +11393,6 @@
         "2051099481693954525",
         "2050093551313469467",
         "2049745676125536657"
-      ],
-      "net_stance": "bullish"
-    },
-    {
-      "ticker": "YSS",
-      "bullish_count": 2,
-      "bearish_count": 0,
-      "neutral_count": 0,
-      "mixed_count": 0,
-      "unclear_count": 0,
-      "latest_reasons": [
-        "作为太空和国防领域的CPO应用客户（Golden Dome），被提及为SIVE等公司的潜在买家或合作伙伴。",
-        "作为收购 ALLSPACE 的国防承包商，其收购行为被视为推动供应链（$SIVE）上涨的催化剂。"
-      ],
-      "post_ids": [
-        "2050093551313469467",
-        "2049916817519587600"
       ],
       "net_stance": "bullish"
     },
@@ -10955,6 +11539,23 @@
       "post_ids": [
         "aleabitoreddit-77e520b0e730aec8",
         "1972769926302855553"
+      ],
+      "net_stance": "bullish"
+    },
+    {
+      "ticker": "RTX",
+      "bullish_count": 2,
+      "bearish_count": 0,
+      "neutral_count": 0,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "作为 $SIVE 映射关系中的关键组件，属于国防领域。",
+        "作为太空和国防领域的CPO应用客户，被提及为SIVE等公司的潜在买家或合作伙伴。"
+      ],
+      "post_ids": [
+        "2051566667009073315",
+        "2050093551313469467"
       ],
       "net_stance": "bullish"
     },
@@ -11167,6 +11768,25 @@
       "net_stance": "bullish"
     },
     {
+      "ticker": "ERIC",
+      "bullish_count": 2,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "作为 $SIVE 映射关系中的关键组件，属于通信领域。",
+        "作为太空和国防领域的CPO应用客户，被提及为SIVE等公司的潜在买家或合作伙伴。",
+        "ERIC 被提及为 SIVE 的合作伙伴，但未提供具体的看涨或看跌理由。"
+      ],
+      "post_ids": [
+        "2051566667009073315",
+        "2050093551313469467",
+        "2049386026460942645"
+      ],
+      "net_stance": "bullish"
+    },
+    {
       "ticker": "CRCL",
       "bullish_count": 1,
       "bearish_count": 1,
@@ -11324,23 +11944,6 @@
         "aleabitoreddit-77e520b0e730aec8",
         "1983399179759300943",
         "1972769926302855553"
-      ],
-      "net_stance": "bullish"
-    },
-    {
-      "ticker": "6451",
-      "bullish_count": 2,
-      "bearish_count": 0,
-      "neutral_count": 0,
-      "mixed_count": 0,
-      "unclear_count": 0,
-      "latest_reasons": [
-        "被英伟达选为 Groq 加速器的独家机架级供应商，利好其光学封装业务。",
-        "Shunsin (6451) 因其在富士康光子学封装/测试领域的角色而被视为极具吸引力。"
-      ],
-      "post_ids": [
-        "2049609993071259684",
-        "2047168499211235609"
       ],
       "net_stance": "bullish"
     },
@@ -11551,21 +12154,6 @@
       ],
       "post_ids": [
         "1983399179759300943"
-      ],
-      "net_stance": "bullish"
-    },
-    {
-      "ticker": "RTX",
-      "bullish_count": 1,
-      "bearish_count": 0,
-      "neutral_count": 0,
-      "mixed_count": 0,
-      "unclear_count": 0,
-      "latest_reasons": [
-        "作为太空和国防领域的CPO应用客户，被提及为SIVE等公司的潜在买家或合作伙伴。"
-      ],
-      "post_ids": [
-        "2050093551313469467"
       ],
       "net_stance": "bullish"
     },
@@ -11910,23 +12498,6 @@
       "net_stance": "bullish"
     },
     {
-      "ticker": "ERIC",
-      "bullish_count": 1,
-      "bearish_count": 0,
-      "neutral_count": 1,
-      "mixed_count": 0,
-      "unclear_count": 0,
-      "latest_reasons": [
-        "作为太空和国防领域的CPO应用客户，被提及为SIVE等公司的潜在买家或合作伙伴。",
-        "ERIC 被提及为 SIVE 的合作伙伴，但未提供具体的看涨或看跌理由。"
-      ],
-      "post_ids": [
-        "2050093551313469467",
-        "2049386026460942645"
-      ],
-      "net_stance": "bullish"
-    },
-    {
       "ticker": "EOSE",
       "bullish_count": 1,
       "bearish_count": 0,
@@ -12125,13 +12696,15 @@
       "ticker": "ASX",
       "bullish_count": 1,
       "bearish_count": 0,
-      "neutral_count": 0,
+      "neutral_count": 1,
       "mixed_count": 0,
       "unclear_count": 0,
       "latest_reasons": [
+        "仅作为富士康的供应链合作伙伴被提及，未提供具体的看涨或看跌理由。",
         "作为 Lightmatter 的合作伙伴之一，受益于其业务扩张，但具体细节有限。"
       ],
       "post_ids": [
+        "2051472715165704657",
         "2049767690425016780"
       ],
       "net_stance": "bullish"
@@ -12518,6 +13091,21 @@
       "net_stance": "neutral"
     },
     {
+      "ticker": "APPL",
+      "bullish_count": 0,
+      "bearish_count": 0,
+      "neutral_count": 1,
+      "mixed_count": 0,
+      "unclear_count": 0,
+      "latest_reasons": [
+        "作为对比对象，因其巨大市值（3.7T+）而难以受产品购买量影响，未表达明确看涨或看跌观点。"
+      ],
+      "post_ids": [
+        "2051628401354785026"
+      ],
+      "net_stance": "neutral"
+    },
+    {
       "ticker": "APLD",
       "bullish_count": 0,
       "bearish_count": 0,
@@ -12551,11 +13139,11 @@
   "daily": {
     "top_themes": [
       [
-        "多袋股潜力",
-        6
+        "市场情绪",
+        7
       ],
       [
-        "市场情绪",
+        "多袋股潜力",
         6
       ],
       [
@@ -12565,6 +13153,10 @@
       [
         "多倍股潜力",
         5
+      ],
+      [
+        "光子学",
+        4
       ],
       [
         "垄断地位",
@@ -12579,10 +13171,6 @@
         3
       ],
       [
-        "光子学",
-        3
-      ],
-      [
         "半导体设备与材料",
         3
       ],
@@ -12592,6 +13180,14 @@
       ]
     ],
     "important_post_ids": [
+      "2051738110845997109",
+      "2051732766900019439",
+      "2051698843197247930",
+      "2051628401354785026",
+      "2051593478245851178",
+      "2051571231590379708",
+      "2051566667009073315",
+      "2051472715165704657",
       "2051432439432740931",
       "2051357868126044577",
       "2051348607966875919",
@@ -12739,10 +13335,10 @@
   "warnings": [
     "Visible Edge/CDP session ready for X subscriber feed: https://x.com/aleabitoreddit/superfollows (3 article(s)).",
     "Edge/X authorized collection using profile C:\\Users\\zihao\\Desktop\\x-analysis\\outputs\\x-analysis-edge-profile\\Default.",
-    "Edge/X CDP profile public feed parsed 14 posts from https://x.com/aleabitoreddit.",
-    "Edge/X CDP profile subscriber feed parsed 3 posts from https://x.com/aleabitoreddit/superfollows.",
-    "Edge/X CDP profile parsed 17 posts from http://127.0.0.1:9223.",
-    "Preserved 147 historical X analysis post(s) outside the refresh window."
+    "Edge/X CDP profile public feed parsed 12 posts from https://x.com/aleabitoreddit.",
+    "Edge/X CDP profile subscriber feed parsed 2 posts from https://x.com/aleabitoreddit/superfollows.",
+    "Edge/X CDP profile parsed 14 posts from http://127.0.0.1:9223.",
+    "Preserved 156 historical X analysis post(s) outside the refresh window."
   ],
   "outside_candidates": [
     {
@@ -12766,16 +13362,16 @@
         "TSM"
       ],
       "anchor_source_post_ids": [
+        "2051432439432740931",
+        "2051322315649290619",
+        "2051319157552267710",
         "2051105661220774266",
         "2051014522610372712",
         "2051004642612634051",
         "2050833230736269767",
         "2050610868640260426",
         "2050093551313469467",
-        "2050040294205448401",
-        "2049775164184055998",
-        "2049767690425016780",
-        "aleabitoreddit-77e520b0e730aec8"
+        "2050040294205448401"
       ],
       "boundary_expansion_cn": "边界扩展路径：从 $AMD、$AMZN、$ASML、$AVGO、$GOOG 顺着一跳上游、下游、配套或瓶颈环节，检查电气开关设备/项目交付节点是否承担关键功能。",
       "trigger_logic_cn": "先以原帖中的 $AMD、$AMZN、$ASML、$AVGO、$GOOG 作为产业链锚点，再结合 switchgear、grid、power、data center 与 产能/放量、估值/赔率，外推到电气开关设备/项目交付节点。",
@@ -12791,16 +13387,16 @@
         "估值/赔率"
       ],
       "source_post_ids": [
+        "2051432439432740931",
+        "2051322315649290619",
+        "2051319157552267710",
         "2051105661220774266",
         "2051014522610372712",
         "2051004642612634051",
         "2050833230736269767",
         "2050610868640260426",
         "2050093551313469467",
-        "2050040294205448401",
-        "2049775164184055998",
-        "2049767690425016780",
-        "aleabitoreddit-77e520b0e730aec8"
+        "2050040294205448401"
       ],
       "risk_notes": [
         "这是产业链逻辑外推，不是投资建议；尚未验证最新订单、估值和股价位置。",
@@ -12810,28 +13406,8 @@
         "schema_version": "1.0",
         "ticker": "POWL",
         "company": "Powell Industries",
-        "generated_at": "2026-05-05T00:45:36.253129+00:00",
+        "generated_at": "2026-05-05T19:27:04.938135+00:00",
         "items": [
-          {
-            "category": "sec_filing",
-            "source": "SEC EDGAR",
-            "title": "8-K filing for $POWL",
-            "date": "2026-02-18",
-            "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000028/powl-20260218.htm",
-            "summary": "SEC recent filing: form 8-K, filing date 2026-02-18.",
-            "evidence_type_cn": "SEC 文件",
-            "reliability": "official"
-          },
-          {
-            "category": "sec_filing",
-            "source": "SEC EDGAR",
-            "title": "8-K filing for $POWL",
-            "date": "2026-03-31",
-            "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000054/powl-20260331.htm",
-            "summary": "SEC recent filing: form 8-K, filing date 2026-03-31.",
-            "evidence_type_cn": "SEC 文件",
-            "reliability": "official"
-          },
           {
             "category": "sec_filing",
             "source": "SEC EDGAR",
@@ -12839,6 +13415,26 @@
             "date": "2026-05-04",
             "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/powl-20260504.htm",
             "summary": "SEC recent filing: form 8-K, filing date 2026-05-04.",
+            "evidence_type_cn": "SEC 文件",
+            "reliability": "official"
+          },
+          {
+            "category": "sec_filing",
+            "source": "SEC EDGAR",
+            "title": "10-Q filing for $POWL",
+            "date": "2026-05-05",
+            "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000070/powl-20260331.htm",
+            "summary": "SEC recent filing: form 10-Q, filing date 2026-05-05.",
+            "evidence_type_cn": "SEC 文件",
+            "reliability": "official"
+          },
+          {
+            "category": "sec_filing",
+            "source": "SEC EDGAR",
+            "title": "8-K filing for $POWL",
+            "date": "2026-05-05",
+            "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000067/powl-20260505.htm",
+            "summary": "SEC recent filing: form 8-K, filing date 2026-05-05.",
             "evidence_type_cn": "SEC 文件",
             "reliability": "official"
           }
@@ -12852,39 +13448,19 @@
         "title_cn": "$POWL Powell Industries 产业链边界扩展研报",
         "one_line_thesis_cn": "$POWL 不来自原帖直接点名，而是从 $AMD、$AMZN、$ASML、$AVGO、$GOOG、$GOOGL 的产业链约束向外扩一跳，落在电气开关设备/项目交付节点；当前观察优先级来自锚点强度、触发关键词、博主研究风格匹配、可追溯帖子数量和外部证据强度。",
         "source_post_ids": [
+          "2051432439432740931",
+          "2051322315649290619",
+          "2051319157552267710",
           "2051105661220774266",
           "2051014522610372712",
-          "2051004642612634051",
-          "2050833230736269767",
-          "2050610868640260426",
-          "2050093551313469467"
+          "2051004642612634051"
         ],
         "external_evidence": {
           "schema_version": "1.0",
           "ticker": "POWL",
           "company": "Powell Industries",
-          "generated_at": "2026-05-05T00:45:36.253129+00:00",
+          "generated_at": "2026-05-05T19:27:04.938135+00:00",
           "items": [
-            {
-              "category": "sec_filing",
-              "source": "SEC EDGAR",
-              "title": "8-K filing for $POWL",
-              "date": "2026-02-18",
-              "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000028/powl-20260218.htm",
-              "summary": "SEC recent filing: form 8-K, filing date 2026-02-18.",
-              "evidence_type_cn": "SEC 文件",
-              "reliability": "official"
-            },
-            {
-              "category": "sec_filing",
-              "source": "SEC EDGAR",
-              "title": "8-K filing for $POWL",
-              "date": "2026-03-31",
-              "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000054/powl-20260331.htm",
-              "summary": "SEC recent filing: form 8-K, filing date 2026-03-31.",
-              "evidence_type_cn": "SEC 文件",
-              "reliability": "official"
-            },
             {
               "category": "sec_filing",
               "source": "SEC EDGAR",
@@ -12892,6 +13468,26 @@
               "date": "2026-05-04",
               "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/powl-20260504.htm",
               "summary": "SEC recent filing: form 8-K, filing date 2026-05-04.",
+              "evidence_type_cn": "SEC 文件",
+              "reliability": "official"
+            },
+            {
+              "category": "sec_filing",
+              "source": "SEC EDGAR",
+              "title": "10-Q filing for $POWL",
+              "date": "2026-05-05",
+              "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000070/powl-20260331.htm",
+              "summary": "SEC recent filing: form 10-Q, filing date 2026-05-05.",
+              "evidence_type_cn": "SEC 文件",
+              "reliability": "official"
+            },
+            {
+              "category": "sec_filing",
+              "source": "SEC EDGAR",
+              "title": "8-K filing for $POWL",
+              "date": "2026-05-05",
+              "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000067/powl-20260505.htm",
+              "summary": "SEC recent filing: form 8-K, filing date 2026-05-05.",
               "evidence_type_cn": "SEC 文件",
               "reliability": "official"
             }
@@ -12939,9 +13535,9 @@
           {
             "heading_cn": "5. 外部证据",
             "items_cn": [
-              "SEC 文件 | SEC EDGAR | 2026-02-18 | 8-K filing for $POWL。SEC recent filing: form 8-K, filing date 2026-02-18.",
-              "SEC 文件 | SEC EDGAR | 2026-03-31 | 8-K filing for $POWL。SEC recent filing: form 8-K, filing date 2026-03-31.",
-              "SEC 文件 | SEC EDGAR | 2026-05-04 | 8-K filing for $POWL。SEC recent filing: form 8-K, filing date 2026-05-04."
+              "SEC 文件 | SEC EDGAR | 2026-05-04 | 8-K filing for $POWL。SEC recent filing: form 8-K, filing date 2026-05-04.",
+              "SEC 文件 | SEC EDGAR | 2026-05-05 | 10-Q filing for $POWL。SEC recent filing: form 10-Q, filing date 2026-05-05.",
+              "SEC 文件 | SEC EDGAR | 2026-05-05 | 8-K filing for $POWL。SEC recent filing: form 8-K, filing date 2026-05-05."
             ]
           },
           {
@@ -13003,16 +13599,16 @@
         "TSM"
       ],
       "anchor_source_post_ids": [
+        "2051432439432740931",
+        "2051322315649290619",
+        "2051319157552267710",
         "2051105661220774266",
         "2051014522610372712",
         "2051004642612634051",
         "2050833230736269767",
         "2050610868640260426",
         "2050093551313469467",
-        "2050040294205448401",
-        "2049775164184055998",
-        "2049767690425016780",
-        "aleabitoreddit-77e520b0e730aec8"
+        "2050040294205448401"
       ],
       "boundary_expansion_cn": "边界扩展路径：从 $AMD、$AMZN、$ASML、$AVGO、$GOOG 顺着一跳上游、下游、配套或瓶颈环节，检查电气设备/配电瓶颈节点是否承担关键功能。",
       "trigger_logic_cn": "先以原帖中的 $AMD、$AMZN、$ASML、$AVGO、$GOOG 作为产业链锚点，再结合 data center、power、grid、switchgear 与 产能/放量、市场份额/竞争格局，外推到电气设备/配电瓶颈节点。",
@@ -13028,16 +13624,16 @@
         "市场份额/竞争格局"
       ],
       "source_post_ids": [
+        "2051432439432740931",
+        "2051322315649290619",
+        "2051319157552267710",
         "2051105661220774266",
         "2051014522610372712",
         "2051004642612634051",
         "2050833230736269767",
         "2050610868640260426",
         "2050093551313469467",
-        "2050040294205448401",
-        "2049775164184055998",
-        "2049767690425016780",
-        "aleabitoreddit-77e520b0e730aec8"
+        "2050040294205448401"
       ],
       "risk_notes": [
         "这是产业链逻辑外推，不是投资建议；尚未验证最新订单、估值和股价位置。",
@@ -13047,28 +13643,8 @@
         "schema_version": "1.0",
         "ticker": "ETN",
         "company": "Eaton",
-        "generated_at": "2026-05-05T00:45:35.484710+00:00",
+        "generated_at": "2026-05-05T19:27:04.091724+00:00",
         "items": [
-          {
-            "category": "sec_filing",
-            "source": "SEC EDGAR",
-            "title": "424B5 filing for $ETN",
-            "date": "2026-03-09",
-            "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126008311/ny20066192x5_424b5.htm",
-            "summary": "SEC recent filing: form 424B5, filing date 2026-03-09.",
-            "evidence_type_cn": "SEC 文件",
-            "reliability": "official"
-          },
-          {
-            "category": "sec_filing",
-            "source": "SEC EDGAR",
-            "title": "8-K filing for $ETN",
-            "date": "2026-03-10",
-            "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126008836/ef20067414_8k.htm",
-            "summary": "SEC recent filing: form 8-K, filing date 2026-03-10.",
-            "evidence_type_cn": "SEC 文件",
-            "reliability": "official"
-          },
           {
             "category": "sec_filing",
             "source": "SEC EDGAR",
@@ -13076,6 +13652,26 @@
             "date": "2026-04-23",
             "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126016399/ef20071273_8k.htm",
             "summary": "SEC recent filing: form 8-K, filing date 2026-04-23.",
+            "evidence_type_cn": "SEC 文件",
+            "reliability": "official"
+          },
+          {
+            "category": "sec_filing",
+            "source": "SEC EDGAR",
+            "title": "10-Q filing for $ETN",
+            "date": "2026-05-05",
+            "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000013/etn-20260331.htm",
+            "summary": "SEC recent filing: form 10-Q, filing date 2026-05-05.",
+            "evidence_type_cn": "SEC 文件",
+            "reliability": "official"
+          },
+          {
+            "category": "sec_filing",
+            "source": "SEC EDGAR",
+            "title": "8-K filing for $ETN",
+            "date": "2026-05-05",
+            "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000010/etn-20260505.htm",
+            "summary": "SEC recent filing: form 8-K, filing date 2026-05-05.",
             "evidence_type_cn": "SEC 文件",
             "reliability": "official"
           }
@@ -13089,39 +13685,19 @@
         "title_cn": "$ETN Eaton 产业链边界扩展研报",
         "one_line_thesis_cn": "$ETN 不来自原帖直接点名，而是从 $AMD、$AMZN、$ASML、$AVGO、$GOOG、$GOOGL 的产业链约束向外扩一跳，落在电气设备/配电瓶颈节点；当前观察优先级来自锚点强度、触发关键词、博主研究风格匹配、可追溯帖子数量和外部证据强度。",
         "source_post_ids": [
+          "2051432439432740931",
+          "2051322315649290619",
+          "2051319157552267710",
           "2051105661220774266",
           "2051014522610372712",
-          "2051004642612634051",
-          "2050833230736269767",
-          "2050610868640260426",
-          "2050093551313469467"
+          "2051004642612634051"
         ],
         "external_evidence": {
           "schema_version": "1.0",
           "ticker": "ETN",
           "company": "Eaton",
-          "generated_at": "2026-05-05T00:45:35.484710+00:00",
+          "generated_at": "2026-05-05T19:27:04.091724+00:00",
           "items": [
-            {
-              "category": "sec_filing",
-              "source": "SEC EDGAR",
-              "title": "424B5 filing for $ETN",
-              "date": "2026-03-09",
-              "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126008311/ny20066192x5_424b5.htm",
-              "summary": "SEC recent filing: form 424B5, filing date 2026-03-09.",
-              "evidence_type_cn": "SEC 文件",
-              "reliability": "official"
-            },
-            {
-              "category": "sec_filing",
-              "source": "SEC EDGAR",
-              "title": "8-K filing for $ETN",
-              "date": "2026-03-10",
-              "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126008836/ef20067414_8k.htm",
-              "summary": "SEC recent filing: form 8-K, filing date 2026-03-10.",
-              "evidence_type_cn": "SEC 文件",
-              "reliability": "official"
-            },
             {
               "category": "sec_filing",
               "source": "SEC EDGAR",
@@ -13129,6 +13705,26 @@
               "date": "2026-04-23",
               "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126016399/ef20071273_8k.htm",
               "summary": "SEC recent filing: form 8-K, filing date 2026-04-23.",
+              "evidence_type_cn": "SEC 文件",
+              "reliability": "official"
+            },
+            {
+              "category": "sec_filing",
+              "source": "SEC EDGAR",
+              "title": "10-Q filing for $ETN",
+              "date": "2026-05-05",
+              "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000013/etn-20260331.htm",
+              "summary": "SEC recent filing: form 10-Q, filing date 2026-05-05.",
+              "evidence_type_cn": "SEC 文件",
+              "reliability": "official"
+            },
+            {
+              "category": "sec_filing",
+              "source": "SEC EDGAR",
+              "title": "8-K filing for $ETN",
+              "date": "2026-05-05",
+              "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000010/etn-20260505.htm",
+              "summary": "SEC recent filing: form 8-K, filing date 2026-05-05.",
               "evidence_type_cn": "SEC 文件",
               "reliability": "official"
             }
@@ -13176,9 +13772,9 @@
           {
             "heading_cn": "5. 外部证据",
             "items_cn": [
-              "SEC 文件 | SEC EDGAR | 2026-03-09 | 424B5 filing for $ETN。SEC recent filing: form 424B5, filing date 2026-03-09.",
-              "SEC 文件 | SEC EDGAR | 2026-03-10 | 8-K filing for $ETN。SEC recent filing: form 8-K, filing date 2026-03-10.",
-              "SEC 文件 | SEC EDGAR | 2026-04-23 | 8-K filing for $ETN。SEC recent filing: form 8-K, filing date 2026-04-23."
+              "SEC 文件 | SEC EDGAR | 2026-04-23 | 8-K filing for $ETN。SEC recent filing: form 8-K, filing date 2026-04-23.",
+              "SEC 文件 | SEC EDGAR | 2026-05-05 | 10-Q filing for $ETN。SEC recent filing: form 10-Q, filing date 2026-05-05.",
+              "SEC 文件 | SEC EDGAR | 2026-05-05 | 8-K filing for $ETN。SEC recent filing: form 8-K, filing date 2026-05-05."
             ]
           },
           {
@@ -13240,16 +13836,16 @@
         "TSM"
       ],
       "anchor_source_post_ids": [
+        "2051432439432740931",
+        "2051322315649290619",
+        "2051319157552267710",
         "2051105661220774266",
         "2051014522610372712",
         "2051004642612634051",
         "2050833230736269767",
         "2050610868640260426",
         "2050093551313469467",
-        "2050040294205448401",
-        "2049775164184055998",
-        "2049767690425016780",
-        "aleabitoreddit-77e520b0e730aec8"
+        "2050040294205448401"
       ],
       "boundary_expansion_cn": "边界扩展路径：从 $AMD、$AMZN、$ASML、$AVGO、$GOOG 顺着一跳上游、下游、配套或瓶颈环节，检查电网/燃机/电力设备大型节点是否承担关键功能。",
       "trigger_logic_cn": "先以原帖中的 $AMD、$AMZN、$ASML、$AVGO、$GOOG 作为产业链锚点，再结合 grid、power、energy 与 产能/放量、市场份额/竞争格局，外推到电网/燃机/电力设备大型节点。",
@@ -13264,16 +13860,16 @@
         "市场份额/竞争格局"
       ],
       "source_post_ids": [
+        "2051432439432740931",
+        "2051322315649290619",
+        "2051319157552267710",
         "2051105661220774266",
         "2051014522610372712",
         "2051004642612634051",
         "2050833230736269767",
         "2050610868640260426",
         "2050093551313469467",
-        "2050040294205448401",
-        "2049775164184055998",
-        "2049767690425016780",
-        "aleabitoreddit-77e520b0e730aec8"
+        "2050040294205448401"
       ],
       "risk_notes": [
         "这是产业链逻辑外推，不是投资建议；尚未验证最新订单、估值和股价位置。",
@@ -13292,12 +13888,12 @@
         "title_cn": "$GEV GE Vernova 产业链边界扩展研报",
         "one_line_thesis_cn": "$GEV 不来自原帖直接点名，而是从 $AMD、$AMZN、$ASML、$AVGO、$GOOG、$GOOGL 的产业链约束向外扩一跳，落在电网/燃机/电力设备大型节点；当前观察优先级来自锚点强度、触发关键词、博主研究风格匹配、可追溯帖子数量和外部证据强度。",
         "source_post_ids": [
+          "2051432439432740931",
+          "2051322315649290619",
+          "2051319157552267710",
           "2051105661220774266",
           "2051014522610372712",
-          "2051004642612634051",
-          "2050833230736269767",
-          "2050610868640260426",
-          "2050093551313469467"
+          "2051004642612634051"
         ],
         "external_evidence": {
           "schema_version": "1.0",
@@ -13408,16 +14004,16 @@
         "TSM"
       ],
       "anchor_source_post_ids": [
+        "2051432439432740931",
+        "2051322315649290619",
+        "2051319157552267710",
         "2051105661220774266",
         "2051014522610372712",
         "2051004642612634051",
         "2050833230736269767",
         "2050610868640260426",
         "2050093551313469467",
-        "2050040294205448401",
-        "2049775164184055998",
-        "2049767690425016780",
-        "aleabitoreddit-77e520b0e730aec8"
+        "2050040294205448401"
       ],
       "boundary_expansion_cn": "边界扩展路径：从 $AMD、$AMZN、$ASML、$AVGO、$GOOG 顺着一跳上游、下游、配套或瓶颈环节，检查数据中心电力/散热基础设施是否承担关键功能。",
       "trigger_logic_cn": "先以原帖中的 $AMD、$AMZN、$ASML、$AVGO、$GOOG 作为产业链锚点，再结合 data center、power 与 产能/放量、市场份额/竞争格局，外推到数据中心电力/散热基础设施。",
@@ -13431,16 +14027,16 @@
         "市场份额/竞争格局"
       ],
       "source_post_ids": [
+        "2051432439432740931",
+        "2051322315649290619",
+        "2051319157552267710",
         "2051105661220774266",
         "2051014522610372712",
         "2051004642612634051",
         "2050833230736269767",
         "2050610868640260426",
         "2050093551313469467",
-        "2050040294205448401",
-        "2049775164184055998",
-        "2049767690425016780",
-        "aleabitoreddit-77e520b0e730aec8"
+        "2050040294205448401"
       ],
       "risk_notes": [
         "这是产业链逻辑外推，不是投资建议；尚未验证最新订单、估值和股价位置。",
@@ -13450,7 +14046,7 @@
         "schema_version": "1.0",
         "ticker": "VRT",
         "company": "Vertiv",
-        "generated_at": "2026-05-05T00:45:08.238004+00:00",
+        "generated_at": "2026-05-05T19:26:38.564531+00:00",
         "items": [
           {
             "category": "sec_filing",
@@ -13490,24 +14086,24 @@
       },
       "research_report_cn": {
         "title_cn": "$VRT Vertiv 产业链边界扩展研报",
-        "one_line_thesis_cn": "基于 SEC 文件（10-Q 及 8-K）证实 Vertiv 存在公开披露记录，其作为数据中心电力/散热基础设施供应商的逻辑需结合 $AMD、$AMZN 等锚点公司的 AI 扩张需求进行验证，目前外部证据仅确认公司存在及近期 filings，未证实具体新订单或收入增长细节。",
+        "one_line_thesis_cn": "$VRT 作为数据中心电力/散热基础设施供应商，其产业链逻辑基于 $AMD、$AMZN 等锚点公司的算力扩张需求外推，当前外部证据仅证实 SEC 文件（10-Q 及 8-K）存在，未证实具体订单、收入或政策细节，需后续财报验证 backlog 与交付能力。",
         "source_post_ids": [
+          "2051432439432740931",
+          "2051322315649290619",
+          "2051319157552267710",
           "2051105661220774266",
           "2051014522610372712",
           "2051004642612634051",
           "2050833230736269767",
           "2050610868640260426",
           "2050093551313469467",
-          "2050040294205448401",
-          "2049775164184055998",
-          "2049767690425016780",
-          "aleabitoreddit-77e520b0e730aec8"
+          "2050040294205448401"
         ],
         "external_evidence": {
           "schema_version": "1.0",
           "ticker": "VRT",
           "company": "Vertiv",
-          "generated_at": "2026-05-05T00:45:08.238004+00:00",
+          "generated_at": "2026-05-05T19:26:38.564531+00:00",
           "items": [
             {
               "category": "sec_filing",
@@ -13549,64 +14145,63 @@
           {
             "heading_cn": "1. 核心结论",
             "items_cn": [
-              "Vertiv ($VRT) 作为数据中心电力与热管理基础设施的关键供应商，其业务逻辑与 AI 算力扩张及液冷技术普及高度相关。",
-              "当前外部证据（SEC filings）仅证实公司近期有公开披露行为，尚未直接量化新订单或收入增长的具体数值。",
-              "需进一步验证其订单积压（Backlog）是否转化为实际交付，以及毛利率是否因竞争加剧而承压。"
+              "$VRT 在数据中心电力与热管理环节具备潜在供应地位，但当前缺乏具体订单或收入数据佐证。",
+              "产业链逻辑成立的前提是 $AMD、$AMZN 等锚点公司持续扩产，且 $VRT 能承接相关订单。",
+              "需警惕市场已对数据中心散热/电力需求充分定价，导致股价未反映基本面变化。"
             ]
           },
           {
             "heading_cn": "2. 产业链定位",
             "items_cn": [
-              "上游：原材料（铜、铝、芯片等）及零部件供应商。",
-              "中游：Vertiv 处于核心环节，提供 UPS、配电单元、液冷解决方案及热管理系统，直接服务于数据中心建设。",
-              "下游：云服务商（如 $AMZN, $MSFT, $GOOGL）、超大规模数据中心运营商及企业级客户。",
-              "关键瓶颈：液冷技术渗透率提升、高端配电设备产能及交付周期。"
+              "$VRT 位于数据中心基础设施上游，提供 UPS、电池、液冷及热管理系统。",
+              "其客户包括大型云厂商（如 $AMZN、$GOOGL）及企业数据中心，依赖长期合同与项目交付。",
+              "若无法证明其在关键客户供应链中不可替代，则产业链逻辑可能失效。"
             ]
           },
           {
             "heading_cn": "3. 博主逻辑映射",
             "items_cn": [
-              "博主观点：AI 算力需求爆发带动数据中心电力与散热基础设施升级，Vertiv 作为龙头将受益。",
-              "逻辑链条：AI 模型训练/推理需求增加 -> 数据中心功耗上升 -> 传统风冷失效 -> 液冷/高效配电需求激增 -> Vertiv 订单增长。",
-              "映射验证：需确认 Vertiv 在液冷领域的市场份额及大客户认证情况，以支撑“不可替代”的假设。"
+              "博主将 $AMD、$AMZN 等算力龙头的扩张视为数据中心电力/散热需求增长的直接驱动力。",
+              "该逻辑外推至 $VRT，假设其作为基础设施供应商能直接受益于上述需求。",
+              "需验证 $VRT 是否真正进入这些客户的供应链，而非仅因主题相关被市场关注。"
             ]
           },
           {
             "heading_cn": "4. 催化链条",
             "items_cn": [
-              "一级催化：$AMD MI300 系列及后续芯片发布，推动新一代数据中心建设。",
-              "二级催化：$AMZN、$MSFT 等云厂商资本开支（CapEx）指引上调，明确液冷采购计划。",
-              "三级催化：Vertiv 财报中 Backlog 数据超预期，或宣布与头部云厂商签订长期供货协议。",
-              "潜在风险：若云厂商推迟 CapEx 或液冷技术路线发生变动，将直接影响 Vertiv 业绩。"
+              "第一步：确认 $VRT 在数据中心电力/散热环节的实际供应角色。",
+              "第二步：观察其订单积压（backlog）或议价能力是否提升。",
+              "第三步：通过财报验证订单交付、毛利率及资本开支指引。",
+              "外部证据（SEC 文件）已发布，但具体业务细节仍需后续财报披露。"
             ]
           },
           {
             "heading_cn": "5. 外部证据",
             "items_cn": [
-              "SEC 文件显示 Vertiv 在 2026 年 4 月 22 日及 27 日有 10-Q 和 8-K  filings，表明公司运营正常且有近期披露。",
-              "需查阅 10-Q 中的 Segment Reporting 部分，确认数据中心解决方案（含液冷）的具体收入占比及同比增长率。",
-              "8-K 文件可能包含重大合同签署、客户认证或产能扩张公告，需逐条核对。"
+              "SEC 文件显示 $VRT 于 2026-04-22 提交 10-Q 及 8-K 报告，于 2026-04-27 提交另一份 8-K 报告。",
+              "这些文件为官方披露，可靠性高，但未包含具体订单或收入细节。",
+              "需结合后续财报分析其业务实质。"
             ]
           },
           {
             "heading_cn": "6. 后续验证清单",
             "items_cn": [
-              "确认 Vertiv 是否仅被主题情绪带动，还是真正在液冷/配电环节承担核心供应功能。",
-              "重点验证其数据中心电力、液冷订单是否进入可交付 Backlog，并关注交付周期变化。",
-              "检查最近财报/业绩会中是否提及订单、Backlog、产能利用率、客户认证或毛利率波动。",
-              "评估当前估值（PE/PS）是否已充分反映 AI 增长预期，避免追高。",
-              "若无法证明其在数据中心散热基础设施中的关键地位，应降低观察优先级。"
+              "确认 $VRT 是否仅受主题情绪带动，而非真正承担供应或瓶颈功能。",
+              "重点验证其数据中心电力、配电、液冷或热管理订单是否进入可交付 backlog。",
+              "检查最近财报/业绩会是否出现订单、backlog、产能利用率、客户认证、交付周期或毛利率变化。",
+              "检查估值与股价位置，避免产业链逻辑正确但市场已充分定价。",
+              "若无法证明其在数据中心电力/散热基础设施中具备关键地位，应降低观察优先级。"
             ]
           },
           {
             "heading_cn": "7. 反证条件与风险",
             "items_cn": [
-              "原帖锚点（如 $AMD）与 Vertiv 的关系可能仅为行业关联，不存在直接的一跳传导。",
-              "即便产业链方向成立，Vertiv 的订单、份额或毛利也可能因竞争（如 $SCHL, $NOK 等）而无法兑现。",
+              "原帖锚点与 $VRT 的关系可能仅为主题相关，不存在可验证的一跳传导。",
+              "即便产业链方向成立，$VRT 的订单、份额或毛利也可能无法兑现。",
               "电力/散热链条可能受项目递延、交付瓶颈缓解、估值过高或周期订单波动影响。",
-              "若后续公开资料无法证明 Vertiv 在数据中心基础设施中不可替代，扩展假设应被撤销。",
-              "本研报为产业链逻辑外推，非投资建议；需持续跟踪最新订单、估值及股价位置。",
-              "候选公司来自本地可审计产业链种子库，需后续用公开资料或财报进一步验证。"
+              "若后续公开资料无法证明其在数据中心电力/散热基础设施中不可替代，扩展假设应被撤销。",
+              "这是产业链逻辑外推，不是投资建议；尚未验证最新订单、估值和股价位置。",
+              "候选来自本地可审计产业链种子库，需后续用公开资料或财报验证。"
             ]
           }
         ],
@@ -13647,16 +14242,16 @@
         "MSFT"
       ],
       "anchor_source_post_ids": [
+        "2051432439432740931",
+        "2051322315649290619",
+        "2051319157552267710",
         "2051105661220774266",
         "2051014522610372712",
         "2051004642612634051",
         "2050833230736269767",
         "2050610868640260426",
         "2050093551313469467",
-        "2050040294205448401",
-        "2049775164184055998",
-        "2049767690425016780",
-        "aleabitoreddit-77e520b0e730aec8"
+        "2050040294205448401"
       ],
       "boundary_expansion_cn": "边界扩展路径：从 $AMAT、$AMD、$AMZN、$ASML、$AVGO 顺着一跳上游、下游、配套或瓶颈环节，检查离子注入/功率半导体设备节点是否承担关键功能。",
       "trigger_logic_cn": "先以原帖中的 $AMAT、$AMD、$AMZN、$ASML、$AVGO 作为产业链锚点，再结合 sic、capacity 与 技术节点/产品周期、产能/放量，外推到离子注入/功率半导体设备节点。",
@@ -13670,16 +14265,16 @@
         "产能/放量"
       ],
       "source_post_ids": [
+        "2051432439432740931",
+        "2051322315649290619",
+        "2051319157552267710",
         "2051105661220774266",
         "2051014522610372712",
         "2051004642612634051",
         "2050833230736269767",
         "2050610868640260426",
         "2050093551313469467",
-        "2050040294205448401",
-        "2049775164184055998",
-        "2049767690425016780",
-        "aleabitoreddit-77e520b0e730aec8"
+        "2050040294205448401"
       ],
       "risk_notes": [
         "这是产业链逻辑外推，不是投资建议；尚未验证最新订单、估值和股价位置。",
@@ -13689,7 +14284,7 @@
         "schema_version": "1.0",
         "ticker": "ACLS",
         "company": "Axcelis",
-        "generated_at": "2026-05-05T00:44:41.111058+00:00",
+        "generated_at": "2026-05-05T19:26:09.447865+00:00",
         "items": [
           {
             "category": "sec_filing",
@@ -13729,24 +14324,24 @@
       },
       "research_report_cn": {
         "title_cn": "$ACLS Axcelis 产业链边界扩展研报",
-        "one_line_thesis_cn": "基于 SEC 文件（2026-02-17, 2026-02-26, 2026-03-12）证实 $ACLS 存在官方披露记录，但外部证据未包含具体订单、客户或收入数据；其作为离子注入/功率半导体设备节点的定位需结合 $AMAT、$AMD 等锚点顺推验证，当前逻辑强度 78.0，关键订单与产能放量情况待后续财报验证。",
+        "one_line_thesis_cn": "基于 SEC 文件（2026-02-17, 2026-02-26, 2026-03-12）证实 $ACLS 存在官方披露记录，但外部证据未包含具体订单、客户或收入数据；其作为离子注入/功率半导体设备节点的定位需结合 $AMAT、$AMD 等锚点的产能周期外推验证，当前逻辑强度 78.0，关键订单与放量情况待后续财报确认。",
         "source_post_ids": [
+          "2051432439432740931",
+          "2051322315649290619",
+          "2051319157552267710",
           "2051105661220774266",
           "2051014522610372712",
           "2051004642612634051",
           "2050833230736269767",
           "2050610868640260426",
           "2050093551313469467",
-          "2050040294205448401",
-          "2049775164184055998",
-          "2049767690425016780",
-          "aleabitoreddit-77e520b0e730aec8"
+          "2050040294205448401"
         ],
         "external_evidence": {
           "schema_version": "1.0",
           "ticker": "ACLS",
           "company": "Axcelis",
-          "generated_at": "2026-05-05T00:44:41.111058+00:00",
+          "generated_at": "2026-05-05T19:26:09.447865+00:00",
           "items": [
             {
               "category": "sec_filing",
@@ -13788,61 +14383,59 @@
           {
             "heading_cn": "1. 核心结论",
             "items_cn": [
-              "$ACLS 作为离子注入设备龙头，在先进制程与功率半导体扩产中具备关键地位，但当前 SEC 文件仅证明其合规披露，未直接佐证数据中心电力/散热链条的传导逻辑。",
-              "需进一步验证其订单是否进入可交付 backlog，以及毛利率是否受产能利用率提升支撑。",
-              "若无法证明其在离子注入节点不可替代，则产业链外推假设应被撤销。"
+              "$ACLS (Axcelis) 作为离子注入设备龙头，其业务与 $AMAT、$AMD 等锚点紧密相关，但当前外部证据仅包含 SEC 文件，缺乏具体订单、客户或收入数据。",
+              "产业链逻辑需结合 $AMAT、$AMD 等锚点的产能周期外推验证，当前逻辑强度 78.0，关键订单与放量情况待后续财报确认。",
+              "若无法证明其在离子注入/功率半导体设备节点中具备关键地位，扩展假设应被撤销。"
             ]
           },
           {
             "heading_cn": "2. 产业链定位",
             "items_cn": [
-              "上游：半导体设备制造商（离子注入机）。",
-              "中游：晶圆代工与封测厂（台积电、三星等）。",
-              "下游：AI 芯片、数据中心 GPU 集群（$NVDA、$AMD 等）。",
-              "关联环节：电力配电、液冷散热（$AMAT、$AVGO 等间接受益）。"
+              "$ACLS 处于半导体制造设备环节，专注于离子注入设备，是先进制程与功率半导体制造的关键设备供应商。",
+              "其业务与 $AMAT、$AMD 等锚点紧密相关，但当前外部证据未包含具体订单、客户或收入数据。",
+              "产业链逻辑需结合 $AMAT、$AMD 等锚点的产能周期外推验证，当前逻辑强度 78.0，关键订单与放量情况待后续财报确认。"
             ]
           },
           {
             "heading_cn": "3. 博主逻辑映射",
             "items_cn": [
-              "博主观点：AI 数据中心扩张导致电力/散热瓶颈，电气设备与液冷环节受益。",
-              "映射关系：$ACLS 通过离子注入设备支持先进制程，间接支撑 AI 芯片产能，进而影响数据中心需求。",
-              "差异点：博主强调电力/散热链条，而 $ACLS 属于设备端，需验证两者是否存在直接订单传导。"
+              "博主逻辑：从 $AMAT、$AMD 等锚点出发，外推至离子注入/功率半导体设备节点，$ACLS 作为该节点的关键设备供应商，具备潜在投资价值。",
+              "当前外部证据仅包含 SEC 文件，缺乏具体订单、客户或收入数据，需结合 $AMAT、$AMD 等锚点的产能周期外推验证。",
+              "若无法证明其在离子注入/功率半导体设备节点中具备关键地位，扩展假设应被撤销。"
             ]
           },
           {
             "heading_cn": "4. 催化链条",
             "items_cn": [
-              "2026-02-17：8-K 文件披露重大事件（具体事件未详述）。",
-              "2026-02-26：10-K 年报发布，可能包含订单与产能数据。",
-              "2026-03-12：8-K 文件再次披露，需关注是否涉及新客户或技术突破。",
-              "后续催化：季度财报中的 backlog 增长、毛利率变化及客户认证进展。"
+              "第一步：$AMAT、$AMD、$AMZN、$ASML、$AVGO 的 AI 数据中心扩张把约束从 GPU 转移到电力、配电和散热。",
+              "第二步：电气设备、开关设备、液冷和热管理环节可能获得 backlog 或议价能力。",
+              "第三步：项目交付、订单积压、毛利率和资本开支指引，是后续确认点。",
+              "当前外部证据仅包含 SEC 文件，缺乏具体订单、客户或收入数据，需结合 $AMAT、$AMD 等锚点的产能周期外推验证。"
             ]
           },
           {
             "heading_cn": "5. 外部证据",
             "items_cn": [
-              "SEC EDGAR 文件（2026-02-17, 2026-02-26, 2026-03-12）证实 $ACLS 存在官方披露记录。",
-              "文件类型：8-K（重大事件）、10-K（年度报告）。",
-              "可靠性：官方文件，可信度高，但缺乏具体业务细节。",
-              "缺失信息：订单金额、客户名称、产能利用率等关键数据未在摘要中体现。"
+              "SEC 文件 | SEC EDGAR | 2026-02-17 | 8-K filing for $ACLS。SEC recent filing: form 8-K, filing date 2026-02-17.",
+              "SEC 文件 | SEC EDGAR | 2026-02-26 | 10-K filing for $ACLS。SEC recent filing: form 10-K, filing date 2026-02-26.",
+              "SEC 文件 | SEC EDGAR | 2026-03-12 | 8-K filing for $ACLS。SEC recent filing: form 8-K, filing date 2026-03-12."
             ]
           },
           {
             "heading_cn": "6. 后续验证清单",
             "items_cn": [
-              "确认 $ACLS 是否真正在离子注入环节承担供应或瓶颈功能。",
-              "重点验证其数据中心相关订单是否进入可交付 backlog。",
+              "确认候选公司没有只是被主题情绪带动，而是真正在该产业链环节承担供应、客户、替代或瓶颈功能。",
+              "重点验证数据中心电力、配电、液冷或热管理订单是否进入可交付 backlog。",
               "检查最近财报/业绩会是否出现订单、backlog、产能利用率、客户认证、交付周期或毛利率变化。",
               "检查估值与股价位置，避免产业链逻辑正确但市场已经充分定价。",
-              "若无法证明其在离子注入/功率半导体设备节点中具备关键地位，应降低观察优先级。"
+              "若无法证明它在离子注入/功率半导体设备节点中具备关键地位，应降低观察优先级。"
             ]
           },
           {
             "heading_cn": "7. 反证条件与风险",
             "items_cn": [
-              "原帖锚点与 $ACLS 的关系可能只是主题相关，并不存在可验证的一跳传导。",
-              "即便产业链方向成立，$ACLS 的订单、份额或毛利也可能无法兑现。",
+              "原帖锚点与候选公司的关系可能只是主题相关，并不存在可验证的一跳传导。",
+              "即便产业链方向成立，候选公司的订单、份额或毛利也可能无法兑现。",
               "电力/散热链条可能受项目递延、交付瓶颈缓解、估值过高或周期订单波动影响。",
               "若后续公开资料无法证明其在离子注入/功率半导体设备节点中不可替代，扩展假设应被撤销。",
               "这是产业链逻辑外推，不是投资建议；尚未验证最新订单、估值和股价位置。",
@@ -13887,16 +14480,16 @@
         "TSM"
       ],
       "anchor_source_post_ids": [
+        "2051432439432740931",
+        "2051322315649290619",
+        "2051319157552267710",
         "2051105661220774266",
         "2051014522610372712",
         "2051004642612634051",
         "2050833230736269767",
         "2050610868640260426",
         "2050093551313469467",
-        "2050040294205448401",
-        "2049775164184055998",
-        "2049767690425016780",
-        "aleabitoreddit-77e520b0e730aec8"
+        "2050040294205448401"
       ],
       "boundary_expansion_cn": "边界扩展路径：从 $AMD、$AMZN、$ASML、$AVGO、$GOOG 顺着一跳上游、下游、配套或瓶颈环节，检查热管理/液冷配套节点是否承担关键功能。",
       "trigger_logic_cn": "先以原帖中的 $AMD、$AMZN、$ASML、$AVGO、$GOOG 作为产业链锚点，再结合 data center 与 技术节点/产品周期、产能/放量，外推到热管理/液冷配套节点。",
@@ -13909,16 +14502,16 @@
         "产能/放量"
       ],
       "source_post_ids": [
+        "2051432439432740931",
+        "2051322315649290619",
+        "2051319157552267710",
         "2051105661220774266",
         "2051014522610372712",
         "2051004642612634051",
         "2050833230736269767",
         "2050610868640260426",
         "2050093551313469467",
-        "2050040294205448401",
-        "2049775164184055998",
-        "2049767690425016780",
-        "aleabitoreddit-77e520b0e730aec8"
+        "2050040294205448401"
       ],
       "risk_notes": [
         "这是产业链逻辑外推，不是投资建议；尚未验证最新订单、估值和股价位置。",
@@ -13937,12 +14530,12 @@
         "title_cn": "$MOD Modine 产业链边界扩展研报",
         "one_line_thesis_cn": "$MOD 不来自原帖直接点名，而是从 $AMD、$AMZN、$ASML、$AVGO、$GOOG、$GOOGL 的产业链约束向外扩一跳，落在热管理/液冷配套节点；当前观察优先级来自锚点强度、触发关键词、博主研究风格匹配、可追溯帖子数量和外部证据强度。",
         "source_post_ids": [
+          "2051432439432740931",
+          "2051322315649290619",
+          "2051319157552267710",
           "2051105661220774266",
           "2051014522610372712",
-          "2051004642612634051",
-          "2050833230736269767",
-          "2050610868640260426",
-          "2050093551313469467"
+          "2051004642612634051"
         ],
         "external_evidence": {
           "schema_version": "1.0",
@@ -14047,6 +14640,7 @@
         "MSFT"
       ],
       "anchor_source_post_ids": [
+        "2051322315649290619",
         "aleabitoreddit-77e520b0e730aec8",
         "1985334909108433014",
         "1972769926302855553",
@@ -14055,8 +14649,7 @@
         "2047566792294613248",
         "2047520460884353096",
         "2047209727738957983",
-        "2046374163338912200",
-        "2051322315649290619"
+        "2046374163338912200"
       ],
       "boundary_expansion_cn": "边界扩展路径：从 $AMZN、$GOOG、$GOOGL、$MSFT 顺着一跳上游、下游、配套或瓶颈环节，检查核燃料/HALEU 稀缺节点是否承担关键功能。",
       "trigger_logic_cn": "先以原帖中的 $AMZN、$GOOG、$GOOGL、$MSFT 作为产业链锚点，再结合 产业链语境 与 供应链/客户验证、市场份额/竞争格局，外推到核燃料/HALEU 稀缺节点。",
@@ -14067,6 +14660,7 @@
         "市场份额/竞争格局"
       ],
       "source_post_ids": [
+        "2051322315649290619",
         "aleabitoreddit-77e520b0e730aec8",
         "1985334909108433014",
         "1972769926302855553",
@@ -14075,8 +14669,7 @@
         "2047566792294613248",
         "2047520460884353096",
         "2047209727738957983",
-        "2046374163338912200",
-        "2051322315649290619"
+        "2046374163338912200"
       ],
       "risk_notes": [
         "这是产业链逻辑外推，不是投资建议；尚未验证最新订单、估值和股价位置。",
@@ -14095,12 +14688,12 @@
         "title_cn": "$LEU Centrus Energy 产业链边界扩展研报",
         "one_line_thesis_cn": "$LEU 不来自原帖直接点名，而是从 $AMZN、$GOOG、$GOOGL、$MSFT 的产业链约束向外扩一跳，落在核燃料/HALEU 稀缺节点；当前观察优先级来自锚点强度、触发关键词、博主研究风格匹配、可追溯帖子数量和外部证据强度。",
         "source_post_ids": [
+          "2051322315649290619",
           "aleabitoreddit-77e520b0e730aec8",
           "1985334909108433014",
           "1972769926302855553",
           "2049592634398875731",
-          "2048123597223579736",
-          "2047566792294613248"
+          "2048123597223579736"
         ],
         "external_evidence": {
           "schema_version": "1.0",
@@ -14205,6 +14798,7 @@
         "MSFT"
       ],
       "anchor_source_post_ids": [
+        "2051322315649290619",
         "aleabitoreddit-77e520b0e730aec8",
         "1985334909108433014",
         "1972769926302855553",
@@ -14213,8 +14807,7 @@
         "2047566792294613248",
         "2047520460884353096",
         "2047209727738957983",
-        "2046374163338912200",
-        "2051322315649290619"
+        "2046374163338912200"
       ],
       "boundary_expansion_cn": "边界扩展路径：从 $AMZN、$GOOG、$GOOGL、$MSFT 顺着一跳上游、下游、配套或瓶颈环节，检查核组件/反应堆关键供应商是否承担关键功能。",
       "trigger_logic_cn": "先以原帖中的 $AMZN、$GOOG、$GOOGL、$MSFT 作为产业链锚点，再结合 产业链语境 与 供应链/客户验证、市场份额/竞争格局，外推到核组件/反应堆关键供应商。",
@@ -14225,6 +14818,7 @@
         "市场份额/竞争格局"
       ],
       "source_post_ids": [
+        "2051322315649290619",
         "aleabitoreddit-77e520b0e730aec8",
         "1985334909108433014",
         "1972769926302855553",
@@ -14233,8 +14827,7 @@
         "2047566792294613248",
         "2047520460884353096",
         "2047209727738957983",
-        "2046374163338912200",
-        "2051322315649290619"
+        "2046374163338912200"
       ],
       "risk_notes": [
         "这是产业链逻辑外推，不是投资建议；尚未验证最新订单、估值和股价位置。",
@@ -14253,12 +14846,12 @@
         "title_cn": "$BWXT BWX Technologies 产业链边界扩展研报",
         "one_line_thesis_cn": "$BWXT 不来自原帖直接点名，而是从 $AMZN、$GOOG、$GOOGL、$MSFT 的产业链约束向外扩一跳，落在核组件/反应堆关键供应商；当前观察优先级来自锚点强度、触发关键词、博主研究风格匹配、可追溯帖子数量和外部证据强度。",
         "source_post_ids": [
+          "2051322315649290619",
           "aleabitoreddit-77e520b0e730aec8",
           "1985334909108433014",
           "1972769926302855553",
           "2049592634398875731",
-          "2048123597223579736",
-          "2047566792294613248"
+          "2048123597223579736"
         ],
         "external_evidence": {
           "schema_version": "1.0",
@@ -14352,15 +14945,15 @@
   "research_profile_summary": {
     "schema_version": "1.0",
     "research_lens_version": "2026-05-04-auditable-chain-lens-v1",
-    "generated_at": "2026-05-05T00:44:40+00:00",
-    "source_post_count": 157,
+    "generated_at": "2026-05-05T19:26:08+00:00",
+    "source_post_count": 166,
     "focus_themes": [
       {
-        "theme": "多袋股潜力",
-        "count": 6
+        "theme": "市场情绪",
+        "count": 7
       },
       {
-        "theme": "市场情绪",
+        "theme": "多袋股潜力",
         "count": 6
       },
       {
@@ -14372,6 +14965,10 @@
         "count": 5
       },
       {
+        "theme": "光子学",
+        "count": 4
+      },
+      {
         "theme": "垄断地位",
         "count": 4
       },
@@ -14380,7 +14977,7 @@
         "count": 4
       },
       {
-        "theme": "光子学",
+        "theme": "供应链整合",
         "count": 3
       },
       {
@@ -14390,21 +14987,17 @@
       {
         "theme": "估值修复",
         "count": 3
-      },
-      {
-        "theme": "半导体设备",
-        "count": 3
       }
     ],
     "style_signals": [
       {
         "signal": "供应链/客户验证",
-        "count": 46,
+        "count": 48,
         "rule_cn": "优先寻找供应商、客户导入、认证和供货关系明确的二阶机会。"
       },
       {
         "signal": "产能/放量",
-        "count": 42,
+        "count": 43,
         "rule_cn": "关注从认证走向放量、订单和产能利用率变化的节点。"
       },
       {
@@ -14414,12 +15007,12 @@
       },
       {
         "signal": "估值/赔率",
-        "count": 63,
+        "count": 67,
         "rule_cn": "偏好有清晰赔率、估值重估或多倍空间表达的标的。"
       },
       {
         "signal": "技术节点/产品周期",
-        "count": 112,
+        "count": 116,
         "rule_cn": "用产品周期和技术节点定位上游/下游受益环节。"
       }
     ],
@@ -14433,42 +15026,42 @@
     "ticker_focus": [
       {
         "ticker": "SIVE",
-        "mention_count": 44,
-        "bullish_count": 41,
+        "mention_count": 46,
+        "bullish_count": 43,
         "bearish_count": 1,
         "mixed_count": 0,
         "latest_post_ids": [
+          "2051432439432740931",
+          "2051357868126044577",
+          "2051305220236607986",
           "2051198288997789765",
           "2051033642416361642",
           "2051014522610372712",
           "2050833230736269767",
-          "2050790690591048002",
-          "2050762148545216899",
-          "2050272539851821157",
-          "2050265078965182518"
+          "2050790690591048002"
         ]
       },
       {
         "ticker": "NVDA",
-        "mention_count": 23,
-        "bullish_count": 19,
+        "mention_count": 24,
+        "bullish_count": 20,
         "bearish_count": 0,
         "mixed_count": 0,
         "latest_post_ids": [
+          "2051322315649290619",
+          "2051319157552267710",
           "2051105661220774266",
           "2051014522610372712",
           "2051004642612634051",
           "2050833230736269767",
           "2050610868640260426",
-          "2050093551313469467",
-          "2050040294205448401",
-          "2049775164184055998"
+          "2050093551313469467"
         ]
       },
       {
         "ticker": "MRVL",
-        "mention_count": 22,
-        "bullish_count": 14,
+        "mention_count": 23,
+        "bullish_count": 15,
         "bearish_count": 1,
         "mixed_count": 1,
         "latest_post_ids": [
@@ -14484,24 +15077,24 @@
       },
       {
         "ticker": "SOI",
-        "mention_count": 16,
-        "bullish_count": 15,
+        "mention_count": 17,
+        "bullish_count": 16,
         "bearish_count": 0,
         "mixed_count": 0,
         "latest_post_ids": [
+          "2051319157552267710",
           "2051202378058346567",
           "2050790690591048002",
           "2050504109460250973",
           "2050462731149730222",
           "2050040294205448401",
           "2049775164184055998",
-          "2049523399911952597",
-          "2049227875812045146"
+          "2049523399911952597"
         ]
       },
       {
         "ticker": "TSM",
-        "mention_count": 16,
+        "mention_count": 17,
         "bullish_count": 14,
         "bearish_count": 0,
         "mixed_count": 0,
@@ -14518,19 +15111,36 @@
       },
       {
         "ticker": "LITE",
-        "mention_count": 15,
-        "bullish_count": 12,
+        "mention_count": 16,
+        "bullish_count": 13,
         "bearish_count": 0,
         "mixed_count": 0,
         "latest_post_ids": [
+          "2051305220236607986",
           "2051014522610372712",
           "2050833230736269767",
           "2050790690591048002",
           "2050093551313469467",
           "2049032343974007088",
           "2049015455160111466",
-          "2048833654336729213",
-          "2048798568543387922"
+          "2048833654336729213"
+        ]
+      },
+      {
+        "ticker": "AAOI",
+        "mention_count": 14,
+        "bullish_count": 14,
+        "bearish_count": 0,
+        "mixed_count": 0,
+        "latest_post_ids": [
+          "2050790690591048002",
+          "2050462731149730222",
+          "2050237030828052862",
+          "2049576551944204385",
+          "2049227875812045146",
+          "2049160131641004263",
+          "2049015455160111466",
+          "2048929438679896317"
         ]
       },
       {
@@ -14551,54 +15161,37 @@
         ]
       },
       {
-        "ticker": "AAOI",
-        "mention_count": 12,
-        "bullish_count": 12,
-        "bearish_count": 0,
-        "mixed_count": 0,
-        "latest_post_ids": [
-          "2050790690591048002",
-          "2050462731149730222",
-          "2050237030828052862",
-          "2049576551944204385",
-          "2049227875812045146",
-          "2049160131641004263",
-          "2049015455160111466",
-          "2048929438679896317"
-        ]
-      },
-      {
         "ticker": "AXTI",
-        "mention_count": 12,
-        "bullish_count": 11,
+        "mention_count": 13,
+        "bullish_count": 12,
         "bearish_count": 0,
         "mixed_count": 1,
         "latest_post_ids": [
+          "2051322315649290619",
+          "2051305220236607986",
           "2050790690591048002",
           "2050237030828052862",
           "2049985874193195425",
           "2049523399911952597",
           "2049227875812045146",
-          "2048129936813428922",
-          "2047790368700445153",
-          "2046906948088435024"
+          "2048129936813428922"
         ]
       },
       {
         "ticker": "AMD",
-        "mention_count": 12,
-        "bullish_count": 11,
+        "mention_count": 13,
+        "bullish_count": 12,
         "bearish_count": 0,
         "mixed_count": 0,
         "latest_post_ids": [
+          "2051432439432740931",
           "2050093551313469467",
           "2049032343974007088",
           "2048801270337831047",
           "2048663719933333524",
           "2048449289152778686",
           "2048083218080121211",
-          "2047566792294613248",
-          "2047182611160965383"
+          "2047566792294613248"
         ]
       },
       {
@@ -14636,9 +15229,26 @@
         ]
       },
       {
+        "ticker": "POET",
+        "mention_count": 11,
+        "bullish_count": 8,
+        "bearish_count": 2,
+        "mixed_count": 0,
+        "latest_post_ids": [
+          "2051305220236607986",
+          "2050093551313469467",
+          "2048833654336729213",
+          "2048817355141337188",
+          "2048785899610427809",
+          "2047209727738957983",
+          "2046918449168085183",
+          "2046894773706035638"
+        ]
+      },
+      {
         "ticker": "AAPL",
-        "mention_count": 10,
-        "bullish_count": 7,
+        "mention_count": 11,
+        "bullish_count": 8,
         "bearish_count": 0,
         "mixed_count": 0,
         "latest_post_ids": [
@@ -14653,26 +15263,9 @@
         ]
       },
       {
-        "ticker": "POET",
-        "mention_count": 9,
-        "bullish_count": 7,
-        "bearish_count": 2,
-        "mixed_count": 0,
-        "latest_post_ids": [
-          "2050093551313469467",
-          "2048833654336729213",
-          "2048817355141337188",
-          "2048785899610427809",
-          "2047209727738957983",
-          "2046918449168085183",
-          "2046894773706035638",
-          "2046879187076817237"
-        ]
-      },
-      {
         "ticker": "COHR",
-        "mention_count": 9,
-        "bullish_count": 7,
+        "mention_count": 10,
+        "bullish_count": 8,
         "bearish_count": 0,
         "mixed_count": 0,
         "latest_post_ids": [
@@ -14717,16 +15310,16 @@
           "TSM"
         ],
         "anchor_source_post_ids": [
+          "2051432439432740931",
+          "2051322315649290619",
+          "2051319157552267710",
           "2051105661220774266",
           "2051014522610372712",
           "2051004642612634051",
           "2050833230736269767",
           "2050610868640260426",
           "2050093551313469467",
-          "2050040294205448401",
-          "2049775164184055998",
-          "2049767690425016780",
-          "aleabitoreddit-77e520b0e730aec8"
+          "2050040294205448401"
         ],
         "boundary_expansion_cn": "边界扩展路径：从 $AMD、$AMZN、$ASML、$AVGO、$GOOG 顺着一跳上游、下游、配套或瓶颈环节，检查电气开关设备/项目交付节点是否承担关键功能。",
         "trigger_logic_cn": "先以原帖中的 $AMD、$AMZN、$ASML、$AVGO、$GOOG 作为产业链锚点，再结合 switchgear、grid、power、data center 与 产能/放量、估值/赔率，外推到电气开关设备/项目交付节点。",
@@ -14742,16 +15335,16 @@
           "估值/赔率"
         ],
         "source_post_ids": [
+          "2051432439432740931",
+          "2051322315649290619",
+          "2051319157552267710",
           "2051105661220774266",
           "2051014522610372712",
           "2051004642612634051",
           "2050833230736269767",
           "2050610868640260426",
           "2050093551313469467",
-          "2050040294205448401",
-          "2049775164184055998",
-          "2049767690425016780",
-          "aleabitoreddit-77e520b0e730aec8"
+          "2050040294205448401"
         ],
         "risk_notes": [
           "这是产业链逻辑外推，不是投资建议；尚未验证最新订单、估值和股价位置。",
@@ -14761,28 +15354,8 @@
           "schema_version": "1.0",
           "ticker": "POWL",
           "company": "Powell Industries",
-          "generated_at": "2026-05-05T00:45:36.253129+00:00",
+          "generated_at": "2026-05-05T19:27:04.938135+00:00",
           "items": [
-            {
-              "category": "sec_filing",
-              "source": "SEC EDGAR",
-              "title": "8-K filing for $POWL",
-              "date": "2026-02-18",
-              "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000028/powl-20260218.htm",
-              "summary": "SEC recent filing: form 8-K, filing date 2026-02-18.",
-              "evidence_type_cn": "SEC 文件",
-              "reliability": "official"
-            },
-            {
-              "category": "sec_filing",
-              "source": "SEC EDGAR",
-              "title": "8-K filing for $POWL",
-              "date": "2026-03-31",
-              "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000054/powl-20260331.htm",
-              "summary": "SEC recent filing: form 8-K, filing date 2026-03-31.",
-              "evidence_type_cn": "SEC 文件",
-              "reliability": "official"
-            },
             {
               "category": "sec_filing",
               "source": "SEC EDGAR",
@@ -14790,6 +15363,26 @@
               "date": "2026-05-04",
               "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/powl-20260504.htm",
               "summary": "SEC recent filing: form 8-K, filing date 2026-05-04.",
+              "evidence_type_cn": "SEC 文件",
+              "reliability": "official"
+            },
+            {
+              "category": "sec_filing",
+              "source": "SEC EDGAR",
+              "title": "10-Q filing for $POWL",
+              "date": "2026-05-05",
+              "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000070/powl-20260331.htm",
+              "summary": "SEC recent filing: form 10-Q, filing date 2026-05-05.",
+              "evidence_type_cn": "SEC 文件",
+              "reliability": "official"
+            },
+            {
+              "category": "sec_filing",
+              "source": "SEC EDGAR",
+              "title": "8-K filing for $POWL",
+              "date": "2026-05-05",
+              "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000067/powl-20260505.htm",
+              "summary": "SEC recent filing: form 8-K, filing date 2026-05-05.",
               "evidence_type_cn": "SEC 文件",
               "reliability": "official"
             }
@@ -14803,39 +15396,19 @@
           "title_cn": "$POWL Powell Industries 产业链边界扩展研报",
           "one_line_thesis_cn": "$POWL 不来自原帖直接点名，而是从 $AMD、$AMZN、$ASML、$AVGO、$GOOG、$GOOGL 的产业链约束向外扩一跳，落在电气开关设备/项目交付节点；当前观察优先级来自锚点强度、触发关键词、博主研究风格匹配、可追溯帖子数量和外部证据强度。",
           "source_post_ids": [
+            "2051432439432740931",
+            "2051322315649290619",
+            "2051319157552267710",
             "2051105661220774266",
             "2051014522610372712",
-            "2051004642612634051",
-            "2050833230736269767",
-            "2050610868640260426",
-            "2050093551313469467"
+            "2051004642612634051"
           ],
           "external_evidence": {
             "schema_version": "1.0",
             "ticker": "POWL",
             "company": "Powell Industries",
-            "generated_at": "2026-05-05T00:45:36.253129+00:00",
+            "generated_at": "2026-05-05T19:27:04.938135+00:00",
             "items": [
-              {
-                "category": "sec_filing",
-                "source": "SEC EDGAR",
-                "title": "8-K filing for $POWL",
-                "date": "2026-02-18",
-                "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000028/powl-20260218.htm",
-                "summary": "SEC recent filing: form 8-K, filing date 2026-02-18.",
-                "evidence_type_cn": "SEC 文件",
-                "reliability": "official"
-              },
-              {
-                "category": "sec_filing",
-                "source": "SEC EDGAR",
-                "title": "8-K filing for $POWL",
-                "date": "2026-03-31",
-                "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000054/powl-20260331.htm",
-                "summary": "SEC recent filing: form 8-K, filing date 2026-03-31.",
-                "evidence_type_cn": "SEC 文件",
-                "reliability": "official"
-              },
               {
                 "category": "sec_filing",
                 "source": "SEC EDGAR",
@@ -14843,6 +15416,26 @@
                 "date": "2026-05-04",
                 "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/powl-20260504.htm",
                 "summary": "SEC recent filing: form 8-K, filing date 2026-05-04.",
+                "evidence_type_cn": "SEC 文件",
+                "reliability": "official"
+              },
+              {
+                "category": "sec_filing",
+                "source": "SEC EDGAR",
+                "title": "10-Q filing for $POWL",
+                "date": "2026-05-05",
+                "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000070/powl-20260331.htm",
+                "summary": "SEC recent filing: form 10-Q, filing date 2026-05-05.",
+                "evidence_type_cn": "SEC 文件",
+                "reliability": "official"
+              },
+              {
+                "category": "sec_filing",
+                "source": "SEC EDGAR",
+                "title": "8-K filing for $POWL",
+                "date": "2026-05-05",
+                "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000067/powl-20260505.htm",
+                "summary": "SEC recent filing: form 8-K, filing date 2026-05-05.",
                 "evidence_type_cn": "SEC 文件",
                 "reliability": "official"
               }
@@ -14890,9 +15483,9 @@
             {
               "heading_cn": "5. 外部证据",
               "items_cn": [
-                "SEC 文件 | SEC EDGAR | 2026-02-18 | 8-K filing for $POWL。SEC recent filing: form 8-K, filing date 2026-02-18.",
-                "SEC 文件 | SEC EDGAR | 2026-03-31 | 8-K filing for $POWL。SEC recent filing: form 8-K, filing date 2026-03-31.",
-                "SEC 文件 | SEC EDGAR | 2026-05-04 | 8-K filing for $POWL。SEC recent filing: form 8-K, filing date 2026-05-04."
+                "SEC 文件 | SEC EDGAR | 2026-05-04 | 8-K filing for $POWL。SEC recent filing: form 8-K, filing date 2026-05-04.",
+                "SEC 文件 | SEC EDGAR | 2026-05-05 | 10-Q filing for $POWL。SEC recent filing: form 10-Q, filing date 2026-05-05.",
+                "SEC 文件 | SEC EDGAR | 2026-05-05 | 8-K filing for $POWL。SEC recent filing: form 8-K, filing date 2026-05-05."
               ]
             },
             {
@@ -14954,16 +15547,16 @@
           "TSM"
         ],
         "anchor_source_post_ids": [
+          "2051432439432740931",
+          "2051322315649290619",
+          "2051319157552267710",
           "2051105661220774266",
           "2051014522610372712",
           "2051004642612634051",
           "2050833230736269767",
           "2050610868640260426",
           "2050093551313469467",
-          "2050040294205448401",
-          "2049775164184055998",
-          "2049767690425016780",
-          "aleabitoreddit-77e520b0e730aec8"
+          "2050040294205448401"
         ],
         "boundary_expansion_cn": "边界扩展路径：从 $AMD、$AMZN、$ASML、$AVGO、$GOOG 顺着一跳上游、下游、配套或瓶颈环节，检查电气设备/配电瓶颈节点是否承担关键功能。",
         "trigger_logic_cn": "先以原帖中的 $AMD、$AMZN、$ASML、$AVGO、$GOOG 作为产业链锚点，再结合 data center、power、grid、switchgear 与 产能/放量、市场份额/竞争格局，外推到电气设备/配电瓶颈节点。",
@@ -14979,16 +15572,16 @@
           "市场份额/竞争格局"
         ],
         "source_post_ids": [
+          "2051432439432740931",
+          "2051322315649290619",
+          "2051319157552267710",
           "2051105661220774266",
           "2051014522610372712",
           "2051004642612634051",
           "2050833230736269767",
           "2050610868640260426",
           "2050093551313469467",
-          "2050040294205448401",
-          "2049775164184055998",
-          "2049767690425016780",
-          "aleabitoreddit-77e520b0e730aec8"
+          "2050040294205448401"
         ],
         "risk_notes": [
           "这是产业链逻辑外推，不是投资建议；尚未验证最新订单、估值和股价位置。",
@@ -14998,28 +15591,8 @@
           "schema_version": "1.0",
           "ticker": "ETN",
           "company": "Eaton",
-          "generated_at": "2026-05-05T00:45:35.484710+00:00",
+          "generated_at": "2026-05-05T19:27:04.091724+00:00",
           "items": [
-            {
-              "category": "sec_filing",
-              "source": "SEC EDGAR",
-              "title": "424B5 filing for $ETN",
-              "date": "2026-03-09",
-              "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126008311/ny20066192x5_424b5.htm",
-              "summary": "SEC recent filing: form 424B5, filing date 2026-03-09.",
-              "evidence_type_cn": "SEC 文件",
-              "reliability": "official"
-            },
-            {
-              "category": "sec_filing",
-              "source": "SEC EDGAR",
-              "title": "8-K filing for $ETN",
-              "date": "2026-03-10",
-              "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126008836/ef20067414_8k.htm",
-              "summary": "SEC recent filing: form 8-K, filing date 2026-03-10.",
-              "evidence_type_cn": "SEC 文件",
-              "reliability": "official"
-            },
             {
               "category": "sec_filing",
               "source": "SEC EDGAR",
@@ -15027,6 +15600,26 @@
               "date": "2026-04-23",
               "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126016399/ef20071273_8k.htm",
               "summary": "SEC recent filing: form 8-K, filing date 2026-04-23.",
+              "evidence_type_cn": "SEC 文件",
+              "reliability": "official"
+            },
+            {
+              "category": "sec_filing",
+              "source": "SEC EDGAR",
+              "title": "10-Q filing for $ETN",
+              "date": "2026-05-05",
+              "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000013/etn-20260331.htm",
+              "summary": "SEC recent filing: form 10-Q, filing date 2026-05-05.",
+              "evidence_type_cn": "SEC 文件",
+              "reliability": "official"
+            },
+            {
+              "category": "sec_filing",
+              "source": "SEC EDGAR",
+              "title": "8-K filing for $ETN",
+              "date": "2026-05-05",
+              "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000010/etn-20260505.htm",
+              "summary": "SEC recent filing: form 8-K, filing date 2026-05-05.",
               "evidence_type_cn": "SEC 文件",
               "reliability": "official"
             }
@@ -15040,39 +15633,19 @@
           "title_cn": "$ETN Eaton 产业链边界扩展研报",
           "one_line_thesis_cn": "$ETN 不来自原帖直接点名，而是从 $AMD、$AMZN、$ASML、$AVGO、$GOOG、$GOOGL 的产业链约束向外扩一跳，落在电气设备/配电瓶颈节点；当前观察优先级来自锚点强度、触发关键词、博主研究风格匹配、可追溯帖子数量和外部证据强度。",
           "source_post_ids": [
+            "2051432439432740931",
+            "2051322315649290619",
+            "2051319157552267710",
             "2051105661220774266",
             "2051014522610372712",
-            "2051004642612634051",
-            "2050833230736269767",
-            "2050610868640260426",
-            "2050093551313469467"
+            "2051004642612634051"
           ],
           "external_evidence": {
             "schema_version": "1.0",
             "ticker": "ETN",
             "company": "Eaton",
-            "generated_at": "2026-05-05T00:45:35.484710+00:00",
+            "generated_at": "2026-05-05T19:27:04.091724+00:00",
             "items": [
-              {
-                "category": "sec_filing",
-                "source": "SEC EDGAR",
-                "title": "424B5 filing for $ETN",
-                "date": "2026-03-09",
-                "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126008311/ny20066192x5_424b5.htm",
-                "summary": "SEC recent filing: form 424B5, filing date 2026-03-09.",
-                "evidence_type_cn": "SEC 文件",
-                "reliability": "official"
-              },
-              {
-                "category": "sec_filing",
-                "source": "SEC EDGAR",
-                "title": "8-K filing for $ETN",
-                "date": "2026-03-10",
-                "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126008836/ef20067414_8k.htm",
-                "summary": "SEC recent filing: form 8-K, filing date 2026-03-10.",
-                "evidence_type_cn": "SEC 文件",
-                "reliability": "official"
-              },
               {
                 "category": "sec_filing",
                 "source": "SEC EDGAR",
@@ -15080,6 +15653,26 @@
                 "date": "2026-04-23",
                 "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126016399/ef20071273_8k.htm",
                 "summary": "SEC recent filing: form 8-K, filing date 2026-04-23.",
+                "evidence_type_cn": "SEC 文件",
+                "reliability": "official"
+              },
+              {
+                "category": "sec_filing",
+                "source": "SEC EDGAR",
+                "title": "10-Q filing for $ETN",
+                "date": "2026-05-05",
+                "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000013/etn-20260331.htm",
+                "summary": "SEC recent filing: form 10-Q, filing date 2026-05-05.",
+                "evidence_type_cn": "SEC 文件",
+                "reliability": "official"
+              },
+              {
+                "category": "sec_filing",
+                "source": "SEC EDGAR",
+                "title": "8-K filing for $ETN",
+                "date": "2026-05-05",
+                "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000010/etn-20260505.htm",
+                "summary": "SEC recent filing: form 8-K, filing date 2026-05-05.",
                 "evidence_type_cn": "SEC 文件",
                 "reliability": "official"
               }
@@ -15127,9 +15720,9 @@
             {
               "heading_cn": "5. 外部证据",
               "items_cn": [
-                "SEC 文件 | SEC EDGAR | 2026-03-09 | 424B5 filing for $ETN。SEC recent filing: form 424B5, filing date 2026-03-09.",
-                "SEC 文件 | SEC EDGAR | 2026-03-10 | 8-K filing for $ETN。SEC recent filing: form 8-K, filing date 2026-03-10.",
-                "SEC 文件 | SEC EDGAR | 2026-04-23 | 8-K filing for $ETN。SEC recent filing: form 8-K, filing date 2026-04-23."
+                "SEC 文件 | SEC EDGAR | 2026-04-23 | 8-K filing for $ETN。SEC recent filing: form 8-K, filing date 2026-04-23.",
+                "SEC 文件 | SEC EDGAR | 2026-05-05 | 10-Q filing for $ETN。SEC recent filing: form 10-Q, filing date 2026-05-05.",
+                "SEC 文件 | SEC EDGAR | 2026-05-05 | 8-K filing for $ETN。SEC recent filing: form 8-K, filing date 2026-05-05."
               ]
             },
             {
@@ -15191,16 +15784,16 @@
           "TSM"
         ],
         "anchor_source_post_ids": [
+          "2051432439432740931",
+          "2051322315649290619",
+          "2051319157552267710",
           "2051105661220774266",
           "2051014522610372712",
           "2051004642612634051",
           "2050833230736269767",
           "2050610868640260426",
           "2050093551313469467",
-          "2050040294205448401",
-          "2049775164184055998",
-          "2049767690425016780",
-          "aleabitoreddit-77e520b0e730aec8"
+          "2050040294205448401"
         ],
         "boundary_expansion_cn": "边界扩展路径：从 $AMD、$AMZN、$ASML、$AVGO、$GOOG 顺着一跳上游、下游、配套或瓶颈环节，检查电网/燃机/电力设备大型节点是否承担关键功能。",
         "trigger_logic_cn": "先以原帖中的 $AMD、$AMZN、$ASML、$AVGO、$GOOG 作为产业链锚点，再结合 grid、power、energy 与 产能/放量、市场份额/竞争格局，外推到电网/燃机/电力设备大型节点。",
@@ -15215,16 +15808,16 @@
           "市场份额/竞争格局"
         ],
         "source_post_ids": [
+          "2051432439432740931",
+          "2051322315649290619",
+          "2051319157552267710",
           "2051105661220774266",
           "2051014522610372712",
           "2051004642612634051",
           "2050833230736269767",
           "2050610868640260426",
           "2050093551313469467",
-          "2050040294205448401",
-          "2049775164184055998",
-          "2049767690425016780",
-          "aleabitoreddit-77e520b0e730aec8"
+          "2050040294205448401"
         ],
         "risk_notes": [
           "这是产业链逻辑外推，不是投资建议；尚未验证最新订单、估值和股价位置。",
@@ -15243,12 +15836,12 @@
           "title_cn": "$GEV GE Vernova 产业链边界扩展研报",
           "one_line_thesis_cn": "$GEV 不来自原帖直接点名，而是从 $AMD、$AMZN、$ASML、$AVGO、$GOOG、$GOOGL 的产业链约束向外扩一跳，落在电网/燃机/电力设备大型节点；当前观察优先级来自锚点强度、触发关键词、博主研究风格匹配、可追溯帖子数量和外部证据强度。",
           "source_post_ids": [
+            "2051432439432740931",
+            "2051322315649290619",
+            "2051319157552267710",
             "2051105661220774266",
             "2051014522610372712",
-            "2051004642612634051",
-            "2050833230736269767",
-            "2050610868640260426",
-            "2050093551313469467"
+            "2051004642612634051"
           ],
           "external_evidence": {
             "schema_version": "1.0",
@@ -15359,16 +15952,16 @@
           "TSM"
         ],
         "anchor_source_post_ids": [
+          "2051432439432740931",
+          "2051322315649290619",
+          "2051319157552267710",
           "2051105661220774266",
           "2051014522610372712",
           "2051004642612634051",
           "2050833230736269767",
           "2050610868640260426",
           "2050093551313469467",
-          "2050040294205448401",
-          "2049775164184055998",
-          "2049767690425016780",
-          "aleabitoreddit-77e520b0e730aec8"
+          "2050040294205448401"
         ],
         "boundary_expansion_cn": "边界扩展路径：从 $AMD、$AMZN、$ASML、$AVGO、$GOOG 顺着一跳上游、下游、配套或瓶颈环节，检查数据中心电力/散热基础设施是否承担关键功能。",
         "trigger_logic_cn": "先以原帖中的 $AMD、$AMZN、$ASML、$AVGO、$GOOG 作为产业链锚点，再结合 data center、power 与 产能/放量、市场份额/竞争格局，外推到数据中心电力/散热基础设施。",
@@ -15382,16 +15975,16 @@
           "市场份额/竞争格局"
         ],
         "source_post_ids": [
+          "2051432439432740931",
+          "2051322315649290619",
+          "2051319157552267710",
           "2051105661220774266",
           "2051014522610372712",
           "2051004642612634051",
           "2050833230736269767",
           "2050610868640260426",
           "2050093551313469467",
-          "2050040294205448401",
-          "2049775164184055998",
-          "2049767690425016780",
-          "aleabitoreddit-77e520b0e730aec8"
+          "2050040294205448401"
         ],
         "risk_notes": [
           "这是产业链逻辑外推，不是投资建议；尚未验证最新订单、估值和股价位置。",
@@ -15401,7 +15994,7 @@
           "schema_version": "1.0",
           "ticker": "VRT",
           "company": "Vertiv",
-          "generated_at": "2026-05-05T00:45:08.238004+00:00",
+          "generated_at": "2026-05-05T19:26:38.564531+00:00",
           "items": [
             {
               "category": "sec_filing",
@@ -15441,24 +16034,24 @@
         },
         "research_report_cn": {
           "title_cn": "$VRT Vertiv 产业链边界扩展研报",
-          "one_line_thesis_cn": "基于 SEC 文件（10-Q 及 8-K）证实 Vertiv 存在公开披露记录，其作为数据中心电力/散热基础设施供应商的逻辑需结合 $AMD、$AMZN 等锚点公司的 AI 扩张需求进行验证，目前外部证据仅确认公司存在及近期 filings，未证实具体新订单或收入增长细节。",
+          "one_line_thesis_cn": "$VRT 作为数据中心电力/散热基础设施供应商，其产业链逻辑基于 $AMD、$AMZN 等锚点公司的算力扩张需求外推，当前外部证据仅证实 SEC 文件（10-Q 及 8-K）存在，未证实具体订单、收入或政策细节，需后续财报验证 backlog 与交付能力。",
           "source_post_ids": [
+            "2051432439432740931",
+            "2051322315649290619",
+            "2051319157552267710",
             "2051105661220774266",
             "2051014522610372712",
             "2051004642612634051",
             "2050833230736269767",
             "2050610868640260426",
             "2050093551313469467",
-            "2050040294205448401",
-            "2049775164184055998",
-            "2049767690425016780",
-            "aleabitoreddit-77e520b0e730aec8"
+            "2050040294205448401"
           ],
           "external_evidence": {
             "schema_version": "1.0",
             "ticker": "VRT",
             "company": "Vertiv",
-            "generated_at": "2026-05-05T00:45:08.238004+00:00",
+            "generated_at": "2026-05-05T19:26:38.564531+00:00",
             "items": [
               {
                 "category": "sec_filing",
@@ -15500,64 +16093,63 @@
             {
               "heading_cn": "1. 核心结论",
               "items_cn": [
-                "Vertiv ($VRT) 作为数据中心电力与热管理基础设施的关键供应商，其业务逻辑与 AI 算力扩张及液冷技术普及高度相关。",
-                "当前外部证据（SEC filings）仅证实公司近期有公开披露行为，尚未直接量化新订单或收入增长的具体数值。",
-                "需进一步验证其订单积压（Backlog）是否转化为实际交付，以及毛利率是否因竞争加剧而承压。"
+                "$VRT 在数据中心电力与热管理环节具备潜在供应地位，但当前缺乏具体订单或收入数据佐证。",
+                "产业链逻辑成立的前提是 $AMD、$AMZN 等锚点公司持续扩产，且 $VRT 能承接相关订单。",
+                "需警惕市场已对数据中心散热/电力需求充分定价，导致股价未反映基本面变化。"
               ]
             },
             {
               "heading_cn": "2. 产业链定位",
               "items_cn": [
-                "上游：原材料（铜、铝、芯片等）及零部件供应商。",
-                "中游：Vertiv 处于核心环节，提供 UPS、配电单元、液冷解决方案及热管理系统，直接服务于数据中心建设。",
-                "下游：云服务商（如 $AMZN, $MSFT, $GOOGL）、超大规模数据中心运营商及企业级客户。",
-                "关键瓶颈：液冷技术渗透率提升、高端配电设备产能及交付周期。"
+                "$VRT 位于数据中心基础设施上游，提供 UPS、电池、液冷及热管理系统。",
+                "其客户包括大型云厂商（如 $AMZN、$GOOGL）及企业数据中心，依赖长期合同与项目交付。",
+                "若无法证明其在关键客户供应链中不可替代，则产业链逻辑可能失效。"
               ]
             },
             {
               "heading_cn": "3. 博主逻辑映射",
               "items_cn": [
-                "博主观点：AI 算力需求爆发带动数据中心电力与散热基础设施升级，Vertiv 作为龙头将受益。",
-                "逻辑链条：AI 模型训练/推理需求增加 -> 数据中心功耗上升 -> 传统风冷失效 -> 液冷/高效配电需求激增 -> Vertiv 订单增长。",
-                "映射验证：需确认 Vertiv 在液冷领域的市场份额及大客户认证情况，以支撑“不可替代”的假设。"
+                "博主将 $AMD、$AMZN 等算力龙头的扩张视为数据中心电力/散热需求增长的直接驱动力。",
+                "该逻辑外推至 $VRT，假设其作为基础设施供应商能直接受益于上述需求。",
+                "需验证 $VRT 是否真正进入这些客户的供应链，而非仅因主题相关被市场关注。"
               ]
             },
             {
               "heading_cn": "4. 催化链条",
               "items_cn": [
-                "一级催化：$AMD MI300 系列及后续芯片发布，推动新一代数据中心建设。",
-                "二级催化：$AMZN、$MSFT 等云厂商资本开支（CapEx）指引上调，明确液冷采购计划。",
-                "三级催化：Vertiv 财报中 Backlog 数据超预期，或宣布与头部云厂商签订长期供货协议。",
-                "潜在风险：若云厂商推迟 CapEx 或液冷技术路线发生变动，将直接影响 Vertiv 业绩。"
+                "第一步：确认 $VRT 在数据中心电力/散热环节的实际供应角色。",
+                "第二步：观察其订单积压（backlog）或议价能力是否提升。",
+                "第三步：通过财报验证订单交付、毛利率及资本开支指引。",
+                "外部证据（SEC 文件）已发布，但具体业务细节仍需后续财报披露。"
               ]
             },
             {
               "heading_cn": "5. 外部证据",
               "items_cn": [
-                "SEC 文件显示 Vertiv 在 2026 年 4 月 22 日及 27 日有 10-Q 和 8-K  filings，表明公司运营正常且有近期披露。",
-                "需查阅 10-Q 中的 Segment Reporting 部分，确认数据中心解决方案（含液冷）的具体收入占比及同比增长率。",
-                "8-K 文件可能包含重大合同签署、客户认证或产能扩张公告，需逐条核对。"
+                "SEC 文件显示 $VRT 于 2026-04-22 提交 10-Q 及 8-K 报告，于 2026-04-27 提交另一份 8-K 报告。",
+                "这些文件为官方披露，可靠性高，但未包含具体订单或收入细节。",
+                "需结合后续财报分析其业务实质。"
               ]
             },
             {
               "heading_cn": "6. 后续验证清单",
               "items_cn": [
-                "确认 Vertiv 是否仅被主题情绪带动，还是真正在液冷/配电环节承担核心供应功能。",
-                "重点验证其数据中心电力、液冷订单是否进入可交付 Backlog，并关注交付周期变化。",
-                "检查最近财报/业绩会中是否提及订单、Backlog、产能利用率、客户认证或毛利率波动。",
-                "评估当前估值（PE/PS）是否已充分反映 AI 增长预期，避免追高。",
-                "若无法证明其在数据中心散热基础设施中的关键地位，应降低观察优先级。"
+                "确认 $VRT 是否仅受主题情绪带动，而非真正承担供应或瓶颈功能。",
+                "重点验证其数据中心电力、配电、液冷或热管理订单是否进入可交付 backlog。",
+                "检查最近财报/业绩会是否出现订单、backlog、产能利用率、客户认证、交付周期或毛利率变化。",
+                "检查估值与股价位置，避免产业链逻辑正确但市场已充分定价。",
+                "若无法证明其在数据中心电力/散热基础设施中具备关键地位，应降低观察优先级。"
               ]
             },
             {
               "heading_cn": "7. 反证条件与风险",
               "items_cn": [
-                "原帖锚点（如 $AMD）与 Vertiv 的关系可能仅为行业关联，不存在直接的一跳传导。",
-                "即便产业链方向成立，Vertiv 的订单、份额或毛利也可能因竞争（如 $SCHL, $NOK 等）而无法兑现。",
+                "原帖锚点与 $VRT 的关系可能仅为主题相关，不存在可验证的一跳传导。",
+                "即便产业链方向成立，$VRT 的订单、份额或毛利也可能无法兑现。",
                 "电力/散热链条可能受项目递延、交付瓶颈缓解、估值过高或周期订单波动影响。",
-                "若后续公开资料无法证明 Vertiv 在数据中心基础设施中不可替代，扩展假设应被撤销。",
-                "本研报为产业链逻辑外推，非投资建议；需持续跟踪最新订单、估值及股价位置。",
-                "候选公司来自本地可审计产业链种子库，需后续用公开资料或财报进一步验证。"
+                "若后续公开资料无法证明其在数据中心电力/散热基础设施中不可替代，扩展假设应被撤销。",
+                "这是产业链逻辑外推，不是投资建议；尚未验证最新订单、估值和股价位置。",
+                "候选来自本地可审计产业链种子库，需后续用公开资料或财报验证。"
               ]
             }
           ],
@@ -15598,16 +16190,16 @@
           "MSFT"
         ],
         "anchor_source_post_ids": [
+          "2051432439432740931",
+          "2051322315649290619",
+          "2051319157552267710",
           "2051105661220774266",
           "2051014522610372712",
           "2051004642612634051",
           "2050833230736269767",
           "2050610868640260426",
           "2050093551313469467",
-          "2050040294205448401",
-          "2049775164184055998",
-          "2049767690425016780",
-          "aleabitoreddit-77e520b0e730aec8"
+          "2050040294205448401"
         ],
         "boundary_expansion_cn": "边界扩展路径：从 $AMAT、$AMD、$AMZN、$ASML、$AVGO 顺着一跳上游、下游、配套或瓶颈环节，检查离子注入/功率半导体设备节点是否承担关键功能。",
         "trigger_logic_cn": "先以原帖中的 $AMAT、$AMD、$AMZN、$ASML、$AVGO 作为产业链锚点，再结合 sic、capacity 与 技术节点/产品周期、产能/放量，外推到离子注入/功率半导体设备节点。",
@@ -15621,16 +16213,16 @@
           "产能/放量"
         ],
         "source_post_ids": [
+          "2051432439432740931",
+          "2051322315649290619",
+          "2051319157552267710",
           "2051105661220774266",
           "2051014522610372712",
           "2051004642612634051",
           "2050833230736269767",
           "2050610868640260426",
           "2050093551313469467",
-          "2050040294205448401",
-          "2049775164184055998",
-          "2049767690425016780",
-          "aleabitoreddit-77e520b0e730aec8"
+          "2050040294205448401"
         ],
         "risk_notes": [
           "这是产业链逻辑外推，不是投资建议；尚未验证最新订单、估值和股价位置。",
@@ -15640,7 +16232,7 @@
           "schema_version": "1.0",
           "ticker": "ACLS",
           "company": "Axcelis",
-          "generated_at": "2026-05-05T00:44:41.111058+00:00",
+          "generated_at": "2026-05-05T19:26:09.447865+00:00",
           "items": [
             {
               "category": "sec_filing",
@@ -15680,24 +16272,24 @@
         },
         "research_report_cn": {
           "title_cn": "$ACLS Axcelis 产业链边界扩展研报",
-          "one_line_thesis_cn": "基于 SEC 文件（2026-02-17, 2026-02-26, 2026-03-12）证实 $ACLS 存在官方披露记录，但外部证据未包含具体订单、客户或收入数据；其作为离子注入/功率半导体设备节点的定位需结合 $AMAT、$AMD 等锚点顺推验证，当前逻辑强度 78.0，关键订单与产能放量情况待后续财报验证。",
+          "one_line_thesis_cn": "基于 SEC 文件（2026-02-17, 2026-02-26, 2026-03-12）证实 $ACLS 存在官方披露记录，但外部证据未包含具体订单、客户或收入数据；其作为离子注入/功率半导体设备节点的定位需结合 $AMAT、$AMD 等锚点的产能周期外推验证，当前逻辑强度 78.0，关键订单与放量情况待后续财报确认。",
           "source_post_ids": [
+            "2051432439432740931",
+            "2051322315649290619",
+            "2051319157552267710",
             "2051105661220774266",
             "2051014522610372712",
             "2051004642612634051",
             "2050833230736269767",
             "2050610868640260426",
             "2050093551313469467",
-            "2050040294205448401",
-            "2049775164184055998",
-            "2049767690425016780",
-            "aleabitoreddit-77e520b0e730aec8"
+            "2050040294205448401"
           ],
           "external_evidence": {
             "schema_version": "1.0",
             "ticker": "ACLS",
             "company": "Axcelis",
-            "generated_at": "2026-05-05T00:44:41.111058+00:00",
+            "generated_at": "2026-05-05T19:26:09.447865+00:00",
             "items": [
               {
                 "category": "sec_filing",
@@ -15739,61 +16331,59 @@
             {
               "heading_cn": "1. 核心结论",
               "items_cn": [
-                "$ACLS 作为离子注入设备龙头，在先进制程与功率半导体扩产中具备关键地位，但当前 SEC 文件仅证明其合规披露，未直接佐证数据中心电力/散热链条的传导逻辑。",
-                "需进一步验证其订单是否进入可交付 backlog，以及毛利率是否受产能利用率提升支撑。",
-                "若无法证明其在离子注入节点不可替代，则产业链外推假设应被撤销。"
+                "$ACLS (Axcelis) 作为离子注入设备龙头，其业务与 $AMAT、$AMD 等锚点紧密相关，但当前外部证据仅包含 SEC 文件，缺乏具体订单、客户或收入数据。",
+                "产业链逻辑需结合 $AMAT、$AMD 等锚点的产能周期外推验证，当前逻辑强度 78.0，关键订单与放量情况待后续财报确认。",
+                "若无法证明其在离子注入/功率半导体设备节点中具备关键地位，扩展假设应被撤销。"
               ]
             },
             {
               "heading_cn": "2. 产业链定位",
               "items_cn": [
-                "上游：半导体设备制造商（离子注入机）。",
-                "中游：晶圆代工与封测厂（台积电、三星等）。",
-                "下游：AI 芯片、数据中心 GPU 集群（$NVDA、$AMD 等）。",
-                "关联环节：电力配电、液冷散热（$AMAT、$AVGO 等间接受益）。"
+                "$ACLS 处于半导体制造设备环节，专注于离子注入设备，是先进制程与功率半导体制造的关键设备供应商。",
+                "其业务与 $AMAT、$AMD 等锚点紧密相关，但当前外部证据未包含具体订单、客户或收入数据。",
+                "产业链逻辑需结合 $AMAT、$AMD 等锚点的产能周期外推验证，当前逻辑强度 78.0，关键订单与放量情况待后续财报确认。"
               ]
             },
             {
               "heading_cn": "3. 博主逻辑映射",
               "items_cn": [
-                "博主观点：AI 数据中心扩张导致电力/散热瓶颈，电气设备与液冷环节受益。",
-                "映射关系：$ACLS 通过离子注入设备支持先进制程，间接支撑 AI 芯片产能，进而影响数据中心需求。",
-                "差异点：博主强调电力/散热链条，而 $ACLS 属于设备端，需验证两者是否存在直接订单传导。"
+                "博主逻辑：从 $AMAT、$AMD 等锚点出发，外推至离子注入/功率半导体设备节点，$ACLS 作为该节点的关键设备供应商，具备潜在投资价值。",
+                "当前外部证据仅包含 SEC 文件，缺乏具体订单、客户或收入数据，需结合 $AMAT、$AMD 等锚点的产能周期外推验证。",
+                "若无法证明其在离子注入/功率半导体设备节点中具备关键地位，扩展假设应被撤销。"
               ]
             },
             {
               "heading_cn": "4. 催化链条",
               "items_cn": [
-                "2026-02-17：8-K 文件披露重大事件（具体事件未详述）。",
-                "2026-02-26：10-K 年报发布，可能包含订单与产能数据。",
-                "2026-03-12：8-K 文件再次披露，需关注是否涉及新客户或技术突破。",
-                "后续催化：季度财报中的 backlog 增长、毛利率变化及客户认证进展。"
+                "第一步：$AMAT、$AMD、$AMZN、$ASML、$AVGO 的 AI 数据中心扩张把约束从 GPU 转移到电力、配电和散热。",
+                "第二步：电气设备、开关设备、液冷和热管理环节可能获得 backlog 或议价能力。",
+                "第三步：项目交付、订单积压、毛利率和资本开支指引，是后续确认点。",
+                "当前外部证据仅包含 SEC 文件，缺乏具体订单、客户或收入数据，需结合 $AMAT、$AMD 等锚点的产能周期外推验证。"
               ]
             },
             {
               "heading_cn": "5. 外部证据",
               "items_cn": [
-                "SEC EDGAR 文件（2026-02-17, 2026-02-26, 2026-03-12）证实 $ACLS 存在官方披露记录。",
-                "文件类型：8-K（重大事件）、10-K（年度报告）。",
-                "可靠性：官方文件，可信度高，但缺乏具体业务细节。",
-                "缺失信息：订单金额、客户名称、产能利用率等关键数据未在摘要中体现。"
+                "SEC 文件 | SEC EDGAR | 2026-02-17 | 8-K filing for $ACLS。SEC recent filing: form 8-K, filing date 2026-02-17.",
+                "SEC 文件 | SEC EDGAR | 2026-02-26 | 10-K filing for $ACLS。SEC recent filing: form 10-K, filing date 2026-02-26.",
+                "SEC 文件 | SEC EDGAR | 2026-03-12 | 8-K filing for $ACLS。SEC recent filing: form 8-K, filing date 2026-03-12."
               ]
             },
             {
               "heading_cn": "6. 后续验证清单",
               "items_cn": [
-                "确认 $ACLS 是否真正在离子注入环节承担供应或瓶颈功能。",
-                "重点验证其数据中心相关订单是否进入可交付 backlog。",
+                "确认候选公司没有只是被主题情绪带动，而是真正在该产业链环节承担供应、客户、替代或瓶颈功能。",
+                "重点验证数据中心电力、配电、液冷或热管理订单是否进入可交付 backlog。",
                 "检查最近财报/业绩会是否出现订单、backlog、产能利用率、客户认证、交付周期或毛利率变化。",
                 "检查估值与股价位置，避免产业链逻辑正确但市场已经充分定价。",
-                "若无法证明其在离子注入/功率半导体设备节点中具备关键地位，应降低观察优先级。"
+                "若无法证明它在离子注入/功率半导体设备节点中具备关键地位，应降低观察优先级。"
               ]
             },
             {
               "heading_cn": "7. 反证条件与风险",
               "items_cn": [
-                "原帖锚点与 $ACLS 的关系可能只是主题相关，并不存在可验证的一跳传导。",
-                "即便产业链方向成立，$ACLS 的订单、份额或毛利也可能无法兑现。",
+                "原帖锚点与候选公司的关系可能只是主题相关，并不存在可验证的一跳传导。",
+                "即便产业链方向成立，候选公司的订单、份额或毛利也可能无法兑现。",
                 "电力/散热链条可能受项目递延、交付瓶颈缓解、估值过高或周期订单波动影响。",
                 "若后续公开资料无法证明其在离子注入/功率半导体设备节点中不可替代，扩展假设应被撤销。",
                 "这是产业链逻辑外推，不是投资建议；尚未验证最新订单、估值和股价位置。",
@@ -15838,16 +16428,16 @@
           "TSM"
         ],
         "anchor_source_post_ids": [
+          "2051432439432740931",
+          "2051322315649290619",
+          "2051319157552267710",
           "2051105661220774266",
           "2051014522610372712",
           "2051004642612634051",
           "2050833230736269767",
           "2050610868640260426",
           "2050093551313469467",
-          "2050040294205448401",
-          "2049775164184055998",
-          "2049767690425016780",
-          "aleabitoreddit-77e520b0e730aec8"
+          "2050040294205448401"
         ],
         "boundary_expansion_cn": "边界扩展路径：从 $AMD、$AMZN、$ASML、$AVGO、$GOOG 顺着一跳上游、下游、配套或瓶颈环节，检查热管理/液冷配套节点是否承担关键功能。",
         "trigger_logic_cn": "先以原帖中的 $AMD、$AMZN、$ASML、$AVGO、$GOOG 作为产业链锚点，再结合 data center 与 技术节点/产品周期、产能/放量，外推到热管理/液冷配套节点。",
@@ -15860,16 +16450,16 @@
           "产能/放量"
         ],
         "source_post_ids": [
+          "2051432439432740931",
+          "2051322315649290619",
+          "2051319157552267710",
           "2051105661220774266",
           "2051014522610372712",
           "2051004642612634051",
           "2050833230736269767",
           "2050610868640260426",
           "2050093551313469467",
-          "2050040294205448401",
-          "2049775164184055998",
-          "2049767690425016780",
-          "aleabitoreddit-77e520b0e730aec8"
+          "2050040294205448401"
         ],
         "risk_notes": [
           "这是产业链逻辑外推，不是投资建议；尚未验证最新订单、估值和股价位置。",
@@ -15888,12 +16478,12 @@
           "title_cn": "$MOD Modine 产业链边界扩展研报",
           "one_line_thesis_cn": "$MOD 不来自原帖直接点名，而是从 $AMD、$AMZN、$ASML、$AVGO、$GOOG、$GOOGL 的产业链约束向外扩一跳，落在热管理/液冷配套节点；当前观察优先级来自锚点强度、触发关键词、博主研究风格匹配、可追溯帖子数量和外部证据强度。",
           "source_post_ids": [
+            "2051432439432740931",
+            "2051322315649290619",
+            "2051319157552267710",
             "2051105661220774266",
             "2051014522610372712",
-            "2051004642612634051",
-            "2050833230736269767",
-            "2050610868640260426",
-            "2050093551313469467"
+            "2051004642612634051"
           ],
           "external_evidence": {
             "schema_version": "1.0",
@@ -15988,8 +16578,8 @@
       {
         "heading_cn": "研究逻辑与扩展规则",
         "items_cn": [
-          "已纳入 157 条历史分析，学习版本 2026-05-04-auditable-chain-lens-v1。",
-          "高频主题：多袋股潜力、市场情绪、垄断优势、多倍股潜力、垄断地位。",
+          "已纳入 166 条历史分析，学习版本 2026-05-04-auditable-chain-lens-v1。",
+          "高频主题：市场情绪、多袋股潜力、垄断优势、多倍股潜力、光子学。",
           "筛选规则：先从原帖抽取产业链锚点股票/公司，再沿一跳上游、下游、配套或瓶颈环节扩展；主题与研究风格只用于排序和解释，不能单独生成候选。",
           "排除规则：日报候选必须不在原帖 ticker 中，也不能是原帖直接出现的公司名；未解析实体进入 needs_ticker_mapping，而不是直接变成股票候选。"
         ]
@@ -16011,8 +16601,8 @@
           "SK Hynix：上游供应商，来源 posts 2051099481693954525, 2050093551313469467, 2049745676125536657",
           "names TSM as a：下游客户，来源 posts 2049424041136533543, 2049336470079668713",
           "back when. Biggest known：合作伙伴，来源 posts 2046620208387981538, 2046449839626670369",
-          "who the upstream laser：上游供应商，来源 posts 2046879187076817237",
-          "the likely undisclosed laser：上游供应商，来源 posts 2051357868126044577"
+          "NVDA as exclusive rack-scale：上游供应商，来源 posts 2049609993071259684, 2051472715165704657",
+          "who the upstream laser：上游供应商，来源 posts 2046879187076817237"
         ]
       }
     ],
@@ -16024,7 +16614,7 @@
       "ACLS",
       "MOD"
     ],
-    "unresolved_entity_count": 18
+    "unresolved_entity_count": 19
   },
   "needs_ticker_mapping": [
     {
@@ -16053,6 +16643,15 @@
       "source_post_ids": [
         "2046620208387981538",
         "2046449839626670369"
+      ]
+    },
+    {
+      "entity": "NVDA as exclusive rack-scale",
+      "chain_role": "上游供应商",
+      "reason_cn": "原文出现产业链关系实体，但没有可验证 ticker/code，先进入映射队列。",
+      "source_post_ids": [
+        "2049609993071259684",
+        "2051472715165704657"
       ]
     },
     {
@@ -16112,6 +16711,14 @@
       ]
     },
     {
+      "entity": "a major supply chain",
+      "chain_role": "合作伙伴",
+      "reason_cn": "原文出现产业链关系实体，但没有可验证 ticker/code，先进入映射队列。",
+      "source_post_ids": [
+        "2051472715165704657"
+      ]
+    },
+    {
       "entity": "SK Hynix memory",
       "chain_role": "上游供应商",
       "reason_cn": "原文出现产业链关系实体，但没有可验证 ticker/code，先进入映射队列。",
@@ -16133,14 +16740,6 @@
       "reason_cn": "原文出现产业链关系实体，但没有可验证 ticker/code，先进入映射队列。",
       "source_post_ids": [
         "2046363533471035793"
-      ]
-    },
-    {
-      "entity": "NVDA as exclusive rack-scale",
-      "chain_role": "上游供应商",
-      "reason_cn": "原文出现产业链关系实体，但没有可验证 ticker/code，先进入映射队列。",
-      "source_post_ids": [
-        "2049609993071259684"
       ]
     },
     {
@@ -16182,10 +16781,10 @@
       "display_name": "Serenity",
       "kind": "x",
       "account": "aleabitoreddit",
-      "updated_at": "2026-05-05T00:45:36+00:00",
+      "updated_at": "2026-05-05T19:27:05+00:00",
       "status": {
-        "post_count": 157,
-        "public_count": 147,
+        "post_count": 166,
+        "public_count": 156,
         "subscriber_only_count": 10,
         "warnings_count": 6
       },
@@ -16193,8 +16792,8 @@
         {
           "id": "posts",
           "title": "Posts",
-          "entry_count": 157,
-          "latest_date": "2026-05-04"
+          "entry_count": 166,
+          "latest_date": "2026-05-05"
         },
         {
           "id": "daily_report",
