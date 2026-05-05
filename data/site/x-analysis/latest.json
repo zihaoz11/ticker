@@ -16209,288 +16209,30 @@
       "display_name": "tear",
       "kind": "gmail",
       "source_email": "tear@tradingedge.club",
-      "updated_at": "2026-05-05T05:54:41+00:00",
+      "updated_at": "2026-05-05T06:03:19+00:00",
       "status": {
         "entry_count": 96,
-        "content_layer_count": 46,
+        "content_layer_count": 3,
         "warnings_count": 0
       },
       "content_layers": [
         {
-          "id": "notable-flow-highlights",
-          "title": "Notable Flow Highlights",
-          "entry_count": 11,
+          "id": "stock-updates",
+          "title": "Stock Updates",
+          "entry_count": 40,
           "latest_date": "2026-05-04"
         },
         {
-          "id": "heatseeker-stock-write-ups-crypto-quant-updates",
-          "title": "Heatseeker, Stock Write Ups, Crypto & Quant Updates",
-          "entry_count": 1,
+          "id": "flow-highlights",
+          "title": "Flow Highlights",
+          "entry_count": 15,
           "latest_date": "2026-05-04"
         },
         {
           "id": "market-analysis",
           "title": "Market Analysis",
-          "entry_count": 20,
+          "entry_count": 41,
           "latest_date": "2026-05-03"
-        },
-        {
-          "id": "stock-write-ups-quant-updates",
-          "title": "Stock Write Ups & Quant Updates",
-          "entry_count": 1,
-          "latest_date": "2026-04-30"
-        },
-        {
-          "id": "important-market-analysis",
-          "title": "Important Market Analysis",
-          "entry_count": 5,
-          "latest_date": "2026-04-30"
-        },
-        {
-          "id": "stock-write-ups-market-quant-updates",
-          "title": "Stock Write Ups, Market & Quant Updates",
-          "entry_count": 1,
-          "latest_date": "2026-04-29"
-        },
-        {
-          "id": "stock-write-ups-market-commodities-quant-updates",
-          "title": "Stock Write Ups, Market, Commodities & Quant Updates",
-          "entry_count": 1,
-          "latest_date": "2026-04-28"
-        },
-        {
-          "id": "new-stock-picks-quant-updates",
-          "title": "New Stock Picks & Quant Updates",
-          "entry_count": 1,
-          "latest_date": "2026-04-27"
-        },
-        {
-          "id": "market-stocks-crypto-commodities-quant-updates",
-          "title": "Market, Stocks, Crypto, Commodities, Quant Updates",
-          "entry_count": 2,
-          "latest_date": "2026-04-24"
-        },
-        {
-          "id": "market-stocks-quant-updates",
-          "title": "Market, Stocks, Quant Updates",
-          "entry_count": 6,
-          "latest_date": "2026-04-23"
-        },
-        {
-          "id": "market-analysis-using-heatseeker",
-          "title": "Market Analysis Using Heatseeker",
-          "entry_count": 2,
-          "latest_date": "2026-04-22"
-        },
-        {
-          "id": "thesis-on-2-new-stock-picks-heatseeker-stock-updates-market-updates-quant-update",
-          "title": "Thesis on 2 new stock picks, heatseeker stock updates, Market updates, Quant Update",
-          "entry_count": 1,
-          "latest_date": "2026-04-21"
-        },
-        {
-          "id": "new-top-stock-pick-updates-on-commodities-crypto-quant-updates",
-          "title": "New Top Stock Pick & Updates on Commodities, Crypto Quant Updates",
-          "entry_count": 1,
-          "latest_date": "2026-04-20"
-        },
-        {
-          "id": "write-ups-on-stocks-i-am-following",
-          "title": "Write ups on Stocks I am following",
-          "entry_count": 1,
-          "latest_date": "2026-04-17"
-        },
-        {
-          "id": "market-stocks-fx-quant-updates",
-          "title": "Market, Stocks, FX, Quant Updates",
-          "entry_count": 1,
-          "latest_date": "2026-04-14"
-        },
-        {
-          "id": "market-stocks-commodities-quant-updates",
-          "title": "Market, Stocks, Commodities, Quant Updates",
-          "entry_count": 6,
-          "latest_date": "2026-04-14"
-        },
-        {
-          "id": "market-stocks-commodities-fx-crypto-quant-updates",
-          "title": "Market, Stocks, Commodities, FX, Crypto Quant Updates",
-          "entry_count": 2,
-          "latest_date": "2026-04-14"
-        },
-        {
-          "id": "market-analysis-ath-what-beyond-that",
-          "title": "Market Analysis - ATH? What beyond that?",
-          "entry_count": 1,
-          "latest_date": "2026-04-14"
-        },
-        {
-          "id": "i-ll-make-a-wager-with-you-tear",
-          "title": "I'll make a wager with you - Tear",
-          "entry_count": 1,
-          "latest_date": "2026-04-14"
-        },
-        {
-          "id": "the-market-s-at-ath-tear-made-me-miss-it",
-          "title": "\"The market's at ATH, Tear made me miss it\"",
-          "entry_count": 1,
-          "latest_date": "2026-04-14"
-        },
-        {
-          "id": "market-analysis-after-talks-break-down",
-          "title": "Market Analysis after Talks Break Down",
-          "entry_count": 1,
-          "latest_date": "2026-04-13"
-        },
-        {
-          "id": "market-stocks-commodities-fx-quant-updates",
-          "title": "Market, Stocks, Commodities, FX, Quant Updates",
-          "entry_count": 1,
-          "latest_date": "2026-04-10"
-        },
-        {
-          "id": "deep-market-analysis-strategising-into-cpi-and-the-week-ahead",
-          "title": "Deep market Analysis & Strategising into CPI and the week ahead.",
-          "entry_count": 1,
-          "latest_date": "2026-04-10"
-        },
-        {
-          "id": "market-commodities-crypto-quant-updates",
-          "title": "Market, Commodities, Crypto, Quant Updates",
-          "entry_count": 1,
-          "latest_date": "2026-04-08"
-        },
-        {
-          "id": "market-analysis-with-key-levels-to-mark",
-          "title": "Market Analysis with Key levels to mark",
-          "entry_count": 1,
-          "latest_date": "2026-04-08"
-        },
-        {
-          "id": "highlights-from-wednesday-s-option-flow-photonics-semis-crypto-chinese",
-          "title": "Highlights from Wednesday's Option Flow: Photonics, Semis, Crypto, Chinese",
-          "entry_count": 1,
-          "latest_date": "2026-04-08"
-        },
-        {
-          "id": "stocks-commodities-quant-updates",
-          "title": "Stocks, Commodities, Quant Updates",
-          "entry_count": 1,
-          "latest_date": "2026-04-07"
-        },
-        {
-          "id": "trade-plan-for-the-week-ahead",
-          "title": "Trade Plan for the Week Ahead",
-          "entry_count": 1,
-          "latest_date": "2026-04-06"
-        },
-        {
-          "id": "market-stocks-fx-commodities-quant-updates",
-          "title": "Market, Stocks, FX, Commodities, Quant Updates",
-          "entry_count": 5,
-          "latest_date": "2026-04-06"
-        },
-        {
-          "id": "highlights-from-monday-s-option-flow-memory-fslr-lmt-nbis",
-          "title": "Highlights from Monday's Option Flow: Memory, FSLR, LMT, NBIS",
-          "entry_count": 1,
-          "latest_date": "2026-04-06"
-        },
-        {
-          "id": "relief-rally-how-to-play-it",
-          "title": "Relief Rally ? How to play it.",
-          "entry_count": 1,
-          "latest_date": "2026-04-01"
-        },
-        {
-          "id": "market-fx-commodities-quant-updates",
-          "title": "Market, FX, Commodities, Quant Updates",
-          "entry_count": 1,
-          "latest_date": "2026-04-01"
-        },
-        {
-          "id": "semis-with-major-warning-signs",
-          "title": "Semis with major warning signs",
-          "entry_count": 1,
-          "latest_date": "2026-03-31"
-        },
-        {
-          "id": "highlights-from-friday-s-option-flow",
-          "title": "Highlights from Friday's Option Flow",
-          "entry_count": 1,
-          "latest_date": "2026-03-30"
-        },
-        {
-          "id": "market-fx-quant-updates",
-          "title": "Market, FX, Quant Updates",
-          "entry_count": 1,
-          "latest_date": "2026-03-27"
-        },
-        {
-          "id": "highlights-from-tuesday-s-option-flow",
-          "title": "Highlights from Tuesday's Option Flow",
-          "entry_count": 1,
-          "latest_date": "2026-03-25"
-        },
-        {
-          "id": "trump-taco",
-          "title": "Trump TACO",
-          "entry_count": 1,
-          "latest_date": "2026-03-23"
-        },
-        {
-          "id": "market-analysis-revised-roadmap",
-          "title": "Market Analysis & Revised Roadmap",
-          "entry_count": 1,
-          "latest_date": "2026-03-23"
-        },
-        {
-          "id": "market-analysis-post-fomc",
-          "title": "Market Analysis post FOMC",
-          "entry_count": 1,
-          "latest_date": "2026-03-19"
-        },
-        {
-          "id": "market-analysis-ahead-of-fomc",
-          "title": "Market Analysis ahead of FOMC",
-          "entry_count": 1,
-          "latest_date": "2026-03-18"
-        },
-        {
-          "id": "stocks-crypto-commodities-quant-updates",
-          "title": "Stocks, Crypto, Commodities, Quant Updates",
-          "entry_count": 1,
-          "latest_date": "2026-03-16"
-        },
-        {
-          "id": "cutting-through-the-lies-of-the-us-administration",
-          "title": "Cutting Through the Lies of the US administration",
-          "entry_count": 1,
-          "latest_date": "2026-03-12"
-        },
-        {
-          "id": "stocks-quant-updates",
-          "title": "Stocks, Quant Updates",
-          "entry_count": 1,
-          "latest_date": "2026-03-11"
-        },
-        {
-          "id": "stocks-commodities-fx-quant-updates",
-          "title": "Stocks, Commodities, FX, Quant Updates",
-          "entry_count": 1,
-          "latest_date": "2026-03-10"
-        },
-        {
-          "id": "important-market-analysis-thoughts",
-          "title": "Important Market Analysis & Thoughts",
-          "entry_count": 1,
-          "latest_date": "2026-03-09"
-        },
-        {
-          "id": "market-analysis-ahead-of-nfp",
-          "title": "Market analysis ahead of NFP",
-          "entry_count": 1,
-          "latest_date": "2026-03-06"
         }
       ],
       "entries": [
@@ -16502,16 +16244,16 @@
           "subject": "Monday's Notable Flow Highlights",
           "content_date": "2026-05-04",
           "email_ts": "2026-05-04T22:48:46+00:00",
-          "content_layer_id": "notable-flow-highlights",
-          "content_layer_title": "Notable Flow Highlights",
-          "summary_cn": "2026-05-04 的 Notable Flow Highlights 已收录，涉及 $UAE, $VIX, $VXX, $OTM, $USO, $OXY, $RKLB, $PL, $SNDK, $MU, $DRAM, $LITE, $COHR, $AXTI, $IPGP, $NOK, $CRNC, $ALGM；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "flow-highlights",
+          "content_layer_title": "Flow Highlights",
+          "summary_cn": "2026-05-04 的 Flow Highlights 已收录，涉及 $UAE, $VIX, $VXX, $OTM, $USO, $OXY, $RKLB, $PL, $SNDK, $MU, $DRAM, $LITE, $COHR, $AXTI, $IPGP, $NOK, $CRNC, $ALGM；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Notable Flow Highlights。",
+            "内容层：Flow Highlights。",
             "识别到的主要 ticker：$UAE, $VIX, $VXX, $OTM, $USO, $OXY, $RKLB, $PL, $SNDK, $MU, $DRAM, $LITE, $COHR, $AXTI, $IPGP, $NOK, $CRNC, $ALGM。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Notable Flow Highlights"
+            "Flow Highlights"
           ],
           "mentioned_tickers": [
             "UAE",
@@ -16659,16 +16401,16 @@
           "subject": "Heatseeker, Stock Write Ups, Crypto & Quant Updates 04/05",
           "content_date": "2026-05-04",
           "email_ts": "2026-05-04T13:10:26+00:00",
-          "content_layer_id": "heatseeker-stock-write-ups-crypto-quant-updates",
-          "content_layer_title": "Heatseeker, Stock Write Ups, Crypto & Quant Updates",
-          "summary_cn": "2026-05-04 的 Heatseeker, Stock Write Ups, Crypto & Quant Updates 已收录，涉及 $YET, $UI, $TWLO, $BAND, $Q1, $NET, $SMID, $FIVEN, $EGHT, $NICE, $CRNC, $AUDC, $CXDO, $INTC, $MP, $NVDA, $AAPL, $QCOM, $AVGO, $Q3；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-05-04 的 Stock Updates 已收录，涉及 $YET, $UI, $TWLO, $BAND, $Q1, $NET, $SMID, $FIVEN, $EGHT, $NICE, $CRNC, $AUDC, $CXDO, $INTC, $MP, $NVDA, $AAPL, $QCOM, $AVGO, $Q3；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Heatseeker, Stock Write Ups, Crypto & Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$YET, $UI, $TWLO, $BAND, $Q1, $NET, $SMID, $FIVEN, $EGHT, $NICE, $CRNC, $AUDC, $CXDO, $INTC, $MP, $NVDA, $AAPL, $QCOM, $AVGO, $Q3。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Heatseeker, Stock Write Ups, Crypto & Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "YET",
@@ -16850,16 +16592,16 @@
           "subject": "Friday's Institutional Notable Flow",
           "content_date": "2026-05-04",
           "email_ts": "2026-05-04T00:44:06+00:00",
-          "content_layer_id": "notable-flow-highlights",
-          "content_layer_title": "Notable Flow Highlights",
-          "summary_cn": "2026-05-04 的 Notable Flow Highlights 已收录，涉及 $TWLO, $BAND, $EGHT, $LUMN, $CXDO, $GOOGL, $NOW, $CRM, $FIGR, $PANW, $PLTR, $TEAM, $NOK, $TSLA；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "flow-highlights",
+          "content_layer_title": "Flow Highlights",
+          "summary_cn": "2026-05-04 的 Flow Highlights 已收录，涉及 $TWLO, $BAND, $EGHT, $LUMN, $CXDO, $GOOGL, $NOW, $CRM, $FIGR, $PANW, $PLTR, $TEAM, $NOK, $TSLA；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Notable Flow Highlights。",
+            "内容层：Flow Highlights。",
             "识别到的主要 ticker：$TWLO, $BAND, $EGHT, $LUMN, $CXDO, $GOOGL, $NOW, $CRM, $FIGR, $PANW, $PLTR, $TEAM, $NOK, $TSLA。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Notable Flow Highlights"
+            "Flow Highlights"
           ],
           "mentioned_tickers": [
             "TWLO",
@@ -17216,16 +16958,16 @@
           "subject": "Stock Write Ups & Quant Updates 30/04",
           "content_date": "2026-04-30",
           "email_ts": "2026-04-30T13:24:48+00:00",
-          "content_layer_id": "stock-write-ups-quant-updates",
-          "content_layer_title": "Stock Write Ups & Quant Updates",
-          "summary_cn": "2026-04-30 的 Stock Write Ups & Quant Updates 已收录，涉及 $AMZN, $AWS, $Q2, $CUSTOM, $WOULD, $HAVE, $RUN, $RATE, $OF, $IF, $WAS, $MSFT, $RPO, $META, $EU, $GOOGL, $GAAP, $EPS, $TXN, $AMKR；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-30 的 Stock Updates 已收录，涉及 $AMZN, $AWS, $Q2, $CUSTOM, $WOULD, $HAVE, $RUN, $RATE, $OF, $IF, $WAS, $MSFT, $RPO, $META, $EU, $GOOGL, $GAAP, $EPS, $TXN, $AMKR；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Stock Write Ups & Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$AMZN, $AWS, $Q2, $CUSTOM, $WOULD, $HAVE, $RUN, $RATE, $OF, $IF, $WAS, $MSFT, $RPO, $META, $EU, $GOOGL, $GAAP, $EPS, $TXN, $AMKR。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Stock Write Ups & Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "AMZN",
@@ -17407,16 +17149,16 @@
           "subject": "Important Market Analysis 30/04",
           "content_date": "2026-04-30",
           "email_ts": "2026-04-30T10:50:33+00:00",
-          "content_layer_id": "important-market-analysis",
-          "content_layer_title": "Important Market Analysis",
-          "summary_cn": "2026-04-30 的 Important Market Analysis 已收录，涉及 $TURN, $OFF, $GO, $FOMC, $FED, $CHAIR, $POWELL, $WE, $WILL, $WANT, $TO, $SEE, $THE, $OF, $BOTH, $ENERGY, $AND, $TARIFF, $SHOCKS, $BEFORE；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-04-30 的 Market Analysis 已收录，涉及 $TURN, $OFF, $GO, $FOMC, $FED, $CHAIR, $POWELL, $WE, $WILL, $WANT, $TO, $SEE, $THE, $OF, $BOTH, $ENERGY, $AND, $TARIFF, $SHOCKS, $BEFORE；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Important Market Analysis。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$TURN, $OFF, $GO, $FOMC, $FED, $CHAIR, $POWELL, $WE, $WILL, $WANT, $TO, $SEE, $THE, $OF, $BOTH, $ENERGY, $AND, $TARIFF, $SHOCKS, $BEFORE。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Important Market Analysis"
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "TURN",
@@ -17598,16 +17340,16 @@
           "subject": "Stock Write Ups, Market & Quant Updates 29/04",
           "content_date": "2026-04-29",
           "email_ts": "2026-04-29T13:09:53+00:00",
-          "content_layer_id": "stock-write-ups-market-quant-updates",
-          "content_layer_title": "Stock Write Ups, Market & Quant Updates",
-          "summary_cn": "2026-04-29 的 Stock Write Ups, Market & Quant Updates 已收录，涉及 $NIKL, $COPJ, $ERO, $TGB, $PLPC, $POWL, $UUUU, $LEU, $HALEU, $HDFO, $AMKR, $DC, $RDL, $ENGINE, $BEHIND, $THEIR, $GROWTH, $Q1, $NVIDIA, $AMD；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-29 的 Stock Updates 已收录，涉及 $NIKL, $COPJ, $ERO, $TGB, $PLPC, $POWL, $UUUU, $LEU, $HALEU, $HDFO, $AMKR, $DC, $RDL, $ENGINE, $BEHIND, $THEIR, $GROWTH, $Q1, $NVIDIA, $AMD；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Stock Write Ups, Market & Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$NIKL, $COPJ, $ERO, $TGB, $PLPC, $POWL, $UUUU, $LEU, $HALEU, $HDFO, $AMKR, $DC, $RDL, $ENGINE, $BEHIND, $THEIR, $GROWTH, $Q1, $NVIDIA, $AMD。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Stock Write Ups, Market & Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "NIKL",
@@ -17783,16 +17525,16 @@
           "subject": "Important Market Analysis 29/04",
           "content_date": "2026-04-29",
           "email_ts": "2026-04-29T11:33:54+00:00",
-          "content_layer_id": "important-market-analysis",
-          "content_layer_title": "Important Market Analysis",
-          "summary_cn": "2026-04-29 的 Important Market Analysis 已收录，涉及 $TURN, $OFF, $GO, $CFO, $STX, $NXPI, $NVDA, $RSP, $MSFT, $AMZN, $META, $FOMC, $MEME, $VIX, $TRUMP, $TELLS, $AIDES, $TO, $FOR, $OF；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-04-29 的 Market Analysis 已收录，涉及 $TURN, $OFF, $GO, $CFO, $STX, $NXPI, $NVDA, $RSP, $MSFT, $AMZN, $META, $FOMC, $MEME, $VIX, $TRUMP, $TELLS, $AIDES, $TO, $FOR, $OF；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Important Market Analysis。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$TURN, $OFF, $GO, $CFO, $STX, $NXPI, $NVDA, $RSP, $MSFT, $AMZN, $META, $FOMC, $MEME, $VIX, $TRUMP, $TELLS, $AIDES, $TO, $FOR, $OF。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Important Market Analysis"
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "TURN",
@@ -17973,16 +17715,16 @@
           "subject": "Highlights from Tuesday's Institutional flow",
           "content_date": "2026-04-28",
           "email_ts": "2026-04-29T06:45:08+00:00",
-          "content_layer_id": "notable-flow-highlights",
-          "content_layer_title": "Notable Flow Highlights",
-          "summary_cn": "2026-04-28 的 Notable Flow Highlights 已收录，涉及 $GLW, $QQQ, $GLXY, $AMKR, $TSLA, $INTC, $OTM；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "flow-highlights",
+          "content_layer_title": "Flow Highlights",
+          "summary_cn": "2026-04-28 的 Flow Highlights 已收录，涉及 $GLW, $QQQ, $GLXY, $AMKR, $TSLA, $INTC, $OTM；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Notable Flow Highlights。",
+            "内容层：Flow Highlights。",
             "识别到的主要 ticker：$GLW, $QQQ, $GLXY, $AMKR, $TSLA, $INTC, $OTM。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Notable Flow Highlights"
+            "Flow Highlights"
           ],
           "mentioned_tickers": [
             "GLW",
@@ -18053,16 +17795,16 @@
           "subject": "Stock Write Ups, Market, Commodities & Quant Updates 28/04",
           "content_date": "2026-04-28",
           "email_ts": "2026-04-28T13:25:19+00:00",
-          "content_layer_id": "stock-write-ups-market-commodities-quant-updates",
-          "content_layer_title": "Stock Write Ups, Market, Commodities & Quant Updates",
-          "summary_cn": "2026-04-28 的 Stock Write Ups, Market, Commodities & Quant Updates 已收录，涉及 $POWI, $AOSL, $VICR, $NVIDIA, $NVTS, $TSEM, $RF, $Q3, $EML, $ROI, $ROIC, $CAPEX, $Q4, $NRE, $TXN, $INTC, $PC, $H100, $B200, $MOSFET；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-28 的 Stock Updates 已收录，涉及 $POWI, $AOSL, $VICR, $NVIDIA, $NVTS, $TSEM, $RF, $Q3, $EML, $ROI, $ROIC, $CAPEX, $Q4, $NRE, $TXN, $INTC, $PC, $H100, $B200, $MOSFET；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Stock Write Ups, Market, Commodities & Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$POWI, $AOSL, $VICR, $NVIDIA, $NVTS, $TSEM, $RF, $Q3, $EML, $ROI, $ROIC, $CAPEX, $Q4, $NRE, $TXN, $INTC, $PC, $H100, $B200, $MOSFET。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Stock Write Ups, Market, Commodities & Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "POWI",
@@ -18244,16 +17986,16 @@
           "subject": "New Stock Picks & Quant Updates 27/04",
           "content_date": "2026-04-27",
           "email_ts": "2026-04-27T13:21:23+00:00",
-          "content_layer_id": "new-stock-picks-quant-updates",
-          "content_layer_title": "New Stock Picks & Quant Updates",
-          "summary_cn": "2026-04-27 的 New Stock Picks & Quant Updates 已收录，涉及 $CIEN, $NOK, $SMOP, $OTC, $SIVE, $IF, $IBRK, $EF, $B8, $COHR, $AMKR, $BESI, $RSI, $TSM, $THE, $PT, $CAPEX, $AOSL, $ARM, $INTC；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-27 的 Stock Updates 已收录，涉及 $CIEN, $NOK, $SMOP, $OTC, $SIVE, $IF, $IBRK, $EF, $B8, $COHR, $AMKR, $BESI, $RSI, $TSM, $THE, $PT, $CAPEX, $AOSL, $ARM, $INTC；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：New Stock Picks & Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$CIEN, $NOK, $SMOP, $OTC, $SIVE, $IF, $IBRK, $EF, $B8, $COHR, $AMKR, $BESI, $RSI, $TSM, $THE, $PT, $CAPEX, $AOSL, $ARM, $INTC。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "New Stock Picks & Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "CIEN",
@@ -18426,16 +18168,16 @@
           "subject": "Important Market Analysis 27/04",
           "content_date": "2026-04-27",
           "email_ts": "2026-04-27T10:23:09+00:00",
-          "content_layer_id": "important-market-analysis",
-          "content_layer_title": "Important Market Analysis",
-          "summary_cn": "2026-04-27 的 Important Market Analysis 已收录，涉及 $HOW, $TO, $USE, $THE, $EDGE, $TL, $DR, $MSFT, $FOMC, $PCE, $GDP, $CPI, $PPI, $CAPEX, $TSM, $NOW, $RSP, $ATH, $MAG7, $ES1；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-04-27 的 Market Analysis 已收录，涉及 $HOW, $TO, $USE, $THE, $EDGE, $TL, $DR, $MSFT, $FOMC, $PCE, $GDP, $CPI, $PPI, $CAPEX, $TSM, $NOW, $RSP, $ATH, $MAG7, $ES1；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Important Market Analysis。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$HOW, $TO, $USE, $THE, $EDGE, $TL, $DR, $MSFT, $FOMC, $PCE, $GDP, $CPI, $PPI, $CAPEX, $TSM, $NOW, $RSP, $ATH, $MAG7, $ES1。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Important Market Analysis"
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "HOW",
@@ -18600,16 +18342,16 @@
           "subject": "Market, Stocks, Crypto, Commodities, Quant Updates 24/04",
           "content_date": "2026-04-24",
           "email_ts": "2026-04-24T13:34:34+00:00",
-          "content_layer_id": "market-stocks-crypto-commodities-quant-updates",
-          "content_layer_title": "Market, Stocks, Crypto, Commodities, Quant Updates",
-          "summary_cn": "2026-04-24 的 Market, Stocks, Crypto, Commodities, Quant Updates 已收录，涉及 $INTC, $ARM, $AMKR, $AOSL, $POWER, $GAP, $GUIDE, $HERE, $SNDK, $TSMC, $AMD, $NVDA, $MC, $IBIT, $VEX, $OTM, $SPY, $SMH, $QQQ；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-24 的 Stock Updates 已收录，涉及 $INTC, $ARM, $AMKR, $AOSL, $POWER, $GAP, $GUIDE, $HERE, $SNDK, $TSMC, $AMD, $NVDA, $MC, $IBIT, $VEX, $OTM, $SPY, $SMH, $QQQ；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, Crypto, Commodities, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$INTC, $ARM, $AMKR, $AOSL, $POWER, $GAP, $GUIDE, $HERE, $SNDK, $TSMC, $AMD, $NVDA, $MC, $IBIT, $VEX, $OTM, $SPY, $SMH, $QQQ。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, Crypto, Commodities, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "INTC",
@@ -18764,16 +18506,16 @@
           "subject": "Important Market Analysis 24/04",
           "content_date": "2026-04-24",
           "email_ts": "2026-04-24T09:45:53+00:00",
-          "content_layer_id": "important-market-analysis",
-          "content_layer_title": "Important Market Analysis",
-          "summary_cn": "2026-04-24 的 Important Market Analysis 已收录，涉及 $HOW, $TO, $USE, $THE, $EDGE, $IRGC, $WSJ, $VIX, $IF, $ES1, $SPY, $OTM, $SMH, $RSP, $WTI, $USO, $ITM；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-04-24 的 Market Analysis 已收录，涉及 $HOW, $TO, $USE, $THE, $EDGE, $IRGC, $WSJ, $VIX, $IF, $ES1, $SPY, $OTM, $SMH, $RSP, $WTI, $USO, $ITM；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Important Market Analysis。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$HOW, $TO, $USE, $THE, $EDGE, $IRGC, $WSJ, $VIX, $IF, $ES1, $SPY, $OTM, $SMH, $RSP, $WTI, $USO, $ITM。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Important Market Analysis"
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "HOW",
@@ -18914,16 +18656,16 @@
           "subject": "Market, Stocks, Quant Updates 23/04",
           "content_date": "2026-04-23",
           "email_ts": "2026-04-23T13:16:53+00:00",
-          "content_layer_id": "market-stocks-quant-updates",
-          "content_layer_title": "Market, Stocks, Quant Updates",
-          "summary_cn": "2026-04-23 的 Market, Stocks, Quant Updates 已收录，涉及 $UUUU, $ASYS, $GOOGL, $ASIC, $TPS, $SFS, $Q1, $Q2, $HV, $MARKET, $EO, $DOE, $TO, $ACT, $PLPC, $POWL, $AEIS, $AMSC, $ETN, $VICR；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-23 的 Stock Updates 已收录，涉及 $UUUU, $ASYS, $GOOGL, $ASIC, $TPS, $SFS, $Q1, $Q2, $HV, $MARKET, $EO, $DOE, $TO, $ACT, $PLPC, $POWL, $AEIS, $AMSC, $ETN, $VICR；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$UUUU, $ASYS, $GOOGL, $ASIC, $TPS, $SFS, $Q1, $Q2, $HV, $MARKET, $EO, $DOE, $TO, $ACT, $PLPC, $POWL, $AEIS, $AMSC, $ETN, $VICR。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "UUUU",
@@ -19093,16 +18835,16 @@
           "subject": "Important Market Analysis 23/04",
           "content_date": "2026-04-23",
           "email_ts": "2026-04-23T11:46:06+00:00",
-          "content_layer_id": "important-market-analysis",
-          "content_layer_title": "Important Market Analysis",
-          "summary_cn": "2026-04-23 的 Important Market Analysis 已收录，涉及 $HOW, $TO, $USE, $THE, $EDGE, $USS, $NBIS, $IN, $SPY, $XLE；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-04-23 的 Market Analysis 已收录，涉及 $HOW, $TO, $USE, $THE, $EDGE, $USS, $NBIS, $IN, $SPY, $XLE；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Important Market Analysis。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$HOW, $TO, $USE, $THE, $EDGE, $USS, $NBIS, $IN, $SPY, $XLE。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Important Market Analysis"
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "HOW",
@@ -19194,16 +18936,16 @@
           "subject": "Highlights from Wednesday's Institutional flow",
           "content_date": "2026-04-23",
           "email_ts": "2026-04-23T09:59:18+00:00",
-          "content_layer_id": "notable-flow-highlights",
-          "content_layer_title": "Notable Flow Highlights",
-          "summary_cn": "2026-04-23 的 Notable Flow Highlights 已收录，涉及 $AMPX, $XLE, $AMSC, $AOSL, $SMID, $NVTS, $ON, $OTM, $DC, $ARM, $ATH, $IBIT, $HOOD, $MSTR, $BTC, $POET, $MRVL, $FMRI, $FRMI, $AAPL；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "flow-highlights",
+          "content_layer_title": "Flow Highlights",
+          "summary_cn": "2026-04-23 的 Flow Highlights 已收录，涉及 $AMPX, $XLE, $AMSC, $AOSL, $SMID, $NVTS, $ON, $OTM, $DC, $ARM, $ATH, $IBIT, $HOOD, $MSTR, $BTC, $POET, $MRVL, $FMRI, $FRMI, $AAPL；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Notable Flow Highlights。",
+            "内容层：Flow Highlights。",
             "识别到的主要 ticker：$AMPX, $XLE, $AMSC, $AOSL, $SMID, $NVTS, $ON, $OTM, $DC, $ARM, $ATH, $IBIT, $HOOD, $MSTR, $BTC, $POET, $MRVL, $FMRI, $FRMI, $AAPL。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Notable Flow Highlights"
+            "Flow Highlights"
           ],
           "mentioned_tickers": [
             "AMPX",
@@ -19371,16 +19113,16 @@
           "subject": "Market Analysis Using Heatseeker 22/04",
           "content_date": "2026-04-22",
           "email_ts": "2026-04-22T10:26:00+00:00",
-          "content_layer_id": "market-analysis-using-heatseeker",
-          "content_layer_title": "Market Analysis Using Heatseeker",
-          "summary_cn": "2026-04-22 的 Market Analysis Using Heatseeker 已收录，涉及 $HOW, $TO, $USE, $THE, $EDGE, $VIX, $JD, $ITM, $TACO, $WE, $SPY, $EOW, $QQQ；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-04-22 的 Market Analysis 已收录，涉及 $HOW, $TO, $USE, $THE, $EDGE, $VIX, $JD, $ITM, $TACO, $WE, $SPY, $EOW, $QQQ；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market Analysis Using Heatseeker。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$HOW, $TO, $USE, $THE, $EDGE, $VIX, $JD, $ITM, $TACO, $WE, $SPY, $EOW, $QQQ。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market Analysis Using Heatseeker"
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "HOW",
@@ -19493,16 +19235,16 @@
           "subject": "Thesis on 2 new stock picks, heatseeker stock updates, Market updates, Quant Update 21/04",
           "content_date": "2026-04-21",
           "email_ts": "2026-04-21T13:18:28+00:00",
-          "content_layer_id": "thesis-on-2-new-stock-picks-heatseeker-stock-updates-market-updates-quant-update",
-          "content_layer_title": "Thesis on 2 new stock picks, heatseeker stock updates, Market updates, Quant Update",
-          "summary_cn": "2026-04-21 的 Thesis on 2 new stock picks, heatseeker stock updates, Market updates, Quant Update 已收录，涉及 $VICR, $DD, $AOSL, $POWI, $VPD, $ITC, $ARR, $OEM, $MPWR, $MTRN, $AAOI, $AXTI, $PVD, $NVDA, $AMPX, $SNDK, $BE, $ITM, $COIN, $OTM；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-21 的 Stock Updates 已收录，涉及 $VICR, $DD, $AOSL, $POWI, $VPD, $ITC, $ARR, $OEM, $MPWR, $MTRN, $AAOI, $AXTI, $PVD, $NVDA, $AMPX, $SNDK, $BE, $ITM, $COIN, $OTM；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Thesis on 2 new stock picks, heatseeker stock updates, Market updates, Quant Update。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$VICR, $DD, $AOSL, $POWI, $VPD, $ITC, $ARR, $OEM, $MPWR, $MTRN, $AAOI, $AXTI, $PVD, $NVDA, $AMPX, $SNDK, $BE, $ITM, $COIN, $OTM。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Thesis on 2 new stock picks, heatseeker stock updates, Market updates, Quant Update"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "VICR",
@@ -19672,16 +19414,16 @@
           "subject": "Market Analysis Using Heatseeker 21/04",
           "content_date": "2026-04-21",
           "email_ts": "2026-04-21T09:13:19+00:00",
-          "content_layer_id": "market-analysis-using-heatseeker",
-          "content_layer_title": "Market Analysis Using Heatseeker",
-          "summary_cn": "2026-04-21 的 Market Analysis Using Heatseeker 已收录，涉及 $HOW, $TO, $USE, $THE, $EDGE, $TACO, $SPY, $QQQ, $VIX, $ITM, $SPXW, $VEX；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-04-21 的 Market Analysis 已收录，涉及 $HOW, $TO, $USE, $THE, $EDGE, $TACO, $SPY, $QQQ, $VIX, $ITM, $SPXW, $VEX；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market Analysis Using Heatseeker。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$HOW, $TO, $USE, $THE, $EDGE, $TACO, $SPY, $QQQ, $VIX, $ITM, $SPXW, $VEX。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market Analysis Using Heatseeker"
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "HOW",
@@ -19787,16 +19529,16 @@
           "subject": "New Top Stock Pick & Updates on Commodities, Crypto Quant Updates 20/04",
           "content_date": "2026-04-20",
           "email_ts": "2026-04-20T13:20:36+00:00",
-          "content_layer_id": "new-top-stock-pick-updates-on-commodities-crypto-quant-updates",
-          "content_layer_title": "New Top Stock Pick & Updates on Commodities, Crypto Quant Updates",
-          "summary_cn": "2026-04-20 的 New Top Stock Pick & Updates on Commodities, Crypto Quant Updates 已收录，涉及 $AOSL, $VICR, $MTRN, $TEL, $TSEM, $SYNA, $AAOI, $ONTO, $TVS, $POWI, $DC, $NVDA, $UBS, $STM, $EV, $QQQ, $USO, $BTC, $GLW；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-20 的 Stock Updates 已收录，涉及 $AOSL, $VICR, $MTRN, $TEL, $TSEM, $SYNA, $AAOI, $ONTO, $TVS, $POWI, $DC, $NVDA, $UBS, $STM, $EV, $QQQ, $USO, $BTC, $GLW；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：New Top Stock Pick & Updates on Commodities, Crypto Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$AOSL, $VICR, $MTRN, $TEL, $TSEM, $SYNA, $AAOI, $ONTO, $TVS, $POWI, $DC, $NVDA, $UBS, $STM, $EV, $QQQ, $USO, $BTC, $GLW。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "New Top Stock Pick & Updates on Commodities, Crypto Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "AOSL",
@@ -20059,16 +19801,16 @@
           "subject": "Market, Stocks, Quant Updates 22/04",
           "content_date": "2026-04-17",
           "email_ts": "2026-04-22T13:23:46+00:00",
-          "content_layer_id": "market-stocks-quant-updates",
-          "content_layer_title": "Market, Stocks, Quant Updates",
-          "summary_cn": "2026-04-17 的 Market, Stocks, Quant Updates 已收录，涉及 $AOSL, $VICR, $POWI, $DC, $NVTS, $STM, $NAND, $MU, $SNDK, $WDC, $LRCX, $GPT, $VIX, $ITM, $AMPX, $GLW, $GEX, $VEX, $AMKR, $AEIS；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-17 的 Stock Updates 已收录，涉及 $AOSL, $VICR, $POWI, $DC, $NVTS, $STM, $NAND, $MU, $SNDK, $WDC, $LRCX, $GPT, $VIX, $ITM, $AMPX, $GLW, $GEX, $VEX, $AMKR, $AEIS；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$AOSL, $VICR, $POWI, $DC, $NVTS, $STM, $NAND, $MU, $SNDK, $WDC, $LRCX, $GPT, $VIX, $ITM, $AMPX, $GLW, $GEX, $VEX, $AMKR, $AEIS。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "AOSL",
@@ -20230,16 +19972,16 @@
           "subject": "Market, Stocks, Quant Updates 17/04",
           "content_date": "2026-04-17",
           "email_ts": "2026-04-17T13:16:13+00:00",
-          "content_layer_id": "market-stocks-quant-updates",
-          "content_layer_title": "Market, Stocks, Quant Updates",
-          "summary_cn": "2026-04-17 的 Market, Stocks, Quant Updates 已收录，涉及 $LITE, $AMPX, $POWL, $UUUU, $HOOD, $BTC, $BWXT, $LEU, $HALEU, $DOE, $RKLB, $PL, $SNDK, $AAOI；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-17 的 Stock Updates 已收录，涉及 $LITE, $AMPX, $POWL, $UUUU, $HOOD, $BTC, $BWXT, $LEU, $HALEU, $DOE, $RKLB, $PL, $SNDK, $AAOI；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$LITE, $AMPX, $POWL, $UUUU, $HOOD, $BTC, $BWXT, $LEU, $HALEU, $DOE, $RKLB, $PL, $SNDK, $AAOI。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "LITE",
@@ -20359,16 +20101,16 @@
           "subject": "Highlights from Thursday's Institutional flow: RKLB , PL, HIMS, AAOI, Chinese",
           "content_date": "2026-04-17",
           "email_ts": "2026-04-17T11:45:54+00:00",
-          "content_layer_id": "notable-flow-highlights",
-          "content_layer_title": "Notable Flow Highlights",
-          "summary_cn": "2026-04-17 的 Notable Flow Highlights 已收录，涉及 $OTM, $RKLB, $HIMS, $AAOI, $BIDU, $KWEB, $BABA, $FSLR, $VEX, $PL, $ITM；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "flow-highlights",
+          "content_layer_title": "Flow Highlights",
+          "summary_cn": "2026-04-17 的 Flow Highlights 已收录，涉及 $OTM, $RKLB, $HIMS, $AAOI, $BIDU, $KWEB, $BABA, $FSLR, $VEX, $PL, $ITM；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Notable Flow Highlights。",
+            "内容层：Flow Highlights。",
             "识别到的主要 ticker：$OTM, $RKLB, $HIMS, $AAOI, $BIDU, $KWEB, $BABA, $FSLR, $VEX, $PL, $ITM。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Notable Flow Highlights"
+            "Flow Highlights"
           ],
           "mentioned_tickers": [
             "OTM",
@@ -20561,16 +20303,16 @@
           "subject": "Write ups on Stocks I am following",
           "content_date": "2026-04-17",
           "email_ts": "2026-04-16T23:22:15+00:00",
-          "content_layer_id": "write-ups-on-stocks-i-am-following",
-          "content_layer_title": "Write ups on Stocks I am following",
-          "summary_cn": "2026-04-17 的 Write ups on Stocks I am following 已收录，涉及 暂无明确 ticker；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-17 的 Stock Updates 已收录，涉及 暂无明确 ticker；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Write ups on Stocks I am following。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：暂无明确 ticker。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Write ups on Stocks I am following"
+            "Stock Updates"
           ],
           "mentioned_tickers": [],
           "stock_views": [],
@@ -20778,16 +20520,16 @@
           "subject": "Market, Stocks, FX, Quant Updates 15/04",
           "content_date": "2026-04-14",
           "email_ts": "2026-04-16T13:16:02+00:00",
-          "content_layer_id": "market-stocks-fx-quant-updates",
-          "content_layer_title": "Market, Stocks, FX, Quant Updates",
-          "summary_cn": "2026-04-14 的 Market, Stocks, FX, Quant Updates 已收录，涉及 $RKLB, $ATH, $LEU, $ITM, $FX, $CHFUSD, $EURUSD；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-14 的 Stock Updates 已收录，涉及 $RKLB, $ATH, $LEU, $ITM, $FX, $CHFUSD, $EURUSD；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, FX, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$RKLB, $ATH, $LEU, $ITM, $FX, $CHFUSD, $EURUSD。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, FX, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "RKLB",
@@ -20858,16 +20600,16 @@
           "subject": "Market, Stocks, Commodities, Quant Updates 15/04",
           "content_date": "2026-04-14",
           "email_ts": "2026-04-15T13:07:21+00:00",
-          "content_layer_id": "market-stocks-commodities-quant-updates",
-          "content_layer_title": "Market, Stocks, Commodities, Quant Updates",
-          "summary_cn": "2026-04-14 的 Market, Stocks, Commodities, Quant Updates 已收录，涉及 $INTC, $ASML, $RKLB, $APLD, $OTM, $WDC, $STX, $SPY, $OPEX, $GLD, $BUT, $WTI, $USO；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-14 的 Stock Updates 已收录，涉及 $INTC, $ASML, $RKLB, $APLD, $OTM, $WDC, $STX, $SPY, $OPEX, $GLD, $BUT, $WTI, $USO；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, Commodities, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$INTC, $ASML, $RKLB, $APLD, $OTM, $WDC, $STX, $SPY, $OPEX, $GLD, $BUT, $WTI, $USO。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, Commodities, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "INTC",
@@ -20980,16 +20722,16 @@
           "subject": "I'll make a wager with you - Tear",
           "content_date": "2026-04-14",
           "email_ts": "2026-04-14T21:17:11+00:00",
-          "content_layer_id": "i-ll-make-a-wager-with-you-tear",
-          "content_layer_title": "I'll make a wager with you - Tear",
-          "summary_cn": "2026-04-14 的 I'll make a wager with you - Tear 已收录，涉及 $NEW；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-14 的 Stock Updates 已收录，涉及 $NEW；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：I'll make a wager with you - Tear。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$NEW。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "I'll make a wager with you - Tear"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "NEW"
@@ -21018,16 +20760,16 @@
           "subject": "\"The market's at ATH, Tear made me miss it\"",
           "content_date": "2026-04-14",
           "email_ts": "2026-04-14T20:48:43+00:00",
-          "content_layer_id": "the-market-s-at-ath-tear-made-me-miss-it",
-          "content_layer_title": "\"The market's at ATH, Tear made me miss it\"",
-          "summary_cn": "2026-04-14 的 \"The market's at ATH, Tear made me miss it\" 已收录，涉及 $ATH；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-04-14 的 Market Analysis 已收录，涉及 $ATH；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：\"The market's at ATH, Tear made me miss it\"。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$ATH。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "\"The market's at ATH, Tear made me miss it\""
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "ATH"
@@ -21056,16 +20798,16 @@
           "subject": "Market, Stocks, Commodities, FX, Crypto Quant Updates 14/04",
           "content_date": "2026-04-14",
           "email_ts": "2026-04-14T13:28:24+00:00",
-          "content_layer_id": "market-stocks-commodities-fx-crypto-quant-updates",
-          "content_layer_title": "Market, Stocks, Commodities, FX, Crypto Quant Updates",
-          "summary_cn": "2026-04-14 的 Market, Stocks, Commodities, FX, Crypto Quant Updates 已收录，涉及 $TSM, $AMKR, $NVDA, $TSLA, $NFLX, $IGV, $RSI, $MSFT, $WILL, $CIEN, $QQQ, $SMH, $LITE, $AAOI, $COHR, $VIAV, $GLW, $AEHR, $FORM, $SIVE；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-14 的 Stock Updates 已收录，涉及 $TSM, $AMKR, $NVDA, $TSLA, $NFLX, $IGV, $RSI, $MSFT, $WILL, $CIEN, $QQQ, $SMH, $LITE, $AAOI, $COHR, $VIAV, $GLW, $AEHR, $FORM, $SIVE；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, Commodities, FX, Crypto Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$TSM, $AMKR, $NVDA, $TSLA, $NFLX, $IGV, $RSI, $MSFT, $WILL, $CIEN, $QQQ, $SMH, $LITE, $AAOI, $COHR, $VIAV, $GLW, $AEHR, $FORM, $SIVE。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, Commodities, FX, Crypto Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "TSM",
@@ -21237,16 +20979,16 @@
           "subject": "Highlights from Monday's Institutional flow: Semis, AMPX, AXTI, LUNR, CRWV",
           "content_date": "2026-04-14",
           "email_ts": "2026-04-14T11:22:45+00:00",
-          "content_layer_id": "notable-flow-highlights",
-          "content_layer_title": "Notable Flow Highlights",
-          "summary_cn": "2026-04-14 的 Notable Flow Highlights 已收录，涉及 $TSM, $OTM, $INTC, $LRCX, $ARM, $AMD, $MU, $CRWV, $WULF, $HUT, $IREN, $AMPX, $IGV, $PANW, $NOW, $AXTI, $LUNR, $ATH, $SMH, $SNDK；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "flow-highlights",
+          "content_layer_title": "Flow Highlights",
+          "summary_cn": "2026-04-14 的 Flow Highlights 已收录，涉及 $TSM, $OTM, $INTC, $LRCX, $ARM, $AMD, $MU, $CRWV, $WULF, $HUT, $IREN, $AMPX, $IGV, $PANW, $NOW, $AXTI, $LUNR, $ATH, $SMH, $SNDK；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Notable Flow Highlights。",
+            "内容层：Flow Highlights。",
             "识别到的主要 ticker：$TSM, $OTM, $INTC, $LRCX, $ARM, $AMD, $MU, $CRWV, $WULF, $HUT, $IREN, $AMPX, $IGV, $PANW, $NOW, $AXTI, $LUNR, $ATH, $SMH, $SNDK。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Notable Flow Highlights"
+            "Flow Highlights"
           ],
           "mentioned_tickers": [
             "TSM",
@@ -21411,16 +21153,16 @@
           "subject": "Market Analysis 14/04 - ATH? What beyond that?",
           "content_date": "2026-04-14",
           "email_ts": "2026-04-14T10:18:43+00:00",
-          "content_layer_id": "market-analysis-ath-what-beyond-that",
-          "content_layer_title": "Market Analysis - ATH? What beyond that?",
-          "summary_cn": "2026-04-14 的 Market Analysis - ATH? What beyond that? 已收录，涉及 $TLDR, $ATH, $LITE, $SPY, $TL, $DR, $US500, $PPI, $QQQ, $MOVE, $VIX, $COVID, $NOT, $FOMO；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-04-14 的 Market Analysis 已收录，涉及 $TLDR, $ATH, $LITE, $SPY, $TL, $DR, $US500, $PPI, $QQQ, $MOVE, $VIX, $COVID, $NOT, $FOMO；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market Analysis - ATH? What beyond that?。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$TLDR, $ATH, $LITE, $SPY, $TL, $DR, $US500, $PPI, $QQQ, $MOVE, $VIX, $COVID, $NOT, $FOMO。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market Analysis - ATH? What beyond that?"
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "TLDR",
@@ -21540,16 +21282,16 @@
           "subject": "Market, Stocks, Quant Updates 13/04",
           "content_date": "2026-04-13",
           "email_ts": "2026-04-13T13:06:51+00:00",
-          "content_layer_id": "market-stocks-quant-updates",
-          "content_layer_title": "Market, Stocks, Quant Updates",
-          "summary_cn": "2026-04-13 的 Market, Stocks, Quant Updates 已收录，涉及 $CPI, $NOT, $GOOD, $REPORT, $PPI, $BUT, $AMKR, $TSMC, $SOXL, $SMH, $SOXX, $GDS, $INTC, $MU, $AMPX, $ENS；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-13 的 Stock Updates 已收录，涉及 $CPI, $NOT, $GOOD, $REPORT, $PPI, $BUT, $AMKR, $TSMC, $SOXL, $SMH, $SOXX, $GDS, $INTC, $MU, $AMPX, $ENS；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$CPI, $NOT, $GOOD, $REPORT, $PPI, $BUT, $AMKR, $TSMC, $SOXL, $SMH, $SOXX, $GDS, $INTC, $MU, $AMPX, $ENS。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "CPI",
@@ -21683,16 +21425,16 @@
           "subject": "Highlights from Friday's Institutional flow: Photonics, semis, CLS, ONTO, MAGS, NOW, IGV",
           "content_date": "2026-04-13",
           "email_ts": "2026-04-13T10:36:41+00:00",
-          "content_layer_id": "notable-flow-highlights",
-          "content_layer_title": "Notable Flow Highlights",
-          "summary_cn": "2026-04-13 的 Notable Flow Highlights 已收录，涉及 $OTM, $LITE, $GLW, $AAOI, $INTC, $VIAV, $CAR, $CLS, $MAGS, $NOW, $NOT, $NBIS, $ONTO, $SQQQ, $XOM, $XLE, $CRWD, $ADBE, $DOCN, $IGV；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "flow-highlights",
+          "content_layer_title": "Flow Highlights",
+          "summary_cn": "2026-04-13 的 Flow Highlights 已收录，涉及 $OTM, $LITE, $GLW, $AAOI, $INTC, $VIAV, $CAR, $CLS, $MAGS, $NOW, $NOT, $NBIS, $ONTO, $SQQQ, $XOM, $XLE, $CRWD, $ADBE, $DOCN, $IGV；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Notable Flow Highlights。",
+            "内容层：Flow Highlights。",
             "识别到的主要 ticker：$OTM, $LITE, $GLW, $AAOI, $INTC, $VIAV, $CAR, $CLS, $MAGS, $NOW, $NOT, $NBIS, $ONTO, $SQQQ, $XOM, $XLE, $CRWD, $ADBE, $DOCN, $IGV。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Notable Flow Highlights"
+            "Flow Highlights"
           ],
           "mentioned_tickers": [
             "OTM",
@@ -21854,16 +21596,16 @@
           "subject": "Market Analysis after Talks Break Down",
           "content_date": "2026-04-13",
           "email_ts": "2026-04-13T09:50:24+00:00",
-          "content_layer_id": "market-analysis-after-talks-break-down",
-          "content_layer_title": "Market Analysis after Talks Break Down",
-          "summary_cn": "2026-04-13 的 Market Analysis after Talks Break Down 已收录，涉及 $TV, $IDF, $WSJ, $SMA, $VIX, $SMH, $RISKS；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-04-13 的 Market Analysis 已收录，涉及 $TV, $IDF, $WSJ, $SMA, $VIX, $SMH, $RISKS；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market Analysis after Talks Break Down。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$TV, $IDF, $WSJ, $SMA, $VIX, $SMH, $RISKS。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market Analysis after Talks Break Down"
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "TV",
@@ -21934,16 +21676,16 @@
           "subject": "Market, Stocks, Commodities, FX, Quant Updates 10/04",
           "content_date": "2026-04-10",
           "email_ts": "2026-04-10T13:11:26+00:00",
-          "content_layer_id": "market-stocks-commodities-fx-quant-updates",
-          "content_layer_title": "Market, Stocks, Commodities, FX, Quant Updates",
-          "summary_cn": "2026-04-10 的 Market, Stocks, Commodities, FX, Quant Updates 已收录，涉及 $TL, $DR, $NET, $MSFT, $SMA, $XLK, $SPY, $LITE, $AAOI, $AMZN, $LT, $NBIS, $LEU, $HOOD, $ERO, $ATH, $AMKR, $PLPC, $VIX, $QQQ；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-10 的 Stock Updates 已收录，涉及 $TL, $DR, $NET, $MSFT, $SMA, $XLK, $SPY, $LITE, $AAOI, $AMZN, $LT, $NBIS, $LEU, $HOOD, $ERO, $ATH, $AMKR, $PLPC, $VIX, $QQQ；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, Commodities, FX, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$TL, $DR, $NET, $MSFT, $SMA, $XLK, $SPY, $LITE, $AAOI, $AMZN, $LT, $NBIS, $LEU, $HOOD, $ERO, $ATH, $AMKR, $PLPC, $VIX, $QQQ。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, Commodities, FX, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "TL",
@@ -22110,16 +21852,16 @@
           "subject": "Deep market Analysis & Strategising into CPI and the week ahead.",
           "content_date": "2026-04-10",
           "email_ts": "2026-04-10T09:42:47+00:00",
-          "content_layer_id": "deep-market-analysis-strategising-into-cpi-and-the-week-ahead",
-          "content_layer_title": "Deep market Analysis & Strategising into CPI and the week ahead.",
-          "summary_cn": "2026-04-10 的 Deep market Analysis & Strategising into CPI and the week ahead. 已收录，涉及 $SMA, $ATH, $SPY, $CPI, $TO, $MA, $NBIS, $AMKR, $ENS, $AMPX；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-04-10 的 Market Analysis 已收录，涉及 $SMA, $ATH, $SPY, $CPI, $TO, $MA, $NBIS, $AMKR, $ENS, $AMPX；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Deep market Analysis & Strategising into CPI and the week ahead.。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$SMA, $ATH, $SPY, $CPI, $TO, $MA, $NBIS, $AMKR, $ENS, $AMPX。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Deep market Analysis & Strategising into CPI and the week ahead."
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "SMA",
@@ -22211,16 +21953,16 @@
           "subject": "Market, Stocks, Quant Updates 09/04",
           "content_date": "2026-04-09",
           "email_ts": "2026-04-09T13:22:48+00:00",
-          "content_layer_id": "market-stocks-quant-updates",
-          "content_layer_title": "Market, Stocks, Quant Updates",
-          "summary_cn": "2026-04-09 的 Market, Stocks, Quant Updates 已收录，涉及 $LEU, $BWXT, $AAOI, $SPY, $EOW, $CPI, $IF；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-09 的 Stock Updates 已收录，涉及 $LEU, $BWXT, $AAOI, $SPY, $EOW, $CPI, $IF；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$LEU, $BWXT, $AAOI, $SPY, $EOW, $CPI, $IF。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "LEU",
@@ -22291,16 +22033,16 @@
           "subject": "Highlights from Wednesday's Option Flow: Photonics, Semis, Crypto, Chinese",
           "content_date": "2026-04-08",
           "email_ts": "2026-04-09T11:33:04+00:00",
-          "content_layer_id": "highlights-from-wednesday-s-option-flow-photonics-semis-crypto-chinese",
-          "content_layer_title": "Highlights from Wednesday's Option Flow: Photonics, Semis, Crypto, Chinese",
-          "summary_cn": "2026-04-08 的 Highlights from Wednesday's Option Flow: Photonics, Semis, Crypto, Chinese 已收录，涉及 $GLW, $AXTI, $MRVL, $LITE, $VIAV, $TSM, $PDD, $OTM, $DOCN, $WULF, $CRWV, $CIFR, $IBIT, $HUT, $MSTR；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "flow-highlights",
+          "content_layer_title": "Flow Highlights",
+          "summary_cn": "2026-04-08 的 Flow Highlights 已收录，涉及 $GLW, $AXTI, $MRVL, $LITE, $VIAV, $TSM, $PDD, $OTM, $DOCN, $WULF, $CRWV, $CIFR, $IBIT, $HUT, $MSTR；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Highlights from Wednesday's Option Flow: Photonics, Semis, Crypto, Chinese。",
+            "内容层：Flow Highlights。",
             "识别到的主要 ticker：$GLW, $AXTI, $MRVL, $LITE, $VIAV, $TSM, $PDD, $OTM, $DOCN, $WULF, $CRWV, $CIFR, $IBIT, $HUT, $MSTR。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Highlights from Wednesday's Option Flow: Photonics, Semis, Crypto, Chinese"
+            "Flow Highlights"
           ],
           "mentioned_tickers": [
             "GLW",
@@ -22427,16 +22169,16 @@
           "subject": "Market Analysis 09/04 with Key levels to mark",
           "content_date": "2026-04-08",
           "email_ts": "2026-04-09T10:39:04+00:00",
-          "content_layer_id": "market-analysis-with-key-levels-to-mark",
-          "content_layer_title": "Market Analysis with Key levels to mark",
-          "summary_cn": "2026-04-08 的 Market Analysis with Key levels to mark 已收录，涉及 $SPY, $FOMO, $VIAV, $SMA, $BUT, $AP, $JD, $NOT, $ONCE, $THE, $MOIVNG, $CATCH, $UP；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-04-08 的 Market Analysis 已收录，涉及 $SPY, $FOMO, $VIAV, $SMA, $BUT, $AP, $JD, $NOT, $ONCE, $THE, $MOIVNG, $CATCH, $UP；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market Analysis with Key levels to mark。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$SPY, $FOMO, $VIAV, $SMA, $BUT, $AP, $JD, $NOT, $ONCE, $THE, $MOIVNG, $CATCH, $UP。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market Analysis with Key levels to mark"
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "SPY",
@@ -22549,16 +22291,16 @@
           "subject": "Market, Commodities, Crypto, Quant Updates 08/04",
           "content_date": "2026-04-08",
           "email_ts": "2026-04-08T13:18:29+00:00",
-          "content_layer_id": "market-commodities-crypto-quant-updates",
-          "content_layer_title": "Market, Commodities, Crypto, Quant Updates",
-          "summary_cn": "2026-04-08 的 Market, Commodities, Crypto, Quant Updates 已收录，涉及 $SMA, $QQQ, $SMH, $WTI, $JPM, $BUT；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-08 的 Stock Updates 已收录，涉及 $SMA, $QQQ, $SMH, $WTI, $JPM, $BUT；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Commodities, Crypto, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$SMA, $QQQ, $SMH, $WTI, $JPM, $BUT。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Commodities, Crypto, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "SMA",
@@ -22702,16 +22444,16 @@
           "subject": "Stocks, Commodities, Quant Updates 07/04",
           "content_date": "2026-04-07",
           "email_ts": "2026-04-07T13:24:16+00:00",
-          "content_layer_id": "stocks-commodities-quant-updates",
-          "content_layer_title": "Stocks, Commodities, Quant Updates",
-          "summary_cn": "2026-04-07 的 Stocks, Commodities, Quant Updates 已收录，涉及 $AXTI, $AMPX, $IPO, $NBIS, $RKLB, $SMA, $UFO, $AMZN, $BUT, $ASTS, $FUD, $TSLA；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-07 的 Stock Updates 已收录，涉及 $AXTI, $AMPX, $IPO, $NBIS, $RKLB, $SMA, $UFO, $AMZN, $BUT, $ASTS, $FUD, $TSLA；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Stocks, Commodities, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$AXTI, $AMPX, $IPO, $NBIS, $RKLB, $SMA, $UFO, $AMZN, $BUT, $ASTS, $FUD, $TSLA。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Stocks, Commodities, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "AXTI",
@@ -22995,16 +22737,16 @@
           "subject": "Highlights from Monday's Option Flow: Memory, FSLR, LMT, NBIS",
           "content_date": "2026-04-06",
           "email_ts": "2026-04-07T10:01:52+00:00",
-          "content_layer_id": "highlights-from-monday-s-option-flow-memory-fslr-lmt-nbis",
-          "content_layer_title": "Highlights from Monday's Option Flow: Memory, FSLR, LMT, NBIS",
-          "summary_cn": "2026-04-06 的 Highlights from Monday's Option Flow: Memory, FSLR, LMT, NBIS 已收录，涉及 $SMH, $STX, $WDC, $SNDK, $LMT, $OTM, $HII, $KDEF, $FSLR, $ITM, $APLD, $CRWV, $NBIS；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "flow-highlights",
+          "content_layer_title": "Flow Highlights",
+          "summary_cn": "2026-04-06 的 Flow Highlights 已收录，涉及 $SMH, $STX, $WDC, $SNDK, $LMT, $OTM, $HII, $KDEF, $FSLR, $ITM, $APLD, $CRWV, $NBIS；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Highlights from Monday's Option Flow: Memory, FSLR, LMT, NBIS。",
+            "内容层：Flow Highlights。",
             "识别到的主要 ticker：$SMH, $STX, $WDC, $SNDK, $LMT, $OTM, $HII, $KDEF, $FSLR, $ITM, $APLD, $CRWV, $NBIS。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Highlights from Monday's Option Flow: Memory, FSLR, LMT, NBIS"
+            "Flow Highlights"
           ],
           "mentioned_tickers": [
             "SMH",
@@ -23117,16 +22859,16 @@
           "subject": "Market, Stocks, FX, Commodities, Quant Updates 06/04",
           "content_date": "2026-04-06",
           "email_ts": "2026-04-06T13:36:44+00:00",
-          "content_layer_id": "market-stocks-fx-commodities-quant-updates",
-          "content_layer_title": "Market, Stocks, FX, Commodities, Quant Updates",
-          "summary_cn": "2026-04-06 的 Market, Stocks, FX, Commodities, Quant Updates 已收录，涉及 $VIX, $SPY, $FX, $CPI, $CHFUSD, $JPM, $PLPC, $POWL, $ENS, $GLW, $VIAV, $VIAVI, $YTD, $PL, $AXTI, $AXPI, $BUT, $AAOI, $LITE, $COHR；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-06 的 Stock Updates 已收录，涉及 $VIX, $SPY, $FX, $CPI, $CHFUSD, $JPM, $PLPC, $POWL, $ENS, $GLW, $VIAV, $VIAVI, $YTD, $PL, $AXTI, $AXPI, $BUT, $AAOI, $LITE, $COHR；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, FX, Commodities, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$VIX, $SPY, $FX, $CPI, $CHFUSD, $JPM, $PLPC, $POWL, $ENS, $GLW, $VIAV, $VIAVI, $YTD, $PL, $AXTI, $AXPI, $BUT, $AAOI, $LITE, $COHR。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, FX, Commodities, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "VIX",
@@ -23288,16 +23030,16 @@
           "subject": "Trade Plan for the Week Ahead 06/04",
           "content_date": "2026-04-06",
           "email_ts": "2026-04-06T07:16:05+00:00",
-          "content_layer_id": "trade-plan-for-the-week-ahead",
-          "content_layer_title": "Trade Plan for the Week Ahead",
-          "summary_cn": "2026-04-06 的 Trade Plan for the Week Ahead 已收录，涉及 $TLDR, $ATH, $SMA, $JUST, $IN, $FOX, $IRAN, $MAKE, $LAST, $DITCH, $PUSH, $FOR, $DAY, $AXIOS, $NFP, $ISM, $PMI, $FOMC, $PCE, $Q4；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-04-06 的 Market Analysis 已收录，涉及 $TLDR, $ATH, $SMA, $JUST, $IN, $FOX, $IRAN, $MAKE, $LAST, $DITCH, $PUSH, $FOR, $DAY, $AXIOS, $NFP, $ISM, $PMI, $FOMC, $PCE, $Q4；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Trade Plan for the Week Ahead。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$TLDR, $ATH, $SMA, $JUST, $IN, $FOX, $IRAN, $MAKE, $LAST, $DITCH, $PUSH, $FOR, $DAY, $AXIOS, $NFP, $ISM, $PMI, $FOMC, $PCE, $Q4。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Trade Plan for the Week Ahead"
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "TLDR",
@@ -23466,16 +23208,16 @@
           "subject": "Market, Stocks, FX, Commodities, Quant Updates 02/04",
           "content_date": "2026-04-02",
           "email_ts": "2026-04-02T13:05:35+00:00",
-          "content_layer_id": "market-stocks-fx-commodities-quant-updates",
-          "content_layer_title": "Market, Stocks, FX, Commodities, Quant Updates",
-          "summary_cn": "2026-04-02 的 Market, Stocks, FX, Commodities, Quant Updates 已收录，涉及 $NFP, $US500, $IDK, $FX, $DXY；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-02 的 Stock Updates 已收录，涉及 $NFP, $US500, $IDK, $FX, $DXY；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, FX, Commodities, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$NFP, $US500, $IDK, $FX, $DXY。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, FX, Commodities, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "NFP",
@@ -23626,16 +23368,16 @@
           "subject": "Market, FX, Commodities, Quant Updates 01/04",
           "content_date": "2026-04-01",
           "email_ts": "2026-04-01T13:12:53+00:00",
-          "content_layer_id": "market-fx-commodities-quant-updates",
-          "content_layer_title": "Market, FX, Commodities, Quant Updates",
-          "summary_cn": "2026-04-01 的 Market, FX, Commodities, Quant Updates 已收录，涉及 $TLDR, $SMA, $SELL, $FRIDAY, $SCALE, $OUT, $OF, $EQUITY, $TODAY, $INTO, $PUTS, $OPEX, $SPY, $LITE, $AMKR, $ENS, $VIAV, $FAILED, $SMH, $NVDA；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-04-01 的 Stock Updates 已收录，涉及 $TLDR, $SMA, $SELL, $FRIDAY, $SCALE, $OUT, $OF, $EQUITY, $TODAY, $INTO, $PUTS, $OPEX, $SPY, $LITE, $AMKR, $ENS, $VIAV, $FAILED, $SMH, $NVDA；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, FX, Commodities, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$TLDR, $SMA, $SELL, $FRIDAY, $SCALE, $OUT, $OF, $EQUITY, $TODAY, $INTO, $PUTS, $OPEX, $SPY, $LITE, $AMKR, $ENS, $VIAV, $FAILED, $SMH, $NVDA。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, FX, Commodities, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "TLDR",
@@ -23809,16 +23551,16 @@
           "subject": "Relief Rally ? How to play it.",
           "content_date": "2026-04-01",
           "email_ts": "2026-04-01T10:36:13+00:00",
-          "content_layer_id": "relief-rally-how-to-play-it",
-          "content_layer_title": "Relief Rally ? How to play it.",
-          "summary_cn": "2026-04-01 的 Relief Rally ? How to play it. 已收录，涉及 $SPY, $QQQ, $JPM, $TRUMP, $WILL, $LEAVE, $IRAN, $WITHIN, $OR, $WEEKS, $THINK, $WHEN, $LEAVES, $STRAIT, $IS, $UP, $SAYS, $WE, $HAVE, $HAD；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-04-01 的 Market Analysis 已收录，涉及 $SPY, $QQQ, $JPM, $TRUMP, $WILL, $LEAVE, $IRAN, $WITHIN, $OR, $WEEKS, $THINK, $WHEN, $LEAVES, $STRAIT, $IS, $UP, $SAYS, $WE, $HAVE, $HAD；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Relief Rally ? How to play it.。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$SPY, $QQQ, $JPM, $TRUMP, $WILL, $LEAVE, $IRAN, $WITHIN, $OR, $WEEKS, $THINK, $WHEN, $LEAVES, $STRAIT, $IS, $UP, $SAYS, $WE, $HAVE, $HAD。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Relief Rally ? How to play it."
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "SPY",
@@ -23996,16 +23738,16 @@
           "subject": "Semis with major warning signs 31/03",
           "content_date": "2026-03-31",
           "email_ts": "2026-03-31T11:06:33+00:00",
-          "content_layer_id": "semis-with-major-warning-signs",
-          "content_layer_title": "Semis with major warning signs",
-          "summary_cn": "2026-03-31 的 Semis with major warning signs 已收录，涉及 $SPY, $US500, $EOM, $JPM, $USTR, $YTD, $QQQ, $SMH, $TSM, $MU, $NVDA, $KOSPI；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-03-31 的 Stock Updates 已收录，涉及 $SPY, $US500, $EOM, $JPM, $USTR, $YTD, $QQQ, $SMH, $TSM, $MU, $NVDA, $KOSPI；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Semis with major warning signs。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$SPY, $US500, $EOM, $JPM, $USTR, $YTD, $QQQ, $SMH, $TSM, $MU, $NVDA, $KOSPI。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Semis with major warning signs"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "SPY",
@@ -24111,16 +23853,16 @@
           "subject": "Market, Stocks, Commodities, Quant Updates 30/03",
           "content_date": "2026-03-30",
           "email_ts": "2026-03-30T13:03:34+00:00",
-          "content_layer_id": "market-stocks-commodities-quant-updates",
-          "content_layer_title": "Market, Stocks, Commodities, Quant Updates",
-          "summary_cn": "2026-03-30 的 Market, Stocks, Commodities, Quant Updates 已收录，涉及 $AAPL, $DDR5, $AMKR, $SNDK, $BUT, $VIAV, $SMH, $AXTI, $BTC, $GOLD, $TURKEY, $SOLD, $OR, $TONS, $OF, $IN, $WEEKS, $TO, $MARCH, $DCA；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-03-30 的 Stock Updates 已收录，涉及 $AAPL, $DDR5, $AMKR, $SNDK, $BUT, $VIAV, $SMH, $AXTI, $BTC, $GOLD, $TURKEY, $SOLD, $OR, $TONS, $OF, $IN, $WEEKS, $TO, $MARCH, $DCA；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, Commodities, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$AAPL, $DDR5, $AMKR, $SNDK, $BUT, $VIAV, $SMH, $AXTI, $BTC, $GOLD, $TURKEY, $SOLD, $OR, $TONS, $OF, $IN, $WEEKS, $TO, $MARCH, $DCA。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, Commodities, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "AAPL",
@@ -24284,16 +24026,16 @@
           "subject": "Highlights from Friday's Option Flow",
           "content_date": "2026-03-30",
           "email_ts": "2026-03-30T10:39:51+00:00",
-          "content_layer_id": "highlights-from-friday-s-option-flow",
-          "content_layer_title": "Highlights from Friday's Option Flow",
-          "summary_cn": "2026-03-30 的 Highlights from Friday's Option Flow 已收录，涉及 $TSM, $WY, $DVN, $CVE, $OXY, $XLE, $XOM, $COIN, $TSN, $CRWV, $ADMA, $FCX, $ITW, $USO, $OTM, $NFP, $XLU；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "flow-highlights",
+          "content_layer_title": "Flow Highlights",
+          "summary_cn": "2026-03-30 的 Flow Highlights 已收录，涉及 $TSM, $WY, $DVN, $CVE, $OXY, $XLE, $XOM, $COIN, $TSN, $CRWV, $ADMA, $FCX, $ITW, $USO, $OTM, $NFP, $XLU；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Highlights from Friday's Option Flow。",
+            "内容层：Flow Highlights。",
             "识别到的主要 ticker：$TSM, $WY, $DVN, $CVE, $OXY, $XLE, $XOM, $COIN, $TSN, $CRWV, $ADMA, $FCX, $ITW, $USO, $OTM, $NFP, $XLU。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Highlights from Friday's Option Flow"
+            "Flow Highlights"
           ],
           "mentioned_tickers": [
             "TSM",
@@ -24625,16 +24367,16 @@
           "subject": "Market, FX, Quant Updates 27/03",
           "content_date": "2026-03-27",
           "email_ts": "2026-03-27T13:16:12+00:00",
-          "content_layer_id": "market-fx-quant-updates",
-          "content_layer_title": "Market, FX, Quant Updates",
-          "summary_cn": "2026-03-27 的 Market, FX, Quant Updates 已收录，涉及 $GER40, $VIX, $WTI, $SPXL, $BTC, $FX, $BUT, $EURUSD, $GBPUSD；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-03-27 的 Stock Updates 已收录，涉及 $GER40, $VIX, $WTI, $SPXL, $BTC, $FX, $BUT, $EURUSD, $GBPUSD；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, FX, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$GER40, $VIX, $WTI, $SPXL, $BTC, $FX, $BUT, $EURUSD, $GBPUSD。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, FX, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "GER40",
@@ -24910,16 +24652,16 @@
           "subject": "Market, Stocks, Commodities, Quant Updates 26/03",
           "content_date": "2026-03-26",
           "email_ts": "2026-03-26T13:24:14+00:00",
-          "content_layer_id": "market-stocks-commodities-quant-updates",
-          "content_layer_title": "Market, Stocks, Commodities, Quant Updates",
-          "summary_cn": "2026-03-26 的 Market, Stocks, Commodities, Quant Updates 已收录，涉及 $VIX, $WRONG, $NO, $BACK, $SPY, $JPM, $KV, $H100, $ROI, $IGV, $NEW, $TRADE, $IDEA, $THAT, $AM, $AT, $PL, $IPO, $ENS, $POWL；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-03-26 的 Stock Updates 已收录，涉及 $VIX, $WRONG, $NO, $BACK, $SPY, $JPM, $KV, $H100, $ROI, $IGV, $NEW, $TRADE, $IDEA, $THAT, $AM, $AT, $PL, $IPO, $ENS, $POWL；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, Commodities, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$VIX, $WRONG, $NO, $BACK, $SPY, $JPM, $KV, $H100, $ROI, $IGV, $NEW, $TRADE, $IDEA, $THAT, $AM, $AT, $PL, $IPO, $ENS, $POWL。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, Commodities, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "VIX",
@@ -25167,16 +24909,16 @@
           "subject": "Market, Stocks, Commodities, Quant Updates 25/03",
           "content_date": "2026-03-25",
           "email_ts": "2026-03-25T13:22:58+00:00",
-          "content_layer_id": "market-stocks-commodities-quant-updates",
-          "content_layer_title": "Market, Stocks, Commodities, Quant Updates",
-          "summary_cn": "2026-03-25 的 Market, Stocks, Commodities, Quant Updates 已收录，涉及 $NO, $AXTI, $GLW, $SNDK, $LITE, $COHR, $AAOI, $IF, $VIAV, $AEHR, $GFS, $AMKR, $IQE, $CIEN, $ARM, $IPO, $DOCN, $FY, $FY2028, $ITM；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-03-25 的 Stock Updates 已收录，涉及 $NO, $AXTI, $GLW, $SNDK, $LITE, $COHR, $AAOI, $IF, $VIAV, $AEHR, $GFS, $AMKR, $IQE, $CIEN, $ARM, $IPO, $DOCN, $FY, $FY2028, $ITM；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, Commodities, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$NO, $AXTI, $GLW, $SNDK, $LITE, $COHR, $AAOI, $IF, $VIAV, $AEHR, $GFS, $AMKR, $IQE, $CIEN, $ARM, $IPO, $DOCN, $FY, $FY2028, $ITM。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, Commodities, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "NO",
@@ -25339,16 +25081,16 @@
           "subject": "Highlights from Tuesday's Option Flow",
           "content_date": "2026-03-25",
           "email_ts": "2026-03-25T12:23:04+00:00",
-          "content_layer_id": "highlights-from-tuesday-s-option-flow",
-          "content_layer_title": "Highlights from Tuesday's Option Flow",
-          "summary_cn": "2026-03-25 的 Highlights from Tuesday's Option Flow 已收录，涉及 $STX, $ITM, $MU, $GLD, $IWM, $DELL, $GTC；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "flow-highlights",
+          "content_layer_title": "Flow Highlights",
+          "summary_cn": "2026-03-25 的 Flow Highlights 已收录，涉及 $STX, $ITM, $MU, $GLD, $IWM, $DELL, $GTC；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Highlights from Tuesday's Option Flow。",
+            "内容层：Flow Highlights。",
             "识别到的主要 ticker：$STX, $ITM, $MU, $GLD, $IWM, $DELL, $GTC。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Highlights from Tuesday's Option Flow"
+            "Flow Highlights"
           ],
           "mentioned_tickers": [
             "STX",
@@ -25499,16 +25241,16 @@
           "subject": "Market, Stocks, FX, Commodities, Quant Updates 24/03",
           "content_date": "2026-03-24",
           "email_ts": "2026-03-24T13:28:55+00:00",
-          "content_layer_id": "market-stocks-fx-commodities-quant-updates",
-          "content_layer_title": "Market, Stocks, FX, Commodities, Quant Updates",
-          "summary_cn": "2026-03-24 的 Market, Stocks, FX, Commodities, Quant Updates 已收录，涉及 $AMPX, $NBIS, $AAOI, $OFC, $BUT, $AOI, $CFO, $Q4, $ORCL, $LITE, $COHR, $OCS, $UHP, $NVIDIA, $CAGR, $MEMS, $EML, $ELS, $DCA；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-03-24 的 Stock Updates 已收录，涉及 $AMPX, $NBIS, $AAOI, $OFC, $BUT, $AOI, $CFO, $Q4, $ORCL, $LITE, $COHR, $OCS, $UHP, $NVIDIA, $CAGR, $MEMS, $EML, $ELS, $DCA；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, FX, Commodities, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$AMPX, $NBIS, $AAOI, $OFC, $BUT, $AOI, $CFO, $Q4, $ORCL, $LITE, $COHR, $OCS, $UHP, $NVIDIA, $CAGR, $MEMS, $EML, $ELS, $DCA。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, FX, Commodities, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "AMPX",
@@ -25743,16 +25485,16 @@
           "subject": "Market, Stocks, Commodities, Quant Updates 23/03",
           "content_date": "2026-03-23",
           "email_ts": "2026-03-23T13:26:43+00:00",
-          "content_layer_id": "market-stocks-commodities-quant-updates",
-          "content_layer_title": "Market, Stocks, Commodities, Quant Updates",
-          "summary_cn": "2026-03-23 的 Market, Stocks, Commodities, Quant Updates 已收录，涉及 $LITE, $AMKR, $VIAV, $GLW, $COHR, $TSM, $MU, $SNDK, $VRT, $INTC, $TACO, $TAIWAN, $SEMI, $FAB, $FULLY, $BOOKED, $NOT, $YET, $GROUND, $APPLE；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-03-23 的 Stock Updates 已收录，涉及 $LITE, $AMKR, $VIAV, $GLW, $COHR, $TSM, $MU, $SNDK, $VRT, $INTC, $TACO, $TAIWAN, $SEMI, $FAB, $FULLY, $BOOKED, $NOT, $YET, $GROUND, $APPLE；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, Commodities, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$LITE, $AMKR, $VIAV, $GLW, $COHR, $TSM, $MU, $SNDK, $VRT, $INTC, $TACO, $TAIWAN, $SEMI, $FAB, $FULLY, $BOOKED, $NOT, $YET, $GROUND, $APPLE。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, Commodities, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "LITE",
@@ -25934,16 +25676,16 @@
           "subject": "Trump TACO",
           "content_date": "2026-03-23",
           "email_ts": "2026-03-23T11:25:54+00:00",
-          "content_layer_id": "trump-taco",
-          "content_layer_title": "Trump TACO",
-          "summary_cn": "2026-03-23 的 Trump TACO 已收录，涉及 $TACO；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-03-23 的 Market Analysis 已收录，涉及 $TACO；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Trump TACO。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$TACO。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Trump TACO"
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "TACO"
@@ -25972,16 +25714,16 @@
           "subject": "Market Analysis & Revised Roadmap",
           "content_date": "2026-03-23",
           "email_ts": "2026-03-23T11:20:09+00:00",
-          "content_layer_id": "market-analysis-revised-roadmap",
-          "content_layer_title": "Market Analysis & Revised Roadmap",
-          "summary_cn": "2026-03-23 的 Market Analysis & Revised Roadmap 已收录，涉及 $NOT, $JPM, $VIX, $TACO, $SMA, $IF, $ATH；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-03-23 的 Market Analysis 已收录，涉及 $NOT, $JPM, $VIX, $TACO, $SMA, $IF, $ATH；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market Analysis & Revised Roadmap。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$NOT, $JPM, $VIX, $TACO, $SMA, $IF, $ATH。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market Analysis & Revised Roadmap"
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "NOT",
@@ -26052,16 +25794,16 @@
           "subject": "Highlights from Friday's Institutional Flow: Oil, VXX, FRO, Drones, SMCI",
           "content_date": "2026-03-23",
           "email_ts": "2026-03-23T09:01:26+00:00",
-          "content_layer_id": "notable-flow-highlights",
-          "content_layer_title": "Notable Flow Highlights",
-          "summary_cn": "2026-03-23 的 Notable Flow Highlights 已收录，涉及 $XOM, $USO, $CVX, $COP, $VIXX, $OTM, $VIX, $ONDS, $RCAT, $DRNZ, $AMPX, $FRO, $MOS, $MU, $SMCI, $BIG, $RBEAK；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "flow-highlights",
+          "content_layer_title": "Flow Highlights",
+          "summary_cn": "2026-03-23 的 Flow Highlights 已收录，涉及 $XOM, $USO, $CVX, $COP, $VIXX, $OTM, $VIX, $ONDS, $RCAT, $DRNZ, $AMPX, $FRO, $MOS, $MU, $SMCI, $BIG, $RBEAK；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Notable Flow Highlights。",
+            "内容层：Flow Highlights。",
             "识别到的主要 ticker：$XOM, $USO, $CVX, $COP, $VIXX, $OTM, $VIX, $ONDS, $RCAT, $DRNZ, $AMPX, $FRO, $MOS, $MU, $SMCI, $BIG, $RBEAK。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Notable Flow Highlights"
+            "Flow Highlights"
           ],
           "mentioned_tickers": [
             "XOM",
@@ -26202,16 +25944,16 @@
           "subject": "Market, Stocks, FX, Commodities, Quant Updates 20/03",
           "content_date": "2026-03-20",
           "email_ts": "2026-03-20T13:26:06+00:00",
-          "content_layer_id": "market-stocks-fx-commodities-quant-updates",
-          "content_layer_title": "Market, Stocks, FX, Commodities, Quant Updates",
-          "summary_cn": "2026-03-20 的 Market, Stocks, FX, Commodities, Quant Updates 已收录，涉及 $OPEX, $SPY, $AMKR, $LITE, $OFC, $VIAV, $COHR, $LRCX, $ENS, $BWXT, $AMPX, $MU, $WDC, $SNDK, $STX, $AAOI, $AXTI, $GDP, $RBA, $BOE；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-03-20 的 Stock Updates 已收录，涉及 $OPEX, $SPY, $AMKR, $LITE, $OFC, $VIAV, $COHR, $LRCX, $ENS, $BWXT, $AMPX, $MU, $WDC, $SNDK, $STX, $AAOI, $AXTI, $GDP, $RBA, $BOE；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, FX, Commodities, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$OPEX, $SPY, $AMKR, $LITE, $OFC, $VIAV, $COHR, $LRCX, $ENS, $BWXT, $AMPX, $MU, $WDC, $SNDK, $STX, $AAOI, $AXTI, $GDP, $RBA, $BOE。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, FX, Commodities, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "OPEX",
@@ -26454,16 +26196,16 @@
           "subject": "Market, Stocks, FX, Commodities, Quant Updates 19/03",
           "content_date": "2026-03-19",
           "email_ts": "2026-03-19T13:19:26+00:00",
-          "content_layer_id": "market-stocks-fx-commodities-quant-updates",
-          "content_layer_title": "Market, Stocks, FX, Commodities, Quant Updates",
-          "summary_cn": "2026-03-19 的 Market, Stocks, FX, Commodities, Quant Updates 已收录，涉及 $WE, $AXTI, $AXT, $SNDK, $LITE, $COHR, $NEED, $BUT, $OSS, $LTRX, $UMAC, $FX, $DXY, $CHFUSD, $PPI；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-03-19 的 Stock Updates 已收录，涉及 $WE, $AXTI, $AXT, $SNDK, $LITE, $COHR, $NEED, $BUT, $OSS, $LTRX, $UMAC, $FX, $DXY, $CHFUSD, $PPI；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, FX, Commodities, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$WE, $AXTI, $AXT, $SNDK, $LITE, $COHR, $NEED, $BUT, $OSS, $LTRX, $UMAC, $FX, $DXY, $CHFUSD, $PPI。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, FX, Commodities, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "WE",
@@ -26590,16 +26332,16 @@
           "subject": "Market Analysis post FOMC",
           "content_date": "2026-03-19",
           "email_ts": "2026-03-19T10:38:37+00:00",
-          "content_layer_id": "market-analysis-post-fomc",
-          "content_layer_title": "Market Analysis post FOMC",
-          "summary_cn": "2026-03-19 的 Market Analysis post FOMC 已收录，涉及 $PPI, $SUPPLY, $CPI, $SMA, $QQQ, $VIX, $NYMO, $WE, $ATH；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-03-19 的 Market Analysis 已收录，涉及 $PPI, $SUPPLY, $CPI, $SMA, $QQQ, $VIX, $NYMO, $WE, $ATH；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market Analysis post FOMC。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$PPI, $SUPPLY, $CPI, $SMA, $QQQ, $VIX, $NYMO, $WE, $ATH。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market Analysis post FOMC"
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "PPI",
@@ -26684,16 +26426,16 @@
           "subject": "Market Analysis ahead of FOMC",
           "content_date": "2026-03-18",
           "email_ts": "2026-03-18T11:02:56+00:00",
-          "content_layer_id": "market-analysis-ahead-of-fomc",
-          "content_layer_title": "Market Analysis ahead of FOMC",
-          "summary_cn": "2026-03-18 的 Market Analysis ahead of FOMC 已收录，涉及 $US500, $FOMC, $QQQ, $WTI, $SQQQ, $NOT, $SEP, $RBA；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-03-18 的 Market Analysis 已收录，涉及 $US500, $FOMC, $QQQ, $WTI, $SQQQ, $NOT, $SEP, $RBA；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market Analysis ahead of FOMC。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$US500, $FOMC, $QQQ, $WTI, $SQQQ, $NOT, $SEP, $RBA。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market Analysis ahead of FOMC"
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "US500",
@@ -26771,16 +26513,16 @@
           "subject": "Market, Stocks, Crypto, Commodities, Quant Updates 17/03",
           "content_date": "2026-03-17",
           "email_ts": "2026-03-17T13:20:32+00:00",
-          "content_layer_id": "market-stocks-crypto-commodities-quant-updates",
-          "content_layer_title": "Market, Stocks, Crypto, Commodities, Quant Updates",
-          "summary_cn": "2026-03-17 的 Market, Stocks, Crypto, Commodities, Quant Updates 已收录，涉及 $SPY, $VIX, $VVIX, $MU, $HBM4, $Q2, $DRAM, $FY2026, $NTM, $YTD, $NVDA, $ATH, $MEME, $SNDK, $CRDO, $LITE, $SO；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-03-17 的 Stock Updates 已收录，涉及 $SPY, $VIX, $VVIX, $MU, $HBM4, $Q2, $DRAM, $FY2026, $NTM, $YTD, $NVDA, $ATH, $MEME, $SNDK, $CRDO, $LITE, $SO；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, Crypto, Commodities, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$SPY, $VIX, $VVIX, $MU, $HBM4, $Q2, $DRAM, $FY2026, $NTM, $YTD, $NVDA, $ATH, $MEME, $SNDK, $CRDO, $LITE, $SO。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, Crypto, Commodities, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "SPY",
@@ -27071,16 +26813,16 @@
           "subject": "Stocks, Crypto, Commodities, Quant Updates 16/03",
           "content_date": "2026-03-16",
           "email_ts": "2026-03-16T13:24:35+00:00",
-          "content_layer_id": "stocks-crypto-commodities-quant-updates",
-          "content_layer_title": "Stocks, Crypto, Commodities, Quant Updates",
-          "summary_cn": "2026-03-16 的 Stocks, Crypto, Commodities, Quant Updates 已收录，涉及 $GTC, $LITE, $COHR, $MU, $WDC, $SNDK, $SK, $INTC, $BTC, $UPDATE, $KEY, $TEXT, $INPUT, $FOR, $THE, $SHOULD, $LOOK, $LIKE；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-03-16 的 Stock Updates 已收录，涉及 $GTC, $LITE, $COHR, $MU, $WDC, $SNDK, $SK, $INTC, $BTC, $UPDATE, $KEY, $TEXT, $INPUT, $FOR, $THE, $SHOULD, $LOOK, $LIKE；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Stocks, Crypto, Commodities, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$GTC, $LITE, $COHR, $MU, $WDC, $SNDK, $SK, $INTC, $BTC, $UPDATE, $KEY, $TEXT, $INPUT, $FOR, $THE, $SHOULD, $LOOK, $LIKE。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Stocks, Crypto, Commodities, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "GTC",
@@ -27228,16 +26970,16 @@
           "subject": "Highlights from Friday's Institutional Flow",
           "content_date": "2026-03-16",
           "email_ts": "2026-03-16T10:37:38+00:00",
-          "content_layer_id": "notable-flow-highlights",
-          "content_layer_title": "Notable Flow Highlights",
-          "summary_cn": "2026-03-16 的 Notable Flow Highlights 已收录，涉及 $LYB, $MU, $NOT, $HIMX, $GTC, $COPX, $SLOWLY；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "flow-highlights",
+          "content_layer_title": "Flow Highlights",
+          "summary_cn": "2026-03-16 的 Flow Highlights 已收录，涉及 $LYB, $MU, $NOT, $HIMX, $GTC, $COPX, $SLOWLY；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Notable Flow Highlights。",
+            "内容层：Flow Highlights。",
             "识别到的主要 ticker：$LYB, $MU, $NOT, $HIMX, $GTC, $COPX, $SLOWLY。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Notable Flow Highlights"
+            "Flow Highlights"
           ],
           "mentioned_tickers": [
             "LYB",
@@ -27499,16 +27241,16 @@
           "subject": "Market, Stocks, Commodities, Quant Updates 13/03",
           "content_date": "2026-03-13",
           "email_ts": "2026-03-13T14:09:49+00:00",
-          "content_layer_id": "market-stocks-commodities-quant-updates",
-          "content_layer_title": "Market, Stocks, Commodities, Quant Updates",
-          "summary_cn": "2026-03-13 的 Market, Stocks, Commodities, Quant Updates 已收录，涉及 $US500, $HAPPY, $TO, $WITH, $ISRAEL, $BUT, $OUR, $ARE, $PCE, $GDP, $SPY, $SMA, $TRUMP, $IN, $G7, $CALL, $THAT, $IRAN, $IS, $ABOUT；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-03-13 的 Stock Updates 已收录，涉及 $US500, $HAPPY, $TO, $WITH, $ISRAEL, $BUT, $OUR, $ARE, $PCE, $GDP, $SPY, $SMA, $TRUMP, $IN, $G7, $CALL, $THAT, $IRAN, $IS, $ABOUT；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, Commodities, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$US500, $HAPPY, $TO, $WITH, $ISRAEL, $BUT, $OUR, $ARE, $PCE, $GDP, $SPY, $SMA, $TRUMP, $IN, $G7, $CALL, $THAT, $IRAN, $IS, $ABOUT。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, Commodities, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "US500",
@@ -27792,16 +27534,16 @@
           "subject": "Market, Stocks, Quant Updates 12/03",
           "content_date": "2026-03-12",
           "email_ts": "2026-03-12T13:25:47+00:00",
-          "content_layer_id": "market-stocks-quant-updates",
-          "content_layer_title": "Market, Stocks, Quant Updates",
-          "summary_cn": "2026-03-12 的 Market, Stocks, Quant Updates 已收录，涉及 $KOSPI, $SMH, $GTC, $NVDA, $INTC, $MU, $VRT, $SNDK, $AXTI, $LITE；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-03-12 的 Stock Updates 已收录，涉及 $KOSPI, $SMH, $GTC, $NVDA, $INTC, $MU, $VRT, $SNDK, $AXTI, $LITE；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$KOSPI, $SMH, $GTC, $NVDA, $INTC, $MU, $VRT, $SNDK, $AXTI, $LITE。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "KOSPI",
@@ -27893,16 +27635,16 @@
           "subject": "Cutting Through the Lies of the US administration",
           "content_date": "2026-03-12",
           "email_ts": "2026-03-12T11:31:07+00:00",
-          "content_layer_id": "cutting-through-the-lies-of-the-us-administration",
-          "content_layer_title": "Cutting Through the Lies of the US administration",
-          "summary_cn": "2026-03-12 的 Cutting Through the Lies of the US administration 已收录，涉及 $YTD, $SPR, $G7, $WSJ, $DE, $AMPX, $NBIS, $VRT, $CPI；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-03-12 的 Market Analysis 已收录，涉及 $YTD, $SPR, $G7, $WSJ, $DE, $AMPX, $NBIS, $VRT, $CPI；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Cutting Through the Lies of the US administration。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$YTD, $SPR, $G7, $WSJ, $DE, $AMPX, $NBIS, $VRT, $CPI。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Cutting Through the Lies of the US administration"
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "YTD",
@@ -27987,16 +27729,16 @@
           "subject": "Stocks, Quant Updates 11/03",
           "content_date": "2026-03-11",
           "email_ts": "2026-03-11T13:18:52+00:00",
-          "content_layer_id": "stocks-quant-updates",
-          "content_layer_title": "Stocks, Quant Updates",
-          "summary_cn": "2026-03-11 的 Stocks, Quant Updates 已收录，涉及 $ORCL, $EPS, $RPO, $FY, $FY27, $FY26, $Q4, $MW, $Q3, $IGV, $NVIDIA, $NBIS, $GTC, $OPEX, $KEY, $LEVELS, $TEXT, $INPUT, $FOR, $SHOULD；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-03-11 的 Stock Updates 已收录，涉及 $ORCL, $EPS, $RPO, $FY, $FY27, $FY26, $Q4, $MW, $Q3, $IGV, $NVIDIA, $NBIS, $GTC, $OPEX, $KEY, $LEVELS, $TEXT, $INPUT, $FOR, $SHOULD；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Stocks, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$ORCL, $EPS, $RPO, $FY, $FY27, $FY26, $Q4, $MW, $Q3, $IGV, $NVIDIA, $NBIS, $GTC, $OPEX, $KEY, $LEVELS, $TEXT, $INPUT, $FOR, $SHOULD。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Stocks, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "ORCL",
@@ -28160,16 +27902,16 @@
           "subject": "Highlights from Tuesday's Institutional Flow: NBIS, CORZ, MU, CCJ, AAOI",
           "content_date": "2026-03-11",
           "email_ts": "2026-03-11T12:22:48+00:00",
-          "content_layer_id": "notable-flow-highlights",
-          "content_layer_title": "Notable Flow Highlights",
-          "summary_cn": "2026-03-11 的 Notable Flow Highlights 已收录，涉及 $ORCL, $CPI, $VIX, $NBIS, $CORZ, $OTM, $MU, $SK, $WE, $CCJ, $LITE, $AAOI, $AVGO, $GTC；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "flow-highlights",
+          "content_layer_title": "Flow Highlights",
+          "summary_cn": "2026-03-11 的 Flow Highlights 已收录，涉及 $ORCL, $CPI, $VIX, $NBIS, $CORZ, $OTM, $MU, $SK, $WE, $CCJ, $LITE, $AAOI, $AVGO, $GTC；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Notable Flow Highlights。",
+            "内容层：Flow Highlights。",
             "识别到的主要 ticker：$ORCL, $CPI, $VIX, $NBIS, $CORZ, $OTM, $MU, $SK, $WE, $CCJ, $LITE, $AAOI, $AVGO, $GTC。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Notable Flow Highlights"
+            "Flow Highlights"
           ],
           "mentioned_tickers": [
             "ORCL",
@@ -28397,16 +28139,16 @@
           "subject": "Stocks, Commodities, FX, Quant Updates 10/03",
           "content_date": "2026-03-10",
           "email_ts": "2026-03-10T13:28:47+00:00",
-          "content_layer_id": "stocks-commodities-fx-quant-updates",
-          "content_layer_title": "Stocks, Commodities, FX, Quant Updates",
-          "summary_cn": "2026-03-10 的 Stocks, Commodities, FX, Quant Updates 已收录，涉及 $GTC, $LITE, $COHR, $VIAV, $AAOI, $AXTI, $GLW, $THAT, $MC, $FY, $H2, $ARR, $NVDA, $ORCL, $AVGO, $CIEN, $Q1, $SMH, $QQQ, $IGV；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-03-10 的 Stock Updates 已收录，涉及 $GTC, $LITE, $COHR, $VIAV, $AAOI, $AXTI, $GLW, $THAT, $MC, $FY, $H2, $ARR, $NVDA, $ORCL, $AVGO, $CIEN, $Q1, $SMH, $QQQ, $IGV；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Stocks, Commodities, FX, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$GTC, $LITE, $COHR, $VIAV, $AAOI, $AXTI, $GLW, $THAT, $MC, $FY, $H2, $ARR, $NVDA, $ORCL, $AVGO, $CIEN, $Q1, $SMH, $QQQ, $IGV。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Stocks, Commodities, FX, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "GTC",
@@ -28588,16 +28330,16 @@
           "subject": "Highlights from Monday's Institutional Flow: U, IBIT, GOOG, TSLA",
           "content_date": "2026-03-10",
           "email_ts": "2026-03-10T11:28:10+00:00",
-          "content_layer_id": "notable-flow-highlights",
-          "content_layer_title": "Notable Flow Highlights",
-          "summary_cn": "2026-03-10 的 Notable Flow Highlights 已收录，涉及 $MITK, $OTM, $TTWO, $RBLX, $IBIT, $GOOG, $GOOGL, $WE, $MAG7, $TSLA；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "flow-highlights",
+          "content_layer_title": "Flow Highlights",
+          "summary_cn": "2026-03-10 的 Flow Highlights 已收录，涉及 $MITK, $OTM, $TTWO, $RBLX, $IBIT, $GOOG, $GOOGL, $WE, $MAG7, $TSLA；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Notable Flow Highlights。",
+            "内容层：Flow Highlights。",
             "识别到的主要 ticker：$MITK, $OTM, $TTWO, $RBLX, $IBIT, $GOOG, $GOOGL, $WE, $MAG7, $TSLA。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Notable Flow Highlights"
+            "Flow Highlights"
           ],
           "mentioned_tickers": [
             "MITK",
@@ -28846,16 +28588,16 @@
           "subject": "Market, Stocks, Commodities, FX, Crypto, Quant Updates 09/03",
           "content_date": "2026-03-09",
           "email_ts": "2026-03-09T13:26:00+00:00",
-          "content_layer_id": "market-stocks-commodities-fx-crypto-quant-updates",
-          "content_layer_title": "Market, Stocks, Commodities, FX, Crypto, Quant Updates",
-          "summary_cn": "2026-03-09 的 Market, Stocks, Commodities, FX, Crypto, Quant Updates 已收录，涉及 $VVIX, $USO, $QQQ, $SMH, $IGV, $NVIDIA, $GTC, $NVDA, $AVGO, $TSM, $MU, $INTC, $ALAB, $LITE, $COHR, $AAOI, $FN, $GLW, $OFC, $AXTI；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "stock-updates",
+          "content_layer_title": "Stock Updates",
+          "summary_cn": "2026-03-09 的 Stock Updates 已收录，涉及 $VVIX, $USO, $QQQ, $SMH, $IGV, $NVIDIA, $GTC, $NVDA, $AVGO, $TSM, $MU, $INTC, $ALAB, $LITE, $COHR, $AAOI, $FN, $GLW, $OFC, $AXTI；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market, Stocks, Commodities, FX, Crypto, Quant Updates。",
+            "内容层：Stock Updates。",
             "识别到的主要 ticker：$VVIX, $USO, $QQQ, $SMH, $IGV, $NVIDIA, $GTC, $NVDA, $AVGO, $TSM, $MU, $INTC, $ALAB, $LITE, $COHR, $AAOI, $FN, $GLW, $OFC, $AXTI。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market, Stocks, Commodities, FX, Crypto, Quant Updates"
+            "Stock Updates"
           ],
           "mentioned_tickers": [
             "VVIX",
@@ -29037,16 +28779,16 @@
           "subject": "Important Market Analysis & Thoughts 09/03",
           "content_date": "2026-03-09",
           "email_ts": "2026-03-09T10:32:41+00:00",
-          "content_layer_id": "important-market-analysis-thoughts",
-          "content_layer_title": "Important Market Analysis & Thoughts",
-          "summary_cn": "2026-03-09 的 Important Market Analysis & Thoughts 已收录，涉及 $G7, $THAT, $ARE, $CPI, $FED, $DALY, $BOTH, $OF, $OUR, $GOALS, $AT, $RISK, $NOW, $OIL, $PRICE, $SHOCKS, $REAL, $THING, $JOBS, $MARKET；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-03-09 的 Market Analysis 已收录，涉及 $G7, $THAT, $ARE, $CPI, $FED, $DALY, $BOTH, $OF, $OUR, $GOALS, $AT, $RISK, $NOW, $OIL, $PRICE, $SHOCKS, $REAL, $THING, $JOBS, $MARKET；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Important Market Analysis & Thoughts。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$G7, $THAT, $ARE, $CPI, $FED, $DALY, $BOTH, $OF, $OUR, $GOALS, $AT, $RISK, $NOW, $OIL, $PRICE, $SHOCKS, $REAL, $THING, $JOBS, $MARKET。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Important Market Analysis & Thoughts"
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "G7",
@@ -29223,16 +28965,16 @@
           "subject": "Market analysis ahead of NFP 06/03",
           "content_date": "2026-03-06",
           "email_ts": "2026-03-06T10:50:15+00:00",
-          "content_layer_id": "market-analysis-ahead-of-nfp",
-          "content_layer_title": "Market analysis ahead of NFP",
-          "summary_cn": "2026-03-06 的 Market analysis ahead of NFP 已收录，涉及 $NFP, $DAX, $ECB, $HIKES, $FORCED, $TOO, $IRAN, $READY, $FOR, $GROUND, $SAYS, $NBC, $HAS, $NOT, $ASKED, $SEES, $NO, $REASON, $MORE, $TALKS；需要本地 LLM 生成更细中文摘要。",
+          "content_layer_id": "market-analysis",
+          "content_layer_title": "Market Analysis",
+          "summary_cn": "2026-03-06 的 Market Analysis 已收录，涉及 $NFP, $DAX, $ECB, $HIKES, $FORCED, $TOO, $IRAN, $READY, $FOR, $GROUND, $SAYS, $NBC, $HAS, $NOT, $ASKED, $SEES, $NO, $REASON, $MORE, $TALKS；需要本地 LLM 生成更细中文摘要。",
           "key_points": [
-            "内容层：Market analysis ahead of NFP。",
+            "内容层：Market Analysis。",
             "识别到的主要 ticker：$NFP, $DAX, $ECB, $HIKES, $FORCED, $TOO, $IRAN, $READY, $FOR, $GROUND, $SAYS, $NBC, $HAS, $NOT, $ASKED, $SEES, $NO, $REASON, $MORE, $TALKS。",
             "公开站点未保存邮件全文、密码或退订链接。"
           ],
           "themes": [
-            "Market analysis ahead of NFP"
+            "Market Analysis"
           ],
           "mentioned_tickers": [
             "NFP",
