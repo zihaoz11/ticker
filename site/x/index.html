@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>X Analysis Dashboard</title>
-    <link rel="stylesheet" href="styles.css?v=20260504-daily-report">
+    <link rel="stylesheet" href="styles.css?v=20260505-authors-tear">
   </head>
   <body>
     <header class="site-header">
@@ -42,7 +42,11 @@
       <section id="errorBox" class="error-box" hidden></section>
       <section id="refreshStatus" class="refresh-status" hidden></section>
 
-      <nav class="tabs" aria-label="Dashboard views">
+      <nav id="authorTabs" class="author-tabs" aria-label="Authors">
+        <button class="author-button is-active" type="button" data-author="serenity">Serenity</button>
+      </nav>
+
+      <nav id="serenityTabs" class="tabs" aria-label="Dashboard views">
         <button class="tab-button is-active" type="button" data-tab="posts">Posts</button>
         <button class="tab-button" type="button" data-tab="report">Daily Report</button>
       </nav>
@@ -81,8 +85,19 @@
           <div class="empty-state">Loading daily report...</div>
         </div>
       </section>
+
+      <section id="tearPanel" class="tab-panel" aria-label="tear email summaries" hidden>
+        <div class="section-heading">
+          <h2>tear</h2>
+          <span id="tearPanelSummary">-</span>
+        </div>
+        <nav id="tearLayerTabs" class="content-tabs" aria-label="tear content layers"></nav>
+        <div id="tearEntriesList" class="card-list">
+          <div class="empty-state">Loading tear summaries...</div>
+        </div>
+      </section>
     </main>
 
-    <script src="x.js?v=20260504-daily-report" defer></script>
+    <script src="x.js?v=20260505-authors-tear" defer></script>
   </body>
 </html>
